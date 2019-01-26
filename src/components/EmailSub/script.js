@@ -34,9 +34,11 @@ export default {
       this.isError = false
       this.submitbtn = 'Submitting...'
       if (this.isEmail && this.cb) {
-        var url = 'https://jsonplaceholder.typicode.com/posts'
+        // var url = 'https://jsonplaceholder.typicode.com/posts'
+        var url = 'https://tw-follow-me.firebaseio.com/presenta_email.json'
         axios.post(url, {
-          email: this.email
+          email: this.email,
+          date: new Date()
         })
           .then(response => {
             this.$emit('submitted')
@@ -44,7 +46,6 @@ export default {
           })
           .catch(error => {
             this.retry()
-            console.log(error)
           })
       }
     }
