@@ -3,7 +3,7 @@
     <div class="form" :class="{in:mountd}">
       <h1>Hey! <br />This is the home of <b>PRESENTA!</b></h1>
       <h3>A modern presentation tool</h3>
-      <p>Want to be notified about the beta release?</p>
+      <p>Want to get an <b>invitation</b> or to be notified when it'll be ready?</p>
 
       <p v-if="isError" class="error">There was an error, try again.</p>
 
@@ -13,9 +13,9 @@
       
       <p class="notice">
           <Checkbox :val.sync="cb" />
-           I'm good leaving this email to receive communication related only to this tool.
+           I'm good leaving this email to receive invitation/notifications about this tool.
       </p>
-      <p class="notice">No Cookies were armed in this site</p>
+      <p class="notice">No Cookies were armed building this website :)</p>
     </div>
   </div>
 </template>
