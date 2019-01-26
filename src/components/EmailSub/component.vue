@@ -1,13 +1,13 @@
 <template>
   <div class="overlay">
     <div class="form" :class="{in:mountd}">
-      <h1>Hey! <br />This is PRESENTA!</h1>
-      <h3>A presentation tool</h3>
+      <h1>Hey! <br />This is the home of <b>PRESENTA!</b></h1>
+      <h3>A modern presentation tool</h3>
       <p>Want to be notified about the beta release?</p>
 
       <p v-if="isError" class="error">There was an error, try again.</p>
 
-      <input v-model="email" class="field" placeholder="Leave the email" type="text" />
+      <input v-model="email" class="field" placeholder="Leave the email" type="email" />
       <button :disabled="dis" @click="send">{{submitbtn}}</button>
       
       

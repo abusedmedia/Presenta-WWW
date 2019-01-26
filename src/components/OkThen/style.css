@@ -21,6 +21,11 @@
   transform: translateY(0);
 }
 
+
+.form b{
+  color: #18bd80;
+}
+
 @media (min-width: 560px) {
   .form {
     width: 75%;
