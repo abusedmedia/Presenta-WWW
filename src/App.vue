@@ -51,4 +51,14 @@ video{
   object-position: top left;
 }
 
+html{
+  font-size:85%;
+}
+
+@media(min-width: 330px){
+  html{
+    font-size:100%;
+  }
+}
+
 </style>

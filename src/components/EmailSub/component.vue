@@ -12,7 +12,7 @@
       
       
       <p class="notice">
-          <input type="checkbox" v-model="cb" />
+          <Checkbox :val.sync="cb" />
            I'm good leaving this email to receive communication related only to this tool.
       </p>
       <p class="notice">No Cookies were armed in this site</p>

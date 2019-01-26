@@ -1,6 +1,10 @@
 import axios from 'axios'
+import Checkbox from './../checkbox.vue'
 
 export default {
+  components: {
+    Checkbox
+  },
   data () {
     return {
       cb: false,
@@ -41,6 +45,7 @@ export default {
           .then(response => {
             this.$emit('submitted')
             this.mountd = false
+            this.submitbtn = 'GREAT!'
           })
           .catch(error => {
             this.retry()
