@@ -61,6 +61,10 @@ button {
   text-align: left;
 }
 
+.sub.notice{
+  font-size: 0.7rem;
+}
+
 .notice input {
   width: initial;
 }
