@@ -13,7 +13,7 @@
       
       <p class="notice">
           <Checkbox :val.sync="cb" />
-           I'm good leaving this email to receive messanges related to this tool.
+           I'm good leaving this email to receive messages about this tool.
       </p>
       <p class="sub notice">No Cookies were armed building this website, thus, no need to accept weird banners.</p>
     </div>
