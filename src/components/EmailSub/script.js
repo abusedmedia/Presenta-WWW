@@ -9,6 +9,7 @@ export default {
     return {
       cb: false,
       mountd: false,
+      name: '',
       email: '',
       isError: false,
       submitbtn: 'Go ahead!'
@@ -20,7 +21,7 @@ export default {
   computed: {
     dis () {
       var v = true
-      if (this.cb && this.isEmail) v = false
+      if (this.name !== '' && this.cb && this.isEmail) v = false
       return v
     },
     isEmail () {
@@ -31,23 +32,25 @@ export default {
   methods: {
     retry () {
       this.isError = true
+      this.name = ''
       this.email = ''
       this.submitbtn = 'Go ahead!'
     },
     send () {
       this.isError = false
       this.submitbtn = 'Submitting...'
-      if (this.isEmail && this.cb) {
+      if (!this.dis) {
         axios.post(process.env.VUE_APP_BACKEND_SERVICE_URL, {
+          name: this.name,
           email: this.email,
           date: new Date()
         })
-          .then(response => {
-            this.$emit('submitted')
+          .then(() => {
+            this.$emit('submitted', { name: this.name })
             this.mountd = false
             this.submitbtn = 'GREAT!'
           })
-          .catch(error => {
+          .catch(() => {
             this.retry()
           })
       }

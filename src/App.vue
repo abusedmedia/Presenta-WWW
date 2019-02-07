@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <EmailSub @submitted="onSubmit" />
-    <OkThen :mountd="showOk" />
+    <OkThen :mountd="showOk" :name="name" />
   </div>
 </template>
 
@@ -15,14 +15,15 @@ export default {
     EmailSub, OkThen
   },
   methods:{
-    onSubmit(){
-      console.log('OK')
+    onSubmit(e){
+      this.name = e.name
       this.showOk=true
     }
   },
   data(){
     return{
-      showOk:false
+      showOk:false,
+      name:''
     }
   }
 }

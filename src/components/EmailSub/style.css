@@ -86,6 +86,10 @@ button {
   transition: all 0.25s ease-in-out;
 }
 
+input.first{
+  margin-bottom: 0.5rem;
+}
+
 .form b{
   color: #18bd80;
 }

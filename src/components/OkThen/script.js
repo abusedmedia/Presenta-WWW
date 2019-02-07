@@ -1,5 +1,6 @@
 export default {
   props: {
-    mountd: Boolean
+    mountd: Boolean,
+    name: String
   }
 }
