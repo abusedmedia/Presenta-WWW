@@ -65,6 +65,10 @@ button {
   font-size: 0.7rem;
 }
 
+.notice span{
+  margin-right: .5rem;
+}
+
 .notice input {
   width: initial;
 }

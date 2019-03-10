@@ -8,6 +8,7 @@ export default {
   data () {
     return {
       cb: false,
+      cbi: false,
       mountd: false,
       name: '',
       email: '',
@@ -43,6 +44,7 @@ export default {
         axios.post(process.env.VUE_APP_BACKEND_SERVICE_URL, {
           name: this.name,
           email: this.email,
+          ita: this.cbi,
           date: new Date()
         })
           .then(() => {

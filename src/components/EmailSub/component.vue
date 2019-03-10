@@ -7,7 +7,7 @@
 
       <p v-if="isError" class="error">There was an error, try again.</p>
 
-      <input v-model="name" class="field first" placeholder="Leave your name" type="text" />
+      <input v-model="name" class="field first" placeholder="Leave your FULL name" type="text" />
       <input v-model="email" class="field" placeholder="and the email" type="email" />
       <button :disabled="dis" @click="send">{{submitbtn}}</button>
       
@@ -15,6 +15,9 @@
       <p class="notice">
           <Checkbox :val.sync="cb" />
            I'm good leaving this personal information to receive messages about this tool.
+      </p>
+      <p class="notice">
+         <Checkbox :val.sync="cbi" /> You can write me in italian
       </p>
       <p class="sub notice">No Cookies were armed building this website, thus, no need to accept weird banners.</p>
     </div>
