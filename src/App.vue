@@ -1,18 +1,24 @@
 <template>
   <div id="app">
-    <EmailSub @submitted="onSubmit" />
-    <OkThen :mountd="showOk" :name="name" />
+    <div class="wrapper">
+      <HeaderWelcome />
+      <transition name="component-fade" mode="out-in">
+        <EmailSub v-if="!showOk" @submitted="onSubmit" key="email" />
+        <OkThen v-if="showOk" :name="name" key="resp" />
+      </transition>
+    </div>
   </div>
 </template>
 
 <script>
 import 'normalize-css'
+import HeaderWelcome from './components/HeaderWelcome/component.vue'
 import EmailSub from './components/EmailSub/component.vue'
 import OkThen from './components/OkThen/component.vue'
 
 export default {
   components:{
-    EmailSub, OkThen
+    HeaderWelcome, EmailSub, OkThen
   },
   methods:{
     onSubmit(e){
@@ -42,9 +48,9 @@ html, body, video, #app{
 body{
   padding: 0;
   margin: 0;
-  overflow: hidden;
   font-family: ivyjournal, sans-serif;
   font-style: normal;
+  padding:.2rem;
 }
 
 video{
@@ -53,13 +59,47 @@ video{
 }
 
 html{
-  font-size:85%;
+  font-size:80%;
 }
 
-@media(min-width: 330px){
+p{
+  font-size:1.25rem;
+}
+
+@media(min-width: 450px){
+  html{
+    font-size:85%;
+  }
+}
+
+@media(min-width: 600px){
+  html{
+    font-size:90%;
+  }
+  body{
+      padding:1rem;
+  }
+}
+
+@media(min-width: 725px){
   html{
     font-size:100%;
   }
+}
+
+@media(min-width: 1000px){
+  html{
+    font-size:110%;
+  }
+}
+
+
+.component-fade-enter-active, .component-fade-leave-active {
+  transition: opacity .3s ease;
+}
+.component-fade-enter, .component-fade-leave-to
+/* .component-fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 
 </style>

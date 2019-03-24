@@ -1,8 +1,8 @@
 <template>
     <div class="overlay">
-        <div class="form" :class="{in:mountd}">
-            <h1><b>Hello {{name}}!</b></h1>
-            <h3>You've subscribed to receive an invitation of the beta version of PRESENTA, a modern presentation tool.</h3>
+        <div class="form">
+            <h1><b>Hi {{name}}!</b></h1>
+            <h3>You've subscribed to receive news or an invitation related to the beta version of PRESENTA.</h3>
             <p>Talk soon!</p>
         </div>
     </div>

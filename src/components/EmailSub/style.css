@@ -1,42 +1,29 @@
-.overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
+.overlay{
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background-color: #f8f9f8;
-  overflow: hidden;
-  overflow-y: auto;
 }
 
+
 .form {
-  background-color: white;
   padding: 1rem;
-  color: #0900f7;
-  box-shadow: 0 5px 30px #ccc;
   text-align: center;
   width: 100%;
   transition: transform 1s cubic-bezier(1, 0, 0, 1);
-  transform: translateY(-200%);
-  
 }
 
-.form.in {
-  transform: translateY(0);
-}
-
-@media (min-width: 560px) {
-  .form {
-    width: 75%;
+@media(min-width: 725px){
+  .form{
+    width:70%;
   }
 }
 
-@media (min-width: 720px) {
-  .form {
-    width: 50%;
+@media(min-width: 1000px){
+  .form{
+    width:50%;
   }
 }
+
 
 input,
 button {
@@ -74,16 +61,16 @@ button {
 }
 
 .field {
-  border: 1px solid #0900f7;
+  border: 1px solid #555;
 }
 .field::placeholder {
-  color: rgba(8, 0, 247, 0.336);
+  color: #999;
 }
 
 button {
   display: block;
   margin-top: 0.5rem;
-  background-color: #18bd80;
+  background-color: #555;
   border: none;
   color: white;
   text-transform: uppercase;
@@ -95,7 +82,7 @@ input.first{
 }
 
 .form b{
-  color: #18bd80;
+  color: #555;
 }
 
 button[disabled] {
@@ -104,5 +91,12 @@ button[disabled] {
 }
 
 button:not([disabled]):hover {
-  background-color: #0900f7;
+  background-color: #000;
+}
+
+
+.neg span{
+  background-color: #000;
+  color: white;
+  padding: 0 0.5rem;
 }

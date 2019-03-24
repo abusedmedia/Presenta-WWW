@@ -9,6 +9,7 @@ export default {
     return {
       cb: false,
       cbi: false,
+      cbt: false,
       mountd: false,
       name: '',
       email: '',
@@ -45,6 +46,7 @@ export default {
           name: this.name,
           email: this.email,
           ita: this.cbi,
+          beta: this.cbt,
           date: new Date()
         })
           .then(() => {

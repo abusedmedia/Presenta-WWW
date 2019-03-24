@@ -1,9 +1,12 @@
 <template>
   <div class="overlay">
     <div class="form" :class="{in:mountd}">
-      <h1>Hey! <br />This is the home of <b>PRESENTA!</b></h1>
-      <h3>A modern presentation tool</h3>
-      <p>Want to ask for the <b>private-beta invitation</b> <br/>or to be <b>notified</b> when it'll be ready?</p>
+      <p class="neg">
+        <span>PRESENTA is currently in private-beta.</span>
+      </p>
+      <p>
+        <span>You can request an invitation or just to be notified once it'll be publicy available.</span>
+      </p>
 
       <p v-if="isError" class="error">There was an error, try again.</p>
 
@@ -17,6 +20,9 @@
            I'm good leaving this personal information to receive messages about this tool.
       </p>
       <p class="notice">
+         <Checkbox :val.sync="cbt" /> I want to request a beta-test invitation
+      </p>
+      <p class="notice" v-if="cbt">
          <Checkbox :val.sync="cbi" /> You can write me in italian
       </p>
       <p class="sub notice">No Cookies were armed building this website, thus, no need to accept weird banners.</p>

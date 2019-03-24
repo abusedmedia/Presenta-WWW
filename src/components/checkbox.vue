@@ -63,7 +63,7 @@ div{
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #0900f7;
+  stroke: #555;
   stroke-width: 1.5;
   transform: translate3d(0, 0, 0);
   transition: all 0.2s ease;
@@ -80,10 +80,10 @@ div{
   opacity: 1;
 }
 .check:hover svg {
-  stroke: #0900f7;
+  stroke: #000;
 }
 input:checked + .check svg {
-  stroke: #0900f7;
+  stroke: #000;
 }
 input:checked + .check svg path {
   stroke-dashoffset: 60;
