@@ -5,7 +5,7 @@
         <span>PRESENTA is currently in private-beta.</span>
       </p>
       <p>
-        <span>You can request an invitation or just to be notified once it'll be publicy available.</span>
+        <span>You can request an invitation or just to be notified once it'll be publicly available.</span>
       </p>
 
       <p v-if="isError" class="error">There was an error, try again.</p>
