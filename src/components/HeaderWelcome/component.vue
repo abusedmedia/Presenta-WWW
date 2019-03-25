@@ -10,7 +10,7 @@
             <li>It's a system that assists with sensible defaults.</li>
         </ul>
 
-        <p><strong>PRESENTA</strong> focus you on creating great content, not moving pixels (an activity that can be automated).
+        <p><strong>PRESENTA</strong> focuses you on creating great content, not moving pixels (an activity that can be automated).
             It takes some decisions for you, enforcing best practices to produce professional presentations.</p>
         <p><strong>PRESENTA</strong> allows great <em>look&feel</em> even though the constraints.</p>
         
