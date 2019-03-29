@@ -1,7 +1,7 @@
 <template>
     <div class="welcome">
         
-        <h1>Build presentations <br />the modern way.</h1>
+        <h1>Build <br />presentations <br />the modern way.</h1>
         <h3><strong>PRESENTA</strong> is an online tool that helps to design and build effective presentations in seconds.</h3>
         <p>Since it's not yet another PowerPoint/Keynote tool, here some of its core principles to get the picture:</p>
         <ul>
