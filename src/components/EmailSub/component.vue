@@ -15,16 +15,19 @@
       <button :disabled="dis" @click="send">{{submitbtn}}</button>
       
       
-      <p class="notice">
-          <Checkbox :val.sync="cb" />
-           I'm good leaving this personal information to receive messages about this tool.
-      </p>
+      
       <p class="notice">
          <Checkbox :val.sync="cbt" /> I want to request a beta-test invitation
       </p>
       <p class="notice" v-if="cbt">
          <Checkbox :val.sync="cbi" /> You can write me in italian
       </p>
+
+      <p class="notice">
+          <Checkbox :val.sync="cb" />
+           I'm good leaving this personal information to receive messages about this tool.
+      </p>
+
       <p class="sub notice">No Cookies were armed building this website, thus, no need to accept weird banners.</p>
     </div>
   </div>
