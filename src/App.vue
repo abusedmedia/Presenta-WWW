@@ -2,6 +2,7 @@
   <div id="app">
     <div class="wrapper">
       <HeaderWelcome />
+      <ImgGrid />
       <transition name="component-fade" mode="out-in">
         <EmailSub v-if="!showOk" @submitted="onSubmit" key="email" />
         <OkThen v-if="showOk" :name="name" key="resp" />
@@ -13,12 +14,13 @@
 <script>
 import 'normalize-css'
 import HeaderWelcome from './components/HeaderWelcome/component.vue'
+import ImgGrid from './components/ImgGrid/component.vue'
 import EmailSub from './components/EmailSub/component.vue'
 import OkThen from './components/OkThen/component.vue'
 
 export default {
   components:{
-    HeaderWelcome, EmailSub, OkThen
+    HeaderWelcome, EmailSub, OkThen, ImgGrid
   },
   methods:{
     onSubmit(e){
@@ -50,7 +52,6 @@ body{
   margin: 0;
   font-family: ivyjournal, sans-serif;
   font-style: normal;
-  padding:.2rem;
 }
 
 video{
@@ -60,6 +61,10 @@ video{
 
 html{
   font-size:80%;
+}
+
+.wrapper{
+    padding: 1rem;
 }
 
 p{
