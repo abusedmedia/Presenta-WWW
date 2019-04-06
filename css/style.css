@@ -1,0 +1,171 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body, video, #app{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: ivyjournal, sans-serif;
+  font-style: normal;
+}
+
+video{
+  object-fit: cover;
+  object-position: top left;
+}
+
+html{
+  font-size:80%;
+}
+
+
+p{
+  font-size:1.25rem;
+  line-height: 2rem;
+}
+
+header{
+  background-color: black;
+  color:white;
+  padding: 1rem;
+}
+section{
+  padding: 1rem;
+}
+
+@media(min-width: 450px){
+  html{
+    font-size:85%;
+  }
+}
+
+@media(min-width: 600px){
+  html{
+    font-size:90%;
+  }
+  header, section{
+      padding:2rem;
+  }
+}
+
+@media(min-width: 725px){
+  html{
+    font-size:100%;
+  }
+}
+
+@media(min-width: 1000px){
+  html{
+    font-size:110%;
+  }
+}
+
+
+.component-fade-enter-active, .component-fade-leave-active {
+  transition: opacity .3s ease;
+}
+.component-fade-enter, .component-fade-leave-to
+/* .component-fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+
+
+h1{
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 2.3rem;
+    border-left:10px solid black;
+    margin: 0;
+    padding-left:1rem;
+    font-weight: 600;
+    margin-top:5rem;
+}
+
+h3{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin: 0;
+    margin-bottom:1.5rem;
+    font-weight: 300;
+}
+
+h1 strong, h3 strong, p strong{
+    background-color: #000;
+    color: white;
+    padding: 0 .5rem;
+}
+
+p a{
+    color: #000;
+}
+
+
+.col{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+.col img{
+    width: 100%;
+    border:3px solid black;
+}
+.col > *:first-child{
+    flex:1;
+}
+.col > *:last-child{
+    flex:2;
+    padding: 0 1rem;
+}
+
+.col p:first-child{
+  margin-top: 0;
+}
+
+.col.three > div{
+    padding: 1rem;
+    flex:1;
+    text-align: center;
+}
+
+.col.three  small{
+    font-size: .7rem;
+}
+
+@media(min-width: 400px){
+    h1{
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+}
+
+@media(min-width: 500px){
+    h1{
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+    
+}
+@media(min-width: 600px){
+    
+    .col{
+        flex-direction: row;
+    }
+}
+
+@media(min-width: 1000px){
+    h1{
+        font-size: 6rem;
+        line-height: 6rem;
+    }
+}

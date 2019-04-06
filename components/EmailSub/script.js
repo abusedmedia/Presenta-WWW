@@ -42,7 +42,7 @@ export default {
       this.isError = false
       this.submitbtn = 'Submitting...'
       if (!this.dis) {
-        axios.post(process.env.VUE_APP_BACKEND_SERVICE_URL, {
+        axios.post(process.env.backendServiceUrl, {
           name: this.name,
           email: this.email,
           ita: this.cbi,
