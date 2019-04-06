@@ -69,6 +69,13 @@
             </div>
 
 
+            <h2>The Chart component</h2>
+            <div class="col two">
+                <div><img src="~/assets/chart.gif" /></div>
+                <div><p>This component is stalled right now. I need to figure out better how to improve it.</p></div>
+            </div>
+
+
             <h2>Markdown</h2>
             <p><a href="https://daringfireball.net/projects/markdown/">Markdown</a> is a very fast way to write structured text that can be converted into other things. <br /><strong>PRESENTA</strong> supports (optionally) markdown in two specific areas:</p>
             <div class="col two">
