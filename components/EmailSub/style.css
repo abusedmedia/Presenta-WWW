@@ -12,6 +12,10 @@
   transition: transform 1s cubic-bezier(1, 0, 0, 1);
 }
 
+.form p{
+  line-height: initial;
+}
+
 @media(min-width: 725px){
   .form{
     width:70%;
@@ -46,6 +50,10 @@ button {
   display: flex;
   align-items: center;
   text-align: left;
+}
+
+p.notice{
+  line-height: .8rem;
 }
 
 .sub.notice{
