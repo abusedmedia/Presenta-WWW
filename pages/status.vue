@@ -5,8 +5,12 @@
         </header>
         
         <section>
-            <h3>This document outlines the current status <strong>(aka known issues)</strong> of the tool in order to consider them during your first experience.</h3>
+            <h3>This document outlines the current status <strong>(AKA known issues)</strong> of the tool in order to consider them during your first experience.</h3>
             <p>It's a living document following the same status of the tool, therefore, frequent updates are the norm.</p>
+
+            <h2>A note about compatibility</h2>
+            <p><strong>PRESENTA</strong> is currently developed on Google Chrome, meaning it's the most compatible browser to use with. Said that, the tool works well on recent browsers but some quirks may happen. In a later stage it will work the same on all the evergreen browsers.</p>
+            <p>On mobile and touch devices, in general, the tool might work fine but it's not optimized yet for them. In a later stage, it will work even on smartphone as well.</p>
 
             <!--
             <h2>A brief introduction</h2>
@@ -18,12 +22,12 @@
             <Editor />
             -->
 
-            <h2>Slide selection</h2>
+            <h2>Slides handling</h2>
             <div class="col two">
                 <div><img src="~/assets/selection.gif" /></div>
                 <div>
                     <p>It's the place where you can arrange slides.</p>
-                    <p>Currently you can handle all the typical actions in this context (move, add, delete, duplicate) but it lacks some common UI/UX pattern to compete with the actual user expectation, such as:
+                    <p>Currently, you can handle all the typical actions in this context (move, add, delete, duplicate) but it lacks some common UI/UX pattern to compete with the actual user expectation, such as:
                         <ul>
                             <li>Multiple selection by drawing a rectangle over the slides</li>
                             <li>Performing AND/OR selection with SHIFT/ALT modifier keys</li>
@@ -48,11 +52,11 @@
 
 
 
-            <h2>The Styler tool</h2>
+            <h2>The Styler component</h2>
             <div class="col two">
                 <div><img src="~/assets/styler.gif" /></div>
                 <div>
-                    <p>This tool is in early stage, pure functional without any real UX thoughts so far. </p>
+                    <p>This component is in an early stage, pure functional without any real UX thoughts so far. </p>
                     <p>It is also in continuous evolution since I'm exploring different creative possibilities with it.</p>
                 </div>
             </div>
@@ -66,7 +70,7 @@
 
 
             <h2>Markdown</h2>
-            <p><a href="https://daringfireball.net/projects/markdown/">Markdown</a> is a very fast way to write structured text that can be converted in other things. <br /><strong>PRESENTA</strong> supports (optionally) markdown in two specific area:</p>
+            <p><a href="https://daringfireball.net/projects/markdown/">Markdown</a> is a very fast way to write structured text that can be converted into other things. <br /><strong>PRESENTA</strong> supports (optionally) markdown in two specific areas:</p>
             <div class="col two">
                 <div><img src="~/assets/markdown.gif" /></div>
                 <div>
