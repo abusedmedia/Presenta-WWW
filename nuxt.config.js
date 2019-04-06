@@ -1,6 +1,6 @@
 export default {
   env: {
-    backendServiceUrl: process.env.BACKEND_SERVICE_URL || 'http://localhost:8080'
+    backendServiceUrl: process.env.BACKEND_SERVICE_URL || 'https://tw-follow-me.firebaseio.com/presenta_email.json'
   },
   head: {
     titleTemplate: 'Presenta - A modern presentation tool - %s',
