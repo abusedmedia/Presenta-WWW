@@ -100,7 +100,7 @@
 
             <h2>Ready to PRESENTA?</h2>
             <p>If you are a beta-tester, you can now follow the given instructions.</p>
-            <p>Otherwise, ask for a beta-testing invitation <a href="/">here!</a></p>
+            <p>Otherwise, ask for a beta-testing invitation <nuxt-link to="/">here!</nuxt-link></p>
 
         </section>
     </div>

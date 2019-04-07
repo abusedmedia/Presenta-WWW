@@ -16,5 +16,8 @@ export default {
       { rel: 'stylesheet', href: 'https://use.typekit.net/umd8hrf.css' }
       // { rel: 'favicon', href: 'favicon.ico' }
     ]
-  }
+  },
+  modules: [
+    '@nuxtjs/sitemap'
+  ]
 }

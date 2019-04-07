@@ -1,18 +1,19 @@
 {
-  "name": "presenta-www2",
+  "name": "presenta-www",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nuxt",
-    "build": "nuxt build --spa",
+    "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@nuxtjs/sitemap": "^0.2.2",
     "axios": "^0.18.0",
     "normalize-css": "^2.3.1",
     "nuxt": "^2.6.1"
