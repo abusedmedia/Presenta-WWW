@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import 'normalize-css'
+import '~/node_modules/normalize-css/normalize.css'
 import '~/css/style.css'
 import HeaderWelcome from '~/components/HeaderWelcome/component.vue'
 import ImgGrid from '~/components/ImgGrid/component.vue'
