@@ -56,7 +56,8 @@
             <div class="col two">
                 <div><img src="~/assets/styler.gif" /></div>
                 <div>
-                    <p>This component is in an early stage, pure functional without any real UX thoughts so far. </p>
+                    <p><strong>ALERT: this component is Work-In-Progress for real and it's difficult to grasp.</strong></p>
+                    <p>It's in an early stage, pure functional without any UX thoughts with random and dirty labels. </p>
                     <p>It is also in continuous evolution since I'm exploring different creative possibilities with it.</p>
                 </div>
             </div>
