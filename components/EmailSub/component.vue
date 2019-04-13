@@ -28,7 +28,6 @@
            I'm good leaving this personal information to receive messages about this tool.
       </p>
 
-      <p class="sub notice">No Cookies were armed building this website, thus, no need to accept weird banners.</p>
     </div>
   </div>
 </template>
