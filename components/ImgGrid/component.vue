@@ -1,7 +1,6 @@
 <template>
     <div>
         <section>
-            <p>Here some shots about its <nuxt-link to="/status">current status</nuxt-link>:</p>
             <div class="grid">
                 <div><img src="./imgs/1.gif" /></div>
                 <div><img src="./imgs/2.gif" /></div>
