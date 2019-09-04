@@ -1,10 +1,10 @@
 <template>
     <header>
         <div class="logo">
-            <img src="~/assets/logo.svg" />
+            <nuxt-link to="/"><img src="~/assets/logo.svg" /></nuxt-link>
         </div>
 
-        <ColorSelector @changed="onChangeColor" />
+        <ColorSelector />
 
         <div class="login">
             <a class="btn" href="https://app.presenta.cc/">Go to Presenta</a>
@@ -18,11 +18,6 @@ import ColorSelector from '~/components/ColorSelector.vue'
 export default {
     components:{
         ColorSelector
-    },
-    methods:{
-        onChangeColor(v){
-            this.$emit('changed', v)
-        }
     }
 }
 </script>

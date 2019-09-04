@@ -12,7 +12,7 @@
                 <p>You can <a href="https://app.presenta.cc/signup">sign-up</a> and use this version free of charge.
                 You can read the <nuxt-link to="/privacy-policy">Privacy Policy</nuxt-link> and <nuxt-link to="/terms-of-service">Terms Of Use</nuxt-link> of the tool.</p>
 
-                <p>Crafted with passion by <a href="">@fabiofranchino</a> since 2018.
+                <p>Crafted with passion by <a href="https://fabiofranchino.com">@fabiofranchino</a> since 2018.
                 You can contact the owner using <a href="mailto:contact@presenta.cc">this email</a>.</p>
             </div>
         </footer>
@@ -52,6 +52,7 @@ p.relevant{
 mark{
     background-color: var(--forecolor);
     color: var(--backcolor);
+    padding:.1rem .5rem;
 }
 
 a{

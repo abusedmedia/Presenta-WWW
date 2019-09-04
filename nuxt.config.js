@@ -17,6 +17,11 @@ export default {
       // { rel: 'favicon', href: 'favicon.ico' }
     ]
   },
+  css: [
+    '~/css/normalize.css',
+    '~/css/style.css',
+    '~/css/colors.css'
+  ],
   modules: [
     '@nuxtjs/sitemap',
     ['@nuxtjs/google-analytics', {

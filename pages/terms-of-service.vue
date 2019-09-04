@@ -1,5 +1,9 @@
 <template>
-    <div>
-        terms of service
-    </div>
+    <div id="app" :class="getCol">
+      <HeaderGlobal @changed="onChangeColor" />
+
+      <div class="body">
+        terms
+      </div>
+  </div>
 </template>
