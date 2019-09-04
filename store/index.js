@@ -1,6 +1,6 @@
 export const state = () => ({
   color: 'vibrant',
-  colors: ['', 'original', 'vibrant', 'polite', 'breeze', 'sunny']
+  colors: ['bn', 'original', 'vibrant', 'polite', 'breeze', 'sunny']
 })
 
 export const mutations = {

@@ -9,10 +9,10 @@
             <div>
                 <p class="relevant"><b>PRESENTA</b> is an online application, currently in <mark>public-beta</mark>.</p>
 
-                <p>You can <a href="https://app.presenta.cc/signup">sign-up</a> and use this version free of charge.
+                <p>You can <a href="https://app.presenta.cc/signup">sign-up</a> and use this version free of charge.<br />
                 You can read the <nuxt-link to="/privacy-policy">Privacy Policy</nuxt-link> and <nuxt-link to="/terms-of-service">Terms Of Use</nuxt-link> of the tool.</p>
 
-                <p>Crafted with passion by <a href="https://fabiofranchino.com">@fabiofranchino</a> since 2018.
+                <p>Crafted with passion by <a href="https://fabiofranchino.com">@fabiofranchino</a> since 2018.<br />
                 You can contact the owner using <a href="mailto:contact@presenta.cc">this email</a>.</p>
             </div>
         </footer>
@@ -25,6 +25,7 @@
 footer{
     background-color: var(--backcolor);
     color: var(--forecolor);
+    font-family: ivyjournal, sans-serif;
 }
 footer div{
     padding: 1rem 2rem;

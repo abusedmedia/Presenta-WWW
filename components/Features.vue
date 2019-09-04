@@ -16,7 +16,7 @@
             </div>
             <div>
                 <div class="img">
-                    <img src="@/assets/editor.gif" />
+                    <img src="@/assets/500x500.png" />
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@
             </div>
             <div>
                 <div class="img">
-                    <img src="@/assets/styler.gif" />
+                    <img src="@/assets/500x500.png" />
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@
             </div>
             <div>
                 <div class="img">
-                    <img src="@/assets/chart.gif" />
+                    <img src="@/assets/500x500.png" />
                 </div>
             </div>
         </div>
@@ -75,7 +75,7 @@
             </div>
             <div>
                 <div class="img">
-                    <img src="@/assets/chart.gif" />
+                    <img src="@/assets/500x500.png" />
                 </div>
             </div>
         </div>
@@ -123,7 +123,7 @@ mark{
 
 .feat .txt{
     padding: 2rem;
-    font-size: 2rem;
+    font-size: 2.4rem;
     
 }
 

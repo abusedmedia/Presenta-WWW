@@ -1,16 +1,16 @@
-:root{
+.bn, .bn .vara{
   --backcolor:#fff;
   --forecolor:#000;
   --accentcolor:#444;
   --otheraccentcolor:#ffffff;
 }
-.varb{
+.bn .varb{
   --backcolor:#000;
   --forecolor:#fff;
   --accentcolor:#999;
   --otheraccentcolor:#FB4138;
 }
-.varc{
+.bn .varc{
   --backcolor:#555;
   --forecolor:#ffffff;
   --accentcolor:#fff;

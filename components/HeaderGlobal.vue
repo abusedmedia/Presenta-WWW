@@ -2,9 +2,9 @@
     <header>
         <div class="logo">
             <nuxt-link to="/"><img src="~/assets/logo.svg" /></nuxt-link>
+            <ColorSelector />
         </div>
-
-        <ColorSelector />
+        
 
         <div class="login">
             <a class="btn" href="https://app.presenta.cc/">Go to Presenta</a>
@@ -29,6 +29,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    box-shadow: 0 0 15px #ccc;
+    z-index: 9999;
 
 }
 
@@ -46,12 +48,14 @@ img{
 }
 
 @media screen and (min-width: 450px) {
+    img{
+        width: 14rem;
+    }
+}
+
+@media screen and (min-width: 770px) {
     .login{
         display: block;
     }
-
-    img{
-    width: 14rem;
-}
 }
 </style>

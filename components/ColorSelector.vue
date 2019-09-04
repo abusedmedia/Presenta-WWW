@@ -1,8 +1,19 @@
 <template>
     <div>
-        <select v-model="icolor" @change="changeCol">
-            <option :key="col" v-for="col in colors">{{col}}</option>
-        </select>
+        <div class="list">
+            <div :key="col" 
+                :class="getCls(col)" 
+                v-for="col in colors" 
+                @mouseenter="changeColor(col)"
+                @touchstart="changeColor(col)">
+
+                <div></div>    
+                <div></div>    
+                <div></div>    
+                <div></div>    
+
+            </div>
+        </div>
     </div>
 </template>
 
@@ -26,8 +37,11 @@ export default {
     },
     methods:{
         ...mapMutations(['changeColor']),
-        changeCol(){
-            this.changeColor(this.icolor)
+        getCls(col){
+            var ob = {}
+            ob.selected = col === this.icolor
+            ob[col] = true
+            return ob
         }
     },
     computed:{
@@ -35,3 +49,50 @@ export default {
     }
 }
 </script>
+
+
+<style scoped>
+.list{
+    display: flex;
+}
+
+.list > div{
+    width: 30px;
+    height: 40px;
+    display: flex;
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: .5rem;
+    border:2px solid #eee;
+}
+
+.list > div > div{
+    width: 50%;
+    height: 50%;
+}
+.list > div > div:nth-child(1){
+    background-color: var(--backcolor);
+}
+.list > div > div:nth-child(2){
+    background-color: var(--forecolor);
+}
+.list > div > div:nth-child(3){
+    background-color: var(--accentcolor);
+}
+.list > div > div:nth-child(4){
+    background-color: var(--otheraccentcolor);
+}
+
+
+.list > div.selected{
+    border:2px solid #000;
+}
+
+@media screen and (min-width: 650px) {
+    .list > div{
+        width: 40px;
+        height: 40px;
+    }
+}
+</style>

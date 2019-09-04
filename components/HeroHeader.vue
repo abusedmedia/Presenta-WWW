@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Separator :h="7" :w="30" :pos="'flex-end'" :col="'--backcolor'" />
+        <Separator :h="11" :w="30" :pos="'flex-end'" :col="'--backcolor'" />
         
         <h1>
             Build <br />presentations <br />the modern way.
@@ -41,14 +41,14 @@ h1, h3{
 
 h1{
     font-size:6rem;
-    line-height: 7rem;
+    line-height: 8rem;
     padding:2rem 2rem;
 }
 
 h3{
     padding: 2rem 2rem;
     font-size:2.4rem;
-    line-height: 3.2rem;
+    line-height: 4rem;
     
 }
 
