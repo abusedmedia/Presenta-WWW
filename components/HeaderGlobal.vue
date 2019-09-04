@@ -2,7 +2,7 @@
     <header>
         <div class="logo">
             <nuxt-link to="/"><img src="~/assets/logo.svg" /></nuxt-link>
-            <ColorSelector />
+            
         </div>
         
 
@@ -12,15 +12,6 @@
     </header>
 </template>
 
-<script>
-import ColorSelector from '~/components/ColorSelector.vue'
-
-export default {
-    components:{
-        ColorSelector
-    }
-}
-</script>
 
 
 <style scoped>

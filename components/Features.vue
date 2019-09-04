@@ -26,10 +26,11 @@
                 <Decorator :tb="'top'" :lr="'right'" :col="'--forecolor'" />
                 <Decorator :tb="'bottom'" :lr="'left'" :col="'--accentcolor'" />
                 <div class="txt">
-                    <h3><mark>Tone of voice in seconds</mark></h3>
+                    <h3><mark>Set the Tone of voice in seconds</mark></h3>
                     <p>Moving pixels is boring and time consuming.</p>
                     <p>Use your time to write and structure valuable contents instead moving elements on screen.</p>
-                    <p>PRESENTA comes with a set of defaults with options to refine your style.</p>
+                    <p>PRESENTA comes with a set of defaults with options to refine your style, something like this:</p>
+                    <ColorSelector />
                 </div>
                 
             </div>
@@ -86,10 +87,11 @@ It forces you to put only the relevant that is able to boost your speech.</p>
 
 <script>
 import Decorator from '@/components/Decorator'
+import ColorSelector from '~/components/ColorSelector.vue'
 
 export default {
     components:{
-        Decorator
+        Decorator, ColorSelector
     }
 }
 </script>

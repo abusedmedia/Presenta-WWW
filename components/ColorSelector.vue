@@ -57,7 +57,7 @@ export default {
 }
 
 .list > div{
-    width: 30px;
+    width: 40px;
     height: 40px;
     display: flex;
     
@@ -89,10 +89,4 @@ export default {
     border:2px solid #000;
 }
 
-@media screen and (min-width: 650px) {
-    .list > div{
-        width: 40px;
-        height: 40px;
-    }
-}
 </style>
