@@ -7,7 +7,7 @@
         
 
         <div class="login">
-            <a class="btn" href="https://app.presenta.cc/">Go to Presenta</a>
+            <a class="btn" href="https://app.presenta.cc/">Start presenting...</a>
         </div>
     </header>
 </template>

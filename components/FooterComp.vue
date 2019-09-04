@@ -7,7 +7,7 @@
 
         <footer>
             <div>
-                <p class="relevant"><b>PRESENTA</b> is an online application, currently in <mark>public-beta</mark>.</p>
+                <p class="relevant"><b><nuxt-link to="/">PRESENTA</nuxt-link></b> is an online application, currently in <mark>public-beta</mark>.</p>
 
                 <p>You can <a href="https://app.presenta.cc/signup">sign-up</a> and use this version free of charge.<br />
                 You can read the <nuxt-link to="/privacy-policy">Privacy Policy</nuxt-link> and <nuxt-link to="/terms-of-service">Terms Of Use</nuxt-link> of the tool.</p>
