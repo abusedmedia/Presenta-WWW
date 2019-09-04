@@ -55,7 +55,7 @@ h3{
 @media(min-width: 600px){
   h1, h3{
     text-align: center;
-    padding: 2rem 0;
+    padding: 2rem .5rem;
   }
   h1{
     line-height: 6rem;
