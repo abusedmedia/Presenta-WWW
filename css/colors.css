@@ -1,20 +1,20 @@
 .bn, .bn .vara{
-  --backcolor:#fff;
+  --backcolor:#eee;
   --forecolor:#000;
   --accentcolor:#444;
-  --otheraccentcolor:#ffffff;
+  --otheraccentcolor:#fff;
 }
 .bn .varb{
   --backcolor:#000;
   --forecolor:#fff;
-  --accentcolor:#999;
-  --otheraccentcolor:#FB4138;
+  --accentcolor:#eee;
+  --otheraccentcolor:#444;
 }
 .bn .varc{
-  --backcolor:#555;
-  --forecolor:#ffffff;
-  --accentcolor:#fff;
-  --otheraccentcolor:#0A47D1;
+  --backcolor:#eee;
+  --forecolor:#444;
+  --accentcolor:#000;
+  --otheraccentcolor:#fff;
 }
 
 

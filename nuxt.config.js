@@ -26,6 +26,7 @@ export default {
     '@nuxtjs/sitemap',
     ['@nuxtjs/google-analytics', {
       id: 'UA-181587-14'
-    }]
+    }],
+    '@nuxtjs/markdownit'
   ]
 }

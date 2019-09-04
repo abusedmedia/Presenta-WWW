@@ -1,9 +1,30 @@
 <template>
-    <div id="app" :class="getCol">
-      <HeaderGlobal @changed="onChangeColor" />
+    <div id="app" :class="colorstyle">
+      <HeaderGlobal />
 
       <div class="body">
-        terms
+        <div v-html="md"></div>
+        <FooterComp />
       </div>
   </div>
 </template>
+
+<script>
+import MD from './terms-of-service.md'
+
+import HeaderGlobal from '~/components/HeaderGlobal.vue'
+import FooterComp from '~/components/FooterComp.vue'
+import { mapGetters } from 'vuex'
+
+export default {
+  components:{
+    HeaderGlobal,FooterComp
+  },
+  computed:{
+      ...mapGetters(['colorstyle']),
+      md(){
+        return MD
+      }
+  }
+}
+</script>

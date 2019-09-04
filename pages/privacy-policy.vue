@@ -3,14 +3,15 @@
       <HeaderGlobal />
 
       <div class="body">
-        <p>priv</p>
-
+        <div v-html="md"></div>
         <FooterComp />
       </div>
   </div>
 </template>
 
 <script>
+import MD from './privacy-policy.md'
+
 import HeaderGlobal from '~/components/HeaderGlobal.vue'
 import FooterComp from '~/components/FooterComp.vue'
 import { mapGetters } from 'vuex'
@@ -20,7 +21,10 @@ export default {
     HeaderGlobal,FooterComp
   },
   computed:{
-      ...mapGetters(['colorstyle'])
+      ...mapGetters(['colorstyle']),
+      md(){
+        return MD
+      }
   }
 }
 </script>
