@@ -45,11 +45,3 @@ If you do not wish to accept cookies from us, you can instruct your browser to r
 If you browse websites from multiple devices, you may need to update your settings on each individual device.
 
 Although some cookies can be blocked with little impact on your experience of a website, blocking all cookies may mean you are unable to access certain features and content across the sites you visit.
-
-## How to contact us
-
-Please contact us if you have any questions or comments about our privacy practices or this Cookie Policy. You can reach us online at support@presenta.cc
-
-------
-
-Last updated Sept 1, 2019

@@ -77,11 +77,3 @@ As our user, you have the right to be informed about how your data is collected 
 You are entitled to restrict or object to our use of your data, while retaining the right to use your personal information for your own purposes. You have the right to opt out of data about you being used in decisions based solely on automated processing.
 
 Feel free to contact us if you have any concerns or questions about how we handle your data and personal information.
-
-## How to contact us
-
-Please contact us if you have any questions or comments about our privacy practices or this Privacy Policy. You can reach us online at support@presenta.cc
-
-------
-
-Last updated Sept 1, 2019

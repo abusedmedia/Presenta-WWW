@@ -4,6 +4,7 @@
 
       <div class="body">
         <div v-html="md" class="page"></div>
+        <PageLegalFooter class="page" />
         <FooterComp />
       </div>
   </div>
@@ -14,11 +15,12 @@ import MD from './cookie-policy.md'
 
 import HeaderGlobal from '~/components/HeaderGlobal.vue'
 import FooterComp from '~/components/FooterComp.vue'
+import PageLegalFooter from '~/components/PageLegalFooter.vue'
 import { mapGetters } from 'vuex'
 
 export default {
   components:{
-    HeaderGlobal,FooterComp
+    HeaderGlobal,FooterComp,PageLegalFooter
   },
   computed:{
       ...mapGetters(['colorstyle']),

@@ -117,11 +117,3 @@ You are solely responsible for your conduct and your data related to the Service
 ## Governing Law
 
 These terms and conditions are governed by and construed in accordance with the laws of Italy and you irrevocably submit to the exclusive jurisdiction of the courts in that location.
-
-## Contact information
-
-Questions about the Terms of Service should be sent to us at [support@presenta.cc](mailto:support@presenta.cc). We only offer support via email. We don't offer telephone support.
-
-------
-
-Last updated Sept 1, 2019
