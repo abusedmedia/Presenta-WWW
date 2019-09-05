@@ -8,8 +8,8 @@
                 <div class="txt">
                     <h3><mark>Content First!</mark></h3>
                         <p>PRESENTA fosters the content-first principle. </p>
-                        <p>Instead of starting positioning elements on canvas, it's better start writing great contents.</p>
-                        <p>This seams obvious but the current status-quo of the presentation tools forces you the other way around.</p> 
+                        <p>Instead of starting positioning elements on the canvas, it's better to start writing great contents.</p>
+                        <p>This seems obvious but the current status-quo of the presentation tools forces you the other way around.</p> 
                         <p>The best way to exploit PRESENTA is by starting with a solid message.</p>
                     </p>
                 </div>
@@ -27,10 +27,10 @@
                 <Decorator :tb="'bottom'" :lr="'left'" :col="'--accentcolor'" />
                 <div class="txt">
                     <h3><mark>Set the Look&Feel in seconds</mark></h3>
-                    <p>Pushing pixels is boring and time consuming.</p>
-                    <p>Use your time to write and structure valuable contents instead moving elements on screen.</p>
+                    <p>Pushing pixels is boring and time-consuming.</p>
+                    <p>Use your time to write and structure valuable contents instead of moving elements on the screen.</p>
                     <p>PRESENTA comes with a set of sensible defaults with quick options to meet your style.</p>
-                    <p>Something like, change the color scheme:</p>
+                    <p>Suppose that you'd change the color scheme of this website:</p>
                     <ColorSelector />
                 </div>
                 
@@ -49,7 +49,7 @@
                 <div class="txt">
                     <h3><mark>Enforce best practices</mark></h3>
                     <p>PRESENTA limits purposely what you can put on a slide. 
-It forces you to put only the relevant that is able to boost your speech.</p>
+                        It forces you to put only the relevant that can boost your speech.</p>
                     <p>Embracing its constraints is the best way to enhancing presentation contents.</p>
                     </p>
                 </div>

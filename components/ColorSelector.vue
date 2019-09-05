@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="wrapper">
         <div class="list">
             <div :key="col" 
                 :class="getCls(col)" 
@@ -52,6 +52,11 @@ export default {
 
 
 <style scoped>
+
+.wrapper{
+    padding-bottom: 1rem;
+}
+
 .list{
     display: flex;
 }
