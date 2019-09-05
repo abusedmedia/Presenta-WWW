@@ -7,10 +7,10 @@
                 <Decorator :tb="'bottom'" :lr="'left'" :col="'--accentcolor'" />
                 <div class="txt">
                     <h3><mark>Content First!</mark></h3>
-                        <p>PRESENTA foster the content-first principle. </p>
+                        <p>PRESENTA fosters the content-first principle. </p>
                         <p>Instead of starting positioning elements on canvas, it's better start writing great contents.</p>
                         <p>This seams obvious but the current status-quo of the presentation tools forces you the other way around.</p> 
-                        <p>The best way to exploit PRESENTA is by starting with raw contents.</p>
+                        <p>The best way to exploit PRESENTA is by starting with a solid message.</p>
                     </p>
                 </div>
             </div>
@@ -26,10 +26,11 @@
                 <Decorator :tb="'top'" :lr="'right'" :col="'--forecolor'" />
                 <Decorator :tb="'bottom'" :lr="'left'" :col="'--accentcolor'" />
                 <div class="txt">
-                    <h3><mark>Set the Tone of voice in seconds</mark></h3>
-                    <p>Moving pixels is boring and time consuming.</p>
+                    <h3><mark>Set the Look&Feel in seconds</mark></h3>
+                    <p>Pushing pixels is boring and time consuming.</p>
                     <p>Use your time to write and structure valuable contents instead moving elements on screen.</p>
-                    <p>PRESENTA comes with a set of defaults with options to refine your style, something like this:</p>
+                    <p>PRESENTA comes with a set of sensible defaults with quick options to meet your style.</p>
+                    <p>Something like, change the color scheme:</p>
                     <ColorSelector />
                 </div>
                 
