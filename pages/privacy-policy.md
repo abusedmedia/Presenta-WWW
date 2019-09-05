@@ -78,8 +78,6 @@ You are entitled to restrict or object to our use of your data, while retaining 
 
 Feel free to contact us if you have any concerns or questions about how we handle your data and personal information.
 
-This policy is effective as of 1st September 2019.
-
 ## How to contact us
 
 Please contact us if you have any questions or comments about our privacy practices or this Privacy Policy. You can reach us online at support@presenta.cc
