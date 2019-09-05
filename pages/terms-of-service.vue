@@ -3,7 +3,7 @@
       <HeaderGlobal />
 
       <div class="body">
-        <div v-html="md"></div>
+        <div v-html="md" class="page"></div>
         <FooterComp />
       </div>
   </div>
