@@ -8,17 +8,17 @@
                 <div class="txt">
                     <h3><mark>Content First!</mark></h3>
                         <p>PRESENTA fosters the content-first principle. </p>
-                        <p>Instead of starting positioning elements on the canvas, it's better to start writing great contents.</p>
+                        <p>Instead of starting positioning elements on the canvas, it's better writing great contents first.</p>
                         <p>This seems obvious but the current status-quo of the presentation tools forces you the other way around.</p> 
                         <p>The best way to exploit PRESENTA is by starting with a solid message.</p>
                     </p>
                 </div>
             </div>
-            <div>
+            <!-- <div>
                 <div class="img">
                     <img src="@/assets/500x500.png" />
                 </div>
-            </div>
+            </div> -->
         </div>
 
         <div class="feat inv vara">
@@ -35,11 +35,11 @@
                 </div>
                 
             </div>
-            <div>
+            <!-- <div>
                 <div class="img">
                     <img src="@/assets/500x500.png" />
                 </div>
-            </div>
+            </div> -->
         </div>
 
         <div class="feat varc">
@@ -48,18 +48,18 @@
                 <Decorator :tb="'bottom'" :lr="'left'" :col="'--accentcolor'" />
                 <div class="txt">
                     <h3><mark>Enforce best practices</mark></h3>
-                    <p>PRESENTA limits purposely what you can put on a slide. 
-                        It forces you to put only the relevant that can boost your speech.</p>
+                    <p>PRESENTA limits purposely what you can do and don't on a slide. 
+                        It forces you to put only the relevant material that can boost your speech.</p>
                     <p>Embracing its constraints is the best way to enhancing presentation contents.</p>
                     </p>
                 </div>
                 
             </div>
-            <div>
+            <!-- <div>
                 <div class="img">
                     <img src="@/assets/500x500.png" />
                 </div>
-            </div>
+            </div> -->
         </div>
 
         <div class="feat varb">
@@ -75,11 +75,11 @@
                 </div>
                 
             </div>
-            <div>
+            <!-- <div>
                 <div class="img">
                     <img src="@/assets/500x500.png" />
                 </div>
-            </div>
+            </div> -->
         </div>
 
     </div>

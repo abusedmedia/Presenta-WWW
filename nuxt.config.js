@@ -24,9 +24,10 @@ export default {
   ],
   modules: [
     '@nuxtjs/sitemap',
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-181587-14'
-    }],
+    // '@nuxtjs/google-analytics',
     '@nuxtjs/markdownit'
+  ],
+  plugins: [
+    { src: '~plugins/ga.js', ssr: false }
   ]
 }
