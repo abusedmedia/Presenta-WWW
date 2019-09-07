@@ -1,8 +1,8 @@
 # Privacy Policy
 
-Your privacy is important to us. 
+Your privacy is important. 
 
-This is the policy to respect your privacy regarding any information we may collect from you across our website, [https://presenta.cc](https://presenta.cc/), and other sites and services we own and operate.
+This document informs you about how we respect your privacy regarding any information we may collect from you across the website and application hosted on [https://presenta.cc](https://presenta.cc/).
 
 ## Information we collect
 

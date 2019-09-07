@@ -7,9 +7,9 @@
                 <Decorator :tb="'bottom'" :lr="'left'" :col="'--accentcolor'" />
                 <div class="txt">
                     <h3><mark>Content First!</mark></h3>
-                        <p>PRESENTA fosters the content-first principle. </p>
+                        <p>PRESENTA enables the content-first principle. </p>
                         <p>Instead of starting positioning elements on the canvas, it's better writing great contents first.</p>
-                        <p>This seems obvious but the current status-quo of the presentation tools forces you the other way around.</p> 
+                        <p>This seems obvious but the current status-quo of the presentation tools forces people the other way around.</p> 
                         <p>The best way to exploit PRESENTA is by starting with a solid message.</p>
                     </p>
                 </div>
@@ -30,8 +30,9 @@
                     <p>Pushing pixels is boring and time-consuming.</p>
                     <p>Use your time to write and structure valuable contents instead of moving elements on the screen.</p>
                     <p>PRESENTA comes with a set of sensible defaults with quick options to meet your style.</p>
-                    <p>Suppose that you'd change the color scheme of this website:</p>
+                    <p>For instance, suppose that you'd like to change the color scheme of this website:</p>
                     <ColorSelector />
+                    <p>You get the point.</p>
                 </div>
                 
             </div>
@@ -49,7 +50,7 @@
                 <div class="txt">
                     <h3><mark>Enforce best practices</mark></h3>
                     <p>PRESENTA limits purposely what you can do and don't on a slide. 
-                        It forces you to put only the relevant material that can boost your speech.</p>
+                        It forces you to put only the relevant materials that can boost your communication.</p>
                     <p>Embracing its constraints is the best way to enhancing presentation contents.</p>
                     </p>
                 </div>
@@ -68,9 +69,9 @@
                 <Decorator :tb="'bottom'" :lr="'left'" :col="'--accentcolor'" />
                 <div class="txt">
                     <h3><mark>Harness the web!</mark></h3>
-                    <p>Include online resources with one click.</p>
-                    <p>The web is full of fresh, live and interactive contents.</p>
-                    <p>Why don't use them? Go to include them straight away.</p>
+                    <p>Internet is full of fresh, live and interactive contents.</p>
+                    <p>PRESENTA doesn't want to reinvent wheels. It's better using other tools for specific tasks and outcomes.</p>
+                    <p>Let's embed them!</p>
                     </p>
                 </div>
                 

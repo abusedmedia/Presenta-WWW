@@ -53,9 +53,6 @@ export default {
 
 <style scoped>
 
-.wrapper{
-    padding-bottom: 1rem;
-}
 
 .list{
     display: flex;
