@@ -34,7 +34,7 @@ div{
 }
 
 img{
-    width: 12rem;
+    width: 16rem;
 }
 
 @media screen and (min-width: 450px) {
