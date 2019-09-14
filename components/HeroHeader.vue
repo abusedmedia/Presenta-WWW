@@ -1,18 +1,15 @@
 <template>
     <div>
-        <Separator :h="11" :w="30" :pos="'flex-end'" :col="'--backcolor'" />
         
         <h1>
             Build <br />presentations <br />the modern way.
         </h1>
 
-        <Separator :h="4" :w="43" :pos="'flex-start'" :col="'--forecolor'" />
 
-        <div :style="{backgroundColor: `var(--backcolor)`}">
+        <div class="high">
             <h3>
                 A personal designer to build effective documents that speak!
             </h3>
-            <Separator :h="12" :w="70" :pos="'center'" :col="'--accentcolor'" />
         </div>
         
 
@@ -50,6 +47,10 @@ h3{
     font-size:2.4rem;
     line-height: 4rem;
     
+}
+
+.high{
+    background-color: var(--accentcolor);
 }
 
 @media(min-width: 600px){

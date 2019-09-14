@@ -7,13 +7,12 @@
 
         <footer>
             <div>
-                <p class="relevant"><b><nuxt-link to="/">PRESENTA</nuxt-link></b> is an online application, currently in <mark>public-beta</mark>.</p>
+                <p class="relevant"><b><nuxt-link to="/">PRESENTA</nuxt-link></b> is an online application, currently in <b>public-beta</b>.</p>
 
                 <p>You can <a href="https://app.presenta.cc/signup">sign-up</a> and use this version free of charge.<br />
                 You can review the <nuxt-link to="/privacy-policy">Privacy Policy</nuxt-link>, the <nuxt-link to="/cookie-policy">Cookie Policy</nuxt-link> and <nuxt-link to="/terms-of-service">Terms Of Use</nuxt-link> of <b>Presenta</b> application and website.</p>
 
-                <p>Crafted with passion by <a href="https://fabiofranchino.com">@fabiofranchino</a> since 2018.<br />
-                To contact the owner, please use <a href="mailto:support@presenta.cc">this email</a>.</p>
+                <p>Crafted with passion by <a href="https://fabiofranchino.com">@fabiofranchino</a> since 2018.</p>
             </div>
         </footer>
         
@@ -23,9 +22,7 @@
 
 <style scoped>
 footer{
-    background-color: var(--backcolor);
-    color: var(--forecolor);
-    font-family: ivyjournal, sans-serif;
+    background-color: var(--accentcolor);
 }
 footer div{
     padding: 1rem 2rem;
@@ -56,8 +53,8 @@ mark{
     padding:.1rem .5rem;
 }
 
-a{
-    color: var(--forecolor);
+footer a{
+    color: #000;
 }
 
 @media screen and (min-width: 450px) {

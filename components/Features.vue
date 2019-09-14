@@ -3,84 +3,73 @@
 
         <div class="feat varb">
             <div>
-                <Decorator :tb="'top'" :lr="'right'" :col="'--forecolor'" />
-                <Decorator :tb="'bottom'" :lr="'left'" :col="'--accentcolor'" />
                 <div class="txt">
                     <h3><mark>Content First!</mark></h3>
                         <p>PRESENTA enables the content-first principle. </p>
-                        <p>Instead of starting positioning elements on the canvas, it's better writing great contents first.</p>
+                        <p>Instead of starting positioning elements on the canvas, it's better <b>writing great contents</b> first.</p>
                         <p>This seems obvious but the current status-quo of the presentation tools forces people the other way around.</p> 
                         <p>The best way to exploit PRESENTA is by starting with a solid message.</p>
                     </p>
                 </div>
             </div>
-            <!-- <div>
+            <div class="preimg tl">
                 <div class="img">
-                    <img src="@/assets/500x500.png" />
+                    <img src="@/assets/feature_1.gif" />
                 </div>
-            </div> -->
+            </div>
         </div>
 
         <div class="feat inv vara">
             <div>
-                <Decorator :tb="'top'" :lr="'right'" :col="'--forecolor'" />
-                <Decorator :tb="'bottom'" :lr="'left'" :col="'--accentcolor'" />
                 <div class="txt">
                     <h3><mark>Set the Look&Feel in seconds</mark></h3>
                     <p>Pushing pixels is boring and time-consuming.</p>
-                    <p>Use your time to write and structure valuable contents instead of moving elements on the screen.</p>
+                    <p>Use your time to write and <b>structure valuable contents</b> instead of moving elements on the screen.</p>
                     <p>PRESENTA comes with a set of sensible defaults with quick options to meet your style.</p>
-                    <p>For instance, suppose that you'd like to change the color scheme of this website:</p>
-                    <ColorSelector />
-                    <p>You get the point.</p>
+                    
                 </div>
                 
             </div>
-            <!-- <div>
+            <div class="preimg tr">
                 <div class="img">
-                    <img src="@/assets/500x500.png" />
+                    <img src="@/assets/feature_2.gif" />
                 </div>
-            </div> -->
+            </div>
         </div>
 
         <div class="feat varc">
             <div>
-                <Decorator :tb="'top'" :lr="'right'" :col="'--forecolor'" />
-                <Decorator :tb="'bottom'" :lr="'left'" :col="'--accentcolor'" />
                 <div class="txt">
                     <h3><mark>Enforce best practices</mark></h3>
                     <p>PRESENTA limits purposely what you can do and don't on a slide. 
-                        It forces you to put only the relevant materials that can boost your communication.</p>
+                        It forces you to put only the relevant materials that can <b>boost your communication</b>.</p>
                     <p>Embracing its constraints is the best way to enhancing presentation contents.</p>
                     </p>
                 </div>
                 
             </div>
-            <!-- <div>
+            <div class="preimg tr">
                 <div class="img">
-                    <img src="@/assets/500x500.png" />
+                    <img src="@/assets/feature_3.gif" />
                 </div>
-            </div> -->
+            </div>
         </div>
 
         <div class="feat varb">
             <div>
-                <Decorator :tb="'top'" :lr="'right'" :col="'--forecolor'" />
-                <Decorator :tb="'bottom'" :lr="'left'" :col="'--accentcolor'" />
                 <div class="txt">
                     <h3><mark>Harness the web!</mark></h3>
                     <p>Internet is full of fresh, live and interactive contents.</p>
                     <p>PRESENTA doesn't want to reinvent wheels. It's better using other tools for specific tasks and outcomes.</p>
-                    <p>Let's embed them!</p>
-                    </p>
+                    <p><b>Let's embed them!</b></p>
                 </div>
                 
             </div>
-            <!-- <div>
+            <div class="preimg tl">
                 <div class="img">
-                    <img src="@/assets/500x500.png" />
+                    <img src="@/assets/feature_4.gif" />
                 </div>
-            </div> -->
+            </div>
         </div>
 
     </div>
@@ -101,21 +90,19 @@ export default {
 
 <style scoped>
 .wrapper, h3{
-  font-family: Lato, sans-serif;
 }
 
-mark{
-    background-color: var(--forecolor);
-    color: var(--backcolor);
+.feat mark{
+    background-color: var(--accentcolor);
     padding:.2rem .6rem;
 }
 
 .feat{
     display: flex;
     flex-direction: column;
-    background-color: var(--backcolor);
-    color: var(--forecolor);
-    margin-top: 3rem;
+    margin-top: 5rem;
+    font-family: ivyjournal, sans-serif;
+
 }
 
 
@@ -138,14 +125,19 @@ mark{
   background-color: #fff;
   overflow: hidden;
   width: 100%;
-  height: 100%;
+box-shadow: 0 0 20px #ccc;
 }
 
 .feat img{
-    object-fit: cover;
+    object-fit: contain;
     object-position: top left;
     width: 100%;
     height: 100%;
+}
+
+.feat .preimg{
+    display: flex;
+    align-items: center;
 }
 
 
@@ -165,7 +157,11 @@ mark{
     }
     .feat .txt{
         font-size: 1.25rem;
-        
+    }
+
+    
+    .feat .tr img{
+        object-position: top right;
     }
 }
 </style>

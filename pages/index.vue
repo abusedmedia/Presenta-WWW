@@ -4,11 +4,14 @@
 
       <div class="body">
         <HeroHeader />
-        <h1 class="feat">Key features:</h1>
+
+        <div class="vid">
+          <video src="/ui.m4v" muted autoplay loop poster="ui.jpg"></video>
+        </div>
+
         <Features />
         <FooterComp />
       </div>
-      
 
   </div>
 </template>
@@ -37,5 +40,13 @@ export default {
 .feat{
   text-align: center;
   font-size: 3.5rem;
+}
+
+.vid{
+  margin-top:2rem;
+  box-shadow: 0 0 20px #ccc;
+}
+video{
+  width:100%;
 }
 </style>

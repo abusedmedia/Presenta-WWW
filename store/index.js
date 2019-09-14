@@ -1,5 +1,5 @@
 export const state = () => ({
-  color: 'vibrant',
+  color: 'breeze',
   colors: ['bn', 'original', 'vibrant', 'polite', 'breeze', 'sunny']
 })
 

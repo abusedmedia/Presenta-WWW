@@ -19,8 +19,7 @@ export default {
   },
   css: [
     '~/css/normalize.css',
-    '~/css/style.css',
-    '~/css/colors.css'
+    '~/css/style.css'
   ],
   modules: [
     '@nuxtjs/sitemap',

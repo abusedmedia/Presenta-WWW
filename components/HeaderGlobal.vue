@@ -22,7 +22,6 @@ header{
     padding: 1rem;
     box-shadow: 0 0 15px #ccc;
     z-index: 9999;
-
 }
 
 .login{
@@ -35,12 +34,12 @@ div{
 }
 
 img{
-    width: 18rem;
+    width: 12rem;
 }
 
 @media screen and (min-width: 450px) {
     img{
-        width: 14rem;
+        width: 8rem;
     }
 }
 

@@ -5,6 +5,9 @@
 html, body, video, #app{
   width: 100%;
   height: 100%;
+
+  --maincolor: #67657A;
+  --accentcolor: #FEDB0A;
 }
 
 body, #app, #__nuxt, #__layout{
@@ -18,6 +21,7 @@ body, #app, #__nuxt, #__layout{
 #app{
   display: flex;
   flex-direction: column;
+  font-family: ivyjournal, sans-serif;
 }
 
 
@@ -29,13 +33,9 @@ body, #app, #__nuxt, #__layout{
   -webkit-overflow-scrolling: touch;
 }
 
-h1,h2,h3,h4,h5,h6{
-  font-family: ivyjournal, sans-serif;
-}
 
 .page{
   padding: 0 1rem;
-  font-family: ivyjournal, sans-serif;
   font-size:1.75rem;
 }
 
@@ -93,8 +93,8 @@ html{
 
 
 .btn{
-  background-color: var(--backcolor);
-  color: var(--forecolor);
+  background-color: #000;
+  color: var(--accentcolor);
   padding: .75em 1.5em;
   border-radius: 3px;
   font-size: .85em;
@@ -104,11 +104,11 @@ html{
   box-shadow: 0 0 5px rgba(0,0,0,.3);
   text-decoration: none;
   font-family: Lato, sans-serif;
-  transition: transform .25s cubic-bezier(0.19, 1, 0.22, 1), background-color .25s ease-in-out;
+  transition: transform .15s cubic-bezier(0.19, 1, 0.22, 1), background-color .25s ease-in-out;
 }
 .btn:hover{
   background-color: var(--accentcolor);
-  color:var(--backcolor);
+  color:#000;
   transform: scale(1.15);
 }
 
