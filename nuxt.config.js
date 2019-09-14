@@ -12,7 +12,7 @@ export default {
       { property: 'og:title', content: 'Presenta, a modern presentation tool' },
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: 'https://www.presenta.cc/' },
-      { property: 'og:image', content: 'social.png' },
+      { property: 'og:image', content: 'https://www.presenta.cc/social.png' },
       { property: 'og:site_name', content: 'Presenta, a modern presentation tool' },
       { property: 'og:description', content: 'Build presentations the modern way.' },
       { name: 'og:image:width', content: '900px' },
@@ -24,7 +24,7 @@ export default {
       { name: 'twitter:url', content: 'https://www.presenta.cc/' },
       { name: 'twitter:title', content: 'Presenta, a modern presentation tool' },
       { name: 'twitter:description', content: 'Build presentations the modern way.' },
-      { name: 'twitter:image', content: 'social.png' },
+      { name: 'twitter:image', content: 'https://www.presenta.cc/social.png' },
 
       { hid: 'description', name: 'description', content: 'Presenta, a modern presentation tool' },
       { hid: 'keywords', name: 'keywords', content: 'presentation, data, information, presenting, speech, pitch' },
