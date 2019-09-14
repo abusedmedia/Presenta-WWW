@@ -55,7 +55,7 @@
             </div>
         </div>
 
-        <div class="feat varb">
+        <div class="feat inv varb">
             <div>
                 <div class="txt">
                     <h3><mark>Harness the web!</mark></h3>
