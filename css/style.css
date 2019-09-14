@@ -55,7 +55,9 @@ html{
   }
   .page{
     padding: 0 2rem;
+    font-size:1.25rem;
   }
+
 }
 
 @media(min-width: 600px){
@@ -64,6 +66,7 @@ html{
   }
   .page{
     padding: 0 3rem;
+    font-size:1.15rem;
   }
 }
 
