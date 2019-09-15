@@ -1,4 +1,13 @@
+import glob from 'glob'
+const files = glob.sync('**/*', { cwd: 'content' })
+
+function getSlugs (post, _) {
+  const slug = post.substr(0, post.lastIndexOf('.'))
+  return `/${slug}`
+}
+
 export default {
+  mode: 'universal',
   env: {
     backendServiceUrl: process.env.BACKEND_SERVICE_URL || 'https://tw-follow-me.firebaseio.com/presenta_email.json'
   },
@@ -40,11 +49,21 @@ export default {
     '~/css/style.css'
   ],
   modules: [
-    '@nuxtjs/sitemap',
+    '@nuxtjs/sitemap'
     // '@nuxtjs/google-analytics',
-    '@nuxtjs/markdownit'
   ],
   plugins: [
     { src: '~plugins/ga.js', ssr: false }
-  ]
+  ],
+  build: {
+    extend (config) {
+      config.module.rules.push({
+        test: /\.md$/,
+        loader: 'frontmatter-markdown-loader'
+      })
+    }
+  },
+  generate: {
+    routes: () => files.map(getSlugs)
+  }
 }

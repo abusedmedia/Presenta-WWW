@@ -1,3 +1,9 @@
+---
+name: 'privacy-policy'
+title: 'Privacy Policy'
+id: 'privacy-policy'
+---
+
 # Privacy Policy
 
 Your privacy is important. 

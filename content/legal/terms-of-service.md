@@ -1,3 +1,9 @@
+---
+name: 'terms-of-service'
+title: 'Terms of Service'
+id: 'terms-of-service'
+---
+
 # Terms of Service
 
 ## Definitions
