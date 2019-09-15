@@ -2,56 +2,43 @@
 
 ## Definitions
 
-- The "Agreement" refers, collectively, to all the terms, conditions, notices contained or referenced in this document (the "Terms of Service" or the "Terms") and all other operating rules, policies and the Presenta Privacy Statement, available at the bottom of the presenta.cc and procedures that we may publish from time to time on the Website.
-- "Presenta", "we", "us" and "our" refer to Presenta.
-- The "Service" refers to the applications, software, products, and services provided by Presenta.
-- An "Account" represents your legal relationship with Presenta. A "User Account"" represents an individual User’s authorization to log in to and use the Service and serves as a User’s identity on Presenta.
-- "Content" refers to content featured or displayed through the Website, including without limitation text, data, articles, images, photographs, graphics, software, applications, designs, features, and other materials that are available on the Website or otherwise available through the Service. "Content" also includes Service. "User-Generated Content" is Content, written or otherwise, created or uploaded by our Users. "Your Content" is Content that you create or own.
-- "The User," "You," and "Your" refer to the individual person, company, or organization that has visited or is using the Website or Service, that accesses or uses any part of the Account, or that directs the use of the Account in the performance of its functions.
+- The "Agreement" refers, collectively, to all the terms, conditions, notices contained or referred to in this document (the "Terms of Service" or "Terms") and all other operating rules, policies and the Declaration on Presenta's privacy, available at the bottom of the presentation.cc and the procedures that we may publish from time to time on the website.
+- "Presents", "we", "we" and "our" refer to Presents.
+- The "Service" refers to applications, software, products and services provided by Presenta.
+- An "Account" represents your legal relationship with Presenta. A "User Account" "represents the authorization of a single user to access and use the service and acts as the user's identity on Presents.
+- "Content" refers to content present or displayed through the website, including, but not limited to, text, data, articles, images, photographs, graphics, software, applications, design, functionality and other materials available on the website or otherwise available through the service. "Content" also includes the service. The "user generated content" is the content, written or not, created or uploaded by our users. "Your content" is the content you create or own.
+- "The user", "you" and "your" refer to the single person, company or organization that has visited or uses the website or service, that accesses or uses any part of the account or that directs the use of the Account in the performance of its functions.
 
 ## Acknowledgement and acceptance of terms
 
-Presenta offers [https://presenta.cc](https://presenta.cc/) (the Application and the Website) and the other websites under the presenta.cc domain (collectively, the "Sites"), including all information, tools and services available from this site offered to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.
+Presents offers https://presenta.cc (the Application and the Website) and other websites within the domain present.cc (collectively, the "Sites"), including all information, tools and services available from this site offered to the user, the user, provided that you accept all the terms, conditions, policies and communications set forth herein.
 
-By using the Service, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.
+By using the Service, you agree to be bound by these Terms of Service, all applicable laws and regulations, and agree to be responsible for compliance with applicable local laws. If you do not agree with any of these terms, you may not use or access this site. The materials contained in this website are protected by applicable copyright and trademark laws.
 
 ## Eligibility
 
-You represent and warrant that you are at least 16. If you are under age 16, you may not, under any circumstances or for any reason, use the Service. We may, in our sole discretion, refuse to offer the Service to any person or entity and change the eligibility criteria for using the Service at any time. You are solely responsible for ensuring that these Terms of Service are in compliance with all laws, rules and regulations applicable to you and the right to access the Service is revoked where these Terms of Service or use of the Service is prohibited or to the extent offering, sale or provision of the Service conflicts with any applicable law, rule or regulation. Further, the Service are offered only for your use, and not for the use or benefit of any third party.
+You represent and warrant that you are at least 16 years old. If you are under 16, you may not, under any circumstances or for any reason, use the Service. We may, at our sole discretion, refuse to offer the Service to any person or entity and change the eligibility criteria for using the Service at any time. You are solely responsible for ensuring that these Terms of Service comply with all laws, rules and regulations applicable to you and the right to access the Service is revoked where these Terms of Service or use of the Service are prohibited or to the extent in which they offer, the sale or provision of the Service is in conflict with any applicable law, regulation or regulation. Furthermore, the Service is offered only for your use and not for the use or benefit of third parties.
 
 ## Registration
 
-To sign up for the Service, you need to register for an account on the Service (an "Account"). You must provide accurate and complete information and keep your Account information updated. You shall not: (i) select or use as a username a name of another person with the intent to impersonate that person; (ii) use as a username a name subject to any rights of a person other than you without appropriate authorization; or (iii) use, as a username, a name that is otherwise offensive, vulgar or obscene. You are solely responsible for the activity that occurs on your Account, and for keeping your Account password secure. You may never use another person’s user account or registration information for the Service without permission. You must notify us immediately of any change in your eligibility to use the Service (including any changes to or revocation of any licenses from state authorities), breach of security or unauthorized use of your Account. You should never publish, distribute or post login information for your Account. You shall have the ability to delete your Account, either directly or through a request made to one of our employees or affiliates.
+To register for the service, you must register for an account on the service (an "account"). You must provide accurate and complete information and keep your account information up to date. You must not: (i) select or use as your username a name of another person with the intent to impersonate that person; (ii) use as your username a name subject to the rights of a person other than you without proper authorization; or (iii) use, as a user name, an otherwise offensive, vulgar or obscene name. You are solely responsible for the activity that occurs on your Account and the security of your Account password. You may never use another person's user account or registration information for the Service without authorization. You must notify us immediately of any change in your eligibility to use the Service (including any changes or revocation of licenses by state authorities), breach of security or unauthorized use of your Account. You must never publish, distribute or publish login information for your account. You will have the option to delete your account directly or through a request made to one of our employees or affiliates.
 
 ## User generated content
 
-- ### Responsibility for User-Generated Content
-
-  You may create or upload User-Generated Content while using the Service. You are solely responsible for the content of, and for any harm resulting from, any User-Generated Content that you post, upload, link to or otherwise make available via the Service, regardless of the form of that Content. We are not responsible for any public display or misuse of your User-Generated Content.
-
-- ### Ownership of Content
-
-  You retain ownership of and responsibility for Your Content. If you're posting anything you did not create yourself or do not own the rights to, you agree that you are responsible for any Content you post; that you will only submit Content that you have the right to post; and that you will fully comply with any third party licenses relating to Content you post.
-
-- ### Intellectual property
-
-  Presenta claims no intellectual property rights over the material Users provide to the Service. User profiles and any Content uploaded remain the property of the User. However, by creating Public Projects, Users agree to allow others to view, copy, and distribute any and all Content on the Public Projects.
-
-- ### Moral rights
-
-  You retain all moral rights to Your Content that you upload, publish, or submit to any part of the Service, including the rights of integrity and attribution.
-
-- ### We may remove content
-
-  We do not pre-screen User-Generated Content, but we reserve the right, but are not obligated, to block and/or remove any User-Generated Content that, in our sole discretion, violates any of our terms or policies.
-
-- ### License Grant to Us
-
-  We need the legal right to do things like host Your Content, publish it, and share it. You grant us and our legal successors the right to store, parse, and display Your Content, and make incidental copies as necessary to render the Website and provide the Service. This includes the right to do things like copy it to our database and make backups, show it to you and other users, parse it into a search index or otherwise analyze it on our servers, share it with other users, and perform it, in case Your Content is something like music or video. This license does not grant us the right to sell Your Content or otherwise distribute or use it outside of our provision of the Service.
-
-- ### Feedback
-
-  You may choose to or we may invite you to submit comments, ideas, or feedback about the Service (“Feedback”). By submitting any Feedback, you agree that your disclosure is unsolicited, voluntary, and with no restriction and will not place Presenta under any fiduciary or other obligation, and that we are free to use the Feedback without any additional compensation to you, and/or to disclose the Feedback on a non-confidential basis or otherwise to anyone and will have no obligation to keep your submission confidential or proprietary.
+- **Responsibility for user-generated content**
+You can create or upload user-generated content while using the service. You are solely responsible for the content and for any damages arising from any user-generated content that you post, upload, link or otherwise make available through the Service, regardless of the form of such Content. We are not responsible for any public display or improper use of user generated content.
+- **Ownership of the contents**
+Keep the ownership and responsibility of your content. If you publish something of which you have not created yourself or of which you do not hold the rights, you agree to be responsible for any Content you post; that you will only post content that you have the right to publish; and that you will fully comply with all third-party licenses relating to the Content you post.
+- **Intellectual property**
+Presenta does not claim any intellectual property rights on the material that Users provide to the Service. User profiles and any uploaded content remain the property of the user. However, by creating public projects, users agree to allow others to view, copy and distribute all the contents of public projects.
+- **Moral rights**
+Keep all moral rights to the Content you upload, post or send to any part of the Service, including integrity and attribution rights.
+- **We could remove the content**
+We do not perform preliminary screening of user-generated content, but we reserve the right, but are not obligated, to block and / or remove any user-generated content that, in our sole discretion, violates our terms or policies.
+- **Grant of license to us**
+We need the legal right to do things like hosting your content, publishing it and sharing it. Grant us and our legal successors the right to archive, analyze and display your content and make accessory copies, if necessary, to make the website and provide the service. This includes the right to do things like copying it into our database and running backups, showing it to you and other users, analyzing it in a search index or analyzing it in another way on our servers, sharing it with other users and running it, in your home content is something like music or video. This license does not grant us the right to sell your content or distribute or otherwise use it outside of our service provision.
+- **Reply**
+You can choose to or invite the user to send comments, ideas or feedback on the Service ("Feedback"). By submitting any Feedback, you agree that your disclosure is unwanted, voluntary and without any restrictions and does not impose any fiduciary or other obligation on us and that we are free to use the Feedback without any additional compensation for you and / or to disclose the Feedback on a non-confidential basis or otherwise to anyone and will not have the obligation to keep the sending confidential or proprietary.
 
 ## Conduct Restrictions
 
@@ -76,9 +63,9 @@ While using Presenta, you agree that you will not under any circumstances:
 
 ## Limitations
 
-- In no event shall Presenta be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the Service, even if Presenta or a Presenta authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.
-- You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Service, without Presenta's express written permission. If you violate the Terms of Service, we reserve the right to terminate your license to the Service without notice.
-- If we determine your bandwidth usage to be significantly excessive in relation to other Presenta customers, we reserve the right to suspend your Account or throttle your file hosting until you can reduce your bandwidth consumption.
+- In no case Presenta will be liable for any damages (including, for example, damages due to loss of data or profits or due to business interruption) deriving from the use or inability to use the Service, even if it Presents or a Present authorized the representative was informed orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties or limitations of liability for consequential or incidental damages, such limitations may not apply.
+- You agree not to reproduce, duplicate, copy, sell, resell or exploit any part of the Service, without the express written authorization of Presenta. In the event of a breach of the Terms of Service, we reserve the right to suspend the Service license without notice.
+- If we determine that the use of bandwidth is significantly excessive compared to other customers present, we reserve the right to suspend the account or limit the hosting of files until it is possible to reduce bandwidth consumption.
 
 ## Personal information
 
@@ -86,33 +73,33 @@ Your submission of personal information through the store is governed by our Pri
 
 ## Changes to Terms of Service
 
-You can review the most current version of the Terms of Service at any time at this page.
+You can review the most current version of the Terms of Service at any time on this page.
 
-We reserve the right, at our sole discretion, to update, change or replace any part of these Terms of Service by posting updates and changes to our website. It is your responsibility to check our website periodically for changes. Your continued use or access to our website or the Service following the posting of any changes to these Terms of Service constitutes acceptance of those changes.
+We reserve the right, in our sole discretion, to update, modify or replace any part of these Terms of Service by posting updates and changes on our website. It is your responsibility to periodically check our website for changes. Your continued use or access to our website or to the Service following the publication of any changes to these Terms of Service constitutes acceptance of such changes.
 
 ## Cancellation and Termination
 
-If you wish to terminate this Agreement or your Presenta account, you may simply discontinue using the Website and apps. We may terminate your access to all or any part of the Website and apps at any time, with or without cause, with or without notice, effective immediately. We reserve the right to refuse service to anyone for any reason at any time. All provisions of this Agreement which by their nature should survive termination will survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity, and limitations of liability.
+If you wish to withdraw from this Agreement or your Presence account, you can simply stop using the website and the apps. We may terminate access to all or part of the website and apps at any time, with or without cause, with or without notice, with immediate effect. We reserve the right to refuse service to anyone for any reason at any time. All provisions of this Agreement which by their nature should survive termination will survive termination, including, but not limited to, property provisions, disclaimers, indemnities and limitations of liability.
 
 ## Links
 
-This Site may contain links to other independent third-party Web sites ("Linked Sites"). These Linked Sites are provided solely as a convenience to our visitors. Such Linked Sites are not under Our control, and We are not responsible for and does not endorse the content of such Linked Sites, including any information or materials contained on such Linked Sites. You will need to make your own independent judgment regarding your interaction with these Linked Sites.
+This site may contain links to other independent third-party websites ("Linked Sites"). These linked sites are provided solely as a convenience to our visitors. These linked sites are not under our control and we are not responsible and do not endorse the content of such linked sites, including information or materials contained in such linked sites. You will need to express your independent opinion regarding the interaction with these linked sites.
 
-Presenta has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Presenta of the site. Use of any such linked website is at the user's own risk.
+Presenta has not reviewed all the sites linked to its website and is not responsible for the contents of such linked sites. The inclusion of any link does not imply endorsement by Presenta of the site. The use of such linked websites is at your own risk.
 
 ## Intellectual Property Notice
 
-Presenta and our licensors, vendors, agents, and/or our content providers retain ownership of all intellectual property rights of any kind related to the Website and Service. We reserve all rights that are not expressly granted to you under this Agreement or by law. The look and feel of the Website and Service is copyright © Presenta. All rights reserved. You may not duplicate, copy, or reuse any portion of the HTML/CSS, Javascript, or visual design elements or concepts without express written permission from Presenta.
+Presents and our licensees, sellers, agents and / or our content providers retain ownership of all intellectual property rights of any kind relating to the website and the service. We reserve all rights that are not expressly granted to you under this Agreement or by law. The appearance of the website and the service is protected by copyright © Presenta. All rights reserved. It is not possible to duplicate, copy or reuse any portion of HTML / CSS, Javascript or visual design elements or concepts without the express written permission of Presenta.
 
 ## Warranty Disclaimer
 
-The service is provided "as is" and "as available" and is without warranty of any kind, express or implied, including, but not limited to, the implied warranties of title, non-infringement, merchantability and fitness for a particular purpose, and any warranties implied by any course of performance or usage of trade, all of which are expressly disclaimed.
+The service is provided "as is" and "as available" and is free from warranties of any kind, express or implied, including, but not limited to, the implied warranties of title, non-infringement, merchantability and fitness for a particular purpose , and all implied warranties of any course of performance or use of the trade, which are expressly denied.
 
-We do not warrant that: (i) the service will be secure or available at any particular time or location; (ii) any defects or errors will be corrected; (iii) any content or software available at or through the service is free of viruses or other harmful components; or (iv) the results of using the service will meet your requirements. Your use of the service is solely at your own risk.
+We do not guarantee that: (i) the service will be secure or available at any particular time or place; (ii) any defects or errors will be corrected; (iii) any content or software available on or through the service is free of viruses or other harmful components; or (iv) the results of using the service will meet your needs. Use of the service is solely at your own risk.
 
 ## Indemnification
 
-You are solely responsible for your conduct and your data related to the Service. You shall defend, indemnify, and hold harmless us, our affiliates and each of our and their respective employees, contractors, directors, suppliers and representatives from all liabilities, claims, and expenses, including reasonable attorneys’ fees, that arise from or relate to your use or misuse of, or access to, the Services, Content, or otherwise from your Customer Data, violation of these Terms of Service, or infringement by you, or any third party using your Account or identity in the Services, of any intellectual property or other right of any person or entity. We reserve the right to assume the exclusive defense and control of any matter otherwise subject to indemnification by you, in which event you will assist and cooperate with us in asserting any available defenses.
+You are solely responsible for your conduct and your data related to the Service. You must defend, indemnify and hold us, our affiliates and each of our employees and collaborators, contractors, directors, suppliers and representatives harmless from all responsibility, claims and expenses, including reasonable legal fees, which arise from or relate to to improper use or use or access to the Services, to the Contents or in any other way from the Customer Data, violation of these Terms of Service or violation by the user or third parties who use their Account or identity in the Services, of any intellectual ownership or other right of any person or entity. We reserve the right to assume the exclusive defense and control of any matter otherwise subject to indemnity on your part, in which case you will assist and cooperate with us in asserting any defenses available.
 
 ## Governing Law
 

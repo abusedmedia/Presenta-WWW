@@ -1,47 +1,47 @@
 # Cookie Policy
 
-We use cookies to help improve your experience of [https://presenta.cc](https://presenta.cc/). This cookie policy is part of Presenta' privacy policy, and covers the use of cookies between your device and our site. We also provide basic information on third-party services we may use, who may also use cookies as part of their service, though they are not covered by our policy.
+We use cookies to help you improve your experience with https://presenta.cc. This cookie policy is part of Presenta's privacy policy and covers the use of cookies between your device and our site. We also provide basic information about the third-party services we may use, which may also use cookies as part of their service, although they are not covered by our policy.
 
-If you don’t wish to accept cookies from us, you should instruct your browser to refuse cookies from [https://presenta.cc](https://presenta.cc) with the understanding that we may be unable to provide you with some of your desired content and services.
+If you do not wish to accept cookies from us, you must tell your browser to refuse cookies from https://presenta.cc with the understanding that we may not be able to provide you with some of the desired content and services.
 
 ## What is a cookie?
 
-A cookie is a small piece of data that a website stores on your device when you visit, typically containing information about the website itself, a unique identifier that allows the site to recognise your web browser when you return, additional data that serves the purpose of the cookie, and the lifespan of the cookie itself.
+A cookie is a small piece of data that a website stores on your device when you visit, generally containing information on the website itself, a unique identifier that allows the site to recognize your web browser when you return, additional data that you need to purpose of the cookie and the duration of the cookie itself.
 
-Cookies are used to enable certain features (eg. logging in), to track site usage (eg. analytics), to store your user settings (eg. timezone, notification preferences), and to personalise your content (eg. advertising, language).
+Cookies are used to enable certain features (eg Access), to track site usage (eg Analysis), to store user settings (eg Time zone, notification preferences) and to customize the contents (eg. Advertising, language).
 
-Cookies set by the website you are visiting are normally referred to as “first-party cookies”, and typically only track your activity on that particular site. Cookies set by other sites and companies (ie. third parties) are called “third-party cookies”, and can be used to track you on other websites that use the same third-party service.
+The cookies set by the website you are visiting are normally called "proprietary cookies" and generally keep track of your activity on that particular site. Cookies set by other sites and companies (such as third parties) are called "third-party cookies" and can be used to track the user on other websites that use the same third-party service.
 
 ## Types of cookies and how we use them
 
-### Essential cookies
+### Essential biscuits
 
-Essential cookies are crucial to your experience of a website, enabling core features like user logins, account management, shopping carts and payment processing. We use essential cookies to enable certain functions on our website.
+Essential cookies are crucial to your website experience, enabling key features like user logins, account management, shopping carts and payment processing. We use essential cookies to enable certain features on our website.
 
 ### Performance cookies
 
-Performance cookies are used in the tracking of how you use a website during your visit, without collecting personal information about you. Typically, this information is anonymous and aggregated with information tracked across all site users, to help companies understand visitor usage patterns, identify and diagnose problems or errors their users may encounter, and make better strategic decisions in improving their audience’s overall website experience. These cookies may be set by the website you’re visiting (first-party) or by third-party services. **We do not use this type of cookie on our site.**
+Performance cookies are used to monitor how a website is used during the visit, without collecting personal information about you. Generally, this information is anonymous and aggregated with information tracked on all site users, to help companies understand visitor usage patterns, identify and diagnose problems or errors that their users may encounter and make better strategic decisions in improve the overall website experience of their audience. These cookies can be set by the website you are visiting (first part) or by third-party services. We do not use this type of cookie on our site.
 
 ### Functionality cookies
 
-Functionality cookies are used in collecting information about your device and any settings you may configure on the website you’re visiting (like language and timezone settings). With this information, websites can provide you with customised, enhanced or optimised content and services. These cookies may be set by the website you’re visiting (first-party) or by third-party service. **We do not use this type of cookie on our site.**
+Functional cookies are used to collect information about your device and any settings you can configure on the website you are visiting (such as language and time zone settings). With this information, websites can provide personalized, improved or optimized content and services. These cookies can be set by the website you are visiting (first part) or by a third-party service. We do not use this type of cookie on our site.
 
-### Targeting/advertising cookies
+### Targeting / advertising cookies
 
-Targeting/advertising cookies are used in determining what promotional content is more relevant and appropriate to you and your interests. Websites may use them to deliver targeted advertising or to limit the number of times you see an advertisement. This helps companies improve the effectiveness of their campaigns and the quality of content presented to you. These cookies may be set by the website you’re visiting (first-party) or by third-party services. Targeting/advertising cookies set by third-parties may be used to track you on other websites that use the same third-party service. **We do not use this type of cookie on our site.**
+Targeting / advertising cookies are used to determine which promotional content is most relevant and appropriate for you and your interests. Web sites can use them to deliver targeted advertising or to limit the number of times you see an advertisement. This helps companies to improve the effectiveness of their campaigns and the quality of the presented content. These cookies can be set by the website you are visiting (first part) or by third-party services. Targeting / advertising cookies set by third parties can be used to track you on other websites that use the same third-party service. We do not use this type of cookie on our site.
 
-## Third-party cookies on our site
+### Third-party cookies on our site
 
-We may employ third-party companies and individuals on our websites—for example, analytics providers and content partners. We grant these third parties access to selected information to perform specific tasks on our behalf. They may also set third-party cookies in order to deliver the services they are providing. Third-party cookies can be used to track you on other websites that use the same third-party service. As we have no control over third-party cookies, they are not covered by Presenta's cookie policy.
+On our websites we can employ companies and third parties, such as analytics providers and content partners. We grant these third parties access to the information selected to perform specific tasks on our behalf. They can also set third-party cookies in order to provide the services they are providing. Third-party cookies can be used to track you on other websites that use the same third-party service. Since we have no control over third-party cookies, these are not covered by Presenta's cookie policy.
 
-### Our third-party privacy promise
+### Our promise to third-party privacy
 
-We review the privacy policies of all our third-party providers before enlisting their services to ensure their practices align with ours. We will never knowingly include third-party services that compromise or violate the privacy of our users.
+We review the privacy policies of all our third-party providers before enlisting their services to ensure that their practices are aligned with ours. We will never knowingly include third-party services that compromise or violate the privacy of our users.
 
 ## How you can control or opt out of cookies
 
-If you do not wish to accept cookies from us, you can instruct your browser to refuse cookies from our website. Most browsers are configured to accept cookies by default, but you can update these settings to either refuse cookies altogether, or to notify you when a website is trying to set or update a cookie.
+If you do not wish to accept cookies from us, you can instruct the browser to refuse cookies from our website. Most browsers are configured to accept cookies by default, but you can update these settings to reject cookies altogether. cookies or to warn the user when a website is trying to set or update a cookie.
 
 If you browse websites from multiple devices, you may need to update your settings on each individual device.
 
-Although some cookies can be blocked with little impact on your experience of a website, blocking all cookies may mean you are unable to access certain features and content across the sites you visit.
+Although some cookies may be blocked with little impact on the experience of a website, blocking all cookies may make it impossible to access certain features and content through the sites you visit.
