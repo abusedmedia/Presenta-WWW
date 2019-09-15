@@ -8,7 +8,7 @@
         <div class="vid">
           <video src="/ui.m4v" muted autoplay loop poster="ui.jpg"></video>
         </div>
-
+      
         <Features />
         <FooterComp />
       </div>
@@ -43,7 +43,7 @@ export default {
 }
 
 .vid{
-  margin-top:2rem;
+  margin:2rem 0;
   display: flex;
   padding:2rem;
 }

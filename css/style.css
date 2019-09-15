@@ -119,6 +119,11 @@ html{
   transform: scale(1.15);
 }
 
+.btn.mini{
+  font-size: .65em;
+  padding: .5em 1em;
+}
+
 
 div, a{
   transition:background-color .2s ease-in-out;
