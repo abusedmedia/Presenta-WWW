@@ -1,9 +1,3 @@
----
-name: cookie-policy
-title: Cookie Policy
-id: cookie-policy
----
-
 # Cookie Policy
 
 We use cookies to help improve your experience of [https://presenta.cc](https://presenta.cc/). This cookie policy is part of Presenta' privacy policy, and covers the use of cookies between your device and our site. We also provide basic information on third-party services we may use, who may also use cookies as part of their service, though they are not covered by our policy.

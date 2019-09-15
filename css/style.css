@@ -39,6 +39,10 @@ body, #app, #__nuxt, #__layout{
   font-size:1.75rem;
 }
 
+.page img{
+  width:100%;
+}
+
 video{
   object-fit: cover;
   object-position: top left;
