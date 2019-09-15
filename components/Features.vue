@@ -14,7 +14,7 @@
             </div>
             <div class="preimg tl">
                 <div class="img">
-                    <img src="@/assets/feature_1.gif" />
+                    <img loading="lazy" alt="feature 1" src="@/assets/feature_1.gif" />
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@
             </div>
             <div class="preimg tr">
                 <div class="img">
-                    <img src="@/assets/feature_2.gif" />
+                    <img loading="lazy" alt="feature 2" src="@/assets/feature_2.gif" />
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@
             </div>
             <div class="preimg tr">
                 <div class="img">
-                    <img src="@/assets/feature_3.gif" />
+                    <img loading="lazy" alt="feature 3" src="@/assets/feature_3.gif" />
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
             </div>
             <div class="preimg tl">
                 <div class="img">
-                    <img src="@/assets/feature_4.gif" />
+                    <img loading="lazy" alt="feature 4" src="@/assets/feature_4.gif" />
                 </div>
             </div>
         </div>
