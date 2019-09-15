@@ -2,7 +2,7 @@
     <div class="footer">
 
         <div class="signup">
-            <a class="btn" href="https://app.presenta.cc/signup">Make presentations fast!</a>
+            <a class="btn" href="https://app.presenta.cc/signup">Make presentations <b>fast</b>!</a>
         </div>
 
         <footer>

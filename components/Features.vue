@@ -4,7 +4,7 @@
         <QuoteStrip :message="'So, what\'s the catch?'" />
 
 
-        <div class="feat">
+        <div class="feat first">
             <div>
                 <div class="txt">
                     <h3><mark>Content First!</mark></h3>
@@ -59,7 +59,7 @@
             </div>
         </div>
 
-        <div class="feat inv">
+        <div class="feat inv last">
             <div>
                 <div class="txt">
                     <h3><mark>Harness the web!</mark></h3>
@@ -108,7 +108,12 @@ h1{
     flex-direction: column;
     margin-bottom: 5rem;
     font-family: ivyjournal, sans-serif;
-
+}
+.feat.first{
+    margin-top:2rem;
+}
+.feat.last{
+    margin-bottom:2rem;
 }
 
 
