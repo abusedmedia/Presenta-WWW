@@ -14,7 +14,7 @@ The cookies set by the website you are visiting are normally called "proprietary
 
 ## Types of cookies and how we use them
 
-### Essential biscuits
+### Essential cookie
 
 Essential cookies are crucial to your website experience, enabling key features like user logins, account management, shopping carts and payment processing. We use essential cookies to enable certain features on our website.
 
