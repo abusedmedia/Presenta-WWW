@@ -14,7 +14,7 @@ export default {
     backendServiceUrl: process.env.BACKEND_SERVICE_URL || 'https://tw-follow-me.firebaseio.com/presenta_email.json'
   },
   head: {
-    titleTemplate: 'Presenta - A presentation tool | %s',
+    titleTemplate: '%s @ Presenta - A presentation tool',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

@@ -30,6 +30,11 @@ export default {
   },  
   computed:{
     ...mapGetters(['colorstyle'])
+  },
+  head () {
+        return {
+            title: 'Home',
+        }
   }
 }
 </script>

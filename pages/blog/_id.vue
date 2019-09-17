@@ -45,14 +45,32 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 3rem;
+    font-size:2.5rem;
 }
 
 
 @media screen and (min-width: 400px){
     .wrapper{
-        width: 70%;
+        width: 85%;
+    }
+    .blog{
+        padding:0;
+        font-size:1.5rem;
     }
 }
+
+@media screen and (min-width: 700px){
+    .wrapper{
+        width: 70%;
+    }
+    .blog{
+        padding:0;
+        font-size:1.2rem;
+    }
+}
+
+
 .posthead{
     text-align: center;
 }
@@ -61,9 +79,6 @@ export default {
     margin-bottom:0;
 }
 
-.body{
-    text-align: justify;
-}
 
 
 </style>
@@ -76,7 +91,7 @@ blockquote{
     padding-top:1rem;
     padding-bottom:1rem;
     margin:0;
-    font-size: 1.6rem;
+    font-size: 1.6em;
 }
 blockquote p{
     margin: 0;
