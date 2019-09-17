@@ -10,7 +10,7 @@
         </div>
       
         <Features />
-        <FooterComp />
+        <FooterComp :noHomeLink="true" />
       </div>
 
   </div>

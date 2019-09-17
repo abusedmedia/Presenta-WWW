@@ -4,6 +4,9 @@
         <div class="signup">
             <a class="btn" href="https://app.presenta.cc/signup">Make <b>awesome</b> presentations!</a>
         </div>
+        <div class="learnmore" v-if="!noHomeLink">
+            <nuxt-link to="/">or learn more from the home-page</nuxt-link>
+        </div>
 
         <footer>
             <div>
@@ -21,9 +24,20 @@
 </template>
 
 
+
+<script>
+export default {
+    props:{
+        noHomeLink:false
+    }
+}
+</script>
+
+
 <style scoped>
 footer{
     background-color: var(--accentcolor);
+    margin-top:4rem;
 }
 footer div{
     padding: 1rem 2rem;
@@ -42,9 +56,17 @@ p.relevant{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 4rem 0;
+    padding-top: 4rem;
 
     font-size:3em;
+}
+
+.learnmore{
+    text-align: center;
+    padding:1rem;
+}
+.learnmore a{
+    color:#000;
 }
 
 

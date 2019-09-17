@@ -7,6 +7,7 @@
             </div>
             
             <div class="body" v-html="html"></div>
+
         </div>
     </div>
 </template>
