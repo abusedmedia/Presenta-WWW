@@ -18,6 +18,15 @@ export default {
     async asyncData({ params }) {
         return await import(`~/content/blog/${params.id}.md`)
     },
+    head () {
+        return {
+            title: this.meta.title,
+            meta: [
+                { hid: 'twittertitle', name: 'twitter:title', content: this.meta.title },
+                { property: 'og:title', content: this.meta.title }
+            ]
+        }
+    },
     computed:{
         meta(){
             return this.attributes

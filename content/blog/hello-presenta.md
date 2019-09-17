@@ -18,5 +18,6 @@ In the meantime, we try our best, listening to the users, trying to learn and in
 
 We are truly open to suggestions and critiques, as we did during the early private-beta phase, and we'll continue to do the same.
 
-We already do know we'll make a lot of mistakes...
-... but we'll follow the mantra: **listen, learn, adjust, repeat.**
+We already do know we'll make a lot of mistakes … but we'll follow the mantra: 
+
+> listen, learn, adjust, repeat.

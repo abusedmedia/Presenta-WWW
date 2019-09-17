@@ -14,7 +14,7 @@ export default {
     backendServiceUrl: process.env.BACKEND_SERVICE_URL || 'https://tw-follow-me.firebaseio.com/presenta_email.json'
   },
   head: {
-    titleTemplate: 'Presenta - A presentation tool',
+    titleTemplate: 'Presenta - A presentation tool | %s',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -33,7 +33,7 @@ export default {
       { name: 'twitter:site', content: '@fabiofranchino' },
       { name: 'twitter:creator', content: '@fabiofranchino' },
       { name: 'twitter:url', content: 'https://www.presenta.cc/' },
-      { name: 'twitter:title', content: 'Presenta, a presentation tool' },
+      { hid: 'twittertitle', name: 'twitter:title', content: 'Presenta, a presentation tool' },
       { name: 'twitter:description', content: 'Build presentations the modern way.' },
       { name: 'twitter:image', content: 'https://www.presenta.cc/social.png' },
 
