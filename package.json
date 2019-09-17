@@ -9,6 +9,7 @@
     "build": "nuxt build",
     "spa": "nuxt build --spa",
     "start": "nuxt start",
+    "upd": "git add -u && git commit -m \"quick update\" && git push",
     "generate": "nuxt generate"
   },
   "author": "",

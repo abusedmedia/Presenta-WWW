@@ -12,7 +12,7 @@ More then 30 years ago PowerPoint set the bar about how presentation documents s
 
 Nowadays, after a huge amount of insights about how people create, experience and share presentations with the main purpose of communicating, we are in a position to envision different ways to build decks, ways that are more effective, efficient and fun as well.
 
-It's a long ride and this first (beta) version of our dream is not even close to what it's right and what it would be in the end.
+It's a long ride and this first (beta) version of our vision is not even close to what it's right and what it would be in the end.
 
 In the meantime, we try our best, listening to the users, trying to learn and innovate, bit by bit.
 
