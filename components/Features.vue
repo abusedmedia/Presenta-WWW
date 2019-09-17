@@ -28,7 +28,7 @@
                 <div class="txt">
                     <h3><mark>Set the Look&Feel in seconds</mark></h3>
                     <p>Pushing pixels is time-consuming.</p>
-                    <p>Use your time to write and <b>structure valuable contents</b> instead of moving elements on the screen.</p>
+                    <p>Use your time to write and structure <b>valuable contents</b> instead of moving elements on the screen.</p>
                     <p><b>PRESENTA</b> comes with a set of sensible defaults with quick options to meet your style.</p>
                     
                 </div>

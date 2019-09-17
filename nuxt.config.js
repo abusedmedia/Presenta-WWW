@@ -50,10 +50,7 @@ export default {
     '~/css/normalize.css',
     '~/css/style.css'
   ],
-  modules: [
-    '@nuxtjs/sitemap'
-    // '@nuxtjs/google-analytics',
-  ],
+
   plugins: [
     { src: '~plugins/ga.js', ssr: false }
   ],
@@ -68,5 +65,11 @@ export default {
   },
   generate: {
     routes: () => files.map(getSlugs)
+  },
+  modules: [
+    '@nuxtjs/sitemap'
+  ],
+  sitemap: {
+    hostname: 'https://www.presenta.cc'
   }
 }
