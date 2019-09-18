@@ -4,6 +4,7 @@ node_modules
 .nuxt
 
 *.mov
+content/**/*.json
 
 # local env files
 .env

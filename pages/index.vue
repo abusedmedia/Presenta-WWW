@@ -7,6 +7,7 @@
         </div>
       
         <Features />
+        <LatestPosts :list="posts" />
         <FooterComp :noHomeLink="true" />
     </div>
 </template>
@@ -15,17 +16,22 @@
 import HeroHeader from '~/components/HeroHeader.vue'
 import Features from '~/components/Features.vue'
 import FooterComp from '~/components/FooterComp.vue'
+import LatestPosts from '~/components/LatestPosts.vue'
 import { mapMutations, mapGetters } from 'vuex'
 
 
 export default {
   components:{
-    HeroHeader,Features,FooterComp
+    HeroHeader,Features,FooterComp,LatestPosts
   },  
   head () {
         return {
             title: 'Home'
         }
+  },
+  async asyncData(){
+    let res = await import(`~/content/blog/list.json`)
+    return {posts: res.default}
   }
 }
 </script>

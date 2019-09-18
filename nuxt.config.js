@@ -1,12 +1,16 @@
-import path from 'path'
+import fs from 'fs'
 
 import glob from 'glob'
-const files = glob.sync('**/*', { cwd: 'content' })
+let files = glob.sync('**/*.md', { cwd: 'content' })
 
-function getSlugs (post, _) {
-  const slug = post.substr(0, post.lastIndexOf('.'))
-  return `/${slug}`
-}
+files = files.map(d => {
+  const folder = d.substr(0, d.indexOf('/'))
+  const slug = d.substr(0, d.lastIndexOf('.'))
+  const name = slug.replace(folder + '/', '')
+  return { name: name, path: `/${slug}`, folder: folder }
+})
+
+fs.writeFileSync('content/blog/list.json', JSON.stringify(files.filter(d => d.folder === 'blog')))
 
 export default {
   mode: 'universal',
@@ -64,7 +68,7 @@ export default {
     }
   },
   generate: {
-    routes: () => files.map(getSlugs)
+    routes: files
   },
   modules: [
     '@nuxtjs/sitemap'
