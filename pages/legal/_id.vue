@@ -40,13 +40,7 @@ export default {
     },
     head () {
         return {
-            title: this.meta.title,
-            meta: [
-                { property: 'og:title', content: this.meta.title },
-                { name: 'twitter:title', content: this.meta.title },
-                { property: 'og:image', content: `https://www.presenta.cc/social.png` },
-                { name: 'twitter:image', content: `https://www.presenta.cc/social.png` }
-            ]
+            title: this.meta.title
         }
     },
     computed:{

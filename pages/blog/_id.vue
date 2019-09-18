@@ -41,10 +41,12 @@ export default {
         return {
             title: this.meta.title,
             meta: [
-                { property: 'og:title', content: this.meta.title },
-                { name: 'twitter:title', content: this.meta.title },
-                { property: 'og:image', content: `https://www.presenta.cc/blog/covers/${this.slug}.jpg` },
-                { name: 'twitter:image', content: `https://www.presenta.cc/blog/covers/${this.slug}.jpg` }
+                { hid:'ogtit', property: 'og:title', content: this.meta.title },
+                { hid:'twtit', name: 'twitter:title', content: this.meta.title },
+                { hid:'ogimg', property: 'og:image', content: `https://www.presenta.cc/blog/covers/${this.slug}.jpg` },
+                { hid:'twimg', name: 'twitter:image', content: `https://www.presenta.cc/blog/covers/${this.slug}.jpg` },
+                { hid:'ogurl', property: 'og:url', content: `https://www.presenta.cc/blog/${this.slug}` },
+                { hid:'twurl', name: 'twitter:url', content: `https://www.presenta.cc/blog/${this.slug}` }
             ]
         }
     },
