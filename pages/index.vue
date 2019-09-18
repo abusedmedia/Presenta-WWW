@@ -21,17 +21,6 @@ import { mapMutations, mapGetters } from 'vuex'
 export default {
   components:{
     HeroHeader,Features,FooterComp
-  },  
-  head () {
-        return {
-            title: 'Home',
-            meta: [
-                { property: 'og:title', content: 'Home' },
-                { name: 'twitter:title', content: 'Home' },
-                { property: 'og:image', content: `https://www.presenta.cc/social.png` },
-                { name: 'twitter:image', content: `https://www.presenta.cc/social.png` }
-            ]
-        }
   }
 }
 </script>
