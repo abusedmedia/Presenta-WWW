@@ -19,6 +19,7 @@ export default {
 <style scoped>
 .wrapper{
     padding: 1rem;
+    padding-right: 1.5rem;
 }
 
 h3{

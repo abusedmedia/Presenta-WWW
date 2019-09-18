@@ -47,10 +47,12 @@ export default {
 .vid{
   margin:2rem 0;
   display: flex;
-  padding:2rem;
+  padding:1rem;
+  padding-right: 1.5rem;
+  
 }
 video{
   width:100%;
-  box-shadow: 0 0 20px #ccc;
+    box-shadow: 10px 10px 0 #000;
 }
 </style>

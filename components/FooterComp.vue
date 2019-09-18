@@ -43,6 +43,8 @@ export default {
 .wrapper{
     box-shadow: 10px 10px 0 #000;
     padding: 1rem;
+        padding-right: 1.5rem;
+
 }
 
 footer{

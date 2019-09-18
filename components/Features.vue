@@ -152,6 +152,8 @@ h1{
     display: flex;
     align-items: center;
     padding:1rem;
+        padding-right: 1.5rem;
+
 }
 
 

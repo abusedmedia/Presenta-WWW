@@ -23,6 +23,7 @@ export default {
 <style scoped>
 .wrapper{
     padding:1rem;
+    font-size:2rem;
 }
 .wrapper h3{
     text-align: center;
@@ -58,6 +59,9 @@ li a:hover{
 @media screen and (min-width: 400px){
     li{
         width:50%;
+    }
+    .wrapper{
+        font-size: 1.25rem;
     }
 }
 </style>
