@@ -1,6 +1,8 @@
 <template>
-    <div class="high">
-        <h3>{{message}}</h3>
+    <div class="wrapper">
+        <div class="high">
+            <h3>{{message}}</h3>
+        </div>
     </div>
 </template>
 
@@ -15,6 +17,10 @@ export default {
 
 
 <style scoped>
+.wrapper{
+    padding: 1rem;
+}
+
 h3{
     text-align: left;
     margin: 0;
@@ -27,6 +33,7 @@ h3{
 
 .high{
     background-color: var(--accentcolor);
+    box-shadow: 10px 10px 0 #000;
 }
 
 @media(min-width: 600px){

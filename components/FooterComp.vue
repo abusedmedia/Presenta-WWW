@@ -1,25 +1,30 @@
 <template>
     <div class="footer">
+        
 
         <div class="signup">
-            <a class="btn" href="https://app.presenta.cc/signup">Make <b>awesome</b> presentations!</a>
+            <a class="btn" href="https://app.presenta.cc/signup">
+                <span>Make <b>awesome</b> presentations!</span>
+                <span class="mini">(in no time)</span>
+            </a>
         </div>
         <div class="learnmore" v-if="!noHomeLink">
             <nuxt-link to="/">or learn more from the home-page</nuxt-link>
         </div>
 
-        <footer>
-            <div>
-                <p class="relevant"><b><nuxt-link to="/">PRESENTA</nuxt-link></b> is an online application, currently in <b>public-beta</b>.</p>
+        <div class="wrapper">
+            <footer>
+                <div>
+                    <p class="relevant"><b><nuxt-link to="/">PRESENTA</nuxt-link></b> is an online application, currently in <b>public-beta</b>.</p>
 
-                <p>You can <a href="https://app.presenta.cc/signup">sign-up</a> and use this version free of charge.<br />
-                You can review the <nuxt-link to="/legal/privacy-policy">Privacy Policy</nuxt-link>, the <nuxt-link to="/legal/cookie-policy">Cookie Policy</nuxt-link> and <nuxt-link to="/legal/terms-of-service">Terms Of Use</nuxt-link> of <b>Presenta</b> application and website.</p>
+                    <p>You can <a href="https://app.presenta.cc/signup">sign-up</a> and use this version free of charge.<br />
+                    You can review the <nuxt-link to="/legal/privacy-policy">Privacy Policy</nuxt-link>, the <nuxt-link to="/legal/cookie-policy">Cookie Policy</nuxt-link> and <nuxt-link to="/legal/terms-of-service">Terms Of Use</nuxt-link> of <b>Presenta</b> application and website.</p>
 
-                <p>Have a wonderful day!</p>
-                <!-- <p>Crafted with passion by <a href="https://fabiofranchino.com">@fabiofranchino</a> since 2018.</p> -->
-            </div>
-        </footer>
-        
+                    <p>Have a wonderful day!</p>
+                    <!-- <p>Crafted with passion by <a href="https://fabiofranchino.com">@fabiofranchino</a> since 2018.</p> -->
+                </div>
+            </footer>
+        </div>
     </div>
 </template>
 
@@ -35,11 +40,18 @@ export default {
 
 
 <style scoped>
-footer{
-    background-color: var(--accentcolor);
-    margin-top:4rem;
+.wrapper{
+    box-shadow: 10px 10px 0 #000;
+    padding: 1rem;
 }
-footer div{
+
+footer{
+    margin-top:4rem;
+    box-shadow: 10px 10px 0 #000;
+    background-color: var(--accentcolor);
+}
+
+.wrapper div{
     padding: 1rem 2rem;
 }
 
@@ -78,6 +90,15 @@ mark{
 
 footer a{
     color: #000;
+}
+
+.btn{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn .mini{
+    font-size: 1rem;
 }
 
 @media screen and (min-width: 450px) {

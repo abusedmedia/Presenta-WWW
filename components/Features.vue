@@ -18,7 +18,7 @@
             </div>
             <div class="preimg tl">
                 <div class="img">
-                    <img loading="lazy" alt="feature 1" src="@/assets/feature_1.gif" />
+                    <img alt="feature 1" src="@/assets/feature_1.gif" />
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@
             </div>
             <div class="preimg tr">
                 <div class="img">
-                    <img loading="lazy" alt="feature 2" src="@/assets/feature_2.gif" />
+                    <img alt="feature 2" src="@/assets/feature_2.gif" />
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@
             </div>
             <div class="preimg tr">
                 <div class="img">
-                    <img loading="lazy" alt="feature 3" src="@/assets/feature_3.gif" />
+                    <img alt="feature 3" src="@/assets/feature_3.gif" />
                 </div>
             </div>
         </div>
@@ -71,7 +71,7 @@
             </div>
             <div class="preimg tl">
                 <div class="img">
-                    <img loading="lazy" alt="feature 4" src="@/assets/feature_4.gif" />
+                    <img alt="feature 4" src="@/assets/feature_4.gif" />
                 </div>
             </div>
         </div>
@@ -101,6 +101,7 @@ h1{
 .feat mark{
     background-color: var(--accentcolor);
     padding:.2rem .6rem;
+    box-shadow: 5px 5px 0 #000;
 }
 
 .feat{
@@ -136,7 +137,8 @@ h1{
   background-color: #fff;
   overflow: hidden;
   width: 100%;
-box-shadow: 0 0 20px #ccc;
+    box-shadow: 10px 10px 0 #000;
+    border:1px solid #000;
 }
 
 .feat img{
@@ -149,6 +151,7 @@ box-shadow: 0 0 20px #ccc;
 .feat .preimg{
     display: flex;
     align-items: center;
+    padding:1rem;
 }
 
 

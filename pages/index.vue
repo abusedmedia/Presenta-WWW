@@ -1,8 +1,5 @@
 <template>
-  <div id="app" :class="colorstyle">
-      <HeaderGlobal />
-
-      <div class="body">
+    <div class="body">
         <HeroHeader />
 
         <div class="vid">
@@ -11,13 +8,10 @@
       
         <Features />
         <FooterComp :noHomeLink="true" />
-      </div>
-
-  </div>
+    </div>
 </template>
 
 <script>
-import HeaderGlobal from '~/components/HeaderGlobal.vue'
 import HeroHeader from '~/components/HeroHeader.vue'
 import Features from '~/components/Features.vue'
 import FooterComp from '~/components/FooterComp.vue'
@@ -26,14 +20,17 @@ import { mapMutations, mapGetters } from 'vuex'
 
 export default {
   components:{
-    HeaderGlobal,HeroHeader,Features,FooterComp
+    HeroHeader,Features,FooterComp
   },  
-  computed:{
-    ...mapGetters(['colorstyle'])
-  },
   head () {
         return {
             title: 'Home',
+            meta: [
+                { property: 'og:title', content: 'Home' },
+                { name: 'twitter:title', content: 'Home' },
+                { property: 'og:image', content: `https://www.presenta.cc/social.png` },
+                { name: 'twitter:image', content: `https://www.presenta.cc/social.png` }
+            ]
         }
   }
 }

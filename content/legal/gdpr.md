@@ -1,4 +1,7 @@
-# GDPR
+---
+title: GDPR
+---
+
 
 ### Principles
 

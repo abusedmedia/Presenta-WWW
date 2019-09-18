@@ -1,36 +1,59 @@
 <template>
-    <div class="blog">
-        <div class="wrapper">
-            <div class="posthead">
-                <h1>{{meta.title}}</h1>
-                <small>{{date}}</small>
+    
+    <div class="body">
+        <div class="wrap">
+            
+            <div class="blog page">
+                <div class="wrapper">
+                    <div class="posthead">
+                        <h1>{{meta.title}}</h1>
+                        <small>{{date}}</small>
+                    </div>
+                    
+                    <div class="body" v-html="html"></div>
+
+                </div>
             </div>
             
-            <div class="body" v-html="html"></div>
-
         </div>
+        
+        <FooterComp />
     </div>
+    
 </template>
 
 
 <script>
+import FooterComp from '~/components/FooterComp.vue'
+
 export default {
-    layout: 'blog',
+    components:{
+        FooterComp
+    },
     async asyncData({ params }) {
-        return await import(`~/content/blog/${params.id}.md`)
+        let cnt = await import(`~/content/blog/${params.id}.md`)
+        return {
+            slug: params.id,
+            cnt: cnt
+        }
     },
     head () {
         return {
             title: this.meta.title,
             meta: [
-                { hid: 'twittertitle', name: 'twitter:title', content: this.meta.title },
-                { property: 'og:title', content: this.meta.title }
+                { property: 'og:title', content: this.meta.title },
+                { name: 'twitter:title', content: this.meta.title },
+                { property: 'og:image', content: `https://www.presenta.cc/blog/covers/${this.slug}.jpg` },
+                { name: 'twitter:image', content: `https://www.presenta.cc/blog/covers/${this.slug}.jpg` }
             ]
         }
     },
     computed:{
         meta(){
-            return this.attributes
+            return this.cnt.attributes
+        },
+        html(){
+            return this.cnt.html
         },
         date(){
             return new Date(this.meta.date).toLocaleDateString('en-US', { day: '2-digit', month: '2-digit', year: 'numeric' })
