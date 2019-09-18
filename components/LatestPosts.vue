@@ -3,7 +3,7 @@
         <h3>Check the lates posts to know more:</h3>
         <ul>
             <li v-for="item in list" :key="item.id">
-                <nuxt-link :to="item.path">{{item.name}}</nuxt-link>
+                <nuxt-link :to="item.url">{{item.name}}</nuxt-link>
             </li>
         </ul>
     </div>

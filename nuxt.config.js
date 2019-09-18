@@ -3,14 +3,16 @@ import fs from 'fs'
 import glob from 'glob'
 let files = glob.sync('**/*.md', { cwd: 'content' })
 
-files = files.map(d => {
+const list = files.map(d => {
   const folder = d.substr(0, d.indexOf('/'))
   const slug = d.substr(0, d.lastIndexOf('.'))
   const name = slug.replace(folder + '/', '')
-  return { name: name, path: `/${slug}`, folder: folder }
+  return { name: name, url: `/${slug}`, path: `/${slug}`, folder: folder }
 })
 
-fs.writeFileSync('content/blog/list.json', JSON.stringify(files.filter(d => d.folder === 'blog')))
+files = list.map(d => d.url)
+
+fs.writeFileSync('content/blog/list.json', JSON.stringify(list.filter(d => d.folder === 'blog')))
 
 export default {
   mode: 'universal',
