@@ -21,6 +21,11 @@ import { mapMutations, mapGetters } from 'vuex'
 export default {
   components:{
     HeroHeader,Features,FooterComp
+  },  
+  head () {
+        return {
+            title: 'Home'
+        }
   }
 }
 </script>
