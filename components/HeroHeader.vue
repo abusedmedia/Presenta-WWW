@@ -5,7 +5,7 @@
             Build <br />presentations <br />the modern way.
         </h1>
 
-        <QuoteStrip :message="'A personal designer to build effective documents that speak!'" />
+        <QuoteStrip :message="'Your personal trainer that helps you presenting great!'" />
 
     </div>
 </template>

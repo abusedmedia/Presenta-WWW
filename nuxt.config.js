@@ -12,7 +12,8 @@ const list = files.map(d => {
 
 files = list.map(d => d.url)
 
-fs.writeFileSync('content/blog/list.json', JSON.stringify(list.filter(d => d.folder === 'blog')))
+let blogposts = list.filter(d => d.folder === 'blog')
+fs.writeFileSync('content/blog/list.json', JSON.stringify())
 
 export default {
   mode: 'universal',
