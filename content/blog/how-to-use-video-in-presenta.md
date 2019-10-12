@@ -12,15 +12,15 @@ You can embed videos as HTML embed, by using well-known platforms such as Youtub
 
 They can be used as a repository of your videos. This is how we, the PRESENTA team, include videos in our presentations. Both Youtube and Vimeo allow to set videos as **private** or **unlisted** (meaning, they won't be found by other users but you can use their embed code).
 
-![](/blog/how-to-use-video-in-presenta/yt-embed.gif)
+![](yt-embed.gif)
 
 Then, paste the code within PRESENTA editor:
 
-![](/blog/how-to-use-video-in-presenta/paste-embed.gif)
+![](paste-embed.gif)
 
 Now you can preview them by clicking their slides:
 
-![](/blog/how-to-use-video-in-presenta/embed-video.gif)
+![](embed-video.gif)
 
 ## Get the focus
 
