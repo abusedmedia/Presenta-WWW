@@ -7,7 +7,7 @@
                 <div class="wrapper">
                     <div class="posthead">
                         <h1>{{meta.title}}</h1>
-                        <small>{{date}}</small>
+                        <small>written on {{date}}, posted on {{category}}</small>
                     </div>
                     
                     <div class="body" v-html="html"></div>
@@ -59,6 +59,9 @@ export default {
         },
         date(){
             return new Date(this.meta.date).toLocaleDateString('en-US', { day: '2-digit', month: '2-digit', year: 'numeric' })
+        },
+        category(){
+            return this.meta.category
         }
     }
 }
