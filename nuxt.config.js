@@ -1,6 +1,7 @@
 import fs from 'fs'
 
 import glob from 'glob'
+const frontmatter = require('@github-docs/frontmatter')
 let files = glob.sync('**/*.md', { cwd: 'content' })
 
 const list = files.map(d => {
@@ -12,8 +13,22 @@ const list = files.map(d => {
 
 files = list.map(d => d.url)
 
-let blogposts = list.filter(d => d.folder === 'blog')
-fs.writeFileSync('content/blog/list.json', JSON.stringify(blogposts))
+const blogposts = list.filter(d => d.folder === 'blog')
+;(async () => {
+  blogposts.forEach(async d => {
+    const markdown = fs.readFileSync('content' + d.url + '.md')
+    const doc = frontmatter(markdown)
+    d.title = doc.data.title
+    d.date = doc.data.date
+  })
+
+  blogposts.sort((a, b) => {
+    return a.date < b.date
+  })
+
+  console.log(blogposts)
+  fs.writeFileSync('content/blog/list.json', JSON.stringify(blogposts))
+})()
 
 export default {
   mode: 'universal',

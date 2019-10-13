@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@github-docs/frontmatter": "^1.2.0",
     "normalize-css": "^2.3.1",
     "nuxt": "^2.9.2"
   },
