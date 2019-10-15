@@ -26,7 +26,6 @@ const blogposts = list.filter(d => d.folder === 'blog')
     return a.date < b.date
   })
 
-  console.log(blogposts)
   fs.writeFileSync('content/blog/list.json', JSON.stringify(blogposts))
 })()
 
