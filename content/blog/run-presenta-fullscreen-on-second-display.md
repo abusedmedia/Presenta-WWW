@@ -1,7 +1,7 @@
 ---
 title: Run the presentation fullscreen on secondary monitor on MacOsX
 date: 2019-10-12
-category: howto
+category: how-to
 ---
 
 If you are on MacOsX, chances are that a default setting of **Mission Control**, together with a MacOsX bug, prevents displaying the main screen (becoming full black) when running the PRESENTA presentation window in fullscreen on a secondary monitor.

@@ -7,7 +7,7 @@
                 <div class="wrapper">
                     <div class="posthead">
                         <h1>{{meta.title}}</h1>
-                        <small>written on {{date}}, posted on {{category}}</small>
+                        <small>posted on <strong>{{date}}</strong>, in <strong>{{category}}</strong></small>
                     </div>
                     
                     <div class="body" v-html="html"></div>
