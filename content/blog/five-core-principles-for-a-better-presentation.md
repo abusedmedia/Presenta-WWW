@@ -13,7 +13,8 @@ In one of his famous TED talk is possible to learn some useful core principles t
 - **Font size** should be set according to the importance of the text
 - **Contrast** is a powerful tool to draw attention and easy readability
 - Lower the **number of items** / object per single slide, six is the magic number. The rule is: the reader doesn't have to count those elements, just looking at it to know that number
-- You, the presenter, are the **main actor**, the presentation should be less visible than you
+
+A rule of thumb, you, as a presenter, are the **main actor**, the presentation should be less visible and important than you, ever.
 
 **PRESENTA** want to be the next-gen tool to make effective presentations in no time because you can spend your time building great content!
 
