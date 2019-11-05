@@ -38,13 +38,14 @@ export default {
         }
     },
     head () {
+        let cover = this.meta.nocover ? 'social.png' : `blog/covers/${this.slug}.jpg`
         return {
             title: this.meta.title,
             meta: [
                 { hid:'ogtit', property: 'og:title', content: this.meta.title },
                 { hid:'twtit', name: 'twitter:title', content: this.meta.title },
-                { hid:'ogimg', property: 'og:image', content: `https://www.presenta.cc/blog/covers/${this.slug}.jpg` },
-                { hid:'twimg', name: 'twitter:image', content: `https://www.presenta.cc/blog/covers/${this.slug}.jpg` },
+                { hid:'ogimg', property: 'og:image', content: `https://www.presenta.cc/${cover}` },
+                { hid:'twimg', name: 'twitter:image', content: `https://www.presenta.cc/${cover}` },
                 { hid:'ogurl', property: 'og:url', content: `https://www.presenta.cc/blog/${this.slug}` },
                 { hid:'twurl', name: 'twitter:url', content: `https://www.presenta.cc/blog/${this.slug}` }
             ]

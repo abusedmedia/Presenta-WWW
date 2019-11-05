@@ -3,6 +3,7 @@ date: 2019-09-16
 title: Hello PRESENTA!
 category: core
 home: true
+nocover: true
 ---
 
 We, at **PRESENTA**, do believe that presentations can be built differently.
