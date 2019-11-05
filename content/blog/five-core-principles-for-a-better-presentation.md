@@ -15,6 +15,6 @@ In one of his famous TED talk is possible to learn some useful core principles t
 - Lower the **number of items** / object per single slide, six is the magic number. The rule is: the reader doesn't have to count those elements, just looking at it to know that number
 - You, the presenter, are the **main actor**, the presentation should be less visible than you
 
-**PRESENTA** want to be the next-gen tool to make effective presentations in no time because you can spend your time building great content!
+**PRESENTA** want to be the *next-gen* tool to make effective presentations in no time because you can spend your time building great content!
 
 It follows some core principles to foster content-first, enforcing best practices, trying to make a cut from the Powerpoint legacy.
