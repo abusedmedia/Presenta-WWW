@@ -2,6 +2,7 @@
 date: 2019-10-14
 title: Speech VS Documentation
 category: core
+home: true
 ---
 
 Let's talk about a misconception: the purpose of a presentation document. 
