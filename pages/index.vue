@@ -31,7 +31,7 @@ export default {
   },
   async asyncData(){
     let res = await import(`~/content/blog/list.json`)
-    return {posts: res.default}
+    return {posts: res.default.filter(d => d.home)}
   }
 }
 </script>

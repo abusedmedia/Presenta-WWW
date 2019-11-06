@@ -13,7 +13,7 @@ const list = files.map(d => {
 
 files = list.map(d => d.url)
 
-let blogposts = list.filter(d => d.folder === 'blog')
+const blogposts = list.filter(d => d.folder === 'blog')
 ;(async () => {
   blogposts.forEach(async d => {
     const markdown = fs.readFileSync('content' + d.url + '.md')
@@ -26,8 +26,6 @@ let blogposts = list.filter(d => d.folder === 'blog')
   blogposts.sort((a, b) => {
     return a.date < b.date
   })
-
-  blogposts = blogposts.filter(d => d.home)
 
   fs.writeFileSync('content/blog/list.json', JSON.stringify(blogposts))
 })()
