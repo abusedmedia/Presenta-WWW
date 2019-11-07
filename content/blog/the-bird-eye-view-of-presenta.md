@@ -8,14 +8,14 @@ In **PRESENTA** the first-citizen view is the grid layout rather that the common
 
 ![](covers/the-bird-view-of-presenta.png)
 
-There a reason for that: 
+There's a reason for that: 
 
-> having a clear overview of the whole is much more meaningful than a partial representation.
+> having a clear overview of the **whole** is much more meaningful than a *partial* representation.
 
-A presentation document is a sequence of concepts and each slide serves a specific purpose in a defined context.
+A presentation document is a **sequence of concepts** and each slide serves a specific purpose in a given context.
 
-The bird-eye view is also well supported by the way **PRESENTA** display texts (less and bigger) giving the possibility to constantly reviewing the whole flow of the document, reading chuncks of text here and there.
+The bird-eye view is also well supported by the way **PRESENTA** display texts (**less** and **bigger**) giving the possibility to constantly reviewing the whole flow of the document, reading chuncks of text here and there.
 
-We believe the **PRESENTA** default slide view is a better tool when building a presentation than a slide-focussed view of other common tools.
+We believe the **PRESENTA** default slides view is a better tool when building a presentation than a single slide focussed view of other popular tools.
 
-We know, it's something the others don't do, but there's a very dangerous saying, you know? "we always do it that way".
+We know, it's something the others don't do, but there's a very dangerous *saying*, you know? "we always do it that way".
