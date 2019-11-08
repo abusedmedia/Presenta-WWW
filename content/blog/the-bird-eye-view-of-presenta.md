@@ -7,7 +7,7 @@ cover: true
 
 In **PRESENTA** the first-citizen view is the grid layout rather that the common sidebar+canvas provided by all the other popular tools such as Powerpoint, Keynote and Google Presentation.
 
-![](covers/the-bird-view-of-presenta.png)
+![](/blog/covers/the-bird-view-of-presenta.png)
 
 There's a reason for that: 
 
