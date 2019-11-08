@@ -2,6 +2,7 @@
 title: The bird-eye view of PRESENTA
 date: 2019-11-08
 category: core
+cover: true
 ---
 
 In **PRESENTA** the first-citizen view is the grid layout rather that the common sidebar+canvas provided by all the other popular tools such as Powerpoint, Keynote and Google Presentation.

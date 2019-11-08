@@ -2,6 +2,7 @@
 date: 2019-11-07
 title: How to include videos in a PDF presentation
 category: how-to
+cover: true
 ---
 
 If you've made some speeches from time to time, you already know the case. 

@@ -3,6 +3,7 @@ title: The boundaries of PRESENTA
 date: 2019-10-01
 category: core
 home: true
+cover: true
 ---
 
 **PRESENTA** exists because of a dream. It wants to be a tool to:

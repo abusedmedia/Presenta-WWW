@@ -2,7 +2,6 @@
 date: 2019-11-05
 title: Five core principles for a better presentation
 category: core
-nocover: true
 ---
 
 [David JP Phillips](https://www.davidjpphillips.com/) is a well-known presentations expert, speaker, and consultant that helps companies presenting and speaking better and more efficiently.

@@ -2,7 +2,6 @@
 title: How to include video files in PRESENTA
 date: 2019-10-12
 category: how-to
-nocover: true
 ---
 
 With the beta version of PRESENTA, you cannot upload video files. No worries, there's an handy way to use them, though.

@@ -3,6 +3,7 @@ title: Who is PRESENTA for?
 date: 2019-09-18
 category: core
 home: true
+cover: true
 ---
 
 Anyone working in the product design industry knows very well that any product must have well defined personas because it's simply not possible to meet the needs of everybody with one single solution.

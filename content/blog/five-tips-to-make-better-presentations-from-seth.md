@@ -2,7 +2,6 @@
 date: 2019-11-06
 title: Five tips to make better presentations from Seth
 category: core
-nocover: true
 ---
 
 In this [short post](https://seths.blog/2018/07/generous-assertions/), Seth Godin gave some hints about creating better presentations.

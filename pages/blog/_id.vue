@@ -38,7 +38,7 @@ export default {
         }
     },
     head () {
-        let cover = this.meta.nocover ? 'social.png' : `blog/covers/${this.slug}.jpg`
+        let cover = this.meta.cover ? `blog/covers/${this.slug}.jpg` : 'social.png'
         return {
             title: this.meta.title,
             meta: [
