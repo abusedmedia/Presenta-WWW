@@ -65,7 +65,7 @@ export default {
     ],
     link: [
       { rel: 'stylesheet', href: 'https://use.typekit.net/umd8hrf.css' },
-      { rel: 'icon', href: 'favicon.png' }
+      { rel: 'icon', href: '/favicon.png' }
     ]
   },
   css: [

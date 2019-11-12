@@ -17,4 +17,4 @@ There's an interesting *side effect* by using those services: the exported PDF w
 
 Here a screenshot of a PDF exported from PRESENTA with embedded videos:
 
-![](covers/how-to-include-videos-in-pdf-presentation.jpg)
+![](/blog/covers/how-to-include-videos-in-pdf-presentation.jpg)
