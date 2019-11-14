@@ -11,7 +11,7 @@ You've shown some videos during the presentation and then you share the exported
 
 ## Embedding videos
 
-We've [already written](how-to-use-video-in-presenta/) about how **PRESENTA** allows to include (embed) videos from services such as Youtube and Vimeo.
+We've [already written](/blog/how-to-use-video-in-presenta/) about how **PRESENTA** allows to include (embed) videos from services such as Youtube and Vimeo.
 
 There's an interesting *side effect* by using those services: the exported PDF will contain a poster-frame of the video as well as its URL, allowing the PDF readers accessing the videos quite easily.
 
