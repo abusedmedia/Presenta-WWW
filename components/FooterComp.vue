@@ -4,7 +4,7 @@
 
         <div class="signup">
             <a class="btn" href="https://app.presenta.cc/signup">
-                <span>Make <b>awesome</b> presentations!</span>
+                <span>Make <b>effective</b> presentations!</span>
                 <span class="mini">(in no time)</span>
             </a>
         </div>
