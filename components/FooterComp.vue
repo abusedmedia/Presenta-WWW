@@ -1,11 +1,10 @@
 <template>
     <div class="footer">
         
-
         <div class="signup">
+            <h4>Get started with PRESENTA</h4>
             <a class="btn" href="https://app.presenta.cc/signup">
-                <span>Make <b>effective</b> presentations!</span>
-                <span class="mini">(in no time)</span>
+                <span>Create an account</span>
             </a>
         </div>
         <div class="learnmore" v-if="!noHomeLink">
@@ -68,11 +67,17 @@ p.relevant{
 
 .signup{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-top: 4rem;
 
     font-size:3em;
+}
+
+.signup h4{
+    margin: 0;
+    margin-bottom: 1rem;
 }
 
 .learnmore{

@@ -18,18 +18,18 @@ Charts, when appropriate in a given context, act as meaningful images. They are 
 
 It's just a matter of copying the embed code from your Datawrapper chart:
 
-![](/blog/how-to-display-interactive-charts-in-presenta/datawrapper.gif)
+![](datawrapper.gif)
 
 Then, include it in PRESENTA:
 
-![](/blog/how-to-display-interactive-charts-in-presenta/a.gif)
+![](a.gif)
 
 You can preview it by selecting its slide, adjusting also the background color and padding as well:
 
-![](/blog/how-to-display-interactive-charts-in-presenta/b.gif)
+![](b.gif)
 
 And you can present **interacting with it** during your presentation:
 
-![](/blog/how-to-display-interactive-charts-in-presenta/c.gif)
+![](c.gif)
 
 You can only imagine **how powerful** your speech can be with such capability!
