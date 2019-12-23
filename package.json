@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nuxt --hostname 0.0.0.0 --port 3000",
     "build": "nuxt build",
     "spa": "nuxt build --spa",
@@ -17,7 +16,11 @@
   "dependencies": {
     "@github-docs/frontmatter": "^1.2.1",
     "normalize-css": "^2.3.1",
-    "nuxt": "^2.10.2"
+    "nuxt": "^2.11.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "engines": {
+    "node": "12.13.1"
   },
   "devDependencies": {
     "@nuxtjs/sitemap": "^1.3.0",
