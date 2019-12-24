@@ -59,7 +59,7 @@ export default {
             return this.cnt.html
         },
         date(){
-            return new Date(this.meta.date).toLocaleDateString('en-US', { day: '2-digit', month: '2-digit', year: 'numeric' })
+            return new Date(this.meta.date).toLocaleDateString()
         },
         category(){
             return this.meta.category

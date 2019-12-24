@@ -1,5 +1,6 @@
 import fs from 'fs'
 
+import { descending } from 'd3'
 import glob from 'glob'
 const frontmatter = require('@github-docs/frontmatter')
 let files = glob.sync('**/*.md', { cwd: 'content' })
@@ -14,21 +15,19 @@ const list = files.map(d => {
 files = list.map(d => d.url)
 
 const blogposts = list.filter(d => d.folder === 'blog')
-;(async () => {
-  blogposts.forEach(async d => {
-    const markdown = fs.readFileSync('content' + d.url + '.md')
-    const doc = frontmatter(markdown)
-    d.title = doc.data.title
-    d.date = doc.data.date
-    d.home = doc.data.home
-  })
+blogposts.forEach(d => {
+  const markdown = fs.readFileSync('content' + d.url + '.md')
+  const doc = frontmatter(markdown)
+  d.title = doc.data.title
+  d.date = doc.data.date
+  d.home = doc.data.home
+})
 
-  blogposts.sort((a, b) => {
-    return a.date < b.date
-  })
+blogposts.sort((a, b) => {
+  return descending(a.date, b.date)
+})
 
-  fs.writeFileSync('content/blog/list.json', JSON.stringify(blogposts))
-})()
+fs.writeFileSync('content/blog/list.json', JSON.stringify(blogposts))
 
 export default {
   mode: 'universal',
