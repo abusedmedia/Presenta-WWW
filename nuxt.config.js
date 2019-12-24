@@ -73,9 +73,9 @@ export default {
     '~/css/style.css'
   ],
 
-  plugins: [
-    { src: '~plugins/ga.js', ssr: false }
-  ],
+  // plugins: [
+  //   { src: '~plugins/ga.js', ssr: false }
+  // ],
   build: {
     extend (config) {
       config.module.rules.push({
