@@ -23,3 +23,5 @@ You, as a PRESENTA user, have the right to as for the following actions regardin
 - Following the right to data portability, you can [ask](mailto:support@presenta.cc) to receive all the data that belong to your personal account.
 - Following the right to rectification, you can edit your personal information by your own in the profile page.
 - Following the right to be informed, you'll receive in your personal email any information regarding your privacy or possible data breach.
+
+We'll continue to keep updated this document that outlines our privacy of intent.

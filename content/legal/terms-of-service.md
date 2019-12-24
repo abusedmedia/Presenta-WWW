@@ -14,7 +14,7 @@ title: Terms of Service
 
 ## Acknowledgement and acceptance of terms
 
-PRESENTA offers https://presenta.cc (the Application and the Website) and other websites within the domain present.cc (collectively, the "Sites"), including all information, tools and services available from this site offered to the user, the user, provided that you accept all the terms, conditions, policies and communications set forth herein.
+PRESENTA offers the Application, the Website and other websites within the domain **present.cc** (collectively, the "Sites"), including all information, tools and services available from this site offered to the user, the user, provided that you accept all the terms, conditions, policies and communications set forth herein.
 
 By using the Service, you agree to be bound by these Terms of Service, all applicable laws and regulations, and agree to be responsible for compliance with applicable local laws. If you do not agree with any of these terms, you may not use or access this site. The materials contained in this website are protected by applicable copyright and trademark laws.
 

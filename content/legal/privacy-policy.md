@@ -44,10 +44,7 @@ We use "cookies" to collect information about you and your business on our site.
 
 ## Third-party access to information
 
-We use third-party services for:
-
-- Analytics tracking
-- User authentication
+We use third-party services for newsletter and email transaction functionalities.
 
 These services can access our data exclusively for the purpose of performing specific tasks on our behalf. We do not share any personally identifiable information with them without your explicit consent. We do not give them permission to disclose or use any of our data for other purposes.
 
@@ -59,7 +56,7 @@ Otherwise we do not share or provide personal information to third parties. We d
 
 ## Children’s Privacy
 
-Our service is not intended for children under the age of 16, therefore PRESENTA does not knowingly collect or receive personal data from children under the age of 16. we will take appropriate measures to remove such user's information from our account database and limit that individual from future access to the Service.
+Our service is not intended for children under the age of 16, therefore PRESENTA does not knowingly collect or receive personal data from children under the age of 16. We will take appropriate measures to remove such user's information from our database and limit that individual from future access to the Service.
 
 ## Limits of our policy
 
@@ -69,7 +66,7 @@ Our website may be linked to external sites that are not operated by us. Please 
 
 ## Changes to this policy
 
-At our discretion, we may change our privacy policy to reflect current acceptable practices. We will take reasonable steps to inform users about changes via our website. If you are a registered user on https://presenta.cc, we will inform you using the contact details saved in your account. Your continued use of this site after any changes to this policy will be considered as acceptance of our privacy and personal information practices.
+At our discretion, we may change our privacy policy to reflect current acceptable practices. We will take reasonable steps to inform users about changes via our website. If you are a registered user on PRESENTA, we will inform you using the contact details saved in your account. Your continued use of this site after any changes to this policy will be considered as acceptance of our privacy and personal information practices.
 
 ## Your rights and responsibilities
 
