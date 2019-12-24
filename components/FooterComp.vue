@@ -17,10 +17,11 @@
                     <p class="relevant"><b><nuxt-link to="/">PRESENTA</nuxt-link></b> is an online application, currently in <b>public-beta</b>.</p>
 
                     <p>You can <a href="https://app.presenta.cc/signup">sign-up</a> and use this version free of charge.<br />
-                    You can review the <nuxt-link to="/legal/privacy-policy">Privacy Policy</nuxt-link>, the <nuxt-link to="/legal/cookie-policy">Cookie Policy</nuxt-link> and <nuxt-link to="/legal/terms-of-service">Terms Of Use</nuxt-link> of <b>Presenta</b> application and website.</p>
+                    You can review the <nuxt-link to="/legal/privacy-policy">Privacy Policy</nuxt-link>, the <nuxt-link to="/legal/cookie-policy">Cookie Policy</nuxt-link> and <nuxt-link to="/legal/terms-of-service">Terms Of Use</nuxt-link> of <b>PRESENTA</b> application and website.</p>
 
-                    <p>Have a wonderful day!</p>
-                    <!-- <p>Crafted with passion by <a href="https://fabiofranchino.com">@fabiofranchino</a> since 2018.</p> -->
+                    <p>Have a wonderful day! <br />
+                    <span class="little">Pssss! Do you know you're NOT tracked at all?</span></p>
+                    
                 </div>
             </footer>
         </div>
@@ -88,6 +89,9 @@ p.relevant{
     color:#000;
 }
 
+.little{
+    font-size: .7rem;
+}
 
 mark{
     background-color: var(--forecolor);
