@@ -21,10 +21,10 @@ What they call **AI** is actually a shuffle between a bunch of hand-made presets
 
 > The no-bullshit principle
 
-Meaning, we don’t want to fool the users with some buzzwords that made the product smart and innovative (but in reality it's not).
+Meaning, we don’t want to fool the users with some buzzwords that made the product smart and innovative (and actually is not).
 We don’t want doctoring features for the shake of an actual trend.
 In simple terms, we don’t want to tell you bullshits.
 
 The time **PRESENTA** will incorporate **AI** capabilities it will be real **AI** for a real requirement.
 
-Right now, **PRESENTA** is a tool (slowly) designed with care with the aim to be useful for real without fooling anyone.
+Right now, **PRESENTA** is a tool (slowly) creafted with care with the aim to be useful for real without fooling anyone.
