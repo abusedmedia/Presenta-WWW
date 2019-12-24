@@ -60,7 +60,9 @@ export default {
 
       { hid: 'description', name: 'description', content: 'Presenta, a presentation tool. Build presentations the modern way.' },
       { hid: 'keywords', name: 'keywords', content: 'presentation, data, information, presenting, speech, pitch' },
-      { hid: 'author', name: 'author', content: 'Fabio Franchino' }
+      { hid: 'author', name: 'author', content: 'Fabio Franchino' },
+      { hid: 'published_time', name: 'article:published_time', content: '' }
+
     ],
     link: [
       { rel: 'stylesheet', href: 'https://use.typekit.net/umd8hrf.css' },

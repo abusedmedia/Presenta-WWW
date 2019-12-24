@@ -42,6 +42,7 @@ export default {
         return {
             title: this.meta.title,
             meta: [
+                { hid:'published_time', property: 'article:published_time', content: this.meta.date },
                 { hid:'ogtit', property: 'og:title', content: this.meta.title },
                 { hid:'twtit', name: 'twitter:title', content: this.meta.title },
                 { hid:'ogimg', property: 'og:image', content: `https://www.presenta.cc/${cover}` },
