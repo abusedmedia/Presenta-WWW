@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
        
-        <QuoteStrip :message="'So, what\'s the catch?'" />
+        <!-- <QuoteStrip :message="'So, what\'s the catch?'" /> -->
 
 
         <div class="feat first">

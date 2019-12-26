@@ -2,9 +2,9 @@
     <div class="body">
         <HeroHeader />
 
-        <div class="vid">
+        <!-- <div class="vid">
           <video src="/ui.m4v" muted autoplay loop poster="ui.jpg"></video>
-        </div>
+        </div> -->
       
         <Features />
         <LatestPosts :list="posts" />
