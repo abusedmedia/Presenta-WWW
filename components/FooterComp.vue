@@ -43,7 +43,7 @@ export default {
 .wrapper{
     box-shadow: 10px 10px 0 #000;
     padding: 1rem;
-        padding-right: 1.5rem;
+    padding-right: 1.5rem;
 
 }
 
@@ -59,11 +59,11 @@ footer{
 
 footer p{
     text-align: center;
-    font-size:1.4rem;
+    font-size:1.8rem;
 }
 
 p.relevant{
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .signup{
@@ -90,7 +90,7 @@ p.relevant{
 }
 
 .little{
-    font-size: .7rem;
+    font-size: .9rem;
 }
 
 mark{

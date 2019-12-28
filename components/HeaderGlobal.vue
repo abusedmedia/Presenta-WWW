@@ -24,8 +24,18 @@ header{
     z-index: 9999;
 }
 
-.login{
+/* .login{
     display:none;
+} */
+
+.btn{
+    font-size:1.5rem;
+}
+
+@media screen and (min-width: 450px) {
+    .btn{
+        font-size:1rem;
+    }
 }
 
 div{
