@@ -18,7 +18,7 @@ Let's see in detail what's happened with this release.
 
 ## What's new
 
-#### The editing experience
+### The editing experience
 
 The biggest change, no doubt, has been in the editing experience from the user perspective. What was before very similar to other tools such as PowerPoint and Keynote, the typical sidebar with the slides and the main area on the right to add text and other content, now there's just one single place to work with slides.
 
@@ -26,27 +26,29 @@ In the previous version there were two main places, the "grid" view to handle th
 
 Now, the main editor view allows editing both the presentation structure, adding, moving, deleting and configuring slides as well as the slide content such as adding text, images, embeds and so on.
 
+![](feature.gif)
+
 This is a big shift in terms of user experience. We believe this is the way to go for **PRESENTA**.
 
-#### Workspaces
+### Workspaces
 
 **PRESENTA** will introduce workspaces at some point, the possibility to organize presentations in different buckets, called workspaces. The functionality is not active yet.
 
-#### Theme
+### Theme
 
 The theming system has been redesigned from the ground up in order to support many more upcoming features. Right now it looks very similar to the previous one but behind the scene a lot has changed. Again, you'll see the possibilities shortly.
 
 ## What has been removed (temporarily)
 
-#### Asset manager
+### Asset manager
 
 The old asset manager has been removed. A new completely redesigned tool will be introduced to support that functionality.
 
-#### PDF Export
+### PDF Export
 
 The PDF export needs some more work in order to be released again. Just wait a little bit.
 
-#### Presentation thumbnail generator
+### Presentation thumbnail generator
 
 Same as the PDF export, just wait for it.
 
@@ -58,7 +60,7 @@ It has been a massive change from the technical perspective and potentially some
 
 We worked hard to avoid any "content" loss, which means the text and assets shouldn't be compromised. There are some settings (such as theme settings) that might be lost or not properly converted. 
 
-Since the way **PRESENTA** allows to customize the theme (very fast), it's not a big deal re-setting some theme configuration.
+Since the way **PRESENTA** allows to customize the theme (very fast), it's not a big deal re-doing those theme settings.
 
 ## What's next
 
