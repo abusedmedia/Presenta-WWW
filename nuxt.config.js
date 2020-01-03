@@ -90,7 +90,8 @@ export default {
     routes: files
   },
   modules: [
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    ['nuxt-canonical', { baseUrl: 'https://www.presenta.cc' }]
   ],
   sitemap: {
     hostname: 'https://www.presenta.cc'
