@@ -1,6 +1,6 @@
 ---
 title: PDF export is back!
-date: 2020-01-07
+date: 2020-01-06
 cover: true
 category: updates
 ---
