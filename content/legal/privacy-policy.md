@@ -3,7 +3,7 @@ title: Privacy Policy
 ---
 
 
-This document informs you about how we respect your privacy regarding any information we might collect from the website and from the application hosted on the **presenta.cc** domain.
+This document informs you about how we respect your privacy regarding any information we might collect from the website and from the application hosted on the **presenta.cc** top level domain.
 
 ## Information we collect
 

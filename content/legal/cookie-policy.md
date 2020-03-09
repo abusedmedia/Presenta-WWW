@@ -3,7 +3,7 @@ title: Cookie Policy
 ---
 
 
-We use cookies to help you improve your experience on PRESENTA Application and Website. This cookie policy is part of PRESENTA's privacy policy and covers the use of cookies between your device and our site. We also provide basic information about the third-party services we may use, which may also use cookies as part of their service, although they are not covered by our policy.
+We use cookies to help you improve your experience on PRESENTA Application and Website. This cookie policy is part of PRESENTA's privacy policy and covers the use of cookies between your device and our sites. We also provide basic information about the third-party services we may use, which may also use cookies as part of their service, although they are not covered by our policy.
 
 If you do not wish to accept cookies from us, you must tell your browser to refuse cookies from https://presenta.cc with the understanding that we may not be able to provide you with some of the desired content and services.
 

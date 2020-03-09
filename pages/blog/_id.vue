@@ -111,20 +111,5 @@ export default {
 }
 
 
-
 </style>
 
-
-<style>
-blockquote{
-    border-left:6px solid #ccc;
-    padding-left:2rem;
-    padding-top:1rem;
-    padding-bottom:1rem;
-    margin:0;
-    font-size: 1.6em;
-}
-blockquote p{
-    margin: 0;
-}
-</style>

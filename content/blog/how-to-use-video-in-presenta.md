@@ -4,7 +4,7 @@ date: 2019-10-12
 category: how-to
 ---
 
-With the beta version of PRESENTA, you cannot upload video files. No worries, there's an handy way to use them, though.
+With the beta version of **PRESENTA**, you cannot upload video files. No worries, there's an handy way to use them, though.
 
 ## Embed!
 
