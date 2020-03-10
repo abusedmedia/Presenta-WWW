@@ -111,5 +111,14 @@ export default {
 }
 
 
+.blog .body >>> h2{
+    margin:0;
+    padding-top:2rem;
+}
+
+
 </style>
+
+
+
 

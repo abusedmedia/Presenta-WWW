@@ -43,6 +43,27 @@ body, #app, #__nuxt, #__layout{
   width:100%;
 }
 
+.page blockquote{
+  border-left:6px solid #ccc;
+  padding-left:2rem;
+  padding-top:1rem;
+  padding-bottom:1rem;
+  margin:0;
+  font-size: 1.6em;
+}
+.page blockquote p{
+  margin: 0;
+}
+
+.page code{
+  background-color: #eee;
+  padding: .1rem .4rem;
+}
+
+.page ul, .page ol{
+  line-height: 2rem;
+}
+
 video{
   object-fit: cover;
   object-position: top left;
