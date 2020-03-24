@@ -17,6 +17,7 @@
             
         </div>
         
+        <CTA />
         <FooterComp />
     </div>
     
@@ -24,11 +25,12 @@
 
 
 <script>
+import CTA from '~/components/CTA.vue'
 import FooterComp from '~/components/FooterComp.vue'
 
 export default {
     components:{
-        FooterComp
+        FooterComp,CTA
     },
     async asyncData({ params }) {
         let cnt = await import(`~/content/blog/${params.id}.md`)

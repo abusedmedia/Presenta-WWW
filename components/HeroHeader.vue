@@ -5,7 +5,7 @@
             Build <br />presentations <br />the modern way.
         </h1>
 
-        <QuoteStrip :message="'Your personal trainer that helps you presenting great!'" />
+        <!-- <QuoteStrip :message="'Your personal trainer that helps you presenting great!'" /> -->
 
     </div>
 </template>
@@ -27,12 +27,13 @@ h1{
     line-height: 8rem;
     padding:2rem 2rem;
     margin:0;
+    text-align: center;
 }
 
 
 @media(min-width: 600px){
   h1{
-    text-align: center;
+    
     padding: 2rem .5rem;
     line-height: 6rem;
   }

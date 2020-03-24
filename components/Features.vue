@@ -7,13 +7,12 @@
         <div class="feat first">
             <div>
                 <div class="txt">
-                    <h3><mark>Content First!</mark></h3>
-                        <p><b>PRESENTA</b> enables the content-first principle. </p>
-                        <p>Instead of starting positioning elements on the canvas, it's better <b>writing great contents</b> first.</p>
-                        <p>This seems obvious but the current status-quo of the presentation tools forces people the other way around.</p> 
-                        <p>The best way to exploit <b>PRESENTA</b> is by starting with a solid message.</p>
-                        <!--<p><nuxt-link class="btn mini" to="/learn/content-first">Learn more</nuxt-link></p>-->
-                    </p>
+                        <h2><mark>Content first!</mark></h2>
+                        <h3>What do you mean? Structure your speech before you start playing with colors.</h3>
+                        <p>Starting from the look of a template you like makes no communication sense. No wonder you end up frustrated!</p>
+                        <p><b>PRESENTA</b> shifts the process because it makes creating, defining and adding content the first step in the process.</p>
+                        
+                        <!-- <p><nuxt-link to="/learn/content-first">Learn more</nuxt-link></p> -->
                 </div>
             </div>
             <div class="preimg tl">
@@ -23,13 +22,34 @@
             </div>
         </div>
 
+
         <div class="feat inv">
             <div>
                 <div class="txt">
-                    <h3><mark>Set the Look&Feel in seconds</mark></h3>
-                    <p>Pushing pixels is time-consuming.</p>
-                    <p>Use your time to write and structure <b>valuable contents</b> instead of moving elements on the screen.</p>
-                    <p><b>PRESENTA</b> comes with a set of sensible defaults with quick options to meet your style.</p>
+                    <h2><mark>Constraints help</mark></h2>
+                    <h3>With best practices embedded in PRESENTA's structure, you can't go wrong.</h3>
+                    <p>Visually shaping information so it is clear and effective is hard! Designers and public speaking gurus make it look easy because they know the rules of the game.</p>
+                    <p><b>PRESENTA</b> takes those rules and makes following them your only option, sparing you the guesswork and automatically steering you in the right direction.</p>
+                    
+                </div>
+                
+            </div>
+            <div class="preimg tr">
+                <div class="img">
+                    <img alt="feature 3" src="@/assets/feature_3.gif" />
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="feat">
+            <div>
+                <div class="txt">
+                    <h2><mark>Sensible defaults</mark></h2>
+                    <h3>This is the most excited you'll ever be about formatting.</h3>
+                    <p>We've all been there: too many choices – fonts, colors, size, and more! – can be daunting. </p>
+                    <p><b>PRESENTA</b> comes with a set of defaults and options to refine the look and feel of your presentations in seconds. It's efficient, fun, done.</p>
                     
                 </div>
                 
@@ -41,40 +61,7 @@
             </div>
         </div>
 
-        <div class="feat">
-            <div>
-                <div class="txt">
-                    <h3><mark>Enforce best practices</mark></h3>
-                    <p><b>PRESENTA</b> limits purposely what you can do and don't on a slide. 
-                        It forces you to put only the relevant materials that can <b>boost your communication</b>.</p>
-                    <p>Embracing its constraints is the best way to enhancing presentation contents.</p>
-                    </p>
-                </div>
-                
-            </div>
-            <div class="preimg tr">
-                <div class="img">
-                    <img alt="feature 3" src="@/assets/feature_3.gif" />
-                </div>
-            </div>
-        </div>
-
-        <div class="feat inv last">
-            <div>
-                <div class="txt">
-                    <h3><mark>Harness the web!</mark></h3>
-                    <p>Internet is full of fresh, live and interactive contents.</p>
-                    <p><b>PRESENTA</b> doesn't want to reinvent wheels. It's better using other tools for specific tasks and outcomes.</p>
-                    <p><b>Let's embed them!</b></p>
-                </div>
-                
-            </div>
-            <div class="preimg tl">
-                <div class="img">
-                    <img alt="feature 4" src="@/assets/feature_4.gif" />
-                </div>
-            </div>
-        </div>
+        
 
     </div>
 </template>
@@ -94,8 +81,8 @@ export default {
 
 
 <style scoped>
-h1{
-    text-align: center;
+.wrapper{
+    padding-top:1rem;
 }
 
 .feat mark{
@@ -126,8 +113,8 @@ h1{
 
 .feat .txt{
     padding: 2rem;
-    font-size: 2.4rem;
-    
+    font-size: 2.8rem;
+    padding-top:0;
 }
 
 
@@ -145,26 +132,27 @@ h1{
     object-fit: contain;
     object-position: top left;
     width: 100%;
-    height: 100%;
 }
 
 .feat .preimg{
-    display: flex;
-    align-items: center;
+    
     padding:1rem;
-        padding-right: 1.5rem;
-
+    padding-right: 1.5rem;
+    padding-top:0;
 }
 
 
 @media screen and (min-width:550px) {
     .feat .txt{
-        font-size: 1.5rem;
+        font-size: 1.85rem;
     }
 }
 
 
-@media screen and (min-width:770px) {
+@media screen and (min-width:970px) {
+    .feat h2{
+        margin-top:0;
+    }
     .feat{
         flex-direction: row;
     }
@@ -172,7 +160,7 @@ h1{
         flex-direction: row-reverse;
     }
     .feat .txt{
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
 
     
@@ -180,4 +168,6 @@ h1{
         object-position: top right;
     }
 }
+
+
 </style>

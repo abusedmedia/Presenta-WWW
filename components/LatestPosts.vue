@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper">
-        <h3>Learn more from the <nuxt-link to="blog">Blog</nuxt-link>:</h3>
+        <h2>Find how-to's (and why's!) on our <nuxt-link to="blog">blog</nuxt-link>:</h2>
         <ul>
             <li v-for="item in list" :key="item.id">
                 <nuxt-link :to="item.url + '/'">{{item.title}}</nuxt-link>
@@ -25,7 +25,7 @@ export default {
     padding:1rem;
     font-size:2rem;
 }
-.wrapper h3{
+.wrapper h2{
     text-align: center;
 }
 
