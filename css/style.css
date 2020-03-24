@@ -21,7 +21,7 @@ body, #app, #__nuxt, #__layout{
 #app{
   display: flex;
   flex-direction: column;
-  font-family: ivyjournal, sans-serif;
+  font-family: source-sans-pro, sans-serif
 }
 
 
@@ -131,7 +131,7 @@ html{
   cursor: pointer;
   box-shadow: 0 0 5px rgba(0,0,0,.3);
   text-decoration: none;
-  font-family: Lato, sans-serif;
+  font-weight: 600;
   transition: transform .15s cubic-bezier(0.19, 1, 0.22, 1), background-color .25s ease-in-out;
 }
 .btn:hover{

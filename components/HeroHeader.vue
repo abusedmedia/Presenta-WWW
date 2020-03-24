@@ -28,6 +28,7 @@ h1{
     padding:2rem 2rem;
     margin:0;
     text-align: center;
+    font-weight: 900;
 }
 
 

@@ -1,7 +1,8 @@
 <template>
     <div class="wrapper">
-        <h2>Find how-to's (and why's!) on our <nuxt-link to="blog">blog</nuxt-link>:</h2>
-        <ul>
+        <h2>Find how-to's (and why's!) <br />on our <nuxt-link to="blog">blog</nuxt-link>:</h2>
+        
+        <ul class="grid">
             <li v-for="item in list" :key="item.id">
                 <nuxt-link :to="item.url + '/'">{{item.title}}</nuxt-link>
             </li>
@@ -24,17 +25,21 @@ export default {
 .wrapper{
     padding:1rem;
     font-size:2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .wrapper h2{
     text-align: center;
 }
 
-ul{
+.grid{
     display: flex;
     flex-wrap: wrap;
     margin: 0;
     padding:0;
     list-style-type: none;
+    width: 100%;
 }
 
 li{
@@ -62,6 +67,18 @@ li a:hover{
     }
     .wrapper{
         font-size: 1.25rem;
+    }
+
+}
+@media screen and (min-width: 770px){
+    .grid{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1100px){
+    .grid{
+        width: 60%;
     }
 }
 </style>

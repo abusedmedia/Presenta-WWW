@@ -8,9 +8,9 @@
             <div>
                 <div class="txt">
                         <h2><mark>Content first!</mark></h2>
-                        <h3>What do you mean? Structure your speech before you start playing with colors.</h3>
-                        <p>Starting from the look of a template you like makes no communication sense. No wonder you end up frustrated!</p>
-                        <p><b>PRESENTA</b> shifts the process because it makes creating, defining and adding content the first step in the process.</p>
+                        <h3>What do you mean? <br />Structure your speech before you start playing with colors.</h3>
+                        <p>Starting from the look of a template you like makes <b>no communication sense.</b> No wonder you end up frustrated!</p>
+                        <p><em><b>PRESENTA</b> shifts the process because it makes creating, defining and adding content the first step in the process.</em></p>
                         
                         <!-- <p><nuxt-link to="/learn/content-first">Learn more</nuxt-link></p> -->
                 </div>
@@ -28,8 +28,8 @@
                 <div class="txt">
                     <h2><mark>Constraints help</mark></h2>
                     <h3>With best practices embedded in PRESENTA's structure, you can't go wrong.</h3>
-                    <p>Visually shaping information so it is clear and effective is hard! Designers and public speaking gurus make it look easy because they know the rules of the game.</p>
-                    <p><b>PRESENTA</b> takes those rules and makes following them your only option, sparing you the guesswork and automatically steering you in the right direction.</p>
+                    <p>Visually shaping information so it is clear and effective is hard! Designers and public speaking gurus make it look easy because they know <b>the rules of the game.</b></p>
+                    <p><em><b>PRESENTA</b> takes those rules and makes following them your only option, sparing you the guesswork and automatically steering you in the right direction.</em></p>
                     
                 </div>
                 
@@ -48,8 +48,8 @@
                 <div class="txt">
                     <h2><mark>Sensible defaults</mark></h2>
                     <h3>This is the most excited you'll ever be about formatting.</h3>
-                    <p>We've all been there: too many choices – fonts, colors, size, and more! – can be daunting. </p>
-                    <p><b>PRESENTA</b> comes with a set of defaults and options to refine the look and feel of your presentations in seconds. It's efficient, fun, done.</p>
+                    <p>We've all been there: <b>too many choices</b> – fonts, colors, size, and more! – can be daunting. </p>
+                    <p><em><b>PRESENTA</b> comes with a set of defaults and options to refine the look and feel of your presentations in seconds. It's efficient, fun, done.</em></p>
                     
                 </div>
                 
@@ -81,6 +81,17 @@ export default {
 
 
 <style scoped>
+h2{
+    font-weight: 300;
+}
+h3{
+    font-weight: 600;
+}
+
+b{
+    font-weight: 600;
+}
+
 .wrapper{
     padding-top:1rem;
 }
@@ -95,7 +106,6 @@ export default {
     display: flex;
     flex-direction: column;
     margin-bottom: 5rem;
-    font-family: ivyjournal, sans-serif;
 }
 .feat.first{
     margin-top:2rem;
