@@ -1,6 +1,7 @@
 <template>
     <div class="wrapper">
-        <h2>Find how-to's (and why's!) <br />on our <nuxt-link to="blog">blog</nuxt-link>:</h2>
+        <h2>Want to learn more?</h2>
+        <h3>Find how-to's (and why's!) on our <nuxt-link to="blog">blog</nuxt-link>:</h3>
         
         <ul class="grid">
             <li v-for="item in list" :key="item.id">
@@ -29,8 +30,15 @@ export default {
     flex-direction: column;
     align-items: center;
 }
-.wrapper h2{
+.wrapper h2, .wrapper h3{
     text-align: center;
+}
+
+.wrapper h2{
+    margin-bottom: 0;
+}
+.wrapper h3{
+    margin-top: 0;
 }
 
 .grid{
@@ -40,6 +48,13 @@ export default {
     padding:0;
     list-style-type: none;
     width: 100%;
+}
+
+a{
+    color:#000;
+}
+h3 a:hover{
+    background-color: var(--accentcolor);
 }
 
 li{

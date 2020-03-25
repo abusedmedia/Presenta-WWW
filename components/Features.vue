@@ -82,7 +82,7 @@ export default {
 
 <style scoped>
 h2{
-    font-weight: 300;
+    font-weight: 400;
 }
 h3{
     font-weight: 900;

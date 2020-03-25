@@ -49,7 +49,7 @@ p.relevant{
 
 
 .little{
-    font-size: .9rem;
+    font-size: .9em;
 }
 
 mark{

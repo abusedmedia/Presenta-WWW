@@ -56,5 +56,6 @@ export default {
 video{
   width:100%;
     box-shadow: 10px 10px 0 #000;
+    border:1px solid #000;
 }
 </style>

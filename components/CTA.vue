@@ -1,14 +1,14 @@
 <template>
     <div class="footer">
         <div class="signup">
-            <h3>Get started with PRESENTA</h3>
+            <h3>Already intrigued?</h3>
             <a class="btn" href="https://app.presenta.cc/signup">
                 <span>Create an account</span>
             </a>
         </div>
-        <div class="learnmore" v-if="!noHomeLink">
+        <p class="learnmore" v-if="!noHomeLink">
             <nuxt-link to="/">or learn more from the home-page</nuxt-link>
-        </div>
+        </p>
     </div>
 </template>
 
@@ -53,7 +53,7 @@ export default {
 }
 
 
-.signup h4{
+.signup h3{
     margin: 0;
     margin-bottom: 1rem;
 }

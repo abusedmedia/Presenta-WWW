@@ -79,7 +79,7 @@ export default {
     flex-direction: column;
     align-items: center;
     padding: 0 3rem;
-    font-size:2.8rem;
+    font-size:3rem;
 }
 
 
@@ -89,7 +89,7 @@ export default {
     }
     .blog{
         padding:0;
-        font-size:1.8rem;
+        font-size:2rem;
     }
 }
 
@@ -99,7 +99,7 @@ export default {
     }
     .blog{
         padding:0;
-        font-size:1.5rem;
+        font-size:1.7rem;
     }
 }
 
