@@ -85,11 +85,11 @@ h2{
     font-weight: 300;
 }
 h3{
-    font-weight: 600;
+    font-weight: 900;
 }
 
 b{
-    font-weight: 600;
+    font-weight: 900;
 }
 
 .wrapper{

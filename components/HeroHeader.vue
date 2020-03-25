@@ -23,8 +23,8 @@ export default {
 <style scoped>
 
 h1{
-    font-size:6rem;
-    line-height: 8rem;
+    font-size:6.8rem;
+    line-height: 6.2rem;
     padding:2rem 2rem;
     margin:0;
     text-align: center;
@@ -34,9 +34,9 @@ h1{
 
 @media(min-width: 600px){
   h1{
+    font-size:7.2rem;
     
     padding: 2rem .5rem;
-    line-height: 6rem;
   }
   
 }
