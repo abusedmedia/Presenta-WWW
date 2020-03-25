@@ -26,6 +26,7 @@ h1{
     font-size:6.8rem;
     line-height: 6.2rem;
     padding:2rem 2rem;
+    padding-top: 3rem;
     margin:0;
     text-align: center;
     font-weight: 900;
@@ -37,6 +38,7 @@ h1{
     font-size:7.2rem;
     
     padding: 2rem .5rem;
+    padding-top: 3rem;
   }
   
 }

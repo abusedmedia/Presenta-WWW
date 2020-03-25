@@ -3,7 +3,10 @@
         <HeroHeader />
 
         <div class="vid">
-          <video src="/ui.m4v" muted autoplay loop poster="ui.jpg"></video>
+          <div class="video-container">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/AaKGgTXl4MA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <!-- <video src="/ui.m4v" muted autoplay loop poster="ui.jpg"></video> -->
         </div>
       
         <Features />
@@ -48,14 +51,24 @@ export default {
 
 .vid{
   margin:2rem 0;
-  display: flex;
   padding:1rem;
   padding-right: 1.5rem;
   
 }
-video{
-  width:100%;
-    box-shadow: 10px 10px 0 #000;
-    border:1px solid #000;
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+  box-shadow: 10px 10px 0 #000;
+  border:1px solid #000;
+}
+.video-container iframe{
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 </style>

@@ -3,7 +3,7 @@
         <div class="signup">
             <h3>Already intrigued?</h3>
             <a class="btn" href="https://app.presenta.cc/signup">
-                <span>Create an account</span>
+                <span>Create your account</span>
             </a>
         </div>
         <p class="learnmore" v-if="!noHomeLink">
@@ -74,7 +74,11 @@ export default {
     }
 
     footer p{
-        font-size:1rem;
+        
+    }
+
+    .learnmore{
+        font-size: 0.5rem;
     }
     
 }
