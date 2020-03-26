@@ -4,9 +4,9 @@
 
         <div class="vid">
           <div class="video-container">
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/AaKGgTXl4MA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <iframe width="800" height="450" src="https://www.youtube.com/embed/AaKGgTXl4MA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <video src="/ui.m4v" muted loop poster="ui.jpg"></video>
           </div>
-          <!-- <video src="/ui.m4v" muted autoplay loop poster="ui.jpg"></video> -->
         </div>
       
         <Features />
@@ -53,9 +53,16 @@ export default {
   margin:2rem 0;
   padding:1rem;
   padding-right: 1.5rem;
-  
 }
-
+.video-container {
+  box-shadow: 10px 10px 0 #000;
+  border:1px solid #000;
+}
+video{
+  display: block;
+  width: 100%;
+}
+/* 
 .video-container {
 	position: relative;
 	padding-bottom: 56.25%;
@@ -70,5 +77,5 @@ export default {
 	left: 0;
 	width: 100%;
 	height: 100%;
-}
+} */
 </style>
