@@ -118,6 +118,10 @@ export default {
     padding-top:2rem;
 }
 
+.blog .body >>> li{
+    padding-bottom:.75rem;
+}
+
 
 </style>
 
