@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper">
-        <h2>Want to learn more?</h2>
+        <h2>Want to know more?</h2>
         <h3>Find how-to's (and why's!) on our <nuxt-link to="blog">blog</nuxt-link>:</h3>
         
         <ul class="grid pair">
@@ -46,12 +46,7 @@ export default {
     margin-top: 0;
 }
 
-a{
-    color:#000;
-}
-h3 a:hover{
-    background-color: var(--accentcolor);
-}
+
 
 @media screen and (min-width: 400px){
     .wrapper{

@@ -3,9 +3,9 @@
         <HeroHeader />
 
         <div class="vid">
-          <div class="video-container">
+          <div class="video-container" @click="playVideo">
             <!-- <iframe width="800" height="450" src="https://www.youtube.com/embed/AaKGgTXl4MA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-            <video src="/ui.m4v" muted loop poster="ui.jpg"></video>
+            <video ref="vid" src="/0-main.m4v" muted poster="0-main.jpg"></video>
           </div>
         </div>
       
@@ -37,6 +37,11 @@ export default {
   async asyncData(){
     let res = await import(`~/content/blog/list.json`)
     return {posts: res.default.filter(d => d.home)}
+  },
+  methods:{
+    playVideo(){
+      this.$refs.vid.play()
+    }
   }
 }
 </script>
@@ -53,6 +58,9 @@ export default {
   margin:2rem 0;
   padding:1rem;
   padding-right: 1.5rem;
+
+  display: flex;
+  justify-content: center;
 }
 .video-container {
   box-shadow: 10px 10px 0 #000;
@@ -62,6 +70,13 @@ video{
   display: block;
   width: 100%;
 }
+
+@media screen and (min-width: 700px){
+    .video-container{
+      width: 75%;
+    }
+}
+
 /* 
 .video-container {
 	position: relative;

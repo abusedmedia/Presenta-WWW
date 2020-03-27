@@ -73,6 +73,13 @@ html{
   font-size:40%;
 }
 
+a{
+  color:#000;
+}
+a:hover{
+  background-color: var(--accentcolor);
+}
+
 
 @media(min-width: 450px){
   html{
@@ -212,3 +219,6 @@ div, a{
     width:25%;
   }
 }
+
+
+

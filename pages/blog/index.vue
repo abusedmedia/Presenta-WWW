@@ -1,7 +1,7 @@
 <template>
     <div class="list">
-        <h1>The "how" and the "why"</h1>
-        <p>Tips and principles on presenting, communicating and displaying information the right way</p>
+        <h1>The how-to's and the why's</h1>
+        <p>Tips and principles on presenting, communicating and displaying information the right way using <b>PRESENTA</b>:</p>
         <ul class="grid">
             <li v-for="post in posts" :key="post.url">
                 <nuxt-link :to="post.url + '/'">
