@@ -17,6 +17,7 @@
             
         </div>
         
+        <CTA />
         <FooterComp />
     </div>
     
@@ -24,11 +25,12 @@
 
 
 <script>
+import CTA from '~/components/CTA.vue'
 import FooterComp from '~/components/FooterComp.vue'
 
 export default {
     components:{
-        FooterComp
+        FooterComp,CTA
     },
     async asyncData({ params }) {
         let cnt = await import(`~/content/blog/${params.id}.md`)
@@ -77,7 +79,7 @@ export default {
     flex-direction: column;
     align-items: center;
     padding: 0 3rem;
-    font-size:2.5rem;
+    font-size:3rem;
 }
 
 
@@ -87,7 +89,7 @@ export default {
     }
     .blog{
         padding:0;
-        font-size:1.5rem;
+        font-size:2rem;
     }
 }
 
@@ -97,7 +99,7 @@ export default {
     }
     .blog{
         padding:0;
-        font-size:1.2rem;
+        font-size:1.7rem;
     }
 }
 
@@ -115,6 +117,12 @@ export default {
     margin:0;
     padding-top:2rem;
 }
+
+.blog .body >>> li{
+    padding-bottom:.75rem;
+}
+
+
 
 
 </style>

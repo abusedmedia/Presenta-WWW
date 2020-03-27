@@ -1,9 +1,16 @@
 <template>
     <div class="wrapper">
-        <h3>Learn more from the <nuxt-link to="blog">Blog</nuxt-link>:</h3>
-        <ul>
+        <h2>Want to know more?</h2>
+        <h3>Find how-to's (and why's!) on our <nuxt-link to="blog">blog</nuxt-link>:</h3>
+        
+        <ul class="grid pair">
             <li v-for="item in list" :key="item.id">
-                <nuxt-link :to="item.url + '/'">{{item.title}}</nuxt-link>
+                <nuxt-link :to="item.url + '/'">
+                    <!-- <div class="img">
+                        <img src="/500x500.png" />
+                    </div> -->
+                    <p>{{item.title}}</p>                
+                </nuxt-link>
             </li>
         </ul>
     </div>
@@ -24,44 +31,35 @@ export default {
 .wrapper{
     padding:1rem;
     font-size:2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper h2, .wrapper h3{
+    text-align: center;
+}
+
+.wrapper h2{
+    margin-bottom: 0;
 }
 .wrapper h3{
-    text-align: center;
+    margin-top: 0;
 }
 
-ul{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    padding:0;
-    list-style-type: none;
-}
 
-li{
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-li a{
-    color: #000;
-    padding: 1rem;
-    width: 100%;
-    text-align: center;
-    margin:.25rem .25rem;
-    border:1px solid #eee;
-}
-li a:hover{
-    background-color:var(--accentcolor);
-}
 
 @media screen and (min-width: 400px){
-    li{
-        width:50%;
-    }
     .wrapper{
         font-size: 1.25rem;
     }
+
+
+
+.grid li p{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
+}
+
 </style>

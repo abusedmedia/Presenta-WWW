@@ -1,7 +1,7 @@
 ---
 date: 2020-03-05
 title: Youtube integration and playback control
-category: core
+category: howto
 ---
 
 In previous versions of **PRESENTA**, the only way to include Youtube videos was by [using the Embed module](/blog/how-to-use-video-in-presenta/).
