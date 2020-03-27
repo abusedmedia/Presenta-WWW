@@ -6,9 +6,9 @@
         <ul class="grid pair">
             <li v-for="item in list" :key="item.id">
                 <nuxt-link :to="item.url + '/'">
-                    <div class="img">
+                    <!-- <div class="img">
                         <img src="/500x500.png" />
-                    </div>
+                    </div> -->
                     <p>{{item.title}}</p>                
                 </nuxt-link>
             </li>

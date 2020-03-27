@@ -5,9 +5,9 @@
         <ul class="grid">
             <li v-for="post in posts" :key="post.url">
                 <nuxt-link :to="post.url + '/'">
-                    <div class="img">
+                    <!-- <div class="img">
                         <img src="/500x500.png" />
-                    </div>
+                    </div> -->
                     <p>{{post.title}}</p>                
                 </nuxt-link>
             </li>
