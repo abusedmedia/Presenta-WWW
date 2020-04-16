@@ -22,16 +22,16 @@ A lot of interesting insights from the audience, though, asking to (and engaging
 - forced to read slides
 - missed the point
 - unecessary animations
-- bad color and contrast
-- the presenter that face the screen
+- bad colors and contrast
+- the presenter faces the screen
 - too much cluttering
 
 ### What's good: 
 
 - Engagement
-- Interacting with the audience with question/answere
+- Interacting with the audience with questions/answers
 - Storytelling
 - Personality
 - Good pacing, a balance between fast and slow
 
-It's great to see how **PRESENTA** is aligned with those principles and suggestions.
+It's so great to see how **PRESENTA** is aligned with those principles and suggestions.
