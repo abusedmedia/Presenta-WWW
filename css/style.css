@@ -21,7 +21,7 @@ body, #app, #__nuxt, #__layout{
 #app{
   display: flex;
   flex-direction: column;
-  font-family: source-sans-pro, sans-serif
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -60,9 +60,7 @@ body, #app, #__nuxt, #__layout{
   padding: .1rem .4rem;
 }
 
-.page ul, .page ol{
-  line-height: 2rem;
-}
+
 
 video{
   object-fit: cover;

@@ -2,8 +2,13 @@
     
     <div class="body">
         <div class="wrap">
-            
+
+            <div class="side">
+                <LearnSidebar :menu="list" />
+            </div>
+
             <div class="blog page">
+
                 <div class="wrapper">
                     <div class="posthead">
                         <h1>{{meta.title}}</h1>
@@ -13,6 +18,7 @@
                     <div class="body" v-html="html"></div>
 
                 </div>
+
             </div>
             
         </div>
@@ -27,16 +33,19 @@
 <script>
 import CTA from '~/components/CTA.vue'
 import FooterComp from '~/components/FooterComp.vue'
+import LearnSidebar from '~/components/LearnSidebar.vue'
 
 export default {
     components:{
-        FooterComp,CTA
+        FooterComp,CTA,LearnSidebar
     },
     async asyncData({ params }) {
+        let res = await import(`~/content/blog/list.json`)
         let cnt = await import(`~/content/blog/${params.id}.md`)
         return {
             slug: params.id,
-            cnt: cnt
+            cnt: cnt,
+            list: res.default
         }
     },
     head () {
@@ -82,6 +91,14 @@ export default {
     font-size:3rem;
 }
 
+.wrap{
+    display: flex;
+}
+
+.side{
+    display: none;
+}
+
 
 @media screen and (min-width: 400px){
     .wrapper{
@@ -91,17 +108,31 @@ export default {
         padding:0;
         font-size:2rem;
     }
+
 }
 
 @media screen and (min-width: 700px){
     .wrapper{
-        width: 70%;
+        width: 90%;
     }
     .blog{
         padding:0;
         font-size:1.7rem;
     }
+
+    .side{
+        display: block;
+        min-width: 250px;
+        max-width: 250px;
+        border-right: 1px solid #ddd;
+    }
 }
+@media screen and (min-width: 1100px){
+    .wrapper{
+        width: 80%;
+    }
+}
+
 
 
 .posthead{
@@ -113,15 +144,51 @@ export default {
 }
 
 
-.blog .body >>> h2{
+.blog .body >>> h2,
+.blog .body >>> h3{
     margin:0;
-    padding-top:2rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
 }
 
 .blog .body >>> li{
-    padding-bottom:.75rem;
+    padding-bottom:0.7em;
+    line-height: 1em;
 }
 
+.blog .body >>> ul,
+.blog .body >>> ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  counter-reset: li;
+  padding: 0.5rem 0;
+}
+
+.blog .body >>> li{
+  list-style-position:inside;
+  padding-left: 0.8em;
+}
+.blog .body >>> ul li::before {
+  content: "–"; 
+  display: inline-block; 
+  width: 0.8em;
+  margin-left: -0.8em;
+}
+.blog .body >>> ol li::before {
+  counter-increment: li;  
+  content:  "." counter(li); 
+  display: inline-block; 
+  width: 1.1em; 
+  margin-left: -1.3em;
+  margin-right: 0.2em; 
+  text-align: right; 
+  direction: rtl;
+}
+
+.blog .body >>> li p{
+  display: inline;
+}
 
 
 
