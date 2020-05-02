@@ -3,7 +3,7 @@
         <h3>You might be interested also in:</h3>
         <ul>
             <li v-for="item in menu" :key="item.id">
-                <nuxt-link :to="item.url">{{item.title}}</nuxt-link>
+                <nuxt-link :to="item.url + '/'">{{item.title}}</nuxt-link>
             </li>
         </ul>
     </div>
