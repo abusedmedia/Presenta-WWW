@@ -1,16 +1,26 @@
 {
     "list":[
         {
-            "name": "plugin-lorem-ipsum",
+            "title": "Lorem Ipsum Generator",
             "version": "1.0.0",
             "description": "A Lorem Ipsum slide generator just for fun.",
             "keywords": ["lorem", "ipsum", "generator", "text"],
             "author": "PRESENTA",
             "author_url": "http://www.presenta.cc/",
             "license": "ISC",
-            "title": "Lorem Ipsum Generator",
             "type": "plugin",
             "url": "https://presenta-software.github.io/presenta-plugin-lorem-ipsum"
-          }
+        },
+        {
+            "title": "Markdown to Slides",
+            "version": "0.1.0",
+            "description": "Convert a markdown file to slides",
+            "keywords": ["markdown", "converter", "slides"],
+            "author": "PRESENTA",
+            "author_url": "http://www.presenta.cc/",
+            "license": "ISC",
+            "type": "plugin",
+            "url": "https://presenta-software.github.io/presenta-plugin-markdown-dropper"
+        }
     ]
 }
