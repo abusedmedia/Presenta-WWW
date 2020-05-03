@@ -10,17 +10,6 @@
             "license": "ISC",
             "type": "plugin",
             "url": "https://presenta-software.github.io/presenta-plugin-lorem-ipsum"
-        },
-        {
-            "title": "Markdown to Slides",
-            "version": "0.1.0",
-            "description": "Convert a markdown file to slides",
-            "keywords": ["markdown", "converter", "slides"],
-            "author": "PRESENTA",
-            "author_url": "http://www.presenta.cc/",
-            "license": "ISC",
-            "type": "plugin",
-            "url": "https://presenta-software.github.io/presenta-plugin-markdown-dropper"
         }
     ]
 }
