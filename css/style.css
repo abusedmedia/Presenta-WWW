@@ -37,6 +37,8 @@ body, #app, #__nuxt, #__layout{
 .page{
   padding: 0 1rem;
   font-size:2rem;
+  width: 100%;
+  overflow: hidden;
 }
 
 .page img{
@@ -55,10 +57,6 @@ body, #app, #__nuxt, #__layout{
   margin: 0;
 }
 
-.page code{
-  background-color: #eee;
-  padding: .1rem .4rem;
-}
 
 
 

@@ -15,11 +15,11 @@
                         <!-- <p><nuxt-link to="/learn/content-first">Learn more</nuxt-link></p> -->
                 </div>
             </div>
-            <div class="preimg tl">
+            <!-- <div class="preimg tl">
                 <div class="img">
                     <img alt="feature 1" src="@/assets/1-content-first.gif" />
                 </div>
-            </div>
+            </div> -->
         </div>
 
 
@@ -34,11 +34,11 @@
                 </div>
                 
             </div>
-            <div class="preimg tr">
+            <!-- <div class="preimg tr">
                 <div class="img">
                     <img alt="feature 3" src="@/assets/2-constraints-help.gif" />
                 </div>
-            </div>
+            </div> -->
         </div>
 
 
@@ -54,11 +54,11 @@
                 </div>
                 
             </div>
-            <div class="preimg tr">
+            <!-- <div class="preimg tr">
                 <div class="img">
                     <img alt="feature 2" src="@/assets/3-sensible-defaults.gif" />
                 </div>
-            </div>
+            </div> -->
         </div>
 
         

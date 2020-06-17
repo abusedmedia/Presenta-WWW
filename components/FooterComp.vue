@@ -4,10 +4,9 @@
         <div class="wrapper">
             <footer>
                 <div>
-                    <p class="relevant"><b><nuxt-link to="/">PRESENTA</nuxt-link></b> is an online application, currently in <b>candidate release 1.0</b>.</p>
+                    <p class="relevant"><b><nuxt-link to="/">PRESENTA</nuxt-link></b> is an online platform, currently in <b>private release</b>.</p>
 
-                    <p>You can <a href="https://app.presenta.cc/signup">sign-up</a> and use this version free of charge.<br />
-                    You can review the <nuxt-link to="/legal/privacy-policy">Privacy Policy</nuxt-link>, the <nuxt-link to="/legal/cookie-policy">Cookie Policy</nuxt-link> and <nuxt-link to="/legal/terms-of-service">Terms Of Use</nuxt-link> of <b>PRESENTA</b> application and website.</p>
+                    <p>Review the <nuxt-link to="/legal/privacy-policy">Privacy Policy</nuxt-link>, the <nuxt-link to="/legal/cookie-policy">Cookie Policy</nuxt-link> and <nuxt-link to="/legal/terms-of-service">Terms Of Use</nuxt-link> of <b>PRESENTA</b> application and website.</p>
 
                     <p>Have a wonderful day! <br />
                     <span class="little">Pssss! Do you know you're NOT tracked at all?</span></p>

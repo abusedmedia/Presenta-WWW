@@ -4,7 +4,7 @@
         <div class="wrap">
 
             <div class="side">
-                <Sidebar :menu="list" :title="'You might be interested also in:'" />
+                <Sidebar :menu="list" />
             </div>
 
             <div class="blog page">
@@ -18,8 +18,6 @@
                     <div class="body" v-html="html"></div>
 
                 </div>
-
-                <!-- <CTA /> -->
 
             </div>
             
@@ -42,9 +40,9 @@ export default {
         FooterComp,CTA,Sidebar
     },
     async asyncData({ params }) {
-        let res = await import(`~/content/blog/list.json`)
-        let cnt = await import(`~/content/blog/${params.id}.md`)
-        
+        let res = await import(`~/content/lib/list.json`)
+        let cnt = await import(`~/content/lib/${params.id}.md`)
+
         return {
             slug: params.id,
             cnt: cnt,
@@ -52,9 +50,9 @@ export default {
         }
     },
     head () {
-        let cover = this.meta.cover ? `blog/covers/${this.slug}.jpg` : 'social.png'
+        let cover = 'social.png'
         return {
-            title: this.meta.title,
+            title: 'PRESENTA Slides | ' + this.meta.title,
             meta: [
                 { hid:'published_time', property: 'article:published_time', content: this.meta.date },
                 { hid:'ogtit', property: 'og:title', content: this.meta.title },
@@ -94,7 +92,7 @@ export default {
     flex-direction: column;
     align-items: center;
     padding: 0 3rem;
-    font-size:3rem;
+    font-size:1.5rem;
 }
 
 .wrap{
@@ -122,7 +120,7 @@ export default {
     }
     .blog{
         padding:0;
-        font-size:2rem;
+        font-size:1.5rem;
     }
 
 }
@@ -133,7 +131,7 @@ export default {
     }
     .blog{
         padding:0;
-        font-size:1.7rem;
+        font-size:1.3rem;
     }
 
     .side{
@@ -151,9 +149,6 @@ export default {
 
 
 
-.posthead{
-    text-align: center;
-}
 .posthead h1{
     border-bottom:1px solid #eee;
     margin-bottom:0;

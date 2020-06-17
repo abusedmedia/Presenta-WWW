@@ -1,7 +1,6 @@
 <template>
     <div class="wrapper">
-        <h2>Want to know more?</h2>
-        <h3>Find how-to's (and why's!) on our <nuxt-link to="blog">blog</nuxt-link>:</h3>
+        <h3>Find more why's! on our <nuxt-link to="blog">blog</nuxt-link>:</h3>
         
         <ul class="grid pair">
             <li v-for="item in list" :key="item.id">

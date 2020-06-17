@@ -1,4 +1,9 @@
 import fs from 'fs'
+import path from 'path'
+
+import Mode from 'frontmatter-markdown-loader/mode'
+import MarkdownIt from 'markdown-it'
+import mip from 'markdown-it-prism'
 
 import { descending } from 'd3'
 import glob from 'glob'
@@ -14,6 +19,7 @@ const list = files.map(d => {
 
 files = list.map(d => d.url)
 
+// BLOG
 const blogposts = list.filter(d => d.folder === 'blog')
 blogposts.forEach(d => {
   const markdown = fs.readFileSync('content' + d.url + '.md')
@@ -28,6 +34,30 @@ blogposts.sort((a, b) => {
 })
 
 fs.writeFileSync('content/blog/list.json', JSON.stringify(blogposts))
+
+// LIBRARY
+const libposts = list.filter(d => d.folder === 'lib')
+libposts.forEach(d => {
+  const markdown = fs.readFileSync('content' + d.url + '.md')
+  const doc = frontmatter(markdown)
+  d.title = doc.data.title
+  d.date = doc.data.date
+  d.home = doc.data.home
+})
+
+libposts.sort((a, b) => {
+  return descending(a.date, b.date)
+})
+
+fs.writeFileSync('content/lib/list.json', JSON.stringify(libposts))
+
+//
+
+const md = new MarkdownIt({
+  html: true,
+  typographer: true
+})
+md.use(mip)
 
 export default {
   mode: 'universal',
@@ -71,7 +101,8 @@ export default {
   },
   css: [
     '~/css/normalize.css',
-    '~/css/style.css'
+    '~/css/style.css',
+    '@/assets/prism.css'
   ],
 
   // plugins: [
@@ -81,8 +112,17 @@ export default {
     extend (config) {
       config.module.rules.push({
         test: /\.md$/,
-        loader: 'frontmatter-markdown-loader'
-        // include: path.resolve(__dirname, 'content/')
+        loader: 'frontmatter-markdown-loader',
+        include: path.resolve(__dirname, 'content/'),
+        options: {
+          /* mode: [Mode.VUE_RENDER_FUNCTIONS, Mode.VUE_COMPONENT],
+          vue: {
+            root: 'dynamicMarkdown'
+          }, */
+          markdown (body) {
+            return md.render(body)
+          }
+        }
       })
     }
   },

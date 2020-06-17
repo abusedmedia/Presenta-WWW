@@ -2,15 +2,16 @@
     <div class="body">
         <HeroHeader />
 
-        <div class="vid">
+        <!-- <div class="vid">
           <div class="video-container" @click="playVideo">
-            <!-- <iframe width="800" height="450" src="https://www.youtube.com/embed/AaKGgTXl4MA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
             <video ref="vid" src="/0-main.m4v" muted poster="0-main.jpg"></video>
           </div>
-        </div>
+        </div> -->
+                    <!-- <iframe width="800" height="450" src="https://www.youtube.com/embed/AaKGgTXl4MA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
       
         <Features />
-        <CTA :noHomeLink="true" />
+        <!-- <CTA :noHomeLink="true" /> -->
         <LatestPosts :list="posts" />
         <FooterComp />
     </div>
