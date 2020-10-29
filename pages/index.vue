@@ -9,10 +9,11 @@
         </div> -->
                     <!-- <iframe width="800" height="450" src="https://www.youtube.com/embed/AaKGgTXl4MA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
+        <Opening />
       
-        <Features />
-        <!-- <CTA :noHomeLink="true" /> -->
-        <LatestPosts :list="posts" />
+        <!-- <Features /> -->
+        <Subscribe :noHomeLink="true" />
+        <!-- <LatestPosts :list="posts" /> -->
         <FooterComp />
     </div>
 </template>
@@ -22,13 +23,14 @@ import HeroHeader from '~/components/HeroHeader.vue'
 import Features from '~/components/Features.vue'
 import FooterComp from '~/components/FooterComp.vue'
 import LatestPosts from '~/components/LatestPosts.vue'
-import CTA from '~/components/CTA.vue'
+import Subscribe from '~/components/Subscribe.vue'
+import Opening from '~/components/Opening.vue'
 import { mapMutations, mapGetters } from 'vuex'
 
 
 export default {
   components:{
-    HeroHeader,Features,FooterComp,LatestPosts,CTA
+    HeroHeader,Features,FooterComp,LatestPosts,Subscribe,Opening
   },  
   head () {
         return {

@@ -19,7 +19,7 @@
 
                 </div>
 
-                <!-- <CTA /> -->
+                <Subscribe />
 
             </div>
             
@@ -33,13 +33,13 @@
 
 
 <script>
-import CTA from '~/components/CTA.vue'
+import Subscribe from '~/components/Subscribe.vue'
 import FooterComp from '~/components/FooterComp.vue'
 import Sidebar from '~/components/Sidebar.vue'
 
 export default {
     components:{
-        FooterComp,CTA,Sidebar
+        FooterComp,Subscribe,Sidebar
     },
     async asyncData({ params }) {
         let res = await import(`~/content/blog/list.json`)

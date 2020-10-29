@@ -20,36 +20,23 @@ const list = files.map(d => {
 files = list.map(d => d.url)
 
 // BLOG
-const blogposts = list.filter(d => d.folder === 'blog')
+let blogposts = list.filter(d => d.folder === 'blog')
 blogposts.forEach(d => {
   const markdown = fs.readFileSync('content' + d.url + '.md')
   const doc = frontmatter(markdown)
   d.title = doc.data.title
   d.date = doc.data.date
   d.home = doc.data.home
+  d.draft = doc.data.draft
 })
+
+blogposts = blogposts.filter(d => !d.draft)
 
 blogposts.sort((a, b) => {
   return descending(a.date, b.date)
 })
 
 fs.writeFileSync('content/blog/list.json', JSON.stringify(blogposts))
-
-// LIBRARY
-const libposts = list.filter(d => d.folder === 'lib')
-libposts.forEach(d => {
-  const markdown = fs.readFileSync('content' + d.url + '.md')
-  const doc = frontmatter(markdown)
-  d.title = doc.data.title
-  d.date = doc.data.date
-  d.home = doc.data.home
-})
-
-libposts.sort((a, b) => {
-  return descending(a.date, b.date)
-})
-
-fs.writeFileSync('content/lib/list.json', JSON.stringify(libposts))
 
 //
 
@@ -60,10 +47,9 @@ const md = new MarkdownIt({
 md.use(mip)
 
 export default {
-  mode: 'universal',
-  env: {
-    backendServiceUrl: process.env.BACKEND_SERVICE_URL || 'https://tw-follow-me.firebaseio.com/presenta_email.json'
-  },
+  // env: {
+  //   backendServiceUrl: process.env.BACKEND_SERVICE_URL || 'https://tw-follow-me.firebaseio.com/presenta_email.json'
+  // },
   head: {
     titleTemplate: '%s @ Presenta - A presentation tool',
     meta: [

@@ -9,26 +9,32 @@
     "spa": "nuxt build --spa",
     "start": "nuxt start",
     "upd": "git add -u && git commit -m \"quick update\" && git push",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "serve:lambda": "netlify-lambda serve netlify-functions",
+    "build:lambda": "netlify-lambda build netlify-functions"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@github-docs/frontmatter": "^1.3.1",
+    "axios": "^0.21.0",
+    "balance-text": "^3.3.0",
     "d3": "^5.15.1",
     "frontmatter-markdown-loader": "^3.5.0",
     "markdown-it-prism": "^2.0.5",
     "normalize-css": "^2.3.1",
-    "nuxt": "^2.12.2",
+    "nuxt": "^2.14.7",
     "nuxt-canonical": "^1.0.3",
     "path": "^0.12.7",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.12"
   },
   "engines": {
     "node": "12.13.1"
   },
   "devDependencies": {
     "@nuxtjs/sitemap": "^1.3.1",
-    "glob": "^7.1.6"
+    "dotenv": "^8.2.0",
+    "glob": "^7.1.6",
+    "netlify-lambda": "^2.0.1"
   }
 }

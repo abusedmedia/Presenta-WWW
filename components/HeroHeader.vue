@@ -2,7 +2,7 @@
     <div>
         
         <h1>
-            Build <br />presentations <br />the modern way.
+            Build <br />presentations, <br />the modern way.
         </h1>
 
         <!-- <QuoteStrip :message="'Your personal trainer that helps you presenting great!'" /> -->
