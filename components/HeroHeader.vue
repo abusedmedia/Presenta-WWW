@@ -32,6 +32,11 @@ h1{
     font-weight: 900;
 }
 
+h1 b{
+    display: inline-block;
+    background-color: var(--accentcolor);
+}
+
 
 @media(min-width: 600px){
   h1{
