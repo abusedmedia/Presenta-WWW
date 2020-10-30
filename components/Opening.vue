@@ -28,12 +28,26 @@ export default {
 
 
 <style scoped>
-.text{
-    font-size:2rem;
-    text-align: center;
+
+a{
+    background-color: var(--accentcolor);
 }
 
-.main{
+.text{
+    text-align: center;
     font-size: 3rem;
+}
+.main{
+    font-size: 3.5rem;
+}
+
+@media screen and (min-width: 450px) {
+    .text{
+        font-size:2rem;
+    }
+
+    .main{
+        font-size: 3rem;
+    }
 }
 </style>

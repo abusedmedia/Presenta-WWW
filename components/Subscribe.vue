@@ -111,6 +111,7 @@ export default {
 .signup h3{
     margin: 0;
     margin-bottom: 0rem;
+    font-size:2.5rem;
 }
 
 .request{
@@ -124,6 +125,7 @@ export default {
     flex:1;
     padding: .5rem;
     border: 1px solid #000;
+    margin-right: 10px;
 }
 .request button{
     border: 1px solid #000;

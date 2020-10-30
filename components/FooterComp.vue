@@ -19,6 +19,18 @@
 
 
 
+<script>
+import balanceText from 'balance-text'
+
+export default {
+    mounted(){
+        balanceText(this.$el.querySelectorAll('p'))
+    }
+}
+</script>
+
+
+
 <style scoped>
 .wrapper{
     box-shadow: 10px 10px 0 #000;
