@@ -13,6 +13,8 @@
       
         <!-- <Features /> -->
         <Subscribe :noHomeLink="true" />
+
+
         <!-- <LatestPosts :list="posts" /> -->
         <FooterComp />
     </div>

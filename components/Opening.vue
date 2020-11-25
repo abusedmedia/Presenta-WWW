@@ -32,6 +32,10 @@ export default {
 a{
     background-color: var(--accentcolor);
 }
+a:hover{
+    color: white;
+    background-color: #000;
+}
 
 .text{
     text-align: center;

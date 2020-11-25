@@ -19,6 +19,9 @@
                     There was an error, sorry.  {{message}}
                 </div>
             </div>
+
+            <p>Meanwhile, you can play with our <a href="https://play.presenta.cc/">Playground App!</a></p>
+
         </div>
     </div>
 </template>
@@ -143,13 +146,15 @@ export default {
     cursor: not-allowed;
 }
 
-.learnmore{
-    text-align: center;
-    padding:1rem;
+
+a{
+    background-color: var(--accentcolor);
 }
-.learnmore a{
-    color:#000;
+a:hover{
+    color: white;
+    background-color: #000;
 }
+
 
 @media screen and (min-width: 450px) {
     .signup{
@@ -160,9 +165,6 @@ export default {
         
     }
 
-    .learnmore{
-        font-size: 0.5rem;
-    }
     .request input{
         margin-right: 10px;
     }
