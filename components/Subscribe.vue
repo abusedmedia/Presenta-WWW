@@ -1,7 +1,7 @@
 <template>
     <div class="footer">
         <div class="signup">
-            <h3>PRESENTA App is still private.</h3>
+            <h3>PRESENTA Platform is still private.</h3>
             
             <p>Do you want an early access when it'll be ready?</p>
             <div class="request">
@@ -20,7 +20,7 @@
                 </div>
             </div>
 
-            <p>Meanwhile, you can play with our <a href="https://play.presenta.cc/">Playground App!</a></p>
+            <p class="minor">Meanwhile, you can play with our <a href="https://play.presenta.cc/">Playground!</a></p>
 
         </div>
     </div>
@@ -100,6 +100,9 @@ export default {
     font-size:1.8rem;
     margin: 1rem 0;
 }
+p.minor{
+    font-size: 1.2rem;
+}
 .signup{
     display: flex;
     flex-direction: column;
@@ -161,9 +164,6 @@ a:hover{
         font-size:2em;
     }
 
-    footer p{
-        
-    }
 
     .request input{
         margin-right: 10px;
