@@ -117,9 +117,14 @@ export default {
   },
   modules: [
     '@nuxtjs/sitemap',
+    'vue-plausible',
     ['nuxt-canonical', { baseUrl: 'https://www.presenta.cc' }]
   ],
   sitemap: {
     hostname: 'https://www.presenta.cc'
+  },
+  plausible:{
+    domain: 'presenta.com',
+    apiHost: 'https://plausible.io'
   }
 }
