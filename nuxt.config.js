@@ -122,9 +122,5 @@ export default {
   ],
   sitemap: {
     hostname: 'https://www.presenta.cc'
-  },
-  plausible:{
-    domain: 'presenta.cc',
-    apiHost: 'https://plausible.io'
   }
 }

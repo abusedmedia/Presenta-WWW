@@ -27,7 +27,6 @@
     "nuxt": "^2.14.7",
     "nuxt-canonical": "^1.0.3",
     "path": "^0.12.7",
-    "vue-plausible": "^1.1.1",
     "vue-template-compiler": "^2.6.12"
   },
   "engines": {
