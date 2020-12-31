@@ -117,7 +117,6 @@ export default {
   },
   modules: [
     '@nuxtjs/sitemap',
-    'vue-plausible',
     ['nuxt-canonical', { baseUrl: 'https://www.presenta.cc' }]
   ],
   sitemap: {
