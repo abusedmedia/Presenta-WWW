@@ -124,7 +124,7 @@ export default {
     hostname: 'https://www.presenta.cc'
   },
   plausible:{
-    domain: 'presenta.com',
+    domain: 'presenta.cc',
     apiHost: 'https://plausible.io'
   }
 }
