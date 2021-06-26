@@ -2,8 +2,10 @@
     <div class="footer">
         <div class="signup">
             <h3>PRESENTA Platform is still private.</h3>
-            
-            <p>Do you want an early access when it'll be ready?</p>
+
+            <p>You can follow the platform progress on our <a href="https://twitter.com/PresentaSw" target="_blank">Twitter</a> or <a href="https://www.linkedin.com/company/presenta-platform/" target="_blank">Linkedin</a>
+            <br />
+            and subscribe to get an early access when it'll be ready:</p>
             <div class="request">
                 <div v-if="status === 'start'">
                     <input type="email" @keyup.enter="onConfirm" v-model="email" placeholder="your@email.com"/>
@@ -20,7 +22,7 @@
                 </div>
             </div>
 
-            <p class="minor">Meanwhile, you can play with our <a href="https://play.presenta.cc/">Playground!</a></p>
+            <!-- <p class="minor">Meanwhile, you can play with our <a href="https://play.presenta.cc/">Playground!</a></p> -->
 
         </div>
     </div>
