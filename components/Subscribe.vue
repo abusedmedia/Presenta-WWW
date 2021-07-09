@@ -3,9 +3,9 @@
         <div class="signup">
             <h3>PRESENTA Platform is still private.</h3>
 
-            <p>You can follow the platform progress on our <a href="https://twitter.com/PresentaSw" target="_blank">Twitter</a> or <a href="https://www.linkedin.com/company/presenta-platform/" target="_blank">Linkedin</a>
-            <br />
-            and subscribe to get an early access when it'll be ready:</p>
+            <!-- <p>You can follow the platform progress on our <a href="https://twitter.com/PresentaSw" target="_blank">Twitter</a> or <a href="https://www.linkedin.com/company/presenta-platform/" target="_blank">Linkedin</a>
+            <br /> -->
+             <p>Want to ask to get an early access when it'll be ready?</p>
             <div class="request">
                 <div v-if="status === 'start'">
                     <input type="email" @keyup.enter="onConfirm" v-model="email" placeholder="your@email.com"/>
@@ -124,6 +124,7 @@ p.minor{
 
 .request{
     width: 100%;
+    font-size: 2rem;
 }
 .request > div{
     display: flex;
