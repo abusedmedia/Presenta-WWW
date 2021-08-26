@@ -3,7 +3,7 @@
             <div class="page">
                 <div class="text">
 
-                    <p class="main">PRESENTA is the <b>automation</b> platform <br /> for <b>data-driven</b> presentational documents.</p>
+                    <p class="wrap main"><b>PRESENTA</b> is the <mark>automation</mark> platform for <mark>data-driven</mark> presentational documents.</p>
                     <p class="wrap">We believe that presentational documents can be <b>built</b> and <b>experienced</b> differently.</p>
                     <!-- <p>More then 30 years ago <b>PowerPoint set the bar</b> about how presentations should be crafted.</p> -->
                     <!-- <p>After that, <b>we still move objects on canvas</b> to create documents for our communication needs.</p> -->
@@ -48,8 +48,9 @@ a:hover{
     line-height: 4rem;
 }
 
-.main b{
+.main mark{
     background-color: var(--accentcolor);
+    font-weight: 700;
 }
 
 @media screen and (min-width: 450px) {
