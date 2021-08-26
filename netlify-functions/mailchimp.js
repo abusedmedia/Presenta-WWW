@@ -6,11 +6,13 @@ const mailchimpUrl = `https://user:${process.env.MAILCHIMP_PASS}@${MAILCHIMP_URL
 
 exports.handler = async (event, context) => {
   const email = event.queryStringParameters.m
+  const fname = event.queryStringParameters.f
+  const lname = event.queryStringParameters.l
 
-  if (!email) {
+  if (!email || !fname || !lname) {
     return {
       statusCode: 400,
-      body: JSON.stringify({ message: 'Missing email' }),
+      body: JSON.stringify({ message: 'Missing parameters' }),
       headers: {
         'Access-Control-Allow-Origin': process.env.NUXT_ENV_FRONT_DOMAIN
       }
@@ -22,7 +24,11 @@ exports.handler = async (event, context) => {
   const req = await axios({
     method: 'post',
     url: mailchimpUrl,
-    data: { email_address: email, status: 'subscribed' },
+    data: {
+      email_address: email,
+      merge_fields: { FNAME: fname, LNAME: lname },
+      status: 'subscribed'
+    },
     headers: { 'content-type': 'application/json' }
   })
 
