@@ -39,10 +39,10 @@ export default {
             title: 'Home'
         }
   },
-  async asyncData(){
-    let res = await import(`~/content/blog/list.json`)
-    return {posts: res.default.filter(d => d.home)}
-  },
+  // async asyncData(){
+  //   let res = await import(`~/content/blog/list.json`)
+  //   return {posts: res.default.filter(d => d.home)}
+  // },
   methods:{
     playVideo(){
       this.$refs.vid.play()

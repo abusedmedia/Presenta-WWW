@@ -4,11 +4,11 @@
                 <div class="text">
 
                     <p class="main">The <b>automation</b> platform <br /> for <b>data-driven</b> presentational documents.</p>
-                    <p>We believe that presentational documents can be <b>built</b> and <b>experienced</b> differently.</p>
+                    <p class="wrap">We believe that presentational documents can be <b>built</b> and <b>experienced</b> differently.</p>
                     <!-- <p>More then 30 years ago <b>PowerPoint set the bar</b> about how presentations should be crafted.</p> -->
                     <!-- <p>After that, <b>we still move objects on canvas</b> to create documents for our communication needs.</p> -->
-                    <p>We envision <b>different ways</b> to build <b>slides</b>, <b>cards</b>, <b>banners</b>, <b>catalogues</b>, ways that are more effective, efficient and fun as well.</p>
-                    <p>It’s a long ride and <a href="https://lib.presenta.cc/">PRESENTA Lib</a>, <i>our open-source javascript library</i>, marks a key milestone in this journey.</p>
+                    <p class="wrap">We envision <b>different ways</b> to build <b>slides</b>, <b>cards</b>, <b>banners</b>, <b>catalogues</b>, ways that are more effective, efficient and fun as well.</p>
+                    <p class="wrap">It’s a long ride and <a href="https://lib.presenta.cc/">PRESENTA Lib</a>, <i>our open-source javascript library</i>, marks a key milestone in this journey.</p>
                 </div>
             </div>
         </div>        
@@ -21,7 +21,7 @@ import balanceText from 'balance-text'
 
 export default {
     mounted(){
-        balanceText(this.$el.querySelectorAll('p'), {watch: true})
+        balanceText(this.$el.querySelectorAll('.wrap'), {watch: true})
     }
 }
 </script>
