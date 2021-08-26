@@ -7,7 +7,7 @@
                     <p class="wrap">We believe that presentational documents can be <b>built</b> and <b>experienced</b> differently.</p>
                     <!-- <p>More then 30 years ago <b>PowerPoint set the bar</b> about how presentations should be crafted.</p> -->
                     <!-- <p>After that, <b>we still move objects on canvas</b> to create documents for our communication needs.</p> -->
-                    <p class="wrap">We envision <b>different ways</b> to build <b>slides</b>, <b>cards</b>, <b>banners</b>, <b>catalogues</b>, ways that are more effective, efficient and fun as well.</p>
+                    <p class="wrap">We envision <b>different ways</b> to build <b>slides</b>, <b>cards</b>, <b>banners</b>, <b>catalogues</b> and <b>showcases</b> ways that are more effective, efficient and fun as well.</p>
                     <p class="wrap">It’s a long ride and <a href="https://lib.presenta.cc/">PRESENTA Lib</a>, <i>our open-source javascript library</i>, marks a key milestone in this journey.</p>
                 </div>
             </div>
