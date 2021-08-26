@@ -15,7 +15,7 @@
         <Subscribe :noHomeLink="true" />
 
 
-        <LatestPosts :list="posts" />
+        <!-- <LatestPosts :list="posts" /> -->
         <FooterComp />
     </div>
 </template>
