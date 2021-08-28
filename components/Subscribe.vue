@@ -5,7 +5,7 @@
 
             <!-- <p>You can follow the platform progress on our <a href="https://twitter.com/PresentaSw" target="_blank">Twitter</a> or <a href="https://www.linkedin.com/company/presenta-platform/" target="_blank">Linkedin</a>
             <br /> -->
-             <p>Want to ask to get an early access when it'll be ready?</p>
+             <p>Ask for an early access:</p>
             <div class="request">
                 <div v-if="status === 'start'">
                     <div class="row">
