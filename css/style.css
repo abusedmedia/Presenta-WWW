@@ -24,6 +24,11 @@ body, #app, #__nuxt, #__layout{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+mark{
+  display: inline-block;
+  background-color: var(--accentcolor);
+}
+
 
 .body{
   width:100%;

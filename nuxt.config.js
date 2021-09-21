@@ -101,10 +101,10 @@ export default {
         loader: 'frontmatter-markdown-loader',
         include: path.resolve(__dirname, 'content/'),
         options: {
-          /* mode: [Mode.VUE_RENDER_FUNCTIONS, Mode.VUE_COMPONENT],
-          vue: {
-            root: 'dynamicMarkdown'
-          }, */
+          // mode: [Mode.VUE_RENDER_FUNCTIONS, Mode.VUE_COMPONENT],
+          // vue: {
+          //   root: 'dynamicMarkdown'
+          // },
           markdown (body) {
             return md.render(body)
           }

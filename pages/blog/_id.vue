@@ -12,7 +12,7 @@
                 <div class="wrapper">
                     <div class="posthead">
                         <h1>{{meta.title}}</h1>
-                        <small>posted on <strong>{{date}}</strong>, in <strong>{{category}}</strong></small>
+                        <!-- <small>posted on <strong>{{date}}</strong>, in <strong>{{category}}</strong></small> -->
                     </div>
                     
                     <div class="body" v-html="html"></div>
@@ -163,8 +163,8 @@ export default {
 .blog .body >>> h2,
 .blog .body >>> h3{
     margin:0;
-    padding-top:1rem;
-    padding-bottom:1rem;
+    padding-top:1.5rem;
+    padding-bottom:0rem;
 }
 
 .blog .body >>> li{
