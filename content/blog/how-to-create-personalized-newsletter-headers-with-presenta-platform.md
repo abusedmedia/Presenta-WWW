@@ -8,6 +8,8 @@ category: tutorials
 
 With **PRESENTA** you can <mark>generate thousand</mark> of personalized headers automatically, ready to be included in your newsletter campaigns.
 
+![](comp.jpg)
+
 In this walk-through you can see how to configure a **PRESENTA Data-Driven Template** to generate thousand of personalized and unique images, one for each of your recipient.
 
 ## Design the template
