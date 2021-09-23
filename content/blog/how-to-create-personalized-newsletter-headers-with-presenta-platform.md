@@ -1,26 +1,28 @@
 ---
 date: 2021-09-21
-title: How to create personalized newsletter headers with PRESENTA platform
+title: How to create personalized newsletter images with PRESENTA
 category: tutorials
 ---
 
-<mark>**Personalized newsletters**</mark> is a key aspect in any **Marketing Automation** strategy. 
+<mark>**Personalized newsletters**</mark> are a key aspect in any **Marketing Automation** strategy. 
 
-With **PRESENTA** you can <mark>generate thousand</mark> of personalized headers automatically, ready to be included in your newsletter campaigns.
+With **PRESENTA** you can <mark>generate thousand</mark> of personalized images automatically, ready to be included as newsletter header for in your campaigns.
 
 ![](comp.jpg)
 
-In this walk-through you can see how to configure a **PRESENTA Data-Driven Template** to generate thousand of personalized and unique images, one for each of your recipient.
+In this walk-through we're learning how to configure a **Data-Driven Template** to generate thousand of personalized and unique images, one for each of your recipient.
 
 ## Design the template
 
-You can choose a pre-built template and customize it further or start from scratch and create your very own template with a visual editor:
+You can choose a pre-built template and customize it further or start from scratch and create your very own template with the visual editor, no code is required:
 
 ![](design.gif)
 
 ## Set the dynamic properties
 
-We need to tell the software which are the dynamic properties. Set a meaningful and unique name to each object we want to be dynamic. It can be text content, image url, shape color or even a QRCode url as well:
+We need to tell the software which are the dynamic properties. 
+Set a meaningful and unique name to each object we want to be dynamic. 
+It can be text content, image url, shape color or even a QRCode url as well:
 
 ![](set.gif)
 
@@ -38,29 +40,29 @@ Now it's time to test the parameters to see how it looks with different content:
 
 ![](test.gif)
 
-You can test with your browser using this URL:
+You can test right in your browser using [this URL](https://app.presenta.cc/f/render/?curl=zGywhb2oJn&purl=3hIW3WhkK):
 
 ```html
 https://app.presenta.cc/f/render/?curl=zGywhb2oJn&purl=3hIW3WhkK
 ```
 
-and adding this portion at the end of it (you can change the **SomeName** value):
+and adding this portion [at the end](https://app.presenta.cc/f/render/?curl=zGywhb2oJn&purl=3hIW3WhkK&name=SomeName) of it (you can change the **SomeName** value):
 
 ```html
-&name=SomeName
+&name=Some Name
 ```
 
-and also this one too:
+and also [this one](https://app.presenta.cc/f/render/?curl=zGywhb2oJn&purl=3hIW3WhkK&name=SomeName&surname=SomeSurname) too:
 
 ```html
-&surname=SomeSurName
+&surname=Some Surname
 ```
 
 
 
 ## Integrate in your Newsletter software
 
-Every Newsletter software allows to add little snippet of HTML code. Usually adding the following HTML code is enough to include the dynamic image:
+Every Newsletter software allows to add little snippets of HTML code. Usually adding the following HTML code is enough to include the dynamic image:
 
 ```html
 <img src="<THE-PRESENTA-TEMPLATE-URL-WITH-PARAMS" />

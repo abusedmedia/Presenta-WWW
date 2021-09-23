@@ -3,9 +3,9 @@
     <div class="body">
         <div class="wrap">
 
-            <div class="side">
+            <!-- <div class="side">
                 <Sidebar :menu="list" :title="'You might be interested also in:'" />
-            </div>
+            </div> -->
 
             <div class="blog page">
 
@@ -19,12 +19,12 @@
 
                 </div>
 
-                <Subscribe />
+                
 
             </div>
             
         </div>
-        
+        <Subscribe />
         
         <FooterComp />
     </div>
@@ -156,16 +156,21 @@ export default {
 }
 .posthead h1{
     border-bottom:1px solid #eee;
-    margin-bottom:0;
+    margin-bottom:1rem;
+    padding-bottom:1rem;
+    line-height: 100%;
 }
+
+
 
 
 .blog .body >>> h2,
 .blog .body >>> h3{
     margin:0;
-    padding-top:1.5rem;
+    padding-top:3rem;
     padding-bottom:0rem;
 }
+
 
 .blog .body >>> li{
     padding-bottom:0.7em;

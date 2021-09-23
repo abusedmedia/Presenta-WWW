@@ -1,7 +1,7 @@
 <template>
     <div class="footer">
         <div class="signup">
-            <h3>PRESENTA Platform is still private.</h3>
+            <h3 class="marked">PRESENTA Platform is still private.</h3>
 
             <!-- <p>You can follow the platform progress on our <a href="https://twitter.com/PresentaSw" target="_blank">Twitter</a> or <a href="https://www.linkedin.com/company/presenta-platform/" target="_blank">Linkedin</a>
             <br /> -->
@@ -102,6 +102,13 @@ export default {
     justify-content: center;
 
     margin-bottom:3rem;
+    padding: 0 2rem;
+    margin-top: 3rem;
+}
+
+.marked{
+    display: inline-block;
+    background-color: var(--accentcolor);
 }
 
 .wrapper div{
@@ -117,6 +124,7 @@ p.minor{
     font-size: 1.2rem;
 }
 .signup{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,14 +143,14 @@ p.minor{
 
 .request{
     width: 100%;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .request > div{
     width: 100%;
 }
 .request input{
     flex:1;
-    padding: .5rem;
+    padding: 1rem;
     border: 1px solid #000;
     margin-bottom: 1rem;
 }
@@ -190,8 +198,11 @@ a:hover{
 @media screen and (min-width: 450px) {
     .signup{
         font-size:2em;
+        padding: 0 3rem;
     }
-
+    .request{
+        font-size: 1.8rem;
+    }
     .request input:last-child{
         margin-right: 0;
     }
