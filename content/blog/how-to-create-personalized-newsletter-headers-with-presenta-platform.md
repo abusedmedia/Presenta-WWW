@@ -40,19 +40,19 @@ Now it's time to test the parameters to see how it looks with different content:
 
 ![](test.gif)
 
-You can test right in your browser using [this URL](https://app.presenta.cc/f/render/?curl=zGywhb2oJn&purl=3hIW3WhkK):
+You can test right in your browser using [this URL](https://app.presenta.cc/f/render/zGywhb2oJn:3hIW3WhkK):
 
 ```html
-https://app.presenta.cc/f/render/?curl=zGywhb2oJn&purl=3hIW3WhkK
+https://app.presenta.cc/f/render/zGywhb2oJn:3hIW3WhkK
 ```
 
-and adding this portion [at the end](https://app.presenta.cc/f/render/?curl=zGywhb2oJn&purl=3hIW3WhkK&name=SomeName) of it (you can change the **SomeName** value):
+and adding this portion [at the end](https://app.presenta.cc/f/render/zGywhb2oJn:3hIW3WhkK?name=SomeName) of it (you can change the **SomeName** value):
 
 ```html
-&name=Some Name
+?name=Some Name
 ```
 
-and also [this one](https://app.presenta.cc/f/render/?curl=zGywhb2oJn&purl=3hIW3WhkK&name=SomeName&surname=SomeSurname) too:
+and also [this one](https://app.presenta.cc/f/render/zGywhb2oJn:3hIW3WhkK?name=SomeName&surname=SomeSurname) too:
 
 ```html
 &surname=Some Surname
@@ -76,7 +76,7 @@ Here the HTML snippet that include the image with the merged tags of MailChimp (
 
 ```html
 <div class="mcnTextContent">
-  <img class="mcnImage" style="width:100%" src="https://app.presenta.cc/f/render/?curl=zGywhb2oJn&purl=3hIW3WhkK&name=*|FNAME|*&surname=*|LNAME|*" />
+  <img class="mcnImage" style="width:100%" src="https://app.presenta.cc/f/render/zGywhb2oJn:3hIW3WhkK?name=*|FNAME|*&surname=*|LNAME|*" />
 </div>
 ```
 
@@ -89,7 +89,7 @@ Here the HTML snippet that include the image with the merged tags of MailChimp (
 Here the HTML snippet that include the image with the merged tags of MailJet (dimensions may change depending of the template):
 
 ```html
-<img style="width:600px;height:300px;"  src="https://app.presenta.cc/f/render/?curl=zGywhb2oJn&purl=3hIW3WhkK&name=[[data:firstname]]&surname=[[data:name]]" />
+<img style="width:600px;height:300px;"  src="https://app.presenta.cc/f/render/zGywhb2oJn:3hIW3WhkK?name=[[data:firstname]]&surname=[[data:name]]" />
 ```
 
 ## Conclusion
