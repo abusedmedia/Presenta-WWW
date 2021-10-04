@@ -4,7 +4,7 @@ title: API Documentation Draft
 category: tutorials
 ---
 
-## For the impatiens
+## For the impatient
 
 This URL generates an image on the fly. Copy and paste in the browser to test right now:
 
