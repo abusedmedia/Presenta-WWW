@@ -10,7 +10,7 @@ This URL generates an image on the fly. Copy and paste in the browser to test ri
 
 ```shell
 https://app.presenta.cc/f/render/zGywhb2oJn:TrFLYUna4?
-	main=I code hard!
+	&main=I code hard!
 	&name=Mario Rossi
 	&role=Devloper
 	&pict=https://source.unsplash.com/random
