@@ -2,7 +2,6 @@
     <header>
         <div class="logo">
             <nuxt-link to="/"><img src="~/assets/logo.svg" /></nuxt-link>
-            
         </div>
         
 
@@ -19,26 +18,24 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    box-shadow: 0 0 15px #ccc;
+    padding: .4rem;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
     z-index: 9999;
 }
 
+
 .logo a{
+    padding: 0 .25rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 6px;
 }
 
 .btn{
-    font-size:1.5rem;
+    font-size:1rem;
 }
 
-@media screen and (min-width: 450px) {
-    .btn{
-        font-size:1rem;
-    }
-}
 
 div{
     display: flex;
@@ -46,18 +43,8 @@ div{
 }
 
 img{
-    width: 16rem;
+    width: 8rem;
 }
 
-@media screen and (min-width: 450px) {
-    img{
-        width: 8rem;
-    }
-}
 
-@media screen and (min-width: 770px) {
-    .login{
-        display: block;
-    }
-}
 </style>

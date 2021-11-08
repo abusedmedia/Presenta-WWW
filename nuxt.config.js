@@ -91,10 +91,15 @@ export default {
     '@/assets/prism.css'
   ],
 
-  // plugins: [
-  //   { src: '~plugins/ga.js', ssr: false }
-  // ],
+  plugins: [
+    // { src: '~plugins/ga.js', ssr: false },
+    { src: '~/plugins/syntax.js' },
+    { src: '~/plugins/presenta', mode: 'client' }
+  ],
   build: {
+    transpile: [
+      '@presenta/config-interpolator'
+    ],
     extend (config) {
       config.module.rules.push({
         test: /\.md$/,

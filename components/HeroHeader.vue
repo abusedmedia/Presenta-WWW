@@ -25,6 +25,7 @@ export default {
     data(){
         return{
             words:[
+                'documents',
                 'presentations', 
                 'galleries', 
                 'banners',
@@ -55,15 +56,16 @@ export default {
 
 .hero{
     padding:2rem 2rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 h1{
-    font-size:6.8rem;
-    line-height: 6.2rem;
+    font-size:3.4rem;
+    line-height: 3.1rem;
     margin:0;
     padding: 0;
     text-align: center;
     font-weight: 900;
+    letter-spacing: -.2rem;
 }
 
 h1 b{
@@ -101,6 +103,7 @@ h1 b{
     }
     h1{
         font-size:7.2rem;
+        line-height: 5.7rem;
     }
   
 }

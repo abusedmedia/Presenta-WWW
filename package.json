@@ -18,19 +18,24 @@
   "license": "ISC",
   "dependencies": {
     "@github-docs/frontmatter": "^1.3.1",
+    "@presenta/config-interpolator": "^1.0.5",
+    "@presenta/lib": "file:../@presenta/presenta-lib",
     "axios": "^0.21.0",
     "balance-text": "^3.3.0",
     "d3": "^5.15.1",
     "frontmatter-markdown-loader": "^3.5.0",
+    "highlight.js": "^9.18.5",
     "markdown-it-prism": "^2.0.5",
+    "marked": "^3.0.8",
     "normalize-css": "^2.3.1",
     "nuxt": "^2.14.7",
     "nuxt-canonical": "^1.0.3",
     "path": "^0.12.7",
+    "vue-highlight.js": "^3.1.0",
     "vue-template-compiler": "^2.6.12"
   },
   "engines": {
-    "node": "12.13.1"
+    "node": "16"
   },
   "devDependencies": {
     "@nuxtjs/sitemap": "^1.3.1",

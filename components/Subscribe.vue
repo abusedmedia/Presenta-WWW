@@ -117,11 +117,11 @@ export default {
 
 .footer p{
     text-align: center;
-    font-size:1.8rem;
+    font-size:1.1rem;
     margin: 1rem 0;
 }
 p.minor{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .signup{
     width: 100%;
@@ -131,33 +131,33 @@ p.minor{
     justify-content: center;
     padding-top: 4rem;
 
-    font-size:3em;
 }
 
 
 .signup h3{
     margin: 0;
     margin-bottom: 0rem;
-    font-size:2.5rem;
+    font-size:1.75rem;
+    text-align: center;
 }
 
 .request{
     width: 100%;
-    font-size: 3rem;
+    font-size: 1rem;
 }
 .request > div{
     width: 100%;
 }
 .request input{
     flex:1;
-    padding: 1rem;
+    padding: .75rem;
     border: 1px solid #000;
     margin-bottom: 1rem;
 }
 
 .request button{
     border: 1px solid #000;
-    padding: .5rem 2rem;
+    padding: .75rem 2rem;
     background-color: var(--accentcolor);
     transition: all .1s ease-in-out;
 }
