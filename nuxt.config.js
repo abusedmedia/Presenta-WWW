@@ -50,6 +50,7 @@ export default {
   // env: {
   //   backendServiceUrl: process.env.BACKEND_SERVICE_URL || 'https://tw-follow-me.firebaseio.com/presenta_email.json'
   // },
+  target: 'static',
   head: {
     titleTemplate: '%s @ Presenta - The Automation and Data-Driven Presentation Platform',
     meta: [

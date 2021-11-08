@@ -19,7 +19,7 @@
   "dependencies": {
     "@github-docs/frontmatter": "^1.3.1",
     "@presenta/config-interpolator": "^1.0.5",
-    "@presenta/lib": "file:../@presenta/presenta-lib",
+    "@presenta/lib": "^1.0.0",
     "axios": "^0.21.0",
     "balance-text": "^3.3.0",
     "d3": "^5.15.1",
@@ -35,7 +35,7 @@
     "vue-template-compiler": "^2.6.12"
   },
   "engines": {
-    "node": "16"
+    "node": ">=16.0.0"
   },
   "devDependencies": {
     "@nuxtjs/sitemap": "^1.3.1",
