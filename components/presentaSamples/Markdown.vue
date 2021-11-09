@@ -63,7 +63,7 @@ export default {
                 }
             })
             
-            const config = await interpolate({frames}, '6a61337d97688f86f50ff7be5cd25bf1')
+            const config = await interpolate({frames}, '92716be452cf87ff39726fdc54bb102f')
 
             config.controllers.focus = false
 
