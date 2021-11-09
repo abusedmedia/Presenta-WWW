@@ -68,7 +68,8 @@ export default {
             config.controllers.focus = false
 
             const theme = doc.data.theme
-            config.modules.colors = themes[theme]
+            config.modules.colors = themes[theme] || null
+            console.log(themes[theme])
             
             this.preso = await new Presenta(this.$el, config)
         }

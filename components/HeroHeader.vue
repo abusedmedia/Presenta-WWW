@@ -4,10 +4,11 @@
         <h1>Build</h1>
         <div class="swapper">
             <h1>________</h1>
-            <h1 class="word" :class="{show: idx === index}" v-for="(word, idx) in words" :key="word">{{word}},</h1>
+            <h1 class="word" :class="{show: idx === index}" v-for="(word, idx) in words" :key="word"><b>{{word}}</b></h1>
         </div>
         
         <h1>the modern way.</h1>
+        <p class="wrap">Presentational documents can be <b>built</b> and <b>experienced</b> differently.</p>
 
         <!-- <QuoteStrip :message="'Your personal trainer that helps you presenting great!'" /> -->
 
@@ -59,8 +60,8 @@ export default {
     padding-top: 2rem;
 }
 h1{
-    font-size:3.4rem;
-    line-height: 3.1rem;
+    font-size:3.5rem;
+    line-height: 3rem;
     margin:0;
     padding: 0;
     text-align: center;
@@ -94,6 +95,13 @@ h1 b{
 .show{
     transform: scale(1);
     opacity: 1;
+}
+
+.wrap{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    letter-spacing: -.03rem;
 }
 
 @media(min-width: 600px){
