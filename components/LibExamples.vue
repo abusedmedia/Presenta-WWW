@@ -2,6 +2,7 @@
     <div class="wrapper">
         
         <TextSample />
+        <ImageSample />
         <AirtableSample />
         <UnsplashSample />
         <MarkdownSample />
@@ -15,6 +16,7 @@
 
 <script>
 import TextSample from './presentaSamples/TextSample.vue'
+import ImageSample from './presentaSamples/ImageSample.vue'
 import AirtableSample from './presentaSamples/AirtableSample.vue'
 import UnsplashSample from './presentaSamples/UnsplashSample.vue'
 import MarkdownSample from './presentaSamples/MarkdownSample.vue'
@@ -23,7 +25,7 @@ import GithubSinceSample from './presentaSamples/GithubSinceSample.vue'
 
 export default {
     components:{
-        TextSample, AirtableSample, UnsplashSample, MarkdownSample, WordpressSample, GithubSinceSample
+        TextSample, ImageSample, AirtableSample, UnsplashSample, MarkdownSample, WordpressSample, GithubSinceSample
     }
 }
 
