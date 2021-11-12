@@ -21,10 +21,9 @@ export default {
             }
         }
         
-        const config = await interpolate({frames}, 'f11a47565b6be8377a481222e20a4ca1')
+        const config = await interpolate({frames}, '110114e9a66f52befcaa80140a2f8906')
 
         config.controllers.loop = true
-        config.controllers.progressbar = true
         config.controllers.focus = false
         config.modules.autoplay = true
         config.controllers.transitions = 'fadeIn'
