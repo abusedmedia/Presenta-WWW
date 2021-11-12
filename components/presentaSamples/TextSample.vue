@@ -18,7 +18,7 @@
                 const config = await interpolate({frames}, templateConfig)
 
                 // create the document within your wrapper
-                await new Presenta('#myDiv', config)
+                await new Presenta('#wrapper', config)
 
                 // have fun!
             </highlight-code>
