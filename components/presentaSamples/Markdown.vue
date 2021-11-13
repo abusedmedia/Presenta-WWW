@@ -15,12 +15,16 @@ export default {
     },
     data(){
         return {
-            preso:null
+            preso:null,
+            debounce:null
         }
     },
     watch:{
         source(){
-            this.build()
+            clearTimeout(this.debounce)
+            this.debounce = setTimeout(() => {
+                this.build()
+            }, 250)
         }
     },
     async mounted(){
@@ -29,7 +33,6 @@ export default {
     methods:{
         async build(){
             if(this.preso) this.preso.destroy()
-            this.$el.innerHTML = ''
 
             const doc = frontmatter(this.source)
 
@@ -69,9 +72,9 @@ export default {
 
             const theme = doc.data.theme
             config.modules.colors = themes[theme] || null
-            console.log(themes[theme])
             
             this.preso = await new Presenta(this.$el, config)
+
         }
     }
 }
