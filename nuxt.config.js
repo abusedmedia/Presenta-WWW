@@ -36,7 +36,8 @@ blogposts.sort((a, b) => {
   return descending(a.date, b.date)
 })
 
-fs.writeFileSync('content/blog/list.json', JSON.stringify(blogposts))
+// enable when there will be the blog again
+// fs.writeFileSync('content/blog/list.json', JSON.stringify(blogposts))
 
 //
 
