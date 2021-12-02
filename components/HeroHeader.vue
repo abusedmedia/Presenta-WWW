@@ -8,7 +8,7 @@
         </div>
         
         <h1>the modern way.</h1>
-        <p class="wrap">Presentational documents can be <b>built</b> and <b>experienced</b> differently.</p>
+        <p class="wrap">Presentational documents can be <b>built differently</b>.</p>
 
         <!-- <QuoteStrip :message="'Your personal trainer that helps you presenting great!'" /> -->
 
@@ -119,7 +119,9 @@ h1 b{
         font-size:7.2rem;
         line-height: 5.7rem;
     }
-  
+    .wrap{
+        font-size: 2rem;
+    }
 }
 
 

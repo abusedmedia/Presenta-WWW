@@ -7,8 +7,11 @@
             <video ref="vid" src="/0-main.m4v" muted poster="0-main.jpg"></video>
           </div>
         </div> -->
-                    <!-- <iframe width="800" height="450" src="https://www.youtube.com/embed/AaKGgTXl4MA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-
+        
+        <!-- <div class="vid">
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/AaKGgTXl4MA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> -->
+        
         <Opening />
       
         <!-- <Features /> -->
