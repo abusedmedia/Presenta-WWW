@@ -69,6 +69,9 @@ export default {
   display: flex;
   justify-content: center;
 }
+.splash img{
+  width: 100%;
+}
 .vid{
   margin:2rem 0;
   padding:1rem;
