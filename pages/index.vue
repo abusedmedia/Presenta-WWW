@@ -13,7 +13,11 @@
         </div> -->
 
         <div class="splash">
-          <img src="/splash.png" />
+          <picture>
+            <source srcset="/splash.png" media="(min-width: 700px)">
+            <img src="/splash-narrow.png" />
+          </picture>
+          
         </div>
         
         <Opening />
