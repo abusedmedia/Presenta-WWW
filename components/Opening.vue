@@ -8,6 +8,11 @@
                     <!-- <p>More then 30 years ago <b>PowerPoint set the bar</b> about how presentations should be crafted.</p> -->
                     <!-- <p>After that, <b>we still move objects on canvas</b> to create documents for our communication needs.</p> -->
                     <p class="wrap">Create automatically <b>cards</b>, <b>banners</b>, <b>catalogues</b>, <b>galleries</b>, <b>reports</b> and <b>showcases</b> using pre-made or custom design <b>templates</b> and our <b>API Cloud</b> Infrastructure.</p>
+                    
+                    <div class="splash">
+                        <img src="/automation-scheme.svg" />
+                    </div>
+                    
                     <p class="wrap">It’s a long ride and <a href="/lib">PRESENTA&nbsp;Lib</a>, <i>our open-source javascript library</i>, marks a key milestone in this journey.</p>
                 </div>
             </div>
@@ -56,7 +61,17 @@ a:hover{
     font-weight: 700;
 }
 
-@media screen and (min-width: 450px) {
-    
+.splash{
+    display: flex;
+    justify-content: center;
+}
+.splash img{
+    width: 100%;
+}
+
+@media screen and (min-width: 520px) {
+    .splash img{
+        width: 70%;
+    }
 }
 </style>

@@ -11,6 +11,10 @@
         <!-- <div class="vid">
         <iframe width="800" height="450" src="https://www.youtube.com/embed/AaKGgTXl4MA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div> -->
+
+        <div class="splash">
+          <img src="/splash.png" />
+        </div>
         
         <Opening />
       
@@ -61,7 +65,10 @@ export default {
   text-align: center;
   font-size: 3.5rem;
 }
-
+.splash{
+  display: flex;
+  justify-content: center;
+}
 .vid{
   margin:2rem 0;
   padding:1rem;
