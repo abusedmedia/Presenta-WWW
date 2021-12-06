@@ -8,7 +8,7 @@
         </div>
         
         <h1>the modern way.</h1>
-        <p class="wrap"><b>Data-driven</b> documents for the <b>Automation era</b>.</p>
+        <p class="wrap"><b>Data-driven</b> documents for the <b>Automation</b> era.</p>
 
         <!-- <QuoteStrip :message="'Your personal trainer that helps you presenting great!'" /> -->
 
