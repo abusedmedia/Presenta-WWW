@@ -53,31 +53,31 @@ export default {
   // },
   target: 'static',
   head: {
-    titleTemplate: '%s @ Presenta - The Automation and Data-Driven Presentation Platform',
+    titleTemplate: '%s @ Presenta - The Automation and Data-Driven Documents Generation Platform',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'robots', content: 'index, follow' },
 
       { property: 'og:type', content: 'website' },
-      { property: 'og:site_name', content: 'Presenta, a data-driven presentation platform' },
-      { property: 'og:description', content: 'Build presentations the modern way.' },
+      { property: 'og:site_name', content: 'Presenta, data-driven documents generation' },
+      { property: 'og:description', content: 'Build documents the modern way.' },
 
-      { hid: 'ogtit', property: 'og:title', content: 'Presenta, a data-driven presentation platform' },
+      { hid: 'ogtit', property: 'og:title', content: 'Presenta, data-driven documents generation' },
       { hid: 'ogurl', property: 'og:url', content: 'https://www.presenta.cc/' },
       { hid: 'ogimg', property: 'og:image', content: 'https://www.presenta.cc/social.png' },
 
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@fabiofranchino' },
       { name: 'twitter:creator', content: '@fabiofranchino' },
-      { name: 'twitter:description', content: 'Build presentations the modern way.' },
+      { name: 'twitter:description', content: 'Build documents the modern way.' },
 
-      { hid: 'twtit', name: 'twitter:title', content: 'Presenta, a data-driven presentation platform' },
+      { hid: 'twtit', name: 'twitter:title', content: 'Presenta, data-driven documents generation' },
       { hid: 'twurl', name: 'twitter:url', content: 'https://www.presenta.cc/' },
       { hid: 'twimg', name: 'twitter:image', content: 'https://www.presenta.cc/social.png' },
 
-      { hid: 'description', name: 'description', content: 'Presenta, a data-driven presentation platform. Build presentations the modern way.' },
-      { hid: 'keywords', name: 'keywords', content: 'presentation, data, information, presenting, speech, pitch' },
+      { hid: 'description', name: 'description', content: 'Presenta, data-driven documents generation. Build documents the modern way.' },
+      { hid: 'keywords', name: 'keywords', content: 'automation, automate, documents, pdf, images, reports, generation, data, data-driven, api, cloud' },
       { hid: 'author', name: 'author', content: 'Fabio Franchino' },
       { hid: 'published_time', name: 'article:published_time', content: '' }
 
