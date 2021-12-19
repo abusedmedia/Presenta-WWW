@@ -38,7 +38,7 @@ export default {
   },
   head () {
         return {
-            title: 'PRESENTA Lib 1.0'
+            title: 'Open Source Javascript Library'
         }
   },
 }

@@ -47,7 +47,7 @@ export default {
   },  
   head () {
         return {
-            title: 'Home'
+            title: 'Generate Dynamic Data-Driven Documents, Reports, PDF, PNG, GIF with our Cloud API'
         }
   },
   // async asyncData(){

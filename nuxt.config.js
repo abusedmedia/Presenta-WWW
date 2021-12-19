@@ -53,7 +53,7 @@ export default {
   // },
   target: 'static',
   head: {
-    titleTemplate: '%s @ Presenta - The Automation and Data-Driven Documents Generation Platform',
+    titleTemplate: '%s @ Presenta - The Automation Documents Platform',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
