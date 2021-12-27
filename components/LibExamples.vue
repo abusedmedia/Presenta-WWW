@@ -7,8 +7,6 @@
         <UnsplashSample />
         <MarkdownSample />
         <WordpressSample />
-        <GithubSinceSample />
-
 
     </div>
 </template>
@@ -21,11 +19,10 @@ import AirtableSample from './presentaSamples/AirtableSample.vue'
 import UnsplashSample from './presentaSamples/UnsplashSample.vue'
 import MarkdownSample from './presentaSamples/MarkdownSample.vue'
 import WordpressSample from './presentaSamples/WordpressSample.vue'
-import GithubSinceSample from './presentaSamples/GithubSinceSample.vue'
 
 export default {
     components:{
-        TextSample, ImageSample, AirtableSample, UnsplashSample, MarkdownSample, WordpressSample, GithubSinceSample
+        TextSample, ImageSample, AirtableSample, UnsplashSample, MarkdownSample, WordpressSample
     }
 }
 
