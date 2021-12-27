@@ -8,10 +8,10 @@
                 for(let i=0; i < 16; ++i){
                     if(i % 4 === 0){
                         frames.push({
-                            i1: 'https://source.unsplash.com/random?t=' + Math.random(),
-                            i2: 'https://source.unsplash.com/random?t=' + Math.random(),
-                            i3: 'https://source.unsplash.com/random?t=' + Math.random(),
-                            i4: 'https://source.unsplash.com/random?t=' + Math.random()
+                            i1: 'https://source.unsplash.com/random',
+                            i2: 'https://source.unsplash.com/random',
+                            i3: 'https://source.unsplash.com/random',
+                            i4: 'https://source.unsplash.com/random'
                         })
                     }
                 }

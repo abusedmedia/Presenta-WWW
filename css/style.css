@@ -8,6 +8,7 @@ html, body, video, #app{
 
   --maincolor: #67657A;
   --accentcolor: #FEDB0A;
+  --accentlight: #fff4b4;
 }
 
 body, #app, #__nuxt, #__layout{
@@ -230,12 +231,12 @@ div, a{
 
 
 .feature .left p{
-  text-align: center;
+  text-align: left;
 }
 .feature .left h2{
   font-weight: 400;
-  text-align: center;
-  font-size: 2rem;
+  text-align: left;
+  font-size: 2.5rem;
   letter-spacing: -0.08rem;
   margin: 0 .5rem;
 }
@@ -278,7 +279,7 @@ div, a{
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .feature .right{
@@ -288,7 +289,7 @@ div, a{
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .feature .img{

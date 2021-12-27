@@ -5,11 +5,25 @@
         </div>
         
 
-        <!-- <div class="login">
-            <a class="btn" href="https://app.presenta.cc/">Go to PRESENTA</a>
-        </div> -->
+        <div class="menu">
+            <nuxt-link to="/lib">Open-Source</nuxt-link>
+            <!-- <nuxt-link to="/tools">Free Tools</nuxt-link> -->
+            <!-- <a class="btn" href="https://app.presenta.cc/">Sign In</a> -->
+        </div>
     </header>
 </template>
+
+
+<script>
+export default {
+    methods:{
+        getSelectedClass(path){
+            console.log('PATHHHH', this.$route)
+            return {selected: true}
+        }
+    }
+}
+</script>
 
 
 
@@ -18,24 +32,47 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .4rem;
-    box-shadow: 0 0 15px rgba(0,0,0,.1);
+    padding: 1rem;
+    box-shadow: 0 0 15px #ccc;
     z-index: 9999;
 }
 
-
 .logo a{
-    padding: 0 .25rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 6px;
+    overflow: hidden;
+    border-radius: 4px;
 }
 
 .btn{
-    font-size:1rem;
+    font-size:1.5rem;
 }
 
+.menu{
+    display: flex;
+}
+.menu a{
+    padding: .5rem;
+    display: block;
+    overflow: hidden;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-left: .5rem;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.menu .nuxt-link-active{
+    background: var(--accentcolor);    
+}
+
+@media screen and (min-width: 450px) {
+    .btn{
+        font-size:1rem;
+    }
+}
 
 div{
     display: flex;
@@ -43,8 +80,16 @@ div{
 }
 
 img{
-    width: 8rem;
+    width: 16rem;
 }
 
+@media screen and (min-width: 450px) {
+    img{
+        width: 8rem;
+    }
+}
 
+@media screen and (min-width: 770px) {
+    
+}
 </style>

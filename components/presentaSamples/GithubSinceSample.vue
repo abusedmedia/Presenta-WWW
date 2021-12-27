@@ -5,8 +5,10 @@
             <h2><mark>"Github Since" </mark></h2>
             
             <p>
-                A <a href="https://github-since.presenta.cc/" target="_blank">little project</a> that uses the <b>GitHub API</b> and the <b>PRESENTA Platform API</b> to generate personalized, data-driven, cards.
-            </p>                
+                A little project that uses the <b>GitHub API</b> and the <b>PRESENTA Platform API</b> to generate personalized, data-driven, cards.
+            </p>  
+
+            <p><a href="https://github-since.presenta.cc/" target="_blank">Go to the project</a></p>             
         </div>
             
         <div class="right">

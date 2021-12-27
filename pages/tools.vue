@@ -4,7 +4,7 @@
         <div class="hero">
             <h1>Free Tools</h1>
 
-            <h2>powered by <b>PRESENTA</b>!</h2>
+            <h2>Powered by <b>PRESENTA</b>!</h2>
         </div>
 
         <ToolsExamples />

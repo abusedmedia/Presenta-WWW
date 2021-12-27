@@ -21,6 +21,8 @@
         </div>
         
         <Opening />
+
+        <!-- <HomeExamples /> -->
       
         <!-- <Features /> -->
         <Subscribe :noHomeLink="true" />
@@ -39,11 +41,12 @@ import LatestPosts from '~/components/LatestPosts.vue'
 import Subscribe from '~/components/Subscribe.vue'
 import Opening from '~/components/Opening.vue'
 import { mapMutations, mapGetters } from 'vuex'
+import HomeExamples from '~/components/HomeExamples.vue'
 
 
 export default {
   components:{
-    HeroHeader,Features,FooterComp,LatestPosts,Subscribe,Opening
+    HeroHeader,Features,FooterComp,LatestPosts,Subscribe,Opening,HomeExamples
   },  
   head () {
         return {
