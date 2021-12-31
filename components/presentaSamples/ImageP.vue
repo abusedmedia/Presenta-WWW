@@ -48,7 +48,7 @@ export default {
         config.controllers.loop = true
         config.controllers.focus = false
         config.modules.autoplay = true
-        config.controllers.transitions = 'fadeIn'
+        config.controllers.transitions = 'hSlide'
 
         await new Presenta(this.$el, config)
     }
