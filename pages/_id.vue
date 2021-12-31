@@ -85,8 +85,8 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 3rem;
-    font-size:3rem;
+    padding: 0 1rem;
+    font-size: 1.3rem;
 }
 
 .wrap{
@@ -104,28 +104,26 @@ export default {
 
 .blog >>> code[class*="language-"], 
 .blog >>> pre[class*="language-"]{
-    font-size:75%;
+    font-size:90%;
 }
 
 
 @media screen and (min-width: 400px){
     .wrapper{
-        width: 85%;
+        width: 90%;
     }
     .blog{
         padding:0;
-        font-size:2rem;
     }
 
 }
 
 @media screen and (min-width: 700px){
     .wrapper{
-        width: 90%;
+        width: 80%;
     }
     .blog{
         padding:0;
-        font-size:1.7rem;
     }
 
     .side{
@@ -176,6 +174,7 @@ export default {
   list-style-type: none;
   counter-reset: li;
   padding: 0.5rem 0;
+    color: #555;
 }
 
 .blog .body >>> li{
@@ -203,6 +202,9 @@ export default {
   display: inline;
 }
 
+.blog >>> p{
+    color: #555;
+}
 
 
 </style>
