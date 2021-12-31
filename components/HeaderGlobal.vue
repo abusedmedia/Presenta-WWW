@@ -6,24 +6,15 @@
         
 
         <div class="menu">
-            <nuxt-link to="/lib">Open-Source</nuxt-link>
-            <!-- <nuxt-link to="/tools">Free Tools</nuxt-link> -->
-            <!-- <a class="btn" href="https://app.presenta.cc/">Sign In</a> -->
+            <!-- <nuxt-link to="/use-cases">Use Cases</nuxt-link> -->
+            <nuxt-link to="/docs">API Docs</nuxt-link>
+            <nuxt-link to="/pricing">Pricing</nuxt-link>
+            <nuxt-link to="/signin">Sign In</nuxt-link>
         </div>
     </header>
 </template>
 
 
-<script>
-export default {
-    methods:{
-        getSelectedClass(path){
-            console.log('PATHHHH', this.$route)
-            return {selected: true}
-        }
-    }
-}
-</script>
 
 
 
@@ -32,7 +23,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 0.5rem;
     box-shadow: 0 0 15px #ccc;
     z-index: 9999;
 }
@@ -50,7 +41,7 @@ header{
 }
 
 .menu{
-    display: flex;
+    display: none;
 }
 .menu a{
     padding: .5rem;
@@ -72,6 +63,9 @@ header{
     .btn{
         font-size:1rem;
     }
+    .menu{
+        display: flex;
+    }
 }
 
 div{
@@ -80,7 +74,7 @@ div{
 }
 
 img{
-    width: 16rem;
+    width: 10rem;
 }
 
 @media screen and (min-width: 450px) {

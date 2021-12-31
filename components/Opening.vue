@@ -7,10 +7,11 @@
                     <p class="wrap main"><b>PRESENTA</b> is the <mark>automation</mark> platform for <mark>data-driven</mark> presentational documents.</p>
                     <!-- <p>More then 30 years ago <b>PowerPoint set the bar</b> about how presentations should be crafted.</p> -->
                     <!-- <p>After that, <b>we still move objects on canvas</b> to create documents for our communication needs.</p> -->
-                    <p class="wrap">Create automatically <b>cards</b>, <b>banners</b>, <b>catalogues</b>, <b>galleries</b>, <b>reports</b> and <b>showcases</b> using pre-made or custom design <b>templates</b> and our <b>API Cloud</b> Infrastructure.</p>
+                    <p class="wrap">Create automatically <b>cards</b>, <b>banners</b>, <b>catalogues</b>, <b>presentations</b>, <b>galleries</b>, <b>reports</b> and <b>showcases</b> using pre-made or custom designed <b>templates</b> and our <b>Cloud APIs</b> Infrastructure.</p>
                     
                     <div class="splash">
-                        <img src="/automation-scheme.svg" />
+                        <img class="desktop" src="/automation-scheme-desktop.svg" />
+                        <img class="mobile" src="/automation-scheme-mobile.svg" />
                     </div>
                     
                     <p class="wrap">It’s a long ride and <a href="/lib">PRESENTA&nbsp;Lib</a>, <i>our open-source javascript library</i>, marks a key milestone in this journey.</p>
@@ -69,9 +70,19 @@ a:hover{
     width: 100%;
 }
 
+.splash .desktop{
+    display: none;
+}
+
 @media screen and (min-width: 520px) {
     .splash img{
         width: 70%;
+    }
+    .splash .desktop{
+        display: block;
+    }
+    .splash .mobile{
+        display: none;
     }
 }
 </style>

@@ -2,13 +2,10 @@
     <div class="body">
 
         <div class="hero">
-            <h1>Free Tools</h1>
 
-            <h2>Powered by <b>PRESENTA</b>!</h2>
+            <h2>Public Sign-In is not available yet.</h2>
         </div>
 
-        <ToolsExamples />
-        
         <Subscribe />
 
         <FooterComp />
@@ -18,17 +15,16 @@
 
 <script>
 import HeroHeader from '~/components/HeroHeader.vue'
-import Subscribe from '~/components/Subscribe.vue'
 import FooterComp from '~/components/FooterComp.vue'
-import ToolsExamples from '~/components/ToolsExamples.vue'
+import Subscribe from '~/components/Subscribe.vue'
 
 export default {
   components:{
-      HeroHeader,Subscribe,FooterComp,ToolsExamples
+      HeroHeader,FooterComp,Subscribe
   },
   head () {
         return {
-            title: 'Free Tools'
+            title: 'Waiting Room'
         }
   },
 }
@@ -38,33 +34,6 @@ export default {
 
 
 <style scoped>
-.hero{
-    padding:2rem 2rem;
-    padding-top: 3rem;
-}
-h1{
-    font-size:3.2rem;
-    margin:0;
-    padding: 0;
-    text-align: center;
-    font-weight: 900;
-    letter-spacing: -.2rem;
-    margin-bottom: 1rem;
-}
-h2{
-    font-size:2.2rem;
-    line-height: 2.2rem;
-    margin:0;
-    padding: 0;
-    text-align: center;
-    font-weight: 900;
-    letter-spacing: -.1rem;
-}
-
-h1 b, h2 b{
-    display: inline-block;
-    background-color: var(--accentcolor);
-}
 
 
 .cta{

@@ -1,25 +1,34 @@
 <template>
     <div class="feature">
-        <div class="left">
-            <h2><mark>Wordpress 👉 Catalog</mark></h2>
 
-            <p>Fetch <b>Wordpress API</b> to build a catalog:<br />
+        <div class="incipit">
+            <h4>Wordpress 👉 Catalog</h4>
+
+            <h2>Fetch Wordpress API, build a product catalog.</h2>
+
+            <p>Fetch a list of Product items on <b>Wordpress API</b> and build a real product catalog using a powerful template.<br />
             <span class="tiny">(Select between pre-backed fetches from Wordpress.com demos)</span></p>
-                
-            <div class="selector">
-                <div class="elem" @click="selectThis(idx)"
-                     v-for="(opt,idx) in options" :key="opt"
-                    :class="{selected: idx === selected}">
-                    {{opt}}
-                </div>
-                
-            </div>
+        
         </div>
 
-        <div class="right">
-            <client-only>
-                <Wordpress v-if="source" :source="source" />
-            </client-only>
+        <div class="columns">
+            <div class="left">
+                    
+                <div class="selector">
+                    <div class="elem" @click="selectThis(idx)"
+                        v-for="(opt,idx) in options" :key="opt"
+                        :class="{selected: idx === selected}">
+                        {{opt}}
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="right">
+                <client-only>
+                    <Wordpress v-if="source" :source="source" />
+                </client-only>
+            </div>
         </div>
 
     </div>

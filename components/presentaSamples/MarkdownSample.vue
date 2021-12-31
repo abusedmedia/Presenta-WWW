@@ -1,19 +1,28 @@
 <template>
     <div class="feature">
-        <div class="left">
-            <h2><mark>Markdown 👉 Slides</mark></h2>
+        
+        <div class="incipit">
+            <h4>Markdown 👉 Slides</h4>
 
-            <p>Write <b>Markdown</b> and build a presentation:</p>
+            <h2>Turn Markdown into a Pitch.</h2>
+
+            <p>Convert Markdown, or any other structured markup, into an interactive Presentation.<br />
+            <span class="tiny">(You can edit live the following Markdown)</span></p>
+        </div>
+
+        <div class="columns">
+            <div class="left">
                 
-            <textarea rows="13" v-model="source"></textarea>
-        </div>
+                    
+                <textarea rows="13" v-model="source"></textarea>
+            </div>
 
-        <div class="right">
-            <client-only>
-                <Markdown :source="source" />
-            </client-only>
+            <div class="right">
+                <client-only>
+                    <Markdown :source="source" />
+                </client-only>
+            </div>
         </div>
-
     </div>
 </template>
 

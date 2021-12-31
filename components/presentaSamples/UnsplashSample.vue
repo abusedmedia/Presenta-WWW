@@ -1,25 +1,35 @@
 <template>
     <div class="feature">
-        <div class="left">
-            <h2><mark>Unsplash 👉 Gallery</mark></h2>
 
-            <p>Search <b>Unsplash</b> and build an image gallery:<br />
+        <div class="incipit">
+            <h4>Unsplash 👉 Gallery</h4>
+
+            <h2>Search Unsplash, build a gallery.</h2>
+
+            <p>Fetch a bunch of images on <b>Unsplash API</b> and build an image gallery using a powerful template.<br />
             <span class="tiny">(Select between pre-backed searches for demo purposes)</span></p>
-                
-            <div class="selector">
-                <div class="elem" @click="selectThis(idx)"
-                     v-for="(opt,idx) in options" :key="opt"
-                    :class="{selected: idx === selected}">
-                    {{opt}}
-                </div>
-                
-            </div>
+        
         </div>
+        
+        <div class="columns">
 
-        <div class="right">
-            <client-only>
-                <Unsplash v-if="source" :source="source" />
-            </client-only>
+            <div class="left">
+
+                <div class="selector">
+                    <div class="elem" @click="selectThis(idx)"
+                        v-for="(opt,idx) in options" :key="opt"
+                        :class="{selected: idx === selected}">
+                        {{opt}}
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="right">
+                <client-only>
+                    <Unsplash v-if="source" :source="source" />
+                </client-only>
+            </div>
         </div>
 
     </div>

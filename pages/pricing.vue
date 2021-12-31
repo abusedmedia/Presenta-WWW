@@ -1,0 +1,233 @@
+<template>
+    <div class="body">
+
+        <div class="hero">
+            <h2>Pay-per-Use at</h2>
+            <h1><b>0.01€</b> &#215; <b>Credit</b></h1>
+
+            <h2>Simple as that!</h2>
+
+            <h3>No monthly or fixed fee.</h3>
+            <p><a href="https://stripe.com/pricing" target="_blank">Stripe fee</a> added if less than 10€/month.<br />
+            VAT added if applicable.</p>
+
+        </div>
+
+        <div class="faq">
+            <h4>Frequently Asked Questions:</h4>
+
+            <details>
+                <summary>What can I do with <b>1 Credit</b>?</summary>
+                <div class="content">
+                    <p>Here the answer:</p>
+                    
+                    <ul>
+                        <li><b>1 Credit</b> can generate <b>1 PNG</b>.</li>
+                        <li><b>1 Credit</b> can generate <b>1 Page</b> of a multi-page PDF.</li>
+                        <li><b>1 Credit</b> can generate <b>1 Frame</b> of a multi-frame GIF.</li>
+                    </ul>
+
+                    <p>For instance:</p>
+                    <ul>
+                        <li>A PDF with <b>20 pages</b>, once generated, will count <b>20 Credits</b>, therefore,  will cost <b>0.2€</b>.</li>
+                        <li>An animated GIF composed by <b>8 frames</b> will count <b>8 Credits</b>, therefore,  will cost <b>0.08€</b>.</li>
+                        <li>A <b>single</b> PNG will always count <b>1 Frame</b>, therefore, will cost <b>0.01€</b>.</li>
+                        <li>If you export a 30 scenes project as PNGs, it'll count <b>30 Credits</b>, therefore,  will cost <b>0.3€</b></li>
+                    </ul>
+                </div>
+            </details>
+
+            <details>
+                <summary>Why the <b>Stripe fee</b>?</summary>
+                <div class="content">
+                    <p><a href="https://stripe.com/" target="_blank">Stripe</a> handles the payment transaction and billing for us.</p>
+                    <p>Since our true pay-per-use pricing model, the Stripe' fee needs to be added for small collected amounts.</p>
+                    <p>For instance, for a <b>3.00€</b> amount, here what we're going to charge:</p>
+                    <ul>
+                        <li>As an <b>european</b>, we'll charge <b>3.29€</b></li>
+                        <li>As <b>non-european</b>, we'll charge <b>3.34€</b></li>
+                    </ul>
+                    <p>For months that collect more than 10€ the Stripe' fee will be deducted.</p>
+                    <p>You can review the current <a href="https://stripe.com/pricing" target="_blank">Stripe fee</a> on their website.</p>
+                </div>
+            </details>
+
+
+            <details>
+                <summary>How can I monitor my <b>costs</b>?</summary>
+                <div class="content">
+                    <p>In the Profile section you can see the <b>usage' dashboard</b> to monitor in real-time the generation amount as well as its current cost.</p>
+                    <p>In any case, before any charge, <b>we'll inform you few days before</b> of the upcoming operation. <br />We call it <b>No-Surprise policy</b>.</p>
+                </div>
+            </details>
+
+
+
+            <details>
+                <summary>Tell me about <b>FREE</b> and <b>PRO</b> plans.</summary>
+                <div class="content">
+                    <p>By creating an account you'll be set as <b>FREE</b> plan by default that allows you to:</p>
+                    <ul>
+                        <li>Use the <b>Visual Editor</b> to create, manage and publish <b>Templates</b>.</li>
+                        <li>Use the <b>Cloud API</b> with your Templates with a <b>watermark</b> applied.</li>
+                    </ul>
+
+                    <p>By adding a <b>Credit-Card</b> to your account you'll be set as <b>PRO</b> that allows to:</p>
+                    <ul>
+                        <li>Use the <b>Cloud API</b> with your Templates <b>without watermark</b>.</li>
+                        <li>Unlock <b>additional features</b> in the Visual Editor (such as <b>import/export</b>).</li>
+                    </ul>
+                </div>
+            </details>
+
+
+            <details>
+                <summary>How much cost the <b>CDN cache</b>?</summary>
+                <div class="content">
+                    <p>Each generated file will be available for download within the current month by our fast CDN for <b>FREE</b>!</p>
+                </div>
+            </details>
+
+
+            <p>Need <b>high volume</b> pricing? <a href="mailto:support@presenta.cc">Contact us!</a></p>
+        </div>
+
+        <Subscribe />
+
+        <FooterComp />
+    </div>
+</template>
+
+
+<script>
+import HeroHeader from '~/components/HeroHeader.vue'
+import Subscribe from '~/components/Subscribe.vue'
+import FooterComp from '~/components/FooterComp.vue'
+import ToolsExamples from '~/components/ToolsExamples.vue'
+
+export default {
+  components:{
+      HeroHeader,Subscribe,FooterComp,ToolsExamples
+  },
+  head () {
+        return {
+            title: 'Pricing'
+        }
+  },
+}
+
+</script>
+
+
+
+<style scoped>
+
+
+.faq{
+    text-align: center;
+}
+.cta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta .btn{
+    font-size: 1.25rem;
+}
+
+.ticker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.install{
+    padding: .5rem 1rem;
+    background: #eee;
+    border:1px solid #ddd;
+    border-radius: 8px;
+}
+.weight{
+    padding: .5rem 1rem;
+    color: #ccc;
+}
+
+.faq{
+    font-size: 1.4rem;
+    width: 95%;
+    margin: auto;
+}
+
+details{
+    margin-bottom: .2rem;
+    text-align: left;
+}
+details[open]{
+    margin-bottom: 1rem;
+}
+details[open] summary{
+    background: #eee;
+}
+details[open] .content{
+    background: linear-gradient(#fff, #f8f8f8);
+}
+details .content{
+    padding: .5rem;
+    margin: 0;
+    font-size: 1.2rem;
+}
+.content p, .content ul{
+    margin: .5rem 0;
+}
+summary{
+    background: #f8f8f8;
+    cursor: pointer;
+    text-align: center;
+    padding: .5rem;
+}
+summary:hover{
+    background: #eee;
+}
+
+@media(min-width: 600px){
+    h1{
+        font-size:7.2rem;
+        line-height: 5.7rem;
+        letter-spacing: -.4rem;
+        margin-bottom: 2rem;
+    }
+    h2{
+        font-size:4rem;
+        line-height: 4.2rem;
+        letter-spacing: -.2rem;
+        margin-bottom: 2rem;
+    }
+    h3{
+        font-size:2rem;
+        line-height: 2.2rem;
+        letter-spacing: -.1rem;
+    }
+    .cta .btn{
+        font-size: 1.75rem;
+    }
+
+    .ticker{
+        flex-direction: row;
+    }
+
+    .faq{
+        width: 70%;
+        font-size: 2rem;
+    }
+    details .content{
+        padding: 1.5rem;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        color: #555;
+    }
+}
+</style>

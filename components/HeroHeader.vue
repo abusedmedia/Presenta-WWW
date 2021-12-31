@@ -59,22 +59,15 @@ export default {
     }
 }
 </script>
-<style scoped>
 
-.hero{
-    padding:2rem 2rem;
-    padding-top: 2rem;
-}
+
+<style scoped>
 h1{
     font-size:3.5rem;
     line-height: 3rem;
     margin:0;
     padding: 0;
-    text-align: center;
-    font-weight: 900;
-    letter-spacing: -.2rem;
 }
-
 h1 b{
     display: inline-block;
     background-color: var(--accentcolor);

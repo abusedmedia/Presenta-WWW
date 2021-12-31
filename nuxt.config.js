@@ -84,6 +84,7 @@ export default {
     ],
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,900;1,400&display=swap' },
+      //{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,600;0,900;1,400;1,600&display=swap' },
       { rel: 'icon', href: '/favicon.png' }
     ]
   },

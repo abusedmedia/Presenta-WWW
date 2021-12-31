@@ -8,9 +8,18 @@
                     <p class="less"><b><nuxt-link to="/lib">PRESENTA Lib</nuxt-link></b> is an open-source javascript library released under the 3-Clause BSD license.</p>
                     <p>Have a wonderful day! <br />
                     <span class="little">In this site you're NOT tracked at all</span></p>
+                    <p><a href="mailto:support@presenta.cc">Contact Us</a></p>
                 </div>
                 <div class="one">
-                    <p>Review the <nuxt-link to="/legal/privacy-policy">Privacy Policy</nuxt-link>, the <nuxt-link to="/legal/cookie-policy">Cookie Policy</nuxt-link> and <nuxt-link to="/legal/terms-of-service">Terms Of Use</nuxt-link> of <b>PRESENTA</b> applications and websites.</p>
+                    <p class="relevant links">
+                        <!-- <a href="/use-cases">Use Cases</a> -->
+                        <a href="/docs">API&nbsp;Docs</a>
+                        <a href="/pricing">Pricing</a>
+                        <a href="/lib">Open&nbsp;Source</a>
+                        <a href="/tools">Tools</a>
+                        <a href="/signin">Sign In</a>
+                    </p>
+                    <p class="less">Review the <nuxt-link to="/legal/privacy-policy">Privacy Policy</nuxt-link>, the <nuxt-link to="/legal/cookie-policy">Cookie Policy</nuxt-link> and <nuxt-link to="/legal/terms-of-service">Terms Of Use</nuxt-link> of <b>PRESENTA</b> applications and websites.</p>
                 </div>
             </footer>
         </div>
@@ -55,12 +64,13 @@ footer p{
     line-height: 1.5rem;
 }
 
-p.relevant{
+.relevant{
     font-size: 1.25rem;
     margin-bottom: 0;
 }
-p.less{
+.less{
     margin-top: 0;
+    font-size: 0.8rem;
 }
 
 
@@ -87,6 +97,13 @@ footer a{
     font-size: 1rem;
 }
 
+.links{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+.links a{
+    padding: .25rem;
+}
 @media screen and (min-width: 450px) {
     
     footer{
@@ -100,9 +117,7 @@ footer a{
     .one{
         flex:1;
         text-align: right;
-    }
-    .one p{
-        font-size: 0.8rem;
+        
     }
 }
 </style>

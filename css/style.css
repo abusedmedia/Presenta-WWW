@@ -24,6 +24,9 @@ body, #app, #__nuxt, #__layout{
   flex-direction: column;
   font-family: 'Source Sans Pro', sans-serif;
 }
+/* h1,h2,h3,h4,h5,h6{
+  font-family: 'Bodoni Moda', serif;
+} */
 
 mark{
   display: inline-block;
@@ -230,21 +233,39 @@ div, a{
 
 
 
-.feature .left p{
-  text-align: left;
+
+.feature{
+  margin-bottom: 8rem;
 }
-.feature .left h2{
-  font-weight: 400;
+
+.feature .columns{
+  display: flex;
+  flex-direction: column;
+}
+
+.feature .incipit p{
+  text-align: left;
+  color: #67657A;
+}
+.feature .incipit h2{
+  font-weight: 900;
   text-align: left;
   font-size: 2.5rem;
   letter-spacing: -0.08rem;
-  margin: 0 .5rem;
+  line-height: 100%;
+  margin: 0;
 }
-.feature .left h3{
+.feature .incipit h3{
   font-weight: 900;
 }
+.feature .incipit h4{
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+  color: #67657A;
+}
 
-.feature .left b{
+.feature .incipit b{
   font-weight: 900;
 }
 
@@ -252,21 +273,22 @@ div, a{
   font-size: .9rem;
 }
 
-.feature .left mark{
+.feature .incipit mark{
   background-color: white;
   border: 4px solid var(--accentcolor);
   padding:.2rem .8rem;
 }
 
-.feature{
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 7rem;
+
+.feature .incipit{
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+.feature .left .incipit{
+  padding: 0;
 }
 
-
-
-.feature > div{
+.feature .columns > div{
   flex:1;
   width: 100%;
   position: relative;
@@ -274,7 +296,6 @@ div, a{
 
 .feature .left{
   padding: 1rem;
-  font-size: 1.2rem;
   padding-top:0;
 
   display: flex;
@@ -292,6 +313,10 @@ div, a{
   justify-content: flex-start;
 }
 
+.feature pre{
+  margin: 0;
+}
+
 .feature .img{
   width: 100%;
 }
@@ -303,6 +328,11 @@ div, a{
 
 
 @media screen and (min-width:550px) {
+  .feature{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .feature .left{
       font-size: 1.85rem;
   }
@@ -317,16 +347,63 @@ div, a{
 
 
 @media screen and (min-width:920px) {
+  .feature{
+    width: 94%;
+  }
   .feature h2{
       margin-top:0;
+      
   }
-  .feature > div{
+  .feature .columns > div{
     width: 50%;
   }
-  .feature{
+  .feature .columns{
       flex-direction: row;
   }
   .feature .left{
       font-size: 1.5rem;
   }
+}
+
+
+
+
+
+
+
+.hero{
+  padding:2rem 2rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+.hero h1{
+  font-size:3.2rem;
+  margin:0;
+  padding: 0;
+  font-weight: 900;
+  letter-spacing: -.2rem;
+  margin-bottom: 1rem;
+}
+.hero h2{
+  font-size:2rem;
+  line-height: 2rem;
+  margin:0;
+  padding: 0;
+  font-weight: 900;
+  letter-spacing: -.1rem;
+  margin-bottom: 1rem;
+}
+
+.hero h3{
+  font-size:1.4rem;
+  line-height: 1.4rem;
+  margin:0;
+  padding: 0;
+  font-weight: 600;
+  letter-spacing: -.1rem;
+}
+
+.hero b{
+  display: inline-block;
+  background-color: var(--accentcolor);
 }

@@ -25,7 +25,7 @@
         <!-- <HomeExamples /> -->
       
         <!-- <Features /> -->
-        <Subscribe :noHomeLink="true" />
+        <Subscribe />
 
 
         <!-- <LatestPosts :list="posts" /> -->
