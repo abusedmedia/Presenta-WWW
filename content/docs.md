@@ -40,7 +40,7 @@ In both cases you need to publish the template from within the editor and get th
 This is the quickest way to start generating data-driven images, it's just an URL:
 
 ```js
-https://cloud.presenta.cc/v1/image/<TemplateID>/?main=Hello
+https://cloud.presenta.cc/v1/url/<TemplateID>/?main=Hello
 ```
 
 <!-- Click <a href="https://cloud.presenta.cc/v1/image/<TemplateID>/?main=Hello" target="_blank">this URL</a> to see a real example. -->
@@ -162,10 +162,15 @@ fetch('https://cloud.presenta.cc/v1/job', {
 }
 ```
 
+### WebHook
+
+Alternatively, you can set in the Visual Editor a WebHook URL (both as Workspace level and Project level as well) that will be fetched once the job has been finished.
+
 
 ## The CDN cache
 
 Each generated files will be available through our fast CDN for the current month only. After that period, the file url will expire.
 If you need the same file, you have to generate it again, making a new cached file.
+
 A persistent cache is not available at the moment.
 
