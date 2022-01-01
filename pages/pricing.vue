@@ -31,7 +31,7 @@
                     <ul>
                         <li>A PDF with <b>20 pages</b>, once generated, will count <b>20 Credits</b>, therefore,  will cost <b>0.2€</b>.</li>
                         <li>An animated GIF composed by <b>8 frames</b> will count <b>8 Credits</b>, therefore,  will cost <b>0.08€</b>.</li>
-                        <li>A <b>single</b> PNG will always count <b>1 Frame</b>, therefore, will cost <b>0.01€</b>.</li>
+                        <li>A <b>single</b> PNG will always count <b>1 Credit</b>, therefore, will cost <b>0.01€</b>.</li>
                         <li>If you export a 30 scenes project as PNGs, it'll count <b>30 Credits</b>, therefore,  will cost <b>0.3€</b></li>
                     </ul>
                 </div>

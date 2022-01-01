@@ -40,10 +40,10 @@ In both cases you need to publish the template from within the editor and get th
 This is the quickest way to start generating data-driven images, it's just an URL:
 
 ```js
-https://cloud.presenta.cc/v1/url/<TemplateID>/?main=Hello
+https://cloud.presenta.cc/v1/image/<TemplateID>/?main=Hello
 ```
 
-<!-- Click <a href="https://cloud.presenta.cc/v1/url/<TemplateID>/?main=Hello" target="_blank">this URL</a> to see a real example. -->
+<!-- Click <a href="https://cloud.presenta.cc/v1/image/<TemplateID>/?main=Hello" target="_blank">this URL</a> to see a real example. -->
 
 You need to include your **TemplateID** as well as all the parameters required by your template.
 
