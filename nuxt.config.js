@@ -14,7 +14,7 @@ const list = files.map(d => {
   const folder = d.substr(0, d.indexOf('/'))
   const slug = d.substr(0, d.lastIndexOf('.'))
   const name = slug.replace(folder + '/', '')
-  return { name: name, url: `/${slug}`, path: `/${slug}`, folder: folder }
+  return { name: name, url: `/${slug}/`, path: `/${slug}`, folder: folder }
 })
 
 files = list.map(d => d.url)
@@ -68,8 +68,8 @@ export default {
       { hid: 'ogimg', property: 'og:image', content: 'https://www.presenta.cc/social.png' },
 
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:site', content: '@fabiofranchino' },
-      { name: 'twitter:creator', content: '@fabiofranchino' },
+      { name: 'twitter:site', content: '@presentasw' },
+      { name: 'twitter:creator', content: '@presentasw' },
       { name: 'twitter:description', content: 'Build documents the modern way.' },
 
       { hid: 'twtit', name: 'twitter:title', content: 'Presenta, data-driven documents generation' },
@@ -84,7 +84,7 @@ export default {
     ],
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,900;1,400&display=swap' },
-      //{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,600;0,900;1,400;1,600&display=swap' },
+      // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,600;0,900;1,400;1,600&display=swap' },
       { rel: 'icon', href: '/favicon.png' }
     ]
   },
