@@ -17,6 +17,7 @@
                         <nuxt-link to="/pricing">Pricing</nuxt-link>
                         <nuxt-link to="/lib">Open&nbsp;Source</nuxt-link>
                         <nuxt-link to="/tools">Tools</nuxt-link>
+                        <nuxt-link to="/changelog">Changelog</nuxt-link>
                         <nuxt-link to="/signup">Sign Up</nuxt-link>
                     </p>
                     <p class="less">Review the <nuxt-link to="/legal/privacy-policy">Privacy Policy</nuxt-link>, the <nuxt-link to="/legal/cookie-policy">Cookie Policy</nuxt-link> and <nuxt-link to="/legal/terms-of-service">Terms Of Use</nuxt-link> of <b>PRESENTA</b> applications and websites.</p>

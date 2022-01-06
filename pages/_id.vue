@@ -7,7 +7,8 @@
 
                 <div class="wrapper">
                     <div class="hero">
-                        <h1>{{meta.title}}</h1>
+                        <h1 v-html="meta.title"></h1>
+                        <h3 v-html="meta.description"></h3>
 
                         <!-- <small>posted on <strong>{{date}}</strong>, in <strong>{{category}}</strong></small> -->
                     </div>
