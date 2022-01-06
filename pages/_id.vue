@@ -6,8 +6,9 @@
             <div class="blog page">
 
                 <div class="wrapper">
-                    <div class="posthead">
+                    <div class="hero">
                         <h1>{{meta.title}}</h1>
+
                         <!-- <small>posted on <strong>{{date}}</strong>, in <strong>{{category}}</strong></small> -->
                     </div>
                     
@@ -138,19 +139,6 @@ export default {
         width: 80%;
     }
 }
-
-
-
-.posthead{
-    text-align: center;
-}
-.posthead h1{
-    border-bottom:1px solid #eee;
-    margin-bottom:1rem;
-    padding-bottom:1rem;
-    line-height: 100%;
-}
-
 
 
 

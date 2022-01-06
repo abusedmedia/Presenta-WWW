@@ -81,17 +81,7 @@ export default {
 }
 
 @media(min-width: 600px){
-    h1{
-        font-size:7.2rem;
-        line-height: 5.7rem;
-        letter-spacing: -.4rem;
-        margin-bottom: 2rem;
-    }
-    h2{
-        font-size:4.2rem;
-        line-height: 4.2rem;
-        letter-spacing: -.2rem;
-    }
+    
     .cta .btn{
         font-size: 1.75rem;
     }

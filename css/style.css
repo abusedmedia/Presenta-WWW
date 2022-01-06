@@ -164,6 +164,11 @@ div, a{
 
 
 /* grid */
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .grid{
   display: flex;
   flex-wrap: wrap;
@@ -175,11 +180,13 @@ div, a{
 
 
 .grid li{
-  align-items: center;
   display: flex;
   flex-direction: column;
-  padding:.5rem;
+  padding:1rem;
   width: 100%;
+
+  align-items: center;
+  justify-content: center;
 }
 
 .grid li > a{
@@ -199,8 +206,13 @@ div, a{
   margin: 0;
 }
 
+.grid .img{
+  border:1px solid #eee;  
+}
+
 .grid .img img{
   width: 100%;
+  display: flex;
 }
 @media screen and (min-width: 400px){
   .grid li{
@@ -209,7 +221,7 @@ div, a{
 }
 @media screen and (min-width: 770px){
   .grid{
-      width: 70%;
+      width: 90%;
   }
 }
 @media screen and (min-width: 1000px){
@@ -267,6 +279,11 @@ div, a{
 
 .feature .incipit b{
   font-weight: 900;
+}
+
+.feature .incipit h2 b{
+  display: inline-block;
+  background-color: var(--accentcolor);
 }
 
 .feature .tiny{
@@ -385,12 +402,13 @@ div, a{
   margin-bottom: 1rem;
 }
 .hero h2{
-  font-size:2rem;
+  font-size:2rem; 
   line-height: 2rem;
+  letter-spacing: -.1rem;
+
   margin:0;
   padding: 0;
   font-weight: 900;
-  letter-spacing: -.1rem;
   margin-bottom: 1rem;
 }
 
@@ -406,4 +424,52 @@ div, a{
 .hero b{
   display: inline-block;
   background-color: var(--accentcolor);
+}
+/* 
+.hero{
+  padding:2rem 2rem;
+  padding-top: 3rem;
+}
+h1{
+  font-size:3.2rem;
+  margin:0;
+  padding: 0;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: -.2rem;
+  margin-bottom: 1rem;
+}
+h2{
+  font-size:2.2rem;
+  line-height: 2.2rem;
+  margin:0;
+  padding: 0;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: -.1rem;
+}
+
+h1 b, h2 b{
+  display: inline-block;
+  background-color: var(--accentcolor);
+} */
+
+@media(min-width: 600px){
+  .hero h1{
+      font-size:7.2rem;
+      line-height: 5.7rem;
+      letter-spacing: -.4rem;
+      margin-bottom: 2rem;
+  }
+  .hero h2{
+      font-size:4rem;
+      line-height: 4.2rem;
+      letter-spacing: -.2rem;
+      margin-bottom: 2rem;
+  }
+  .hero h3{
+      font-size:2rem;
+      line-height: 2.2rem;
+      letter-spacing: -.1rem;
+  }
 }

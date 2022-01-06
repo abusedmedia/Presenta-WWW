@@ -6,10 +6,10 @@
         
 
         <div class="menu">
-            <!-- <nuxt-link to="/use-cases">Use Cases</nuxt-link> -->
+            <nuxt-link to="/use-cases">Use Cases</nuxt-link>
             <nuxt-link to="/docs">API Docs</nuxt-link>
             <nuxt-link to="/pricing">Pricing</nuxt-link>
-            <nuxt-link to="/signin">Sign In</nuxt-link>
+            <nuxt-link to="/signup">Sign Up</nuxt-link>
         </div>
     </header>
 </template>

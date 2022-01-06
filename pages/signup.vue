@@ -2,13 +2,9 @@
     <div class="body">
 
         <div class="hero">
-            <h1>Use Cases</h1>
 
-            <h2>Learn how <b>PRESENTA</b> can help!</h2>
+            <h2>Public Sign Up is not available yet.</h2>
         </div>
-
-        <UseCases />
-
 
         <Subscribe />
 
@@ -19,18 +15,16 @@
 
 <script>
 import HeroHeader from '~/components/HeroHeader.vue'
-import Subscribe from '~/components/Subscribe.vue'
 import FooterComp from '~/components/FooterComp.vue'
-import UseCases from '~/components/UseCases.vue'
+import Subscribe from '~/components/Subscribe.vue'
 
 export default {
   components:{
-      HeroHeader,Subscribe,FooterComp,
-      UseCases
+      HeroHeader,FooterComp,Subscribe
   },
   head () {
         return {
-            title: 'Use Cases'
+            title: 'Waiting Room'
         }
   },
 }

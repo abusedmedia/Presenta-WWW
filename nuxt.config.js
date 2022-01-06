@@ -53,7 +53,7 @@ export default {
   // },
   target: 'static',
   head: {
-    titleTemplate: '%s @ Presenta - The Automation Documents Platform',
+    titleTemplate: '%s @ PRESENTA - The Automation Documents Platform',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -96,8 +96,9 @@ export default {
 
   plugins: [
     // { src: '~plugins/ga.js', ssr: false },
-    { src: '~/plugins/syntax.js' },
-    { src: '~/plugins/presenta', mode: 'client' }
+    { src: '~/plugins/syntax' },
+    { src: '~/plugins/presenta', mode: 'client' },
+    { src: '~/plugins/crisp', mode: 'client' }
   ],
   build: {
     transpile: [

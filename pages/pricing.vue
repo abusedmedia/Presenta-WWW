@@ -5,7 +5,6 @@
             <h2>Pay-per-Use at</h2>
             <h1><b>0.01€</b> &#215; <b>Credit</b></h1>
 
-            <h2>Simple as that!</h2>
 
             <h3>No monthly or fixed fee.</h3>
             <p><a href="https://stripe.com/pricing" target="_blank">Stripe fee</a> added if less than 10€/month.<br />
@@ -77,6 +76,7 @@
                         <li>Use the <b>Cloud API</b> with your Templates <b>without watermark</b>.</li>
                         <li>Unlock <b>additional features</b> in the Visual Editor (such as <b>import/export</b>).</li>
                     </ul>
+
                 </div>
             </details>
 
@@ -122,41 +122,8 @@ export default {
 
 <style scoped>
 
-
 .faq{
     text-align: center;
-}
-.cta{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.cta .btn{
-    font-size: 1.25rem;
-}
-
-.ticker{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-}
-
-.install{
-    padding: .5rem 1rem;
-    background: #eee;
-    border:1px solid #ddd;
-    border-radius: 8px;
-}
-.weight{
-    padding: .5rem 1rem;
-    color: #ccc;
-}
-
-.faq{
     font-size: 1.4rem;
     width: 95%;
     margin: auto;
@@ -194,31 +161,6 @@ summary:hover{
 }
 
 @media(min-width: 600px){
-    h1{
-        font-size:7.2rem;
-        line-height: 5.7rem;
-        letter-spacing: -.4rem;
-        margin-bottom: 2rem;
-    }
-    h2{
-        font-size:4rem;
-        line-height: 4.2rem;
-        letter-spacing: -.2rem;
-        margin-bottom: 2rem;
-    }
-    h3{
-        font-size:2rem;
-        line-height: 2.2rem;
-        letter-spacing: -.1rem;
-    }
-    .cta .btn{
-        font-size: 1.75rem;
-    }
-
-    .ticker{
-        flex-direction: row;
-    }
-
     .faq{
         width: 70%;
         font-size: 2rem;

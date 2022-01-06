@@ -2,9 +2,7 @@
     <div class="body">
 
         <div class="hero">
-            <h1>Free Tools</h1>
-
-            <h2>Powered by <b>PRESENTA</b>!</h2>
+            <h2>Tools Powered by <b>PRESENTA</b>!</h2>
         </div>
 
         <ToolsExamples />
@@ -28,7 +26,7 @@ export default {
   },
   head () {
         return {
-            title: 'Free Tools'
+            title: 'Tools Powered by PRESENTA'
         }
   },
 }

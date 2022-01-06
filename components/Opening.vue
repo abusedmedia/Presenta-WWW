@@ -13,8 +13,12 @@
                         <img class="desktop" src="/automation-scheme-desktop.svg" />
                         <img class="mobile" src="/automation-scheme-mobile.svg" />
                     </div>
+
+                    <p class="wrap">
+                        Learn more by checking some <nuxt-link to="/use-cases">use cases</nuxt-link>
+                        and our open-source <nuxt-link to="/lib">javascript library</nuxt-link> capabilities.
+                    </p>
                     
-                    <p class="wrap">It’s a long ride and <a href="/lib">PRESENTA&nbsp;Lib</a>, <i>our open-source javascript library</i>, marks a key milestone in this journey.</p>
                 </div>
             </div>
         </div>        
