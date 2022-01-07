@@ -5,7 +5,6 @@
             <footer>
                 <div class="two">
                     <p class="relevant"><b><nuxt-link to="/">PRESENTA</nuxt-link></b> is an online platform, currently in <b>private release</b>.</p>
-                    <p class="less"><b><nuxt-link to="/lib">PRESENTA Lib</nuxt-link></b> is an open-source javascript library released under the 3-Clause BSD license.</p>
                     <p>Have a wonderful day! <br />
                     <!-- <span class="little">In this site you're NOT tracked at all</span></p> -->
                     <p><a href="mailto:support@presenta.cc">Contact Us</a></p>
@@ -13,9 +12,10 @@
                 <div class="one">
                     <p class="relevant links">
                         <nuxt-link to="/use-cases">Use Cases</nuxt-link>
-                        <nuxt-link to="/docs">API&nbsp;Docs</nuxt-link>
+                        <nuxt-link to="/api">API</nuxt-link>
                         <nuxt-link to="/pricing">Pricing</nuxt-link>
-                        <nuxt-link to="/lib">Open&nbsp;Source</nuxt-link>
+                        <nuxt-link to="/lib">JS Library</nuxt-link>
+                        <a href="https://github.com/presenta-software">Open&nbsp;Source</a>
                         <nuxt-link to="/tools">Tools</nuxt-link>
                         <nuxt-link to="/changelog">Changelog</nuxt-link>
                         <nuxt-link to="/signup">Sign Up</nuxt-link>

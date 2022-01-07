@@ -65,16 +65,6 @@ h1 b, h2 b{
 }
 
 
-.cta{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.cta .btn{
-    font-size: 1.25rem;
-}
 
 .ticker{
     display: flex;
@@ -107,9 +97,7 @@ h1 b, h2 b{
         line-height: 4.2rem;
         letter-spacing: -.2rem;
     }
-    .cta .btn{
-        font-size: 1.75rem;
-    }
+
 
     .ticker{
         flex-direction: row;

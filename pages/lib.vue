@@ -49,18 +49,6 @@ export default {
 
 <style scoped>
 
-
-.cta{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.cta .btn{
-    font-size: 1.25rem;
-}
-
 .ticker{
     display: flex;
     flex-direction: column;
@@ -81,10 +69,7 @@ export default {
 }
 
 @media(min-width: 600px){
-    
-    .cta .btn{
-        font-size: 1.75rem;
-    }
+
 
     .ticker{
         flex-direction: row;
