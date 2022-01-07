@@ -63,7 +63,7 @@
 
                 <div class="endpoint">[POST] /v1/export/:projectID</div>
 
-                <p>The <b>/export</b> end-point allows to merge and get documents as <b>PDF</b>, <b>GIF</b> and <b>PNG</b> as well.</p>
+                <p>The <b>/export</b> end-point allows to merge multi-frames documents and get it as <b>PDF</b>, <b>GIF</b> and <b>PNG</b> as well.</p>
             </div>
             <div class="columns">
                 <div class="left">
@@ -91,7 +91,7 @@
 
                 <div class="endpoint">[POST] /v1/export/:projectID</div>
 
-                <p>Using the <b>frames</b> key to generate new document structures and get it in different formats.</p>
+                <p>By using the <b>frames</b> key, generate custom document structures and get it as <b>PDF</b>, <b>GIF</b> and <b>PNG</b> as well.</p>
             </div>
             <div class="columns">
                 <div class="left">
