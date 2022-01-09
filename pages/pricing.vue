@@ -16,7 +16,10 @@
             <h4>Frequently Asked Questions:</h4>
 
             <details>
-                <summary>What can I do with <b>1 Credit</b>?</summary>
+                <summary>
+                    <span class="plus">&#43;</span> 
+                    <span class="minus">&#8722;</span> 
+                    What can I do with <b>1 Credit</b>?</summary>
                 <div class="content">
                     <p>Here the answer:</p>
                     
@@ -37,7 +40,10 @@
             </details>
 
             <details>
-                <summary>Why the <b>Stripe fee</b>?</summary>
+                <summary>
+                    <span class="plus">&#43;</span> 
+                    <span class="minus">&#8722;</span>
+                    Why the <b>Stripe fee</b>?</summary>
                 <div class="content">
                     <p><a href="https://stripe.com/" target="_blank">Stripe</a> handles the payment transaction and billing for us.</p>
                     <p>Since our true pay-per-use pricing model, the Stripe' fee needs to be added for small collected amounts.</p>
@@ -53,7 +59,10 @@
 
 
             <details>
-                <summary>How can I monitor my <b>costs</b>?</summary>
+                <summary>
+                    <span class="plus">&#43;</span> 
+                    <span class="minus">&#8722;</span>
+                    How can I monitor my <b>costs</b>?</summary>
                 <div class="content">
                     <p>In the Profile section you can see the <b>usage' dashboard</b> to monitor in real-time the generation amount as well as its current cost.</p>
                     <p>In any case, before any charge, <b>we'll inform you few days before</b> of the upcoming operation. <br />We call it <b>No-Surprise policy</b>.</p>
@@ -63,7 +72,10 @@
 
 
             <details>
-                <summary>Tell me about <b>FREE</b> and <b>PRO</b> plans.</summary>
+                <summary>
+                    <span class="plus">&#43;</span> 
+                    <span class="minus">&#8722;</span>
+                    Tell me about <b>FREE</b> and <b>PRO</b> plans.</summary>
                 <div class="content">
                     <p>By creating an account you'll be set as <b>FREE</b> plan by default that allows you to:</p>
                     <ul>
@@ -82,7 +94,10 @@
 
 
             <details>
-                <summary>How much cost the <b>CDN cache</b>?</summary>
+                <summary>
+                    <span class="plus">&#43;</span> 
+                    <span class="minus">&#8722;</span>
+                    How much cost the <b>CDN cache</b>?</summary>
                 <div class="content">
                     <p>Each generated file will be available for download within the current month by our fast CDN for <b>FREE</b>!</p>
                 </div>
@@ -139,9 +154,20 @@ details[open]{
 details[open] summary{
     background: #eee;
 }
+details summary .minus{
+    display: none;
+}
 details[open] .content{
     background: linear-gradient(#fff, #f8f8f8);
 }
+
+details[open] summary .minus{
+    display: inline;
+}
+details[open] summary .plus{
+    display: none;
+}
+
 details .content{
     padding: .5rem;
     margin: 0;
@@ -153,7 +179,7 @@ details .content{
 summary{
     background: #f8f8f8;
     cursor: pointer;
-    text-align: center;
+    text-align: left;
     padding: .5rem;
 }
 summary:hover{
