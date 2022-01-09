@@ -14,7 +14,7 @@ const list = files.map(d => {
   const folder = d.substr(0, d.indexOf('/'))
   const slug = d.substr(0, d.lastIndexOf('.'))
   const name = slug.replace(folder + '/', '')
-  return { name: name, url: `/${slug}/`, path: `/${slug}`, folder: folder }
+  return { name: name, url: `/${slug}`, path: `/${slug}`, folder: folder }
 })
 
 files = list.map(d => d.url)
@@ -126,7 +126,7 @@ export default {
   },
   modules: [
     '@nuxtjs/sitemap',
-    ['nuxt-canonical', { baseUrl: 'https://www.presenta.cc' }]
+    ['nuxt-canonical', { baseUrl: 'https://www.presenta.cc', trailingSlashes: false }]
   ],
   sitemap: {
     hostname: 'https://www.presenta.cc'
