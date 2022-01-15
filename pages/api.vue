@@ -2,7 +2,7 @@
     <div class="body">
 
         <div class="hero">
-            <h1><b>API</b> Quick Start</h1>
+            <h1><b>API</b> Quick&nbsp;Start</h1>
 
             <h2>An Overview of the API Endpoints.</h2>
         </div>

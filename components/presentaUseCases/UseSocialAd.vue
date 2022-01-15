@@ -7,7 +7,7 @@
             <div class="left">
                 <div class="incipit">
                     
-                    <h4>Hundreds Ads Variations</h4>
+                    <h4>Ads Variations</h4>
 
                     <h2>Generate hundreds of Ads for your Social Campaigns.</h2>
 

@@ -4,7 +4,7 @@
         <div class="hero">
             <h1>Use Cases</h1>
 
-            <h2>Learn how <b>PRESENTA</b> can help!</h2>
+            <h2>Learn what you can do with <b>PRESENTA</b>!</h2>
         </div>
 
         <UseCases />

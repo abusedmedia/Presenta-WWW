@@ -7,7 +7,7 @@
             <div class="left">
                 <div class="incipit">
                     
-                    <h4>Personal Newsletter Headers</h4>
+                    <h4>Newsletter' Headers</h4>
 
                     <h2>Generate Personalized Newsletter Header Images</h2>
 
