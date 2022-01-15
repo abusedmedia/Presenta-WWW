@@ -24,9 +24,9 @@
                     <p>Here the answer:</p>
                     
                     <ul>
-                        <li><b>1 Credit</b> can generate <b>1 PNG</b>.</li>
-                        <li><b>1 Credit</b> can generate <b>1 Page</b> of a multi-page PDF.</li>
-                        <li><b>1 Credit</b> can generate <b>1 Frame</b> of a multi-frame GIF.</li>
+                        <li><b>1 Credit</b> can generate <b>1 PNG</b> file.</li>
+                        <li><b>1 Credit</b> can generate <b>1 Page</b> of a multi-page PDF file.</li>
+                        <li><b>1 Credit</b> can generate <b>1 Frame</b> of a multi-frame GIF file.</li>
                     </ul>
 
                     <p>For instance:</p>
@@ -184,6 +184,14 @@ summary{
 }
 summary:hover{
     background: #eee;
+}
+
+details > summary {
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
+  display:none;
 }
 
 @media(min-width: 600px){
