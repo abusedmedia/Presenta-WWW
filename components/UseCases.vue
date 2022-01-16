@@ -2,9 +2,8 @@
     <div class="wrapper">
         
         <UseOpenGraph />
-        <UseNewsletter />
+        <UseQRCode />
         <UseSocialAd />
-        <!-- <UseQRCode /> -->
 
     </div>
 </template>

@@ -17,11 +17,37 @@
             </div>
                 
             <div class="right">
-                <div class="img">
-                    <img alt="feature 3" src="https://github-since.presenta.cc/mock.png" />
-                </div>
+               <client-only>
+                    <SlideShow :images="images" />
+                </client-only>
             </div>
 
         </div>
     </div>
 </template>
+
+
+
+
+<script>
+import SlideShow from './SlideShow.vue'
+
+export default {
+    components:{
+        SlideShow
+    },
+    data(){
+        return {
+            images:[
+                {
+                    a:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:z2O9wALBl?&code=aa&bg=rect:fill:AliceBlue&subtitle=1st Novembre 2021&img=https://source.unsplash.com/random/700x350',
+                    b:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:z2O9wALBl?&code=eqwjegqwyegqw&bg=rect:fill:Beige&subtitle=2nd Novembre 2021&img=https://source.unsplash.com/random/701x350',
+                    c:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:z2O9wALBl?&code=2883774&bg=rect:fill:Cornsilk&subtitle=3rd Novembre 2021&img=https://source.unsplash.com/random/702x350'
+                }
+            ]
+        }
+    }
+}
+</script>
+
+https://cloud.presenta.cc/v1/url/zGywhb2oJn:z2O9wALBl?

@@ -4,6 +4,14 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 ---
 
 
+## 2022-01-17
+
+- **Editor**: Frame API and Project API support external plugins
+- **Editor**: Added Dynamic Thumbnail Generation in Project list (of course using the PRESENTA API URL!)
+- **Website**: [Use Cases](/use-cases/) page update with some examples
+- **API**: Fixes issues in CDN cache when using the API URL endpoint
+
+
 ## 2022-01-10
 
 - **Editor**: Added Import CSV panel
