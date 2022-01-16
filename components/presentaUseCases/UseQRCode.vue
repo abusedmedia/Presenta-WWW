@@ -9,9 +9,9 @@
                     
                     <h4>QRCode Generation</h4>
 
-                    <h2>Add QRCodes in any Custom Templates</h2>
+                    <h2>Add QRCodes to any Custom Templates</h2>
 
-                    <p>...</p>
+                    <p>Generate fully functional QR-Codes dynamically at scale for any occasions. Create <b>coupons</b>, <b>tickets</b> or <b>badges</b> with one click using the API endpoint of a CSV file as well.</p>
 
                 </div>             
             </div>
