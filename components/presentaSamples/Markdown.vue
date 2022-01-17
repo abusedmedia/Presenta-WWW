@@ -44,8 +44,8 @@ export default {
                     alt: '#555'
                 },
                 one: {
-                    fore: 'linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%)',
-                    back: '#fff',
+                    fore: '#ddd',
+                    back: '#000',
                     accent: '#8914F8',
                     alt: '#eee'
                 },
@@ -66,7 +66,7 @@ export default {
                 }
             })
             
-            const config = await interpolate({frames}, '92716be452cf87ff39726fdc54bb102f')
+            const config = await interpolate({frames}, 'c1e5d018874abfee8758b0cfcfa5b737')
 
             config.controllers.focus = false
 

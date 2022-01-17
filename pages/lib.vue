@@ -6,7 +6,7 @@
 
             <h2>The javascript<br />
             presentation library<br />
-            for the <b>automation era</b>.</h2>
+            for the <b>automation era.</b></h2>
         </div>
 
         <div class="ticker">

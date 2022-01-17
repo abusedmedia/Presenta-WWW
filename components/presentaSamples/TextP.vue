@@ -17,7 +17,7 @@ export default {
         ]
 
         const frames = data.map((text,index) => ({text, page: index+1}))
-        const config = await interpolate({frames}, '062aac51f7251a003fde76fe60a5cb9b')
+        const config = await interpolate({frames}, 'd0e5e758967cb21cfe88717cf4f36822')
 
         config.controllers.loop = true
         config.controllers.focus = false
