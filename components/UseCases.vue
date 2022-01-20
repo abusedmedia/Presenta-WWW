@@ -15,11 +15,11 @@ import UseOpenGraph from './presentaUseCases/UseOpenGraph.vue'
 import UseNewsletter from './presentaUseCases/UseNewsletter.vue'
 import UseSocialAd from './presentaUseCases/UseSocialAd.vue'
 import UseQRCode from './presentaUseCases/UseQRCode.vue'
-import UseQuotes from './presentaUseCases/UseQuotes.vue'
+//import UseQuotes from './presentaUseCases/UseQuotes.vue'
 
 export default {
     components:{
-        UseOpenGraph,UseNewsletter,UseSocialAd,UseQRCode,UseQuotes
+        UseOpenGraph,UseNewsletter,UseSocialAd,UseQRCode
     }
 }
 
