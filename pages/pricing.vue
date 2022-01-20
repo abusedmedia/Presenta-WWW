@@ -126,7 +126,7 @@ export default {
   },
   head () {
         return {
-            title: 'Pricing'
+            title: 'Pricing Pay as You Go!'
         }
   },
 }

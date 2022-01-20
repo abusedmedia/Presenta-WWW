@@ -4,6 +4,13 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 ---
 
 
+## 2022-01-24
+
+- **Website**: Added more [Use Cases](/use-cases/)
+- **API**: Fixes issue on font rendering in some edge cases
+- **Tools**: Updated [Github Since](https://github-since.presenta.cc/) to latest API change
+
+
 ## 2022-01-17
 
 - **Editor**: Frame API and Project API support external plugins

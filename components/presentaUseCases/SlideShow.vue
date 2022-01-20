@@ -14,7 +14,7 @@ export default {
         images:[]
     },
     async mounted(){
-        const config = await interpolate({frames:this.images}, '7379c83d4d77882bdc0af3aaf1f27ae1', true)
+        const config = await interpolate({frames:this.images}, '5626b60e9217b998671feb0a879b82f8', true)
 
         if(this.images.length > 1){
             config.controllers.loop = true

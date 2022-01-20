@@ -30,7 +30,7 @@ export default {
   },
   head () {
         return {
-            title: 'Use Cases'
+            title: 'Use Cases - Generated Document Examples'
         }
   },
 }
