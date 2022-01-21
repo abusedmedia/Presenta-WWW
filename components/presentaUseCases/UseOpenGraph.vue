@@ -40,19 +40,19 @@ export default {
         return {
             images:[
                 {
-                    a:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:IwCSwQ1wB?&title=Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur&subtitle=1st Novembre 2021&img=https://source.unsplash.com/random/709x351',
-                    b:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:IwCSwQ1wB?&title=Neque porro quisquam est qui dolore&subtitle=2nd Novembre 2021&img=https://source.unsplash.com/random/710x351',
-                    c:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:IwCSwQ1wB?&title=Quia dolor sit amet, consectetur&subtitle=3rd Novembre 2021&img=https://source.unsplash.com/random/706x351'
+                    a:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:IwCSwQ1wB?&title=Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur&subtitle=1st November, 2021&img=https://source.unsplash.com/random/709x351',
+                    b:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:IwCSwQ1wB?&title=Neque porro quisquam est qui dolore&subtitle=2nd November, 2021&img=https://source.unsplash.com/random/710x351',
+                    c:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:IwCSwQ1wB?&title=Quia dolor sit amet, consectetur&subtitle=3rd November, 2021&img=https://source.unsplash.com/random/706x351'
                 },
                 {
-                    a:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:ptiiM09z9?&title=Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur&subtitle=1st Novembre 2021&img=https://source.unsplash.com/random/764x351',
-                    b:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:ptiiM09z9?&title=Neque porro quisquam est qui dolore&subtitle=2nd Novembre 2021&img=https://source.unsplash.com/random/712x351',
-                    c:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:ptiiM09z9?&title=Quia dolor sit amet, consectetur&subtitle=3rd Novembre 2021&img=https://source.unsplash.com/random/707x351'
+                    a:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:ptiiM09z9?&title=Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur&subtitle=1st November, 2021&img=https://source.unsplash.com/random/764x351',
+                    b:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:ptiiM09z9?&title=Neque porro quisquam est qui dolore&subtitle=2nd November, 2021&img=https://source.unsplash.com/random/712x351',
+                    c:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:ptiiM09z9?&title=Quia dolor sit amet, consectetur&subtitle=3rd November, 2021&img=https://source.unsplash.com/random/707x351'
                 },
                 {
-                    a:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:PXhbKcWtT?&title=Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur&subtitle=1st Novembre 2021&img=https://source.unsplash.com/random/724x351',
-                    b:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:PXhbKcWtT?&title=Neque porro quisquam est qui dolore&subtitle=2nd Novembre 2021&img=https://source.unsplash.com/random/734x351',
-                    c:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:PXhbKcWtT?&title=Quia dolor sit amet, consectetur&subtitle=3rd Novembre 2021&img=https://source.unsplash.com/random/708x351'
+                    a:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:PXhbKcWtT?&title=Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur&subtitle=1st November, 2021&img=https://source.unsplash.com/random/724x351',
+                    b:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:PXhbKcWtT?&title=Neque porro quisquam est qui dolore&subtitle=2nd November, 2021&img=https://source.unsplash.com/random/734x351',
+                    c:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:PXhbKcWtT?&title=Quia dolor sit amet, consectetur&subtitle=3rd November, 2021&img=https://source.unsplash.com/random/708x351'
                 }
             ]
         }
