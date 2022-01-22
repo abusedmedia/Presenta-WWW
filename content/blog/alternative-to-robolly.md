@@ -1,6 +1,7 @@
 ---
 date: 2021-09-30
 title: "PRESENTA: an Alternative to Robolly"
+category: comparison
 ---
 
 > Having competitors is good to foster an healty innovation. This page tries to make a fair comparison with a [PRESENTA Platform](/) competitor to provide good information to users and customers helping them to make a choice.
