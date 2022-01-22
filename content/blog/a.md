@@ -7,8 +7,7 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 ## 2022-01-24
 
 - **Website**: Added more [Use Cases](/use-cases/)
-- **Website**: Added the first version of [Templates](/templates/) page
-- **Website**: Added the first post of the [Blog](/blog/) section
+- **Website**: Added the first version of [Templa](/templates/) page
 - **API**: Fixes issue on font rendering in some edge cases
 - **Tools**: Updated [Github Since](https://github-since.presenta.cc/) to latest API change
 

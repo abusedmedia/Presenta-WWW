@@ -37,7 +37,7 @@ blogposts.sort((a, b) => {
 })
 
 // enable when there will be the blog again
-// fs.writeFileSync('content/blog/list.json', JSON.stringify(blogposts))
+fs.writeFileSync('content/blog/list.json', JSON.stringify(blogposts))
 
 //
 
@@ -97,8 +97,8 @@ export default {
   plugins: [
     // { src: '~plugins/ga.js', ssr: false },
     { src: '~/plugins/syntax' },
-    { src: '~/plugins/presenta', mode: 'client' },
-    { src: '~/plugins/crisp', mode: 'client' }
+    { src: '~/plugins/presenta', mode: 'client' }
+    // { src: '~/plugins/crisp', mode: 'client' }
   ],
   build: {
     transpile: [

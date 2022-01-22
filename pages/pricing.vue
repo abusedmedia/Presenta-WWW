@@ -2,7 +2,7 @@
     <div class="body">
 
         <div class="hero">
-            <h2>Pay-per-Use at</h2>
+            <h2>Pay As You Go!</h2>
             <h1><b>0.01€</b> &#215; <b>Credit</b></h1>
 
 

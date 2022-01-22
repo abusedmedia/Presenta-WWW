@@ -3,22 +3,14 @@
         {"id": "opengraph", "label": "Open Graph", 
             "description": "The Open-Graph is the preview image shown by Social Networks when people share a URL. You can pick one of these template to start quickly, tweak it to align it with your brand or taste.",
             "templates": [
-                {"id": "zGywhb2oJn:Xk9CQbBlN"},
-                {"id": "zGywhb2oJn:4Tv161SIq"},
-                {"id": "zGywhb2oJn:lJ31ykhrs"},
-                {"id": "zGywhb2oJn:znVxQOHv4"},
-                {"id": "zGywhb2oJn:mOdhS8mgL"},
-                {"id": "zGywhb2oJn:VRdjCiXE7"},
                 {"id": "zGywhb2oJn:IwCSwQ1wB?"},
                 {"id": "zGywhb2oJn:ptiiM09z9?"},
                 {"id": "zGywhb2oJn:PXhbKcWtT?"}
         ]},
-        {"id": "socialads", "label": "Social Ads", "templates": []},
         {"id": "qrcodes", "label": "QRCodes", "templates": [
             {"id": "zGywhb2oJn:eJ3yMSmxY?"},
             {"id": "zGywhb2oJn:z2O9wALBl?"}
-        ]},
-        {"id": "bizcards", "label": "Business Cards", "templates": []}
+        ]}
     ]
 }
 

@@ -17,6 +17,8 @@
                         <nuxt-link to="/lib">JS Library</nuxt-link>
                         <a href="https://github.com/presenta-software">Open&nbsp;Source</a>
                         <nuxt-link to="/tools">Tools</nuxt-link>
+                        <nuxt-link to="/blog">Blog</nuxt-link>
+                        <nuxt-link to="/templates">Templates</nuxt-link>
                         <nuxt-link to="/changelog">Changelog</nuxt-link>
                         <nuxt-link to="/signup">Sign Up</nuxt-link>
                     </p>

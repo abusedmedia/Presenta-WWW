@@ -425,6 +425,25 @@ div, a{
   display: inline-block;
   background-color: var(--accentcolor);
 }
+
+
+
+
+table{
+  width: 100%;
+  font-size: 1.2rem;
+}
+table thead{
+  background-color: #eee;
+}
+table tr{
+  border-bottom: 1px solid #eee;
+}
+table td, table th{
+  padding:0.5rem;
+}
+
+
 /* 
 .hero{
   padding:2rem 2rem;
