@@ -1,5 +1,4 @@
 ---
-date: 2021-09-30
 title: "PRESENTA: an Alternative to Robolly"
 category: comparison
 ---

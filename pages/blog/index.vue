@@ -1,7 +1,10 @@
 <template>
     <div class="list">
-        <h1>The how-to's and the why's</h1>
-        <p>Tips and principles on presenting, communicating and displaying information the right way using <b>PRESENTA</b>:</p>
+
+        <div class="hero">
+            <h2>We write about document automation, integrations, data-driven generation and updates on our Platform.</h2>
+        </div>
+        
         <ul class="grid">
             <li v-for="post in posts" :key="post.url">
                 <nuxt-link :to="post.url + '/'">
@@ -37,9 +40,7 @@ export default {
 
 
 <style scoped>
-h1{
-    margin-bottom: 0;
-}
+
 .list{
     text-align: center;
     display: flex;
