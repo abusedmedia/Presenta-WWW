@@ -5,9 +5,9 @@
             <footer>
                 <div class="two">
                     <p class="relevant"><b><nuxt-link to="/">PRESENTA</nuxt-link></b> is an online platform, currently in <b>private release</b>.</p>
-                    <p>Have a wonderful day! <br />
+                    <p>Made with ❤️ in Italy! <br />Have a wonderful day! <br />
                     <!-- <span class="little">In this site you're NOT tracked at all</span></p> -->
-                    <p><a href="mailto:support@presenta.cc">Contact Us</a></p>
+                    <p>Need help? 💌 <a href="mailto:support@presenta.cc">Contact Us</a></p>
                 </div>
                 <div class="one">
                     <p class="relevant links">
