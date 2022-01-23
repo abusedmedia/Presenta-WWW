@@ -6,7 +6,7 @@
 
 <script>
 import { interpolate } from '@presenta/config-interpolator'
-import marked from 'marked'
+import { marked } from 'marked'
 import frontmatter from '@github-docs/frontmatter'
 
 export default {
