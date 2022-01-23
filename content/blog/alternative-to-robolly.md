@@ -15,19 +15,28 @@ Robolly is a PRESENTA competitor in the context of dynamic image generation whil
 
 Here a feature comparisons table for a fast overview:
 
-|                           | Robolly |   PRESENTA    |
-| :------------------------ | :-----: | :-----------: |
-| Visual Editor             |    ✅    |       ✅       |
-| Cloud API                 |    ✅    |       ✅       |
-| Trial                     |    ✅    |       ✅       |
-| Pay Plan type             | Montly  | Pay as you go |
-| Template Gallery          |    ✅    |       ✅       |
-| Signed URL                |    ✅    |       🔧       |
-| PNG                       |    ✅    |       ✅       |
-| PDF                       |    ❌    |       ✅       |
-| GIF                       |    ❌    |       ✅       |
-| Multi-pages               |    ❌    |       ✅       |
-| Internal Automation Tools |    ❌    |       ✅       |
+|                        | Robolly |     PRESENTA      |
+| :--------------------- | :-----: | :---------------: |
+| Visual Template Editor |    ✅    |         ✅         |
+| Cloud API              |    ✅    |         ✅         |
+| Trial                  |    ✅    |         ✅         |
+| Pay Plan type          | Monthly | **Pay as you go** |
+| Price per Generation   |  0.08   |     **0.01**      |
+| Template Gallery       |    ✅    |         ✅         |
+| Signed URL             |    ✅    |         🔧         |
+| CDN                    |    ✅    |         ✅         |
+| Custom Fonts           |    ✅    |         🔧         |
+| Team Members           |    ✅    |         🔧         |
+| PNG                    |    ✅    |         ✅         |
+| PDF                    |    ❌    |         ✅         |
+| GIF                    |    ❌    |         ✅         |
+| Multi-pages            |    ❌    |         ✅         |
+| Import CSV             |    ❌    |         ✅         |
+| QR-code                |    ❌    |         ✅         |
+| SVG                    |    ❌    |         ✅         |
+| Embed                  |    ❌    |         ✅         |
+| Emoji                  |    ❌    |         ✅         |
+|                        |         |                   |
 
 
 Legend: 
