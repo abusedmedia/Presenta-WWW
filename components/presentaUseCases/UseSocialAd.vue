@@ -9,7 +9,7 @@
                     
                     <h4>Ads Variations</h4>
 
-                    <h2>Generate hundreds of Ads for your Social Campaigns.</h2>
+                    <h2>Generate hundreds of Ads for your scheduled Social Media Campaigns.</h2>
 
                     <p>Use a <b>Spreadsheet</b> and a <b>PRESENTA Template</b> to generate hundreds of Social Ads variations in seconds.</p>
 

@@ -4,6 +4,15 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 ---
 
 
+
+## 2022-01-31
+
+- **Website**: Added more ready to use [Templates](/templates/)
+- **Website**: Added more [Use Cases](/use-cases/)
+- **API**: Fixes issues of cache handling
+- **Editor**: Frame API configurator better preview
+
+
 ## 2022-01-24
 
 - **Website**: Added more [Use Cases](/use-cases/)

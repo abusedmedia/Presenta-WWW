@@ -10,6 +10,13 @@
         {"id": "qrcodes", "label": "QRCodes", "templates": [
             {"id": "zGywhb2oJn:eJ3yMSmxY?"},
             {"id": "zGywhb2oJn:z2O9wALBl?"}
+        ]},
+        {"id": "quotes", "label": "Quotes", "templates": [
+            {"id": "zGywhb2oJn:TEwf6udrw?"}
+        ]},
+        {"id": "memes", "label": "Meme", "templates": [
+            {"id": "zGywhb2oJn:9BAz5rb7T?"},
+            {"id": "zGywhb2oJn:2CA8kzSuG?"}
         ]}
     ]
 }
