@@ -5,12 +5,14 @@
         <UseQRCode />
         <UseQuotes />
         <!-- <UseSocialAd /> -->
+        <UseMore />
 
     </div>
 </template>
 
 
 <script>
+import UseMore from './presentaUseCases/UseMore.vue'
 import UseOpenGraph from './presentaUseCases/UseOpenGraph.vue'
 import UseNewsletter from './presentaUseCases/UseNewsletter.vue'
 import UseSocialAd from './presentaUseCases/UseSocialAd.vue'
@@ -19,7 +21,7 @@ import UseQuotes from './presentaUseCases/UseQuotes.vue'
 
 export default {
     components:{
-        UseOpenGraph,UseNewsletter,UseSocialAd,UseQRCode,UseQuotes
+        UseMore,UseOpenGraph,UseNewsletter,UseSocialAd,UseQRCode,UseQuotes
     }
 }
 
