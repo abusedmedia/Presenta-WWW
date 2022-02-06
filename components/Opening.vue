@@ -7,7 +7,7 @@
                     <p class="wrap main"><b>PRESENTA</b> is the <mark>automation</mark> platform for <mark>data-driven</mark> presentational documents.</p>
                     <!-- <p>More then 30 years ago <b>PowerPoint set the bar</b> about how presentations should be crafted.</p> -->
                     <!-- <p>After that, <b>we still move objects on canvas</b> to create documents for our communication needs.</p> -->
-                    <p class="wrap">Create automatically <b>cards</b>, <b>banners</b>, <b>catalogues</b>, <b>presentations</b>, <b>galleries</b>, <b>reports</b> and <b>showcases</b> using pre-made or custom designed <b>templates</b> and our <b>Cloud APIs</b> Infrastructure.</p>
+                    <p class="wrap">Create automatically <b>cards</b>, <b>banners</b>, <b>catalogues</b>, <b>presentations</b>, <b>galleries</b>, <b>reports</b>, <b>certificates</b> and <b>showcases</b> using pre-made or custom designed <b>templates</b> and our <b>Cloud APIs</b> Infrastructure.</p>
                     
                     <div class="splash">
                         <img class="desktop" src="/automation-scheme-desktop.svg" />

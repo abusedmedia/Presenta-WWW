@@ -7,16 +7,27 @@
                 {"id": "zGywhb2oJn:ptiiM09z9?"},
                 {"id": "zGywhb2oJn:PXhbKcWtT?"}
         ]},
-        {"id": "qrcodes", "label": "QRCodes", "templates": [
-            {"id": "zGywhb2oJn:eJ3yMSmxY?"},
-            {"id": "zGywhb2oJn:z2O9wALBl?"}
+        {"id": "qrcodes", "label": "QRCodes", 
+            "description": "QR-Codes help user to get URL and information using their Smartphone.",
+            "templates": [
+                {"id": "zGywhb2oJn:eJ3yMSmxY?"},
+                {"id": "zGywhb2oJn:z2O9wALBl?"}
         ]},
-        {"id": "quotes", "label": "Quotes", "templates": [
-            {"id": "zGywhb2oJn:TEwf6udrw?"}
+        {"id": "quotes", "label": "Quotes", 
+            "description": "Graphic Quotes are a great way to publish fresh materials on Social Media Networks.",
+            "templates": [
+                {"id": "zGywhb2oJn:TEwf6udrw?"}
         ]},
-        {"id": "memes", "label": "Meme", "templates": [
+        {"id": "memes", "label": "Meme", 
+            "description": "Meme are part of our current daily life, let's personalize them!",            
+            "templates": [
             {"id": "zGywhb2oJn:9BAz5rb7T?"},
             {"id": "zGywhb2oJn:2CA8kzSuG?"}
+        ]},
+        {"id": "certificates", "label": "Certificates", 
+            "description": "Create personalized Certificates for your students and peers.",                        
+            "templates": [
+                {"id": "zGywhb2oJn:wzODLn3PV?"}
         ]}
     ]
 }
