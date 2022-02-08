@@ -27,7 +27,8 @@
         {"id": "certificates", "label": "Certificates", 
             "description": "Create personalized Certificates for your students and peers.",                        
             "templates": [
-                {"id": "zGywhb2oJn:wzODLn3PV?"}
+                {"id": "zGywhb2oJn:wzODLn3PV?"},
+                {"id": "zGywhb2oJn:GPVWRUfSB"}
         ]}
     ]
 }
