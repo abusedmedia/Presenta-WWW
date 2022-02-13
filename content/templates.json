@@ -29,6 +29,11 @@
             "templates": [
                 {"id": "zGywhb2oJn:wzODLn3PV?"},
                 {"id": "zGywhb2oJn:GPVWRUfSB"}
+        ]},
+        {"id": "misc", "label": "Misc", 
+            "description": "Other templates for specific needs.",                        
+            "templates": [
+                {"id": "zGywhb2oJn:L3NJX7Ma4"}
         ]}
     ]
 }

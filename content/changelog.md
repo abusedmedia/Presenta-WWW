@@ -4,7 +4,18 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 ---
 
 
-## 6th Febbruary, 2022
+## 14th February, 2022
+
+- **API**: Released in private beta a new API end-point to retrieve fresh generated documents as fast as possible. More info soon.
+- **Website**: Added a new entry in [Tools](/tools/).
+- **Open Source**: The library got some updates and all the services got updated accordingly.
+- **Editor**: Testing an early version of a plugin to include [Tableau](https://www.tableau.com/) projects.
+- **Website**: Added another Certificate template in [Templates](/templates/) and another category for **misc** use-cases.
+
+
+
+
+## 6th February, 2022
 
 - **Website**: Added Certificates in [Use Cases](/use-cases/)
 - **Website**: Added the first Certificate template in [Templates](/templates/)

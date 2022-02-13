@@ -13,7 +13,7 @@
                         <input @keyup.enter="onConfirm" type="text" v-model="last_name" placeholder="Lastname"/>
                     </div>
                     <div class="row">
-                        <input @keyup.enter="onConfirm" class="email" type="email" v-model="email" placeholder="your@email.com"/>
+                        <input @keyup.enter="onConfirm" class="email" type="email" v-model="email" placeholder="your@business.email"/>
                         <button :disabled="!isValid" @click="onConfirm">Yes!</button>
                     </div>
                     

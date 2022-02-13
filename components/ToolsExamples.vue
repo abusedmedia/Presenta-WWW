@@ -1,8 +1,8 @@
 <template>
     <div class="wrapper">
         
+        <TwitterLoversSample />
         <GithubSinceSample />
-
 
     </div>
 </template>
@@ -10,10 +10,11 @@
 
 <script>
 import GithubSinceSample from './presentaSamples/GithubSinceSample.vue'
+import TwitterLoversSample from './presentaSamples/TwitterLoversSample.vue'
 
 export default {
     components:{
-        GithubSinceSample
+        GithubSinceSample,TwitterLoversSample
     }
 }
 
