@@ -11,6 +11,7 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 - **Open Source**: The library got some updates and all the services got updated accordingly.
 - **Editor**: Testing an early version of a plugin to include [Tableau](https://www.tableau.com/) projects.
 - **Website**: Added another Certificate template in [Templates](/templates/) and another category for **misc** use-cases.
+- **Website**:Added more competitor comparisons in the [Blog](/blog/) section.
 
 
 
