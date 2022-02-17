@@ -13,6 +13,9 @@
                         <input @keyup.enter="onConfirm" type="text" v-model="last_name" placeholder="Lastname"/>
                     </div>
                     <div class="row">
+                        <input @keyup.enter="onConfirm" type="text" v-model="company" placeholder="Company Name"/>
+                    </div>
+                    <div class="row">
                         <input @keyup.enter="onConfirm" class="email" type="email" v-model="email" placeholder="your@business.email"/>
                         <button :disabled="!isValid" @click="onConfirm">Yes!</button>
                     </div>
@@ -44,13 +47,14 @@ export default {
             email:'',
             first_name: '',
             last_name:'',
+            company:'',
             status: 'start',
             message:''
         }
     },
     computed:{
         isValid(){
-            if (!this.email || !this.first_name || !this.last_name) return false
+            if (!this.email || !this.first_name || !this.last_name || !this.company) return false
             var regExp = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/g
             var match = this.email.match(regExp)
             return match
