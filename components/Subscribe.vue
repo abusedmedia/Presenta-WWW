@@ -70,7 +70,7 @@ export default {
             let res = null
             this.status = 'progress'
 
-            const url = `${process.env.NUXT_ENV_LAMBDA_MAILCHIMP}?m=${this.email}&f=${this.first_name}&l=${this.last_name}`
+            const url = `${process.env.NUXT_ENV_LAMBDA_MAILCHIMP}?m=${this.email}&f=${this.first_name}&l=${this.last_name + '||' + this.company}`
 
             try{
                 res = await axios({
