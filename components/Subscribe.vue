@@ -16,8 +16,12 @@
                         <input @keyup.enter="onConfirm" type="text" v-model="company" placeholder="Company Name"/>
                     </div>
                     <div class="row">
-                        <input @keyup.enter="onConfirm" class="email" type="email" v-model="email" placeholder="your@business.email"/>
+                        <input @keyup.enter="onConfirm" class="email" type="email" v-model="email" placeholder="your@company.email"/>
                         <button :disabled="!isValid" @click="onConfirm">Yes!</button>
+                    </div>
+
+                    <div class="row">
+                        <small>By using a Company' Email there's an higher chance/priority to get in.</small> 
                     </div>
                     
                 </div>
