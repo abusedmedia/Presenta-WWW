@@ -29,7 +29,7 @@
                     Submitting... wait a bit.
                 </div>
                 <div class="message" v-if="status === 'done'">
-                    You're in!
+                    You're in the waiting list! We'll let you know. Thanks!
                 </div>
                 <div class="message" v-if="status === 'error'">
                     There was an error, sorry.  {{message}}
