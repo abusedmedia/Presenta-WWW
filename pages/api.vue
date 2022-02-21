@@ -11,18 +11,19 @@
         
         <div class="feature">
             <div class="incipit">
-                <h4>Sync, Image only</h4>
+                <h4>Sync + Cache</h4>
 
                 <h2>It's just an URL.</h2>
 
                 <div class="endpoint">[GET] /v1/url/:templateID?:params</div>
 
-                <p>The quickest way to integrate our Cloud API infrastructure!</p>
+                <p>The quickest way to integrate our Cloud API infrastructure! <br />
+                <b>Common use-case:</b> open-graph image (or social preview image) generation.</p>
             </div>
             <div class="columns">
                 <div class="left">
                     <highlight-code class="code" lang="js">
-                        https://cloud.presenta.cc/v1/url/templateID/?main=Hello
+                        https://cloud.preso.cc/v1/url/templateID/?main=Hello
                     </highlight-code>
                 </div>
             </div>
@@ -31,19 +32,20 @@
 
         <div class="feature">
             <div class="incipit">
-                <h4>Sync, Image only</h4>
+                <h4>Sync + CDN</h4>
 
-                <h2>Get the image with full control!</h2>
+                <h2>Integrate with your pipeline!</h2>
 
                 <div class="endpoint">[POST] /v1/render/:templateID</div>
 
-                <p>To get images with more control, use the <b>POST</b> end-point.</p>
+                <p>Get the URL of the generated file, do what you want with it.<br />
+                <b>Common use-case:</b> document generation after a trigger (user interaction, bot, cron job, etc).</p>
 
             </div>
             <div class="columns">
                 <div class="left">
                     <highlight-code class="code" lang="js">
-                        fetch('https://cloud.presenta.cc/v1/render/templateID', {
+                        fetch('https://cloud.preso.cc/v1/render/templateID', {
                             method: 'POST',
                             body: JSON.stringify({title: 'Hello'})
                         })
@@ -54,16 +56,40 @@
 
 
 
+        <div class="feature">
+            <div class="incipit">
+                <h4>Sync</h4>
+
+                <h2>Get it as fast as possible, always fresh!</h2>
+
+                <div class="endpoint">[GET] /v1/jit/:templateID</div>
+
+                <p>No cache or CDN, you get the file buffer. It's fast and always up-to-date.<br />
+                <b>Common use-case:</b> images with real-time graphics, i.e. countdown images.</p>
+
+            </div>
+            <div class="columns">
+                <div class="left">
+                    <highlight-code class="code" lang="js">
+                        https://cloud.preso.cc/v1/jit/templateID/?main=Hello
+                    </highlight-code>
+                </div>
+            </div>
+        </div>
+
+
+
 
         <div class="feature">
             <div class="incipit">
-                <h4>Async, All formats</h4>
+                <h4>Async + CDN (coming soon)</h4>
 
                 <h2>Merge your data, Choose the format.</h2>
 
                 <div class="endpoint">[POST] /v1/export/:projectID</div>
 
-                <p>The <b>/export</b> end-point allows to merge multi-frames documents and get it as <b>PDF</b>, <b>GIF</b> and <b>PNG</b> as well.</p>
+                <p>The <b>/export</b> end-point allows to merge multi-frames complex documents and get it as <b>PDF</b>, <b>GIF</b> and <b>PNG</b> as well.<br />
+                <b>Common use-case:</b> reports, catalogs, multi-page documents</p>
             </div>
             <div class="columns">
                 <div class="left">
@@ -85,13 +111,14 @@
 
         <div class="feature">
             <div class="incipit">
-                <h4>Async, All formats</h4>
+                <h4>Async + CDN (coming soon)</h4>
 
                 <h2>Structure Complex Documents</h2>
 
                 <div class="endpoint">[POST] /v1/export/:projectID</div>
 
-                <p>By using the <b>frames</b> key, generate custom document structures and get it as <b>PDF</b>, <b>GIF</b> and <b>PNG</b> as well.</p>
+                <p>By using the <b>frames</b> key, generate custom and complex document structures and get it as <b>PDF</b>, <b>GIF</b> and <b>PNG</b> as well.<br />
+                <b>Common use-case:</b> reports, catalogs, multi-page documents</p>
             </div>
             <div class="columns">
                 <div class="left">

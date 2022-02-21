@@ -40,10 +40,10 @@ In both cases you need to publish the template from within the editor and get th
 This is the quickest way to start generating data-driven images, it's just an URL:
 
 ```js
-https://cloud.presenta.cc/v1/url/<TemplateID>/?main=Hello
+https://cloud.preso.cc/v1/url/<TemplateID>/?main=Hello
 ```
 
-<!-- Click <a href="https://cloud.presenta.cc/v1/image/<TemplateID>/?main=Hello" target="_blank">this URL</a> to see a real example. -->
+
 
 You need to include your **TemplateID** as well as all the parameters required by your template.
 
@@ -64,7 +64,7 @@ By "unique URL" we mean a unique combination with TemplateID and parameters with
 There's a more technical version using a POST endpoint:
 
 ```js
-fetch('https://cloud.presenta.cc/v1/render/<TemplateID>', {
+fetch('https://cloud.preso.cc/v1/render/<TemplateID>', {
 	method: 'POST',
 	body: JSON.stringify({title: 'Hello'})
 })
@@ -86,6 +86,20 @@ If you don't want to generate each time a new image, you should use the cached U
 
 
 
+### GET URL [/jit]
+
+This is a variation of the URL endpoint meant to be the fastest option to get the resource:
+
+```js
+https://cloud.preso.cc/v1/jit/<TemplateID>/?main=Hello
+```
+
+It works in the same way as the `/url` version, the difference is that it doesn't create a cached version of the resource.
+
+This means that the response is faster and the resource is always fresh. The downsize is that every `/jit` request counts for the billing amount.
+
+
+
 
 ## Multi-Frame Document Export (Async)
 
@@ -104,7 +118,7 @@ Then, you can build your payload to generate a data-driven document.
 **Simple mode:** pass a flat object, the document will be exported as the project already is, with the elements modified according to the passed object:
 
 ```js
-fetch('https://cloud.presenta.cc/v1/export/<ProjectID>', {
+fetch('https://cloud.preso.cc/v1/export/<ProjectID>', {
 	method: 'POST',
 	body: JSON.stringify({
 		title: 'Hello',
@@ -117,7 +131,7 @@ fetch('https://cloud.presenta.cc/v1/export/<ProjectID>', {
 **Structured mode:** pass an object with the `frames` key to generate a new structure following the frames list:
 
 ```js
-fetch('https://cloud.presenta.cc/v1/export/<ProjectID>', {
+fetch('https://cloud.preso.cc/v1/export/<ProjectID>', {
 	method: 'POST',
 	body: JSON.stringify({
 		footer: 'Common String present in all frames',
@@ -147,7 +161,7 @@ The `url` **will be available at some point in time**.
 You can use the `job` id to know if the export task has finished:
 
 ```js
-fetch('https://cloud.presenta.cc/v1/job', {
+fetch('https://cloud.preso.cc/v1/job', {
 	method: 'POST',
 	body: JSON.stringify({
 		id: 'XXXXXXXXX'

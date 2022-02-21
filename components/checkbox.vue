@@ -15,7 +15,9 @@
 
 <script>
 export default {
-  props:['val'],
+  props:{
+    val:Boolean
+  },
   data(){
     return{
       id:null

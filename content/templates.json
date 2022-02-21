@@ -3,38 +3,41 @@
         {"id": "opengraph", "label": "Open Graph", 
             "description": "The Open-Graph is the preview image shown by Social Networks when people share a URL. You can pick one of these template to start quickly, tweak it to align it with your brand or taste.",
             "templates": [
-                {"id": "zGywhb2oJn:IwCSwQ1wB?"},
-                {"id": "zGywhb2oJn:ptiiM09z9?"},
-                {"id": "zGywhb2oJn:PXhbKcWtT?"}
+                {"id": "zGywhb2oJn:IwCSwQ1wB"},
+                {"id": "zGywhb2oJn:ptiiM09z9"},
+                {"id": "zGywhb2oJn:PXhbKcWtT"}
         ]},
         {"id": "qrcodes", "label": "QRCodes", 
             "description": "QR-Codes help user to get URL and information using their Smartphone.",
             "templates": [
-                {"id": "zGywhb2oJn:eJ3yMSmxY?"},
-                {"id": "zGywhb2oJn:z2O9wALBl?"}
+                {"id": "zGywhb2oJn:eJ3yMSmxY"},
+                {"id": "zGywhb2oJn:z2O9wALBl"},
+                {"id": "zGywhb2oJn:4AO60DSvo"},
+                {"id": "zGywhb2oJn:52w3Irt2L"}
         ]},
         {"id": "quotes", "label": "Quotes", 
             "description": "Graphic Quotes are a great way to publish fresh materials on Social Media Networks.",
             "templates": [
-                {"id": "zGywhb2oJn:TEwf6udrw?"}
+                {"id": "zGywhb2oJn:TEwf6udrw"}
         ]},
         {"id": "memes", "label": "Meme", 
             "description": "Meme are part of our current daily life, let's personalize them!",            
             "templates": [
-            {"id": "zGywhb2oJn:9BAz5rb7T?"},
-            {"id": "zGywhb2oJn:2CA8kzSuG?"}
+            {"id": "zGywhb2oJn:9BAz5rb7T"},
+            {"id": "zGywhb2oJn:2CA8kzSuG"}
         ]},
         {"id": "certificates", "label": "Certificates", 
             "description": "Create personalized Certificates for your students and peers.",                        
             "templates": [
-                {"id": "zGywhb2oJn:wzODLn3PV?"},
-                {"id": "zGywhb2oJn:GPVWRUfSB"}
+                {"id": "zGywhb2oJn:wzODLn3PV"},
+                {"id": "zGywhb2oJn:GPVWRUfSB"},
+                {"id": "zGywhb2oJn:0CyPpATl2"}
         ]},
         {"id": "misc", "label": "Misc", 
             "description": "Other templates for specific needs.",                        
             "templates": [
-                {"id": "zGywhb2oJn:L3NJX7Ma4"}
+                {"id": "zGywhb2oJn:L3NJX7Ma4"},
+                {"id": "zGywhb2oJn:0ivncCwgL"}
         ]}
     ]
 }
-

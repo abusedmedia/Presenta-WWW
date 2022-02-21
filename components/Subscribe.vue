@@ -13,7 +13,7 @@
                         <input @keyup.enter="onConfirm" type="text" v-model="last_name" placeholder="Lastname"/>
                     </div>
                     <div class="row">
-                        <input @keyup.enter="onConfirm" type="text" v-model="company" placeholder="Company Name"/>
+                        <input @keyup.enter="onConfirm" type="text" v-model="company" placeholder="Company Name *"/>
                     </div>
                     <div class="row">
                         <input @keyup.enter="onConfirm" class="email" type="email" v-model="email" placeholder="your@company.email"/>
@@ -21,7 +21,12 @@
                     </div>
 
                     <div class="row">
-                        <small>By using a Company' Email there's an higher chance/priority to get in.</small> 
+                        <input type="checkbox" v-model="optin" />
+                        <small>I'm ok receiving information about accessing the platform.</small>
+                    </div>
+
+                    <div class="row">
+                        <small>* By using a Company' Email there's an higher chance/priority to get in.</small> 
                     </div>
                     
                 </div>
@@ -44,21 +49,26 @@
 
 <script>
 import axios from 'axios'
+import Checkbox from './Checkbox.vue'
 
 export default {
+    components:{
+        Checkbox
+    },
     data(){
         return{
             email:'',
             first_name: '',
             last_name:'',
             company:'',
+            optin:false,
             status: 'start',
             message:''
         }
     },
     computed:{
         isValid(){
-            if (!this.email || !this.first_name || !this.last_name || !this.company) return false
+            if (!this.email || !this.first_name || !this.last_name || !this.company || !this.optin) return false
             var regExp = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/g
             var match = this.email.match(regExp)
             return match
@@ -157,10 +167,17 @@ p.minor{
     width: 100%;
 }
 .request input{
-    flex:1;
     padding: .75rem;
     border: 1px solid #000;
     margin-bottom: 1rem;
+}
+.request input:not([type="checkbox"]){
+    flex:1;
+}
+.check{
+    border:none;
+    border:1px solid black;
+
 }
 
 .request button{
