@@ -49,7 +49,7 @@
 
 <script>
 import axios from 'axios'
-import Checkbox from './Checkbox.vue'
+import Checkbox from './Checkbx.vue'
 
 export default {
     components:{
