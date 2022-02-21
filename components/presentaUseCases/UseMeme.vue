@@ -40,15 +40,15 @@ export default {
         return {
             images:[
                 {
-                    a:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:9BAz5rb7T?&name=SomeUserName&namefront=SomeUserName',
-                    b:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:9BAz5rb7T?&name=OtherName&namefront=OtherName',
-                    c:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:9BAz5rb7T?&name=AlternativeName&namefront=AlternativeName'
+                    a:'https://cloud.preso.cc/v1/url/zGywhb2oJn:9BAz5rb7T?&name=SomeUserName&namefront=SomeUserName',
+                    b:'https://cloud.preso.cc/v1/url/zGywhb2oJn:9BAz5rb7T?&name=OtherName&namefront=OtherName',
+                    c:'https://cloud.preso.cc/v1/url/zGywhb2oJn:9BAz5rb7T?&name=AlternativeName&namefront=AlternativeName'
                 },
                 
                 {
-                    a:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:2CA8kzSuG?&text=Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur&subtitle=1st November, 2021',
-                    b:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:2CA8kzSuG?&text=Neque porro quisquam est qui dolore&subtitle=2nd November, 2021',
-                    c:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:2CA8kzSuG?&text=Quia dolor sit amet, consectetur&subtitle=3rd November, 2021'
+                    a:'https://cloud.preso.cc/v1/url/zGywhb2oJn:2CA8kzSuG?&text=Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur&subtitle=1st November, 2021',
+                    b:'https://cloud.preso.cc/v1/url/zGywhb2oJn:2CA8kzSuG?&text=Neque porro quisquam est qui dolore&subtitle=2nd November, 2021',
+                    c:'https://cloud.preso.cc/v1/url/zGywhb2oJn:2CA8kzSuG?&text=Quia dolor sit amet, consectetur&subtitle=3rd November, 2021'
                 }
             ]
         }

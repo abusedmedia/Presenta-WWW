@@ -30,8 +30,7 @@
             "description": "Create personalized Certificates for your students and peers.",                        
             "templates": [
                 {"id": "zGywhb2oJn:wzODLn3PV"},
-                {"id": "zGywhb2oJn:GPVWRUfSB"},
-                {"id": "zGywhb2oJn:0CyPpATl2"}
+                {"id": "zGywhb2oJn:GPVWRUfSB"}
         ]},
         {"id": "misc", "label": "Misc", 
             "description": "Other templates for specific needs.",                        
