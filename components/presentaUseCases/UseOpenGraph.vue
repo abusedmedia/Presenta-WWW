@@ -9,7 +9,7 @@
                     
                     <h4>Open-Graph Images</h4>
 
-                    <h2>Generate Social Share Preview automatically</h2>
+                    <h2>Generate Social Share Preview automatically.</h2>
 
                     <p>Let <b>PRESENTA Cloud API</b> to generate automatically the social preview image for each web page of your website or blog.</p>
 
