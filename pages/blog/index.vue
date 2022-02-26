@@ -7,7 +7,7 @@
         
         <ul class="grid">
             <li v-for="post in posts" :key="post.url">
-                <nuxt-link :to="post.url + '/'">
+                <nuxt-link :to="post.url">
                     <!-- <div class="img">
                         <img src="/500x500.png" />
                     </div> -->
