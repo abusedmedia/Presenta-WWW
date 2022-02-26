@@ -10,8 +10,8 @@
 
 
         <UseOpenGraph />
-        <UseMeme />
         <UseQuotes />
+        <UseMeme />
         
         <Subscribe />
 
