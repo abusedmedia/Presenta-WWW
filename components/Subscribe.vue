@@ -13,21 +13,18 @@
                         <input @keyup.enter="onConfirm" type="text" v-model="last_name" placeholder="Lastname"/>
                     </div>
                     <div class="row">
-                        <input @keyup.enter="onConfirm" type="text" v-model="company" placeholder="Company Name *"/>
+                        <input @keyup.enter="onConfirm" type="text" v-model="company" placeholder="Company Name"/>
                     </div>
                     <div class="row">
                         <input @keyup.enter="onConfirm" class="email" type="email" v-model="email" placeholder="your@company.email"/>
                         <button :disabled="!isValid" @click="onConfirm">Yes!</button>
                     </div>
 
-                    <div class="row">
-                        <input type="checkbox" v-model="optin" />
-                        <small>I'm ok receiving information about accessing the platform.</small>
+                    <div class="row checkbox">
+                        <input id="privacy" type="checkbox" class="check" v-model="optin" />
+                        <label for="privacy"><small>I'm ok receiving information about accessing the platform.</small></label>
                     </div>
 
-                    <div class="row">
-                        <small>* By using a Company' Email there's an higher chance/priority to get in.</small> 
-                    </div>
                     
                 </div>
                 <div class="message" v-if="status === 'progress'">
@@ -174,10 +171,36 @@ p.minor{
 .request input:not([type="checkbox"]){
     flex:1;
 }
-.check{
-    border:none;
-    border:1px solid black;
 
+
+
+.check{
+    height: 25px;
+    width: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: 2px solid #fff;
+    outline: none;
+    background-color: #ddd;
+    cursor: pointer;
+    margin-right: .5rem;
+
+}
+.check:checked {
+    border: 2px solid #000;
+    background-color: var(--accentcolor);
+}
+.check:active {
+    border: 2px solid #000;
+}
+
+
+.request .row.checkbox{
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
 }
 
 .request button{
@@ -239,6 +262,9 @@ a:hover{
         flex-direction: row;
         margin-bottom: 1rem;
     }
+    .request .row.checkbox{
+    }
+
     
 }
 </style>

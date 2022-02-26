@@ -11,7 +11,7 @@
         
         <div class="feature">
             <div class="incipit">
-                <h4>Sync + Cache</h4>
+                <h4><span class="badge free">FREE + PRO</span> Sync + Cache </h4>
 
                 <h2>It's just an URL.</h2>
 
@@ -32,7 +32,7 @@
 
         <div class="feature">
             <div class="incipit">
-                <h4>Sync + CDN</h4>
+                <h4><span class="badge free">FREE + PRO</span> Sync + CDN </h4>
 
                 <h2>Integrate with your pipeline!</h2>
 
@@ -58,7 +58,7 @@
 
         <div class="feature">
             <div class="incipit">
-                <h4>Sync</h4>
+                <h4><span class="badge">PRO Only</span> Sync </h4>
 
                 <h2>Get it as fast as possible, always fresh!</h2>
 
@@ -82,7 +82,7 @@
 
         <div class="feature">
             <div class="incipit">
-                <h4>Async + CDN (coming soon)</h4>
+                <h4><span class="badge">PRO Only</span> Async + CDN (coming soon) </h4>
 
                 <h2>Merge your data, Choose the format.</h2>
 
@@ -111,7 +111,7 @@
 
         <div class="feature">
             <div class="incipit">
-                <h4>Async + CDN (coming soon)</h4>
+                <h4><span class="badge">PRO Only</span> Async + CDN (coming soon) </h4>
 
                 <h2>Structure Complex Documents</h2>
 
@@ -142,11 +142,12 @@
         </div>
         
 
-        <div class="cta">
+        <!-- <div class="cta">
             <nuxt-link class="btn" to="/docs">
                 <span>Learn more on Cloud API</span>
             </nuxt-link>
-        </div>
+        </div> -->
+        <Subscribe />
 
         <FooterComp />
     </div>
@@ -157,10 +158,11 @@
 import HeroHeader from '~/components/HeroHeader.vue'
 import FooterComp from '~/components/FooterComp.vue'
 import LibExamples from '~/components/LibExamples.vue'
+import Subscribe from '~/components/Subscribe.vue'
 
 export default {
   components:{
-      HeroHeader,FooterComp,LibExamples
+      HeroHeader,FooterComp,LibExamples,Subscribe
   },
   head () {
         return {
@@ -187,4 +189,5 @@ export default {
     margin-top: 1rem;
     background: #eee;
 }
+
 </style>

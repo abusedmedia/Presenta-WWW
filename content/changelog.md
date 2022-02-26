@@ -5,6 +5,14 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 
 
 
+## 28th February, 2022
+
+- **Editor**: Small enhancements in the UI of the editor
+- **Editor**: Work in progress of the Figma importer
+- **Open Source**: The library has been updated to v1.0.23.
+
+
+
 ## 21st February, 2022
 
 - **API**: We released a faster version of the infrastructure and we moved it to a dedicated domain (cloud.preso.cc) for security reasons.

@@ -7,6 +7,7 @@
         <UseMeme />
         <UseCertificate />
         <UseMore />
+        <UseRealtime />
 
     </div>
 </template>
@@ -21,10 +22,11 @@ import UseQuotes from './presentaUseCases/UseQuotes.vue'
 import UseMeme from './presentaUseCases/UseMeme.vue'
 import UseCertificate from './presentaUseCases/UseCertificate.vue'
 import UseMore from './presentaUseCases/UseMore.vue'
+import UseRealtime from './presentaUseCases/UseRealtime.vue'
 
 export default {
     components:{
-        UseOpenGraph,UseNewsletter,UseSocialAd,UseQRCode,UseQuotes,UseMeme,UseCertificate,UseMore
+        UseOpenGraph,UseNewsletter,UseSocialAd,UseQRCode,UseQuotes,UseMeme,UseCertificate,UseMore,UseRealtime
     }
 }
 

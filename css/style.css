@@ -515,3 +515,17 @@ h1 b, h2 b{
   }
 
 }
+
+
+
+
+.badge{
+  background: var(--accentcolor);
+  color:#000;
+  padding: 0rem 0.7rem;
+  display: inline-block;
+  transform: rotate(-5deg);
+}
+.badge.free{
+  background: #ddd;
+}
