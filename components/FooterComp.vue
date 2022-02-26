@@ -4,9 +4,8 @@
             <footer>
 
                 <div>
-                    <p class="relevant"><b><nuxt-link to="/">PRESENTA</nuxt-link></b> is the automation platform for
-data-driven presentational documents.</p>
                     <p class="relevant">Made with ❤️ in Italy! – <b><a href="mailto:support@presenta.cc">Talk to Us</a></b>
+                    <p class="relevant"><b><nuxt-link to="/">PRESENTA</nuxt-link></b>: the automation platform for data-driven presentational documents.</p>
                     <!-- <span class="little">In this site you're NOT tracked at all</span></p> -->
                     <p></p>
                 </div>
@@ -149,7 +148,7 @@ footer li{
 
 .row{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 a:hover{
@@ -158,6 +157,7 @@ a:hover{
 
 .col{
     margin-top: 1.5rem;
+    width: 50%;
 }
 .col p{
     font-size: 1.15rem;

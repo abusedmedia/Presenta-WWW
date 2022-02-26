@@ -14,8 +14,8 @@
 
         <div class="splash">
           <picture>
-            <source srcset="/splash.png" media="(min-width: 700px)">
-            <img src="/splash-narrow.png" />
+            <source srcset="/splash.jpg" media="(min-width: 700px)">
+            <img src="/splash.jpg" />
           </picture>
           
         </div>

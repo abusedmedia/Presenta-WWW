@@ -46,11 +46,9 @@
 
 <script>
 import axios from 'axios'
-import Checkbox from './Checkbx.vue'
 
 export default {
     components:{
-        Checkbox
     },
     data(){
         return{
@@ -183,7 +181,7 @@ p.minor{
     appearance: none;
     border: 2px solid #fff;
     outline: none;
-    background-color: #ddd;
+    background-color: #fff;
     cursor: pointer;
     margin-right: .5rem;
 
