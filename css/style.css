@@ -523,9 +523,17 @@ h1 b, h2 b{
   background: var(--accentcolor);
   color:#000;
   padding: 0rem 0.7rem;
-  display: inline-block;
-  transform: rotate(-5deg);
+  transform: rotate(-4deg);
 }
 .badge.free{
   background: #ddd;
+}
+
+
+@media(min-width: 600px){
+    
+  .badge{
+    display: inline-block;
+  }
+
 }
