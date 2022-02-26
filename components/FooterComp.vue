@@ -1,29 +1,29 @@
 <template>
     <div class="footer">
-
         <div class="wrapper">
             <footer>
-                <div class="two">
-                    <p class="relevant"><b><nuxt-link to="/">PRESENTA</nuxt-link></b> is an online platform, currently in <b>private release</b>.</p>
-                    <p>Made with ❤️ in Italy! <br />Have a wonderful day! <br />
+
+                <div>
+                    <p class="relevant"><b><nuxt-link to="/">PRESENTA</nuxt-link></b> is the automation platform for
+data-driven presentational documents.</p>
+                    <p class="relevant">Made with ❤️ in Italy! – <b><a href="mailto:support@presenta.cc">Talk to Us</a></b>
                     <!-- <span class="little">In this site you're NOT tracked at all</span></p> -->
-                    <p>Need help? 💌 <a href="mailto:support@presenta.cc">Contact Us</a></p>
+                    <p></p>
                 </div>
-                <div class="one">
-                    <p class="relevant links">
-                        <nuxt-link to="/use-cases">Use Cases</nuxt-link>
-                        <nuxt-link to="/api">API</nuxt-link>
-                        <nuxt-link to="/pricing">Pricing</nuxt-link>
-                        <nuxt-link to="/lib">JS Library</nuxt-link>
-                        <a href="https://github.com/presenta-software">Open&nbsp;Source</a>
-                        <nuxt-link to="/tools">Tools</nuxt-link>
-                        <nuxt-link to="/blog">Blog</nuxt-link>
-                        <nuxt-link to="/templates">Templates</nuxt-link>
-                        <nuxt-link to="/changelog">Changelog</nuxt-link>
-                        <nuxt-link to="/signup">Sign Up</nuxt-link>
-                    </p>
-                    <p class="less">Review the <nuxt-link to="/legal/privacy-policy">Privacy Policy</nuxt-link>, the <nuxt-link to="/legal/cookie-policy">Cookie Policy</nuxt-link> and <nuxt-link to="/legal/terms-of-service">Terms Of Use</nuxt-link> of <b>PRESENTA</b> applications and websites.</p>
-                </div>
+                
+                <div class="row">
+
+                    <div class="col" v-for="col in menu" :key="col.title">
+                        <p>{{col.title}}</p>
+                        <ul>
+                            <li v-for="link in col.links" :key="link.url">
+                                <nuxt-link v-if="!link.external" :to="link.url">{{link.label}}</nuxt-link>
+                                <a  v-if="link.external" target="_blank" :href="link.url">{{link.label}}</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                                    </div>
             </footer>
         </div>
     </div>
@@ -37,10 +37,49 @@ import balanceText from 'balance-text'
 export default {
     mounted(){
         balanceText(this.$el.querySelectorAll('p'))
+    },
+    computed:{
+        menu(){
+            return [
+                
+                {title: 'Platform', links: [
+                    {label:'Use Cases', url:'/use-cases'},
+                    {label:'API', url:'/api'},
+                    {label:'Pricing', url:'/pricing'},
+                    {label:'Templates', url:'/templates'},
+                    {label:'Changelog', url:'/changelog'},
+                    {label:'Sign Up', url:'/signup'}
+                ]},
+
+                {title: 'Resources', links: [
+                    {label:'Javascript Lib', url:'/lib'},
+                    {label:'Github', url:'https://github.com/presenta-software', external:true},
+                    {label:'Tools', url:'/tools'},
+                    {label:'Blog', url:'/blog'}
+                ]},
+                
+                {title: 'Features', links: [
+                    {label:'Image Generation', url:'/features/image-generation-api'},
+                    {label:'Document Generation', url:'/features/document-generation-api'},
+                    {label:'PDF Generation', url:'/features/pdf-generation-api'},
+                    {label:'Open-Graph Generation', url:'/features/open-graph-generation-api'},
+                    {label:'Social Preview Generation', url:'/features/social-preview-generation-api'}
+                ]},
+
+
+                {title: 'About', links: [
+                    //{label:'About', url:'/about'},
+                    //{label:'Status', url:''},
+                    //{label:'Contact', url:''},
+                    {label:'Privacy Policy', url:'/legal/privacy-policy'},
+                    {label:'Cookie Policy', url:'/legal/cookie-policy'},
+                    {label:'Terms Of Use', url:'/legal/terms-of-service'}
+                ]}
+            ]
+        }
     }
 }
 </script>
-
 
 
 <style scoped>
@@ -49,18 +88,13 @@ export default {
 
 footer{
     margin-top:4rem;
-    background-color: #eee;
+    background-color: #3B404B;
     display: flex;
     flex-direction: column;
+    padding: 2rem;
+    color: #D0D6E1;
 }
 
-.wrapper div{
-    padding: 1rem;
-}
-
-.two, .one{
-    text-align: center;
-}
 
 footer p{
     font-size:0.9rem;
@@ -69,7 +103,7 @@ footer p{
 
 .relevant{
     font-size: 1.25rem;
-    margin-bottom: 0;
+    margin: .25rem 0;
 }
 .less{
     margin-top: 0;
@@ -81,14 +115,19 @@ footer p{
     font-size: .9em;
 }
 
-mark{
-    background-color: var(--forecolor);
-    color: var(--backcolor);
-    padding:.1rem .5rem;
+footer a{
+    color: #fff;
+    text-decoration: none;
 }
 
-footer a{
-    color: #000;
+footer ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+footer li{
+    margin: 0;
+    padding: .25rem 0 ;
 }
 
 .btn{
@@ -107,20 +146,47 @@ footer a{
 .links a{
     padding: .25rem;
 }
-@media screen and (min-width: 450px) {
-    
-    footer{
-        flex-direction: row;
-        align-items: flex-end;
-    }
-    .two{
-        flex:3;
-        text-align: left;
-    }
-    .one{
-        flex:1;
-        text-align: right;
-        
-    }
+
+.row{
+    display: flex;
+    flex-direction: column;
 }
+
+a:hover{
+    color: #3B404B;
+}
+
+.col{
+    margin-top: 1.5rem;
+}
+.col p{
+    font-size: 1.15rem;
+    margin: .4rem 0;
+}
+.col a{
+    font-size: .85rem;
+}
+
+@media screen and (min-width: 600px) {
+    footer{
+        padding: 2rem 4rem;
+    }
+    .col{
+        flex:1;
+        padding: 1rem;
+    }
+    .col:first-child{
+        padding-left: 0;
+    }
+    .col:last-child{
+        padding-right: 0;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }    
+}
+
+
 </style>

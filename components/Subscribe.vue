@@ -1,11 +1,11 @@
 <template>
     <div class="footer">
         <div class="signup">
-            <h3 class="marked">PRESENTA Platform is still private.</h3>
+            <h3 class="marked">PRESENTA Platform is on invitation only.</h3>
 
             <!-- <p>You can follow the platform progress on our <a href="https://twitter.com/PresentaSw" target="_blank">Twitter</a> or <a href="https://www.linkedin.com/company/presenta-platform/" target="_blank">Linkedin</a>
             <br /> -->
-             <p>Ask for an early access:</p>
+             <p>You can ask for it:</p>
             <div class="request">
                 <div v-if="status === 'start'">
                     <div class="row">
@@ -22,7 +22,7 @@
 
                     <div class="row checkbox">
                         <input id="privacy" type="checkbox" class="check" v-model="optin" />
-                        <label for="privacy"><small>I'm ok receiving information about accessing the platform.</small></label>
+                        <label for="privacy"><small>I'm ok receiving information about the platform and I read the <nuxt-link to="/legal/privacy-policy">Privacy Policy</nuxt-link>.</small></label>
                     </div>
 
                     
