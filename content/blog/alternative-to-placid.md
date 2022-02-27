@@ -9,9 +9,9 @@ category: comparison
 
 They claim to "Generate on-brand social media images automatically" with "image generation API and nocode integrations".
 
-They are focussed mainly on "Social Preview Image",  "Open Graph Image" and "Social Media Post".
+They are focussed mainly on Social Preview Image,  Open Graph Image and Social Media Post.
 
-**Placid** is a **PRESENTA** competitor in the context of dynamic image generation while PRESENTA Platform focus is much broader, indeed it relies on Document Generation in general.
+Placid is a **PRESENTA** competitor in the context of dynamic image generation while PRESENTA Platform focus is much broader, indeed it relies on Document Generation in general.
 
 Here a feature comparisons table for a fast overview:
 
@@ -25,12 +25,13 @@ Here a feature comparisons table for a fast overview:
 | Template Gallery       |    ✅    |         ✅         |
 | Signed URL             |    ❌    |         🔧         |
 | CDN                    |    ✅    |         ✅         |
-| Custom Fonts           |    ✅    |         🔧         |
+| Custom Fonts           |    ✅    |         ✅         |
 | Team Members           |    ❌    |         🔧         |
 | PNG                    |    ✅    |         ✅         |
 | PDF                    |    ❌    |         ✅         |
 | GIF                    |    ❌    |         ✅         |
 | Video                  |    ❌    |         ❌         |
+| Real-time images       |    ❌    |         🔧         |
 | Multi-pages            |    ❌    |         ✅         |
 | Import CSV             |    ❌    |         ✅         |
 | QR-code                |    ❌    |         ✅         |

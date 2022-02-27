@@ -7,11 +7,11 @@ category: comparison
 
 [Robolly](https://robolly.com/) service allows to generate dynamic visuals using templates and an API.
 
-They claim to be an "IMAGE AUTOMATION SERVICE" to "Automate your marketing visuals".
+They claim to be an IMAGE AUTOMATION SERVICE to Automate your marketing visuals.
 
-They are focussed mainly on "Social Preview Image",  "Podcast Cover", "Open Graph Image", "Voucher" and "Social Media Post".
+They are focussed mainly on Social Preview Image,  Podcast Cover, Open Graph Image, Voucher and Social Media Post.
 
-Robolly is a PRESENTA competitor in the context of dynamic image generation while PRESENTA Platform focus is much broader, indeed it relies on Document Generation in general.
+Robolly is a **PRESENTA** competitor in the context of dynamic image generation while PRESENTA Platform focus is much broader, indeed it relies on Document Generation in general.
 
 Here a feature comparisons table for a fast overview:
 
@@ -25,12 +25,13 @@ Here a feature comparisons table for a fast overview:
 | Template Gallery       |    ✅    |         ✅         |
 | Signed URL             |    ✅    |         🔧         |
 | CDN                    |    ✅    |         ✅         |
-| Custom Fonts           |    ✅    |         🔧         |
+| Custom Fonts           |    ✅    |         ✅         |
 | Team Members           |    ✅    |         🔧         |
 | PNG                    |    ✅    |         ✅         |
 | PDF                    |    ❌    |         ✅         |
 | GIF                    |    ❌    |         ✅         |
 | Video                  |    ❌    |         ❌         |
+| Real-time images       |    ❌    |         🔧         |
 | Multi-pages            |    ❌    |         ✅         |
 | Import CSV             |    ❌    |         ✅         |
 | QR-code                |    ❌    |         ✅         |
