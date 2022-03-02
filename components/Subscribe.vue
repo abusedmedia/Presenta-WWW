@@ -1,7 +1,7 @@
 <template>
     <div class="footer">
         <div class="signup">
-            <h3 class="marked">PRESENTA Platform is on invitation only.</h3>
+            <h3 class="marked">PRESENTA Platform is by invitation only.</h3>
 
             <!-- <p>You can follow the platform progress on our <a href="https://twitter.com/PresentaSw" target="_blank">Twitter</a> or <a href="https://www.linkedin.com/company/presenta-platform/" target="_blank">Linkedin</a>
             <br /> -->
