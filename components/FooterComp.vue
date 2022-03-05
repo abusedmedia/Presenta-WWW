@@ -53,8 +53,8 @@ export default {
                 {title: 'Resources', links: [
                     {label:'Javascript Lib', url:'/lib'},
                     {label:'Github', url:'https://github.com/presenta-software', external:true},
-                    {label:'Tools', url:'/tools'},
-                    {label:'Blog', url:'/blog'}
+                    {label:'Tools', url:'/tools'}
+                    //{label:'Blog', url:'/blog'}
                 ]},
                 
                 {title: 'Features', links: [

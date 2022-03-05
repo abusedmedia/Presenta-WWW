@@ -1,8 +1,8 @@
 <template>
     <div class="wrapper">
         
-        <TwitterLoversSample />
         <GithubSinceSample />
+        <TwitterLoversSample />
 
     </div>
 </template>

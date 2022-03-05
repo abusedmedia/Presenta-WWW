@@ -4,6 +4,11 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 ---
 
 
+## 7th March, 2022
+
+- **API**: We moved the whole API application to [Render](https://render.com/) service which allows to set the auto-scaler easier.
+
+
 
 ## 28th February, 2022
 
