@@ -1,5 +1,5 @@
 ---
-title: "PRESENTA: an Alternative to BannerBear"
+title: "PRESENTA: an Alternative to ApiTemplate"
 category: comparison
 ---
 
