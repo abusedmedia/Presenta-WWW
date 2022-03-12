@@ -1,6 +1,7 @@
 ---
 title: First Social Preview Image Templates
 category: template
+date: 2022-02-01
 ---
 
 We released the alpha version of the [Templates section](/templates/) and in this post we present our first free templates created specifically to generate social preview images with **PRESENTA**.

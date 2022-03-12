@@ -1,6 +1,7 @@
 ---
 title: Speed Up Puppeteer
 category: tech
+date: 2022-03-01
 ---
 
 Here the three most important tips we've learned along the way while building our API infrastructure based on Puppeteer to speed up the execution of Chromium browser using Puppeteer library.
