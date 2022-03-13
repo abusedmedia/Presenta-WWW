@@ -13,7 +13,7 @@
                     <div class="hero">
                         <h2>{{meta.title}}</h2>
                     </div>
-                    <!-- <small>posted on <strong>{{date}}</strong>, in <strong>{{category}}</strong></small> -->
+                    <small>posted on <strong>{{date}}</strong>, in <strong>{{category}}</strong></small>
                     
                     <div class="body" v-html="html"></div>
 
@@ -114,6 +114,8 @@ export default {
 .blog >>> pre[class*="language-"]{
     font-size:75%;
 }
+
+
 
 
 @media screen and (min-width: 400px){
