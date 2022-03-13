@@ -53,6 +53,9 @@ export default {
   // },
   target: 'static',
   head: {
+    htmlAttrs: {
+      lang: 'en'
+    },
     titleTemplate: '%s @ PRESENTA - The Documents Automation Platform',
     meta: [
       { charset: 'utf-8' },

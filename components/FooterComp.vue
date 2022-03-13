@@ -58,11 +58,11 @@ export default {
                 ]},
                 
                 {title: 'Features', links: [
-                    {label:'Image Generation', url:'/features/image-generation-api'},
-                    {label:'Document Generation', url:'/features/document-generation-api'},
-                    {label:'PDF Generation', url:'/features/pdf-generation-api'},
-                    {label:'Open-Graph Generation', url:'/features/open-graph-generation-api'},
-                    {label:'Social Preview Generation', url:'/features/social-preview-generation-api'}
+                    {label:'Image Generation Api', url:'/features/image-generation-api'},
+                    {label:'Document Generation Api', url:'/features/document-generation-api'},
+                    {label:'PDF Generation Api', url:'/features/pdf-generation-api'},
+                    {label:'Open-Graph Generation Api', url:'/features/open-graph-generation-api'},
+                    {label:'Social Preview Generation Api', url:'/features/social-preview-generation-api'}
                 ]},
 
 
