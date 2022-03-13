@@ -1,5 +1,5 @@
 ---
-title: Free Template for Social Media Preview Image #01
+title: Free Template for Social Media Preview Image
 category: template
 date: 2022-03-01
 ---

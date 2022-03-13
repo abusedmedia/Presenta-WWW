@@ -4,6 +4,17 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 ---
 
 
+## 14th March, 2022
+
+- **API**: We optimized the pipeline in the API infrastructure. This change allow to use more bigger templates and at the same time gain more performance in the request. It's a win-win.
+- **API**: We've added Handlebars templating system in any PRESENTA blocks, thus, you can create more smart templates that required more specific data leaving in the template itself the repeating suff.
+- **Editor**: The work in progress of the Figma importer is still in progress
+- **Editor**: Some simplification in the UI for users with Free Plan.
+- **Editor**: We are integrating the [Template](/templates) section within the Visual Editor.
+- **Website**: We've started to post news on our official Social Media channels, [Linkedin](https://www.linkedin.com/company/presenta-platform) and [Twitter](https://twitter.com/presentaswbot). Follow Us!
+
+
+
 ## 7th March, 2022
 
 - **API**: We moved the whole API application to [Render](https://render.com/) service which allows to set the auto-scaler easier.
