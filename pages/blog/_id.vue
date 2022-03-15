@@ -52,15 +52,23 @@ export default {
         }
     },
     head () {
-        let cover = this.meta.cover ? `blog/covers/${this.slug}.jpg` : 'social.png'
+        let cover = 'https://www.presenta.cc/social.png'
+
+        if(this.meta.cover){
+            cover = this.meta.cover
+            if(cover.indexOf('http') === -1){
+                cover = `https://www.presenta.cc/blog/covers/${cover}`
+            }
+        }
+
         return {
             title: this.meta.title,
             meta: [
                 { hid:'published_time', property: 'article:published_time', content: this.meta.date },
                 { hid:'ogtit', property: 'og:title', content: this.meta.title },
                 { hid:'twtit', name: 'twitter:title', content: this.meta.title },
-                { hid:'ogimg', property: 'og:image', content: `https://www.presenta.cc/${cover}` },
-                { hid:'twimg', name: 'twitter:image', content: `https://www.presenta.cc/${cover}` },
+                { hid:'ogimg', property: 'og:image', content: `${cover}` },
+                { hid:'twimg', name: 'twitter:image', content: `${cover}` },
                 { hid:'ogurl', property: 'og:url', content: `https://www.presenta.cc/blog/${this.slug}` },
                 { hid:'twurl', name: 'twitter:url', content: `https://www.presenta.cc/blog/${this.slug}` }
             ]
