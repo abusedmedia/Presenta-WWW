@@ -6,7 +6,7 @@ date: 2022-03-10
 
 > Having competitors is good to foster an healthy innovation. This page tries to make a fair comparison with a [PRESENTA Platform](/) competitor to provide good information to users and customers helping them to make a choice.
 
-[Creative Machine](https://creativemachine.co/) service allows to generate banners using templates and their API.
+Creative Machine service allows to generate banners using templates and their API.
 
 Creative Machine is a **PRESENTA** competitor in the context of dynamic image generations while PRESENTA Platform focus is much broader, indeed it relies on Document Generation in general.
 

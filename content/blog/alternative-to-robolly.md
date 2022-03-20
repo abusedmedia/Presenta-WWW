@@ -6,7 +6,7 @@ date: 2022-02-10
 
 > Having competitors is good to foster an healthy innovation. This page tries to make a fair comparison with a [PRESENTA Platform](/) competitor to provide good information to users and customers helping them to make a choice.
 
-[Robolly](https://robolly.com/) service allows to generate dynamic visuals using templates and an API.
+Robolly service allows to generate dynamic visuals using templates and an API.
 
 They claim to be an IMAGE AUTOMATION SERVICE to Automate your marketing visuals.
 

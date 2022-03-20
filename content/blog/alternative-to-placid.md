@@ -6,7 +6,7 @@ date: 2022-02-15
 
 > Having competitors is good to foster an healthy innovation. This page tries to make a fair comparison with a [PRESENTA Platform](/) competitor to provide good information to users and customers helping them to make a choice.
 
-[Placid](https://placid.app/) service allows to generate dynamic visuals using templates and an API.
+Placid service allows to generate dynamic visuals using templates and an API.
 
 They claim to "Generate on-brand social media images automatically" with "image generation API and nocode integrations".
 

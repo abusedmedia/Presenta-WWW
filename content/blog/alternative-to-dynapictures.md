@@ -6,7 +6,7 @@ date: 2022-02-20
 
 > Having competitors is good to foster an healthy innovation. This page tries to make a fair comparison with a [PRESENTA Platform](/) competitor to provide good information to users and customers helping them to make a choice.
 
-[DynaPictures](https://dynapictures.com/) service allows to generate dynamic images using templates and an API.
+DynaPictures service allows to generate dynamic images using templates and an API.
 
 They claim they are useful for e-commerce products, social media banners and personalized emails as well.
 

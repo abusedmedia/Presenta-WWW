@@ -4,6 +4,16 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 ---
 
 
+## 21st March, 2022
+
+- **Website**: Removed the Stripe fee from the [Pricing](/pricing) since we deduce it in any situation.
+- **API**: More optimization that should gain more the responce time during high concurrency.
+- **Editor**: We are refining the UI for the upcoming public soft access of our tool.
+- **Editor**: We are testing the alpha version of our private Figma plugin.
+
+
+
+
 ## 14th March, 2022
 
 - **API**: We optimized the pipeline in the API infrastructure. This change allow to use more bigger templates and at the same time gain more performance in the request. It's a win-win.

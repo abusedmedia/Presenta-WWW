@@ -5,10 +5,8 @@
             <h2>Pay As You Go!</h2>
             <h1><b>0.01€</b> &#215; <b>Credit</b></h1>
 
-
             <h3>No monthly or fixed fee.</h3>
-            <p><a href="https://stripe.com/pricing" target="_blank">Stripe fee</a> added if less than 10€/month.<br />
-            VAT added if applicable.</p>
+            <p>VAT added if applicable.</p>
 
         </div>
 
@@ -21,7 +19,6 @@
                     <span class="minus">&#8722;</span> 
                     What can I do with <b>1 Credit</b>?</summary>
                 <div class="content">
-                    <p>Here the answer:</p>
                     
                     <ul>
                         <li><b>1 Credit</b> can generate <b>1 PNG</b> file.</li>
@@ -39,7 +36,7 @@
                 </div>
             </details>
 
-            <details>
+            <!-- <details>
                 <summary>
                     <span class="plus">&#43;</span> 
                     <span class="minus">&#8722;</span>
@@ -55,7 +52,7 @@
                     <p>For months that collect more than 10€ the Stripe' fee will be deducted.</p>
                     <p>You can review the current <a href="https://stripe.com/pricing" target="_blank">Stripe fee</a> on their website.</p>
                 </div>
-            </details>
+            </details> -->
 
 
             <details>

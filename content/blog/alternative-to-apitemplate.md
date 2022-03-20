@@ -6,7 +6,7 @@ date: 2022-02-28
 
 > Having competitors is good to foster an healthy innovation. This page tries to make a fair comparison with a [PRESENTA Platform](/) competitor to provide good information to users and customers helping them to make a choice.
 
-[ApiTemplate ](https://apitemplate.io/) service allows to generate dynamic documents using templates and an API.
+**ApiTemplate** service allows to generate dynamic documents using templates and an API.
 
 They claim to Auto-Generate images and PDFs Made easy.
 
