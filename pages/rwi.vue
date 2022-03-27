@@ -11,7 +11,7 @@
                 <img src="/rwi_splash.jpg" />
             </div>
 
-            <h1 style="margin: 3rem 0;">Wait few seconds...</h1>
+            <h1 style="margin: 3rem 0;">hit Reply and wait few seconds...</h1>
 
             <div class="splash">
                 <img src="/rwi_splash-2.jpg" />
