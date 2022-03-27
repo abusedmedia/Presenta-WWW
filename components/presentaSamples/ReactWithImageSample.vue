@@ -8,7 +8,7 @@
                 <div class="incipit">
                     <h4>Personalized Twitter reaction generator</h4>
 
-                    <h2><b>React With Image</b> in Twitter converations.</h2>
+                    <h2><b>React With Image</b> in Twitter conversations.</h2>
 
                     <p>A free bot that allows Twitter users to react with images in Twitter convesations. Just reply with <mark>@ReactWithImage /command</mark> where /command is the available template you can use. </p>
 
