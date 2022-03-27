@@ -2,8 +2,8 @@
     <div class="body">
 
         <div class="hero">
-            <h1>React With Image</h1>
-            <h2>Add Personalized Images <br />in your <mark>Twitter</mark> Conversations</h2>
+            <h1>@ReactWithImage</h1>
+            <h2>Add Personalized Images <br />in your <mark>Twitter</mark> conversations</h2>
         </div>
 
         <div class="container">
