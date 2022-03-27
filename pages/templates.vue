@@ -62,9 +62,8 @@ export default {
   mounted(){
       this.currentCategory = this.categories[0]
   },
-  async asyncData({ params }) {
+    async asyncData({ params }) {
         let res = await import(`~/content/templates.json`)
-        
         return {
             categories: res.categories
         }

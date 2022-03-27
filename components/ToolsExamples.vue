@@ -1,6 +1,7 @@
 <template>
     <div class="wrapper">
         
+        <ReactWithImageSample />
         <GithubSinceSample />
         <TwitterLoversSample />
 
@@ -9,12 +10,13 @@
 
 
 <script>
+import ReactWithImageSample from './presentaSamples/ReactWithImageSample.vue'
 import GithubSinceSample from './presentaSamples/GithubSinceSample.vue'
 import TwitterLoversSample from './presentaSamples/TwitterLoversSample.vue'
 
 export default {
     components:{
-        GithubSinceSample,TwitterLoversSample
+        ReactWithImageSample,GithubSinceSample,TwitterLoversSample
     }
 }
 

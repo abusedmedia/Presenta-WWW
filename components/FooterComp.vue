@@ -67,7 +67,7 @@ export default {
 
 
                 {title: 'About', links: [
-                    //{label:'About', url:'/about'},
+                    {label:'About us', url:'/about'},
                     //{label:'Status', url:''},
                     //{label:'Contact', url:''},
                     {label:'Privacy Policy', url:'/legal/privacy-policy'},

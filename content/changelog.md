@@ -4,6 +4,12 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 ---
 
 
+## 28st March, 2022
+
+- **API**: We've added more templating interpolation capabilities. More in the upcoming documentation.
+- **Website**: We are working for a [little Free Twitter Bot](/rwi) that uses PRESENTA Platform to create an interesting Twitter interaction.
+
+
 ## 21st March, 2022
 
 - **Website**: Removed the Stripe fee from the [Pricing](/pricing) since we deduce it in any situation.
