@@ -21,10 +21,10 @@
         <div class="container">
             <ul class="grid">
                 <li v-for="template in templates" :key="template.id"
-                    @click="copy(template)" class="copy">
+                    @click="copy(template)" :class="{clicked:template.copy}" class="copy">
                     <p class="command"><span>{{template.command}}</span></p>
                     <div class="img">
-                        <img :src="'https://cloud.preso.cc/v1/url/' + template.template + '?content=Quoted Tweet'" />
+                        <img :src="'https://cloud.preso.cc/v1/url/' + template.template + '?content=Quoted Tweet&name=John Doe&username=@johndoe&profile_image=https://cdn.presenta.cc/faces/s_6F9FA8C635E5B49A4AA9474CB76D1146BC1F6408CE5EEC320713FFF4758F98B5_1569007593653_003586.jpg'" />
                     </div>
                 </li>
             </ul>
@@ -59,8 +59,10 @@ export default {
   async mounted(){
       const res = await axios('https://cloud.preso.cc/commands.json')
       const dt = res.data
-      const list = dt.list || []
-      this.templates = list.filter(d => !d.private)
+      let list = dt.list || []
+      list = list.filter(d => !d.private)
+      list.forEach(d => d.copy = false)
+      this.templates = list
   },
   head () {
         return {
@@ -69,7 +71,9 @@ export default {
   },
   methods:{
       copy(t){
+          t.copy=true
           copyClipboard('@ReactWithImage ' + t.command)
+          setTimeout(() => t.copy = false, 150)
       }
   }
 }
@@ -102,10 +106,14 @@ export default {
 
 .copy{
     cursor: pointer;
-    transition: transform .15s ease-in-out;
+    transition: transform .15s ease-in-out, opacity .1s cubic-bezier(0.895, 0.03, 0.1, 0.9);
 }
 .copy:hover{
     transform: scale(1.1);
+}
+
+.copy.clicked{
+    opacity: .5;
 }
 
 .cta{
