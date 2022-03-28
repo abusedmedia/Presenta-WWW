@@ -36,8 +36,8 @@
         </div>
 
         <div class="cta">
-            <a class="btn" href="https://github.com/presenta-software/presenta-lib/discussions">
-                <span>Suggest New Templates</span>
+            <a class="btn" href="https://twitter.com/ReactWithImage">
+                <span>Follow @ReactWithImage</span>
             </a>
         </div>
 
