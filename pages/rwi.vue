@@ -8,14 +8,9 @@
 
         <div class="container">
             <div class="splash">
-                <img src="/rwi_splash.jpg" />
+                <img src="/rwi-splash.jpg" />
             </div>
 
-            <h1 style="margin: 3rem 0;">hit Reply and wait few seconds...</h1>
-
-            <div class="splash">
-                <img src="/rwi_splash-2.jpg" />
-            </div>
         </div>
 
         <div class="hero">
@@ -50,29 +45,26 @@
 import HeroHeader from '~/components/HeroHeader.vue'
 import FooterComp from '~/components/FooterComp.vue'
 import copyClipboard from '~/components/utils/copyClipboard'
+import axios from 'axios'
 
 export default {
   components:{
       HeroHeader,FooterComp
   },
+  data(){
+      return{
+          templates:[]
+      }
+  },
+  async mounted(){
+      const res = await axios('https://cloud.preso.cc/commands.json')
+      const dt = res.data
+      const list = dt.list || []
+      this.templates = list.filter(d => !d.private)
+  },
   head () {
         return {
             title: 'React With Image for Twitter'
-        }
-  },
-  async asyncData({ params }) {
-        const t = [
-  { command: '/text', template: 'GhZD3MDlBN:HnIClgJha', private: true },
-  { command: '/lol', template: 'GhZD3MDlBN:DGdNz6qD8' },
-  { command: '/support', template: 'GhZD3MDlBN:j9ZKDW6PZ' },
-  { command: '/change', template: 'GhZD3MDlBN:K54giu7Aa' },
-  { command: '/disaster', template: 'GhZD3MDlBN:Y3SwyOFoW' },
-  { command: '/didit', template: 'GhZD3MDlBN:hIYsKw5CG' },
-  { command: '/brag', template: 'GhZD3MDlBN:dIFNG0Ns6' }
-]
-
-        return {
-            templates: t.filter(d => !d.private)
         }
   },
   methods:{
@@ -101,7 +93,7 @@ export default {
 .splash{
   display: flex;
   justify-content: center;
-  width: 90%;
+  width: 100%;
 }
 .splash img{
   width: 100%;
@@ -121,12 +113,12 @@ export default {
 
 @media(min-width: 600px){
     .splash{
-        width: 70%;
+        width: 90%;
     }
 }
 @media(min-width: 900px){
     .splash{
-        width: 50%;
+        width: 70%;
     }
 }
 </style>

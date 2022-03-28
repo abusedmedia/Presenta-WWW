@@ -18,7 +18,7 @@
                 
             <div class="right">
                 <div class="img">
-                    <img alt="feature 3" src="/rwi_splash-x.jpg" />
+                    <img alt="feature 3" src="/rwi-splash.jpg" />
                 </div>
             </div>
 
