@@ -93,6 +93,7 @@ export default {
 .splash{
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   width: 100%;
 }
 .splash img{
