@@ -12,11 +12,11 @@
                         <input @keyup.enter="onConfirm" type="text" v-model="first_name" placeholder="Firstname"/>
                         <input @keyup.enter="onConfirm" type="text" v-model="last_name" placeholder="Lastname"/>
                     </div>
-                    <div class="row">
+                    <!-- <div class="row">
                         <input @keyup.enter="onConfirm" type="text" v-model="company" placeholder="Company Name"/>
-                    </div>
+                    </div> -->
                     <div class="row">
-                        <input @keyup.enter="onConfirm" class="email" type="email" v-model="email" placeholder="your@company.email"/>
+                        <input @keyup.enter="onConfirm" class="email" type="email" v-model="email" placeholder="your@email.com"/>
                         <button :disabled="!isValid" @click="onConfirm">Yes!</button>
                     </div>
 
@@ -55,7 +55,7 @@ export default {
             email:'',
             first_name: '',
             last_name:'',
-            company:'',
+            //company:'',
             optin:false,
             status: 'start',
             message:''
@@ -63,7 +63,7 @@ export default {
     },
     computed:{
         isValid(){
-            if (!this.email || !this.first_name || !this.last_name || !this.company || !this.optin) return false
+            if (!this.email || !this.first_name || !this.last_name || !this.optin) return false
             var regExp = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/g
             var match = this.email.match(regExp)
             return match
@@ -79,7 +79,7 @@ export default {
             let res = null
             this.status = 'progress'
 
-            const url = `${process.env.NUXT_ENV_LAMBDA_MAILCHIMP}?m=${this.email}&f=${this.first_name}&l=${this.last_name + '||' + this.company}`
+            const url = `${process.env.NUXT_ENV_LAMBDA_MAILCHIMP}?m=${this.email}&f=${this.first_name}&l=${this.last_name}`
 
             try{
                 res = await axios({
