@@ -11,7 +11,7 @@
             <div class="grid">
                 <div class="toolbar">
                     <div @click="selectCat(cat)"
-                        :class="{active: currentCategory && cat.id === currentCategory.id}"
+                        :class="{disabled: cat.disabled, active: currentCategory && cat.id === currentCategory.id}"
                         v-for="cat in categories" :key="cat.id" class="item">{{cat.label}}</div>
                 </div>
             </div>
@@ -101,6 +101,10 @@ export default {
 .toolbar .item:not(.active):hover{
     background: #ddd;
     cursor: pointer;
+}
+.toolbar .item.disabled{
+    opacity: .5;
+    pointer-events: none;
 }
 
 .description{

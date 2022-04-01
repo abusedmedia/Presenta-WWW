@@ -7,36 +7,38 @@
                 {"id": "zGywhb2oJn:ptiiM09z9"},
                 {"id": "zGywhb2oJn:PXhbKcWtT"}
         ]},
-        {"id": "qrcodes", "label": "QRCodes", 
+        {"id": "qrcodes", "label": "QRCodes (soon)", 
             "description": "QR-Codes help user to get URL and information using their Smartphone.",
+            "disabled": true,
             "templates": [
                 {"id": "zGywhb2oJn:eJ3yMSmxY"},
                 {"id": "zGywhb2oJn:z2O9wALBl"},
                 {"id": "zGywhb2oJn:4AO60DSvo"},
                 {"id": "zGywhb2oJn:52w3Irt2L"}
         ]},
-        {"id": "quotes", "label": "Quotes", 
+        {"id": "quotes", "label": "Quotes (soon)", 
             "description": "Graphic Quotes are a great way to publish fresh materials on Social Media Networks.",
+            "disabled": true,
             "templates": [
                 {"id": "zGywhb2oJn:TEwf6udrw"}
         ]},
-        {"id": "memes", "label": "Meme", 
+        {"id": "memes", "label": "Meme (soon)", 
             "description": "Meme are part of our current daily life, let's personalize them!",            
+            "disabled": true,
             "templates": [
             {"id": "zGywhb2oJn:HpjEHTWyL"},
             {"id": "zGywhb2oJn:2CA8kzSuG"}
         ]},
-        {"id": "certificates", "label": "Certificates", 
+        {"id": "certificates", "label": "Certificates (soon)", 
             "description": "Create personalized Certificates for your students and peers.",                        
+            "disabled": true,
             "templates": [
                 {"id": "zGywhb2oJn:wzODLn3PV"},
                 {"id": "zGywhb2oJn:GPVWRUfSB"}
         ]},
-        {"id": "misc", "label": "Misc", 
+        {"id": "misc", "label": "Reports (soon)", 
             "description": "Other templates for specific needs.",                        
-            "templates": [
-                {"id": "zGywhb2oJn:L3NJX7Ma4"},
-                {"id": "zGywhb2oJn:0ivncCwgL"}
-        ]}
+            "disabled": true,
+            "templates": []}
     ]
 }
