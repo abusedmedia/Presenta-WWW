@@ -21,17 +21,16 @@
                 <div class="content">
                     
                     <ul>
-                        <li><b>1 Credit</b> can generate <b>1 PNG</b> file.</li>
+                        <li><b>1 Credit</b> can generate <b>1 PNG/JPG</b> file.</li>
                         <li><b>1 Credit</b> can generate <b>1 Page</b> of a multi-page PDF file.</li>
                         <li><b>1 Credit</b> can generate <b>1 Frame</b> of a multi-frame GIF file.</li>
                     </ul>
 
                     <p>For instance:</p>
                     <ul>
+                        <li>A website with 100 articles each one with a custom generated social image (open-graph) will cost 1€ per month (thanks to the free monthly cache).</li>
                         <li>A PDF with <b>20 pages</b>, once generated, will count <b>20 Credits</b>, therefore,  will cost <b>0.2€</b>.</li>
                         <li>An animated GIF composed by <b>8 frames</b> will count <b>8 Credits</b>, therefore,  will cost <b>0.08€</b>.</li>
-                        <li>A <b>single</b> PNG will always count <b>1 Credit</b>, therefore, will cost <b>0.01€</b>.</li>
-                        <li>If you export a 30 scenes project as PNGs, it'll count <b>30 Credits</b>, therefore,  will cost <b>0.3€</b></li>
                     </ul>
                 </div>
             </details>
