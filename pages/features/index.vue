@@ -31,7 +31,6 @@ export default {
         }
   },
   async asyncData(){
-    let res = await import(`~/content/blog/list.json`)
     return {
         posts: [
             {title:'Document Generation API', url:'/features/document-generation-api'},
@@ -40,7 +39,9 @@ export default {
             {title:'Certificate Generation API', url:'/features/certificate-generation-api'},
             {title:'PDF Generation API', url:'/features/pdf-generation-api'},
             {title:'QR-Codes Generation API', url:'/features/qr-codes-generation-api'},
-            {title:'Social Preview Generation API', url:'/features/social-preview-generation-api'}
+            {title:'Social Preview Generation API', url:'/features/social-preview-generation-api'},
+            {title:'Robotic Process Automation and Document Generation API', url:'/features/robotic-process-automation-document-generation-api'},
+            {title:'Robotic Process Automation and PDF Report Generation API', url:'/features/robotic-process-automation-pdf-report-generation-api'}
         ]
     }
   }
