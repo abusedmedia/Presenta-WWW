@@ -81,9 +81,20 @@ export default {
       this.templates = list
   },
   head () {
+        let cover = 'rwi-splash.jpg'
+        const title = 'React With Image for Twitter'
         return {
-            title: 'React With Image for Twitter'
+            title,
+            meta: [
+                { hid:'ogtit', property: 'og:title', content: title },
+                { hid:'twtit', name: 'twitter:title', content: title },
+                { hid:'ogimg', property: 'og:image', content: `https://www.presenta.cc/${cover}` },
+                { hid:'twimg', name: 'twitter:image', content: `https://www.presenta.cc/${cover}` },
+                { hid:'ogurl', property: 'og:url', content: `https://www.presenta.cc/rwi` },
+                { hid:'twurl', name: 'twitter:url', content: `https://www.presenta.cc/rwi` }
+            ]
         }
+        
   },
   methods:{
       copy(t){
