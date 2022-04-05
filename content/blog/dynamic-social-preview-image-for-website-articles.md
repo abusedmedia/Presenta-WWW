@@ -2,7 +2,7 @@
 title: Dynamic Social Preview Image for Website Articles
 category: template
 date: 2022-04-01
-cover: https://cloud.preso.cc/v1/url/zGywhb2oJn:JCNwsKA6w
+cover: https://cloud.preso.cc/v1/url/zGywhb2oJn:JCNwsKA6w?title=Dynamic Social Preview Image for Website Articles&subtitle=Released at 1st April, 2022&image=https://source.unsplash.com/random/
 ---
 
 This is a free to use and modern dynamic social preview image for generic website articles.
@@ -32,7 +32,7 @@ https://cloud.preso.cc/v1/url/zGywhb2oJn:JCNwsKA6w
 
 
 
-![](https://cloud.preso.cc/v1/url/zGywhb2oJn:JCNwsKA6w)
+![dynamic social preview image](https://cloud.preso.cc/v1/url/zGywhb2oJn:JCNwsKA6w)
 
 
 
@@ -45,3 +45,12 @@ https://cloud.preso.cc/v1/url/zGywhb2oJn:JCNwsKA6w
 | image    |  URL  |
 | color    | Color |
 |          |       |
+
+
+Here the template with the following custom parameters:
+
+```js
+https://cloud.preso.cc/v1/url/zGywhb2oJn:JCNwsKA6w?title=Dynamic Social Preview Image for Website Articles&subtitle=Released at 1st April, 2022&image=https://source.unsplash.com/random/
+```
+
+<img src="https://cloud.preso.cc/v1/url/zGywhb2oJn:JCNwsKA6w?title=Dynamic Social Preview Image for Website Articles&subtitle=Released at 1st April, 2022&image=https://source.unsplash.com/random/" />

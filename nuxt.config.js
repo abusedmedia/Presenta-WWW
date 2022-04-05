@@ -28,6 +28,7 @@ blogposts.forEach(d => {
   d.date = doc.data.date
   d.home = doc.data.home
   d.draft = doc.data.draft
+  d.cover = doc.data.cover
 })
 
 blogposts = blogposts.filter(d => !d.draft)

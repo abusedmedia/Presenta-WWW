@@ -9,7 +9,7 @@
             <li v-for="post in posts" :key="post.url">
                 <nuxt-link :to="post.url">
                     <div class="img">
-                        <img src="/500x500.png" />
+                        <img :src="getImage(post)" />
                     </div>
                     <p>{{post.title}}</p>                
                 </nuxt-link>
@@ -32,6 +32,13 @@ export default {
   async asyncData(){
     let res = await import(`~/content/blog/list.json`)
     return {posts: res.default}
+  },
+  methods:{
+      getImage(post){
+          let img = '/500x500.png'
+          if(post.cover) img = post.cover
+          return img
+      }
   }
 }
 </script>

@@ -13,7 +13,7 @@
                     <div class="hero">
                         <h2>{{meta.title}}</h2>
                     </div>
-                    <small>posted on <strong>{{date}}</strong>, in <strong>{{category}}</strong></small>
+                    <div class="date"><small>posted on <strong>{{date}}</strong>, in <strong>{{category}}</strong></small></div>
                     
                     <div class="body" v-html="html"></div>
 
@@ -219,7 +219,12 @@ export default {
   display: inline;
 }
 
-
+.hero{
+    padding-bottom: 0;
+}
+.date{
+    text-align: center;
+}
 
 </style>
 
