@@ -40,6 +40,7 @@ export default {
             {title:'PDF Generation API', url:'/features/pdf-generation-api'},
             {title:'QR-Codes Generation API', url:'/features/qr-codes-generation-api'},
             {title:'Social Preview Generation API', url:'/features/social-preview-generation-api'},
+            {title:'Automate Excel Reports', url:'/features/automate-excel-reports'},
             {title:'Robotic Process Automation and Document Generation API', url:'/features/robotic-process-automation-document-generation-api'},
             {title:'Robotic Process Automation and PDF Report Generation API', url:'/features/robotic-process-automation-pdf-report-generation-api'}
         ]

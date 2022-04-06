@@ -62,6 +62,7 @@ export default {
                     {label:'Document Generation Api', url:'/features/document-generation-api'},
                     {label:'PDF Generation Api', url:'/features/pdf-generation-api'},
                     {label:'Open-Graph Generation Api', url:'/features/open-graph-generation-api'},
+                    {label:'Automate Excel Reports', url:'/features/automate-excel-reports'},
                     {label:'Social Preview Generation Api', url:'/features/social-preview-generation-api'}
                 ]},
 
