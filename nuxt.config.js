@@ -53,6 +53,7 @@ export default {
   //   backendServiceUrl: process.env.BACKEND_SERVICE_URL || 'https://tw-follow-me.firebaseio.com/presenta_email.json'
   // },
   target: 'static',
+  components: true,
   head: {
     htmlAttrs: {
       lang: 'en'
