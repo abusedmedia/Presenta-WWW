@@ -4,10 +4,20 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 ---
 
 
+
+## 12th April, 2022
+
+- **Editor**: Our Figma plugin is going great and we're currently using it to produce free templates.
+- **Website**: We are publishing news on our Social Media channels, [Linkedin](https://www.linkedin.com/company/presenta-platform) and [Twitter](https://twitter.com/presentaswbot). Follow Us!
+
+## 4th April, 2022
+
+- **Tools**: We've released [ReactWithImage Twitter Bot](/rwi) that is able to generate on the fly images and publish a tweet just replying with @ReactWithImage handle.
+
 ## 28st March, 2022
 
 - **API**: We've added more templating interpolation capabilities. More in the upcoming documentation.
-- **Website**: We are working for a [little Free Twitter Bot](/rwi) that uses PRESENTA Platform to create an interesting Twitter interaction.
+- **Website**: We are working for a [little Free Twitter Bot](/rwi) that uses **PRESENTA Platform** to create an interesting Twitter interaction.
 
 
 ## 21st March, 2022
@@ -16,8 +26,6 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 - **API**: More optimization that should gain more the responce time during high concurrency.
 - **Editor**: We are refining the UI for the upcoming public soft access of our tool.
 - **Editor**: We are testing the alpha version of our private Figma plugin.
-
-
 
 
 ## 14th March, 2022
@@ -29,13 +37,9 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 - **Editor**: We are integrating the [Template](/templates) section within the Visual Editor.
 - **Website**: We've started to post news on our official Social Media channels, [Linkedin](https://www.linkedin.com/company/presenta-platform) and [Twitter](https://twitter.com/presentaswbot). Follow Us!
 
-
-
 ## 7th March, 2022
 
 - **API**: We moved the whole API application to [Render](https://render.com/) service which allows to set the auto-scaler easier.
-
-
 
 ## 28th February, 2022
 
@@ -43,18 +47,12 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 - **Editor**: Work in progress of the Figma importer
 - **Open Source**: The library has been updated to v1.0.23.
 
-
-
 ## 21st February, 2022
 
 - **API**: We released a faster version of the infrastructure and we moved it to a dedicated domain (cloud.preso.cc) for security reasons.
 - **Website**: Updated the [API](/api) documentation to reflect the new changes.
 - **Open Source**: The library got some bug fixes and all the services got aligned accordingly.
 - **Website**: Added more [Template](/templates) as example capabilities.
-
-
-
-
 
 ## 14th February, 2022
 
@@ -66,15 +64,11 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 - **Website**:Added more competitor comparisons in the [Blog](/blog/) section.
 
 
-
-
 ## 6th February, 2022
 
 - **Website**: Added Certificates in [Use Cases](/use-cases/)
 - **Website**: Added the first Certificate template in [Templates](/templates/)
 - **API**: Optimized some part of the API in order to gain its speed
-
-
 
 ## 31st Jannuary, 2022
 
