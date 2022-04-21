@@ -18,7 +18,7 @@
                 <div class="endpoint">[GET] /v1/url/:templateID?:params</div>
 
                 <p>The quickest way to integrate our Cloud API infrastructure! <br />
-                <b>Common use-case:</b> open-graph image (or social preview image) generation.</p>
+                <b>Common use-case:</b> open-graph image (or social preview image) generation, email marketing.</p>
             </div>
             <div class="columns">
                 <div class="left">
@@ -56,9 +56,9 @@
 
 
 
-        <div class="feature">
+        <div class="feature coming">
             <div class="incipit">
-                <h4><span class="badge">PRO Only</span> Sync </h4>
+                <h4><span class="badge">PRO Only</span> Sync (coming soon) </h4>
 
                 <h2>Get it as fast as possible, always fresh!</h2>
 
@@ -80,7 +80,7 @@
 
 
 
-        <div class="feature">
+        <div class="feature coming">
             <div class="incipit">
                 <h4><span class="badge">PRO Only</span> Async + CDN (coming soon) </h4>
 
@@ -109,7 +109,7 @@
 
 
 
-        <div class="feature">
+        <div class="feature coming">
             <div class="incipit">
                 <h4><span class="badge">PRO Only</span> Async + CDN (coming soon) </h4>
 
@@ -189,5 +189,8 @@ export default {
     margin-top: 1rem;
     background: #eee;
 }
-
+.coming{
+    opacity: .35;
+    pointer-events: none;
+}
 </style>
