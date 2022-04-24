@@ -58,7 +58,7 @@ export default {
             cover = this.meta.cover
             if(cover.indexOf('http') === -1){
                 //cover = `https://www.presenta.cc/blog/covers/${cover}`
-                cover = `https://cloud.preso.cc/v1/url/zGywhb2oJn:ah8cqUtoW?&term=${Math.random()}&title=${this.meta.title}&subtitle=${this.meta.date}`
+                cover = `https://cloud.preso.cc/v1/url/zGywhb2oJn:ah8cqUtoW?&term=${parseInt(Math.random()*100)}&title=${this.meta.title}&subtitle=${this.meta.date}`
             }
         }
 
