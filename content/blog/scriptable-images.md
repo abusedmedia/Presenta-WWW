@@ -27,7 +27,7 @@ We need to define a variable within the template, `random` in this case:
 
 <div class="img">
 
-![](a01.png)
+![](/blog/scriptable-images/a01.png)
 
 </div>
 
@@ -35,7 +35,7 @@ Then, we need to wire the variable with the logic, using the `Math.random` funct
 
 <div class="img">
 
-![](a02.png)
+![](/blog/scriptable-images/a02.png)
 
 </div>
 
@@ -45,7 +45,7 @@ This is the proof with a bunch of requests:
 
 <div class="img">
 
-![](a03.gif)
+![](/blog/scriptable-images/a03.gif)
 
 </div>
 
@@ -59,7 +59,7 @@ Let's prepare two different contents in our template:
 
 <div class="img">
 
-![](b01.png)
+![](/blog/scriptable-images/b01.png)
 
 </div>
 
@@ -67,7 +67,7 @@ Then, create the condition to change the content:
 
 <div class="img">
 
-![](b02.png)
+![](/blog/scriptable-images/b02.png)
 
 </div>
 
@@ -75,7 +75,7 @@ Here the generation with the parameter change:
 
 <div class="img">
 
-![](b03.gif)
+![](/blog/scriptable-images/b03.gif)
 
 </div>
 
@@ -87,7 +87,7 @@ Let's define the graphic element we want to be dynamic:
 
 <div class="img">
 
-![](c01.png)
+![](/blog/scriptable-images/c01.png)
 
 </div>
 
@@ -95,7 +95,7 @@ Then, use the property `progress` in the CSS right property:
 
 <div class="img">
 
-![](c02.png)
+![](/blog/scriptable-images/c02.png)
 
 </div>
 
@@ -103,7 +103,7 @@ Finally, let's feed the template with some values:
 
 <div class="img">
 
-![](c03.gif)
+![](/blog/scriptable-images/c03.gif)
 
 </div>
 
@@ -114,7 +114,7 @@ In this last, more elaborated, example we want to change the look&feel of a grap
 
 <div class="img">
 
-![](d01.png)
+![](/blog/scriptable-images/d01.png)
 
 </div>
 
@@ -122,7 +122,7 @@ Next, we need to define the attribute we want to make dynamic for each element:
 
 <div class="img">
 
-![](d02.png)
+![](/blog/scriptable-images/d02.png)
 
 </div>
 
@@ -130,7 +130,7 @@ Then, we need to define the source palette and the logic to exploit the paramete
 
 <div class="img">
 
-![](d03.png)
+![](/blog/scriptable-images/d03.png)
 
 </div>
 
@@ -138,7 +138,7 @@ Here the results according to the passed parameter:
 
 <div class="img">
 
-![](d04.gif)
+![](/blog/scriptable-images/d04.gif)
 
 </div>
 
