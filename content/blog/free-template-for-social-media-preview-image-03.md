@@ -9,7 +9,7 @@ We published this **Free Template** you can use in **PRESENTA** to generate **So
 
 The template contains several dynamic parts, **title**, **excerpt** and **image**:
 
-<div class="preview">
+<div class="img">
 
 ![](https://cloud.preso.cc/v1/url/zGywhb2oJn:PXhbKcWtT)
 

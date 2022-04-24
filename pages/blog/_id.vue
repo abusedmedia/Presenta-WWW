@@ -102,7 +102,7 @@ export default {
     flex-direction: column;
     align-items: center;
     padding: 0 1rem;
-    font-size: 1.25rem;
+    font-size: 1.45rem;
 }
 
 .wrap{
@@ -122,7 +122,15 @@ export default {
 .blog >>> pre[class*="language-"]{
     font-size:75%;
 }
+.blog >>> p code{
+    color:blue;
+}
 
+.blog >>> .img{
+}
+.blog >>> .img img{
+    box-shadow: 0 0 25px #999;
+}
 
 
 
@@ -133,7 +141,9 @@ export default {
     .blog{
         padding:0;
     }
-
+    .blog >>> .img{
+        padding:1rem;
+    }
 }
 
 @media screen and (min-width: 700px){
@@ -143,7 +153,9 @@ export default {
     .blog{
         padding:0;
     }
-
+    .blog >>> .img{
+        padding: 2rem;
+    }
     .side{
         display: block;
         min-width: 250px;
@@ -154,6 +166,9 @@ export default {
 @media screen and (min-width: 1100px){
     .wrapper{
         width: 80%;
+    }
+    .blog >>> .img{
+        padding: 4rem;
     }
 }
 
