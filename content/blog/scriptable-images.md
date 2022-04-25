@@ -13,9 +13,7 @@ What we find interesting though (and not so common) is the concept of **"scripta
 
 ## What is a Scriptable Image
 
-In simple terms, it's an image that contains logic (as code) in order to transform itself before sending it to the user.
-
-**PRESENTA Platform** allows to create "smart" images to generate variants according to both given parameters and a baked-in logic as well.
+In simple terms, it's an image that contains logic (as code for now) in order to transform itself before sending it to the user.
 
 Following some examples.
 
@@ -23,7 +21,7 @@ Following some examples.
 
 Let's say, we want to print a random number on our image, so every request will contain a different number.
 
-We need to define a variable within the template, `random` in this case:
+We need to define a parameter within the template, `random` in this case:
 
 <div class="img">
 
@@ -31,7 +29,7 @@ We need to define a variable within the template, `random` in this case:
 
 </div>
 
-Then, we need to wire the variable with the logic, using the `Math.random` function:
+Then, we need to wire that parameter with the code, using the `Math.random` function:
 
 <div class="img">
 
@@ -63,7 +61,7 @@ Let's prepare two different contents in our template:
 
 </div>
 
-Then, create the condition to change the content:
+Then, create the condition to change the content according to the parameter `special`:
 
 <div class="img">
 
@@ -71,7 +69,7 @@ Then, create the condition to change the content:
 
 </div>
 
-Here the generation with the parameter change:
+Here the generation paying with the parameter:
 
 <div class="img">
 
@@ -91,7 +89,7 @@ Let's define the graphic element we want to be dynamic:
 
 </div>
 
-Then, use the property `progress` in the CSS right property:
+Then, use the parameter `progress` in the CSS property:
 
 <div class="img">
 
@@ -110,7 +108,7 @@ Finally, let's feed the template with some values:
 
 ## Use a color scheme strategy
 
-In this last, more elaborated, example we want to change the look&feel of a graphic image by passing a single parameter to define a different color scheme. This is the template:
+In this last (slightly more elaborated) example we want to change the look&feel of a graphic image by passing a **single** parameter to define a different color set. This is the template:
 
 <div class="img">
 
@@ -147,5 +145,5 @@ Here the results according to the passed parameter:
 
 This is an initial exploration, we are very excited so far. We want to explore further, trying to push the limits of this concept.
 
-For questions, reach us on[Twitter](https://twitter.com/PresentaSw).
+For questions, reach us on [Twitter](https://twitter.com/PresentaSw).
 
