@@ -69,7 +69,7 @@ Then, create the condition to change the content according to the parameter `spe
 
 </div>
 
-Here the generation paying with the parameter:
+Here the generation by playing with the parameter:
 
 <div class="img">
 
@@ -79,9 +79,9 @@ Here the generation paying with the parameter:
 
 ## Change the size of an element
 
-In this example we want to change the dimension of a graphic element based on the value of a parameter, such as a progress bar.
+In this example we want to change the dimension of a graphic element based on the value of a parameter, let's say a progress bar.
 
-Let's define the graphic element we want to be dynamic:
+So, we need to define the graphic element we want to be dynamic:
 
 <div class="img">
 
