@@ -51,8 +51,18 @@ export default {
       HeroHeader,Subscribe,FooterComp,UseOpenGraph,UseQuotes,UseMeme
   },
   head () {
+        let title = 'Open Graph Wordpress Plugin'
+        let cover = 'social.png'
         return {
-            title: 'Open Graph Generation API'
+            title,
+            meta: [
+                { hid:'ogtit', property: 'og:title', content: title },
+                { hid:'twtit', name: 'twitter:title', content: title },
+                { hid:'ogimg', property: 'og:image', content: `https://www.presenta.cc/${cover}` },
+                { hid:'twimg', name: 'twitter:image', content: `https://www.presenta.cc/${cover}` },
+                { hid:'ogurl', property: 'og:url', content: `https://www.presenta.cc/open-graph-wordpress-plugin` },
+                { hid:'twurl', name: 'twitter:url', content: `https://www.presenta.cc/open-graph-wordpress-plugin` }
+            ]
         }
   },
 }
