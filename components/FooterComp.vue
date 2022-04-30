@@ -58,6 +58,7 @@ export default {
                 ]},
                 
                 {title: 'Features', links: [
+                    {label:'Open-Graph for Wordpress', url:'/features/open-graph-wordpress-plugin'},
                     {label:'Image Generation Api', url:'/features/image-generation-api'},
                     {label:'Document Generation Api', url:'/features/document-generation-api'},
                     {label:'PDF Generation Api', url:'/features/pdf-generation-api'},
