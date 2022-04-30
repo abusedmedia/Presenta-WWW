@@ -3,14 +3,31 @@
 
         <div class="hero">
             <h1>Open Graph <br />Wordpress Plugin</h1>
-            <h3>Generate <b>open-graph images</b> automatically <br />with our easy-to-use Wordpress Plugin for FREE!</h3>
+            <h3><mark>PRESENTA OG</mark> generates <b>social preview</b> images automatically.<br />
+            It's free and easy-to-use.</h3>
         
-             <p>With this Wordpress Plugin you can generate open-graph (social preview) images for free in a bunch of seconds of setup.</p>
-             <p>Download and activate it. Choose the template. That's all!</p>
         </div>
 
+        <div class="splash">
+          <picture>
+            <source srcset="/wp-splash.jpg" media="(min-width: 600px)">
+            <img src="/wp-splash.jpg" />
+          </picture>
+          
+        </div>
 
-        <UseOpenGraph />
+        <div class="hero">
+             <h3>Install and activate.</h3>
+             <h3>Choose the template.</h3>
+             <h3>You're all set!</h3>
+        </div>
+
+        <div class="cta">
+            <a class="btn" href="https://www.presenta.cc">
+                <span>Download the plugin</span>
+            </a>
+        </div>
+
         
         <!-- <Subscribe /> -->
 
@@ -112,4 +129,7 @@ h1 b, h2 b{
         flex-direction: row;
     }
 }
+
+
+
 </style>
