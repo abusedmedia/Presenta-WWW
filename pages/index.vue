@@ -12,7 +12,7 @@
         <iframe width="800" height="450" src="https://www.youtube.com/embed/AaKGgTXl4MA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div> -->
 
-        <div class="splash">
+        <div class="hsplash">
           <picture>
             <source srcset="/splash.jpg" media="(min-width: 600px)">
             <img src="/splash-narrow.jpg" />
@@ -72,11 +72,11 @@ export default {
   text-align: center;
   font-size: 3.5rem;
 }
-.splash{
+.hsplash{
   display: flex;
   justify-content: center;
 }
-.splash img{
+.hsplash img{
   width: 100%;
 }
 .vid{
