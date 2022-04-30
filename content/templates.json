@@ -1,15 +1,16 @@
 {
     "categories": [
         {"id": "opengraph", "label": "Open Graph", 
-            "description": "The Open-Graph is the preview image shown by Social Networks when people share a URL. You can pick one of these template to start quickly, tweak it to align it with your brand or taste.",
+            "description": "The Open-Graph image is the preview shown by Social Networks when people share a URL.",
             "templates": [
+                {"id": "zGywhb2oJn:mzT3zNoLn"},
+                {"id": "zGywhb2oJn:BEaGHrXOs"},
+                {"id": "zGywhb2oJn:0vx3VZVjP"},
+                {"id": "zGywhb2oJn:MiKViTKFM"},
                 {"id": "zGywhb2oJn:Gx5I8aeto"},
                 {"id": "zGywhb2oJn:9CF5pEILq"},
                 {"id": "zGywhb2oJn:6JaJpv7Qo"},
-                {"id": "zGywhb2oJn:JCNwsKA6w"},
-                {"id": "zGywhb2oJn:IwCSwQ1wB"},
-                {"id": "zGywhb2oJn:ptiiM09z9"},
-                {"id": "zGywhb2oJn:PXhbKcWtT"}
+                {"id": "zGywhb2oJn:JCNwsKA6w"}
         ]},
         {"id": "qrcodes", "label": "QRCodes (soon)", 
             "description": "QR-Codes help user to get URL and information using their Smartphone.",
