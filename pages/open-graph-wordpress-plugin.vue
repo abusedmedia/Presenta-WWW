@@ -23,8 +23,8 @@
         </div>
 
         <div class="cta">
-            <a class="btn" href="https://www.presenta.cc">
-                <span>Download the plugin</span>
+            <a class="btn" href="">
+                <span>Download URL coming soon!</span>
             </a>
         </div>
 
