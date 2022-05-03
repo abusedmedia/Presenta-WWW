@@ -15,7 +15,7 @@ A social preview image is an important component of any marketing strategy. Peop
 
 </div>
 
-While most publishing platform, such as Wordpress, allows to set an image for each article, such this example:
+While most publishing platform, such as WordPress, allows to set an image for each article, such this example:
 
 <div class="img">
 

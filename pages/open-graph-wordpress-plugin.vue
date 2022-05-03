@@ -2,7 +2,7 @@
     <div class="body">
 
         <div class="hero">
-            <h1>Open Graph <br />Wordpress Plugin</h1>
+            <h1>Open Graph <br />WordPress Plugin</h1>
             <h3><mark>PRESENTA OG</mark> generates <b>social preview</b> images automatically.<br />
             It's free and easy-to-use.</h3>
         
@@ -51,7 +51,7 @@ export default {
       HeroHeader,Subscribe,FooterComp,UseOpenGraph,UseQuotes,UseMeme
   },
   head () {
-        let title = 'Open Graph Wordpress Plugin'
+        let title = 'Open Graph WordPress Plugin'
         let cover = 'social.png'
         return {
             title,

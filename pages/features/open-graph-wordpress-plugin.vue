@@ -2,10 +2,10 @@
     <div class="body">
 
         <div class="hero">
-            <h1>Open Graph <br />Wordpress Plugin</h1>
-            <h3>Generate <b>open-graph images</b> automatically <br />with our easy-to-use Wordpress Plugin for FREE!</h3>
+            <h1>Open Graph <br />WordPress Plugin</h1>
+            <h3>Generate <b>open-graph images</b> automatically <br />with our easy-to-use WordPress Plugin for FREE!</h3>
         
-             <p>With this Wordpress Plugin you can generate open-graph (social preview) images for free in a bunch of seconds of setup.</p>
+             <p>With this WordPress Plugin you can generate open-graph (social preview) images for free in a bunch of seconds of setup.</p>
              <p>Download and activate it. Choose the template. That's all!</p>
         </div>
 

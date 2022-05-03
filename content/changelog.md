@@ -5,6 +5,13 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 
 
 
+## 2nd May, 2022
+
+- **API**: We've moved also our editor backend from [Heroku](https://heroku.com/) to [Render](https://render.com/).
+- **Website**: We've added the landing page for our upcoming [WordPress Plugin](/open-graph-wordpress-plugin) that allows easy integration with our platform.
+- **Website**: We published a [first](/blog/scriptable-images) of a serie of blog posts about some future features.
+- **Website**: We published the initial version of the [about](/about) page.
+
 ## 12th April, 2022
 
 - **Editor**: Our Figma plugin is going great and we're currently using it to produce free templates.

@@ -13,7 +13,7 @@ By not having this feature correctly set here the result when you try to share a
 
 ![](../blog/covers/apple-og.png)
 
-While most publishing platform, such as Wordpress, allows to set an image for each article, such this example:
+While most publishing platform, such as WordPress, allows to set an image for each article, such this example:
 
 ![](../blog/covers/tc-og.png)
 

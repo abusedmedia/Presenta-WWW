@@ -2,11 +2,11 @@
     <div class="feature">
 
         <div class="incipit">
-            <h4>Wordpress 👉 Catalog</h4>
+            <h4>WordPress 👉 Catalog</h4>
 
-            <h2>Fetch Wordpress API, build a product catalog.</h2>
+            <h2>Fetch WordPress API, build a product catalog.</h2>
 
-            <p>Fetch a list of Product items on <b>Wordpress API</b> and build a real product catalog using a powerful template.<br />
+            <p>Fetch a list of Product items on <b>WordPress API</b> and build a real product catalog using a powerful template.<br />
             <span class="tiny">(Select between pre-backed fetches from Wordpress.com demos)</span></p>
         
         </div>
