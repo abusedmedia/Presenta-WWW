@@ -24,7 +24,7 @@
 
         <div class="cta">
             <a class="btn" href="https://wordpress.org/plugins/presenta-open-graph/">
-                <span>Download URL coming soon!</span>
+                <span>Download from WordPress.org</span>
             </a>
         </div>
 
