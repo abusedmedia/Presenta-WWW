@@ -23,7 +23,7 @@
         </div>
 
         <div class="cta">
-            <a class="btn" href="">
+            <a class="btn" href="https://wordpress.org/plugins/presenta-open-graph/">
                 <span>Download URL coming soon!</span>
             </a>
         </div>
