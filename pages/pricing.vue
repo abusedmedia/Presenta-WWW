@@ -28,7 +28,8 @@
 
                     <p>For instance:</p>
                     <ul>
-                        <li>A website with 100 articles each one with a custom generated social image (open-graph) will cost 1€ per month (thanks to the free monthly cache).</li>
+                        <li>A website with 100 articles with a generated social preview (open-graph) will cost <b>1€ top</b> per month (if all the article were shared, otherwise will cost less).</li>
+                        <li>If you send 1000 newsletter with a personalized banner and 400 open the email, it will cost <b>4€</b>.</li>
                         <li>A PDF with <b>20 pages</b>, once generated, will count <b>20 Credits</b>, therefore,  will cost <b>0.2€</b>.</li>
                         <li>An animated GIF composed by <b>8 frames</b> will count <b>8 Credits</b>, therefore,  will cost <b>0.08€</b>.</li>
                     </ul>
