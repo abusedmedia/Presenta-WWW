@@ -1,7 +1,7 @@
 ---
 title: Why you'd need PRESENTA?
 category: general
-date: 2022-05-12
+date: 2022-05-13
 cover: https://cloud.preso.cc/v1/url/zGywhb2oJn:ah8cqUtoW?&term=tool&title=Why%20you'd%20need%20PRESENTA%3F&subtitle=General
 ---
 
@@ -40,3 +40,5 @@ They are sent to an audience, for this reason having the possibility to differen
 The social sharing preview (or open-graph image) is the image shown by social networks when someone share a specific URL. It's a great tool to increase user engagement because an image is way more powerful and attractive than plain text. But a single image for every page underpowers the tool.
 
 **PRESENTA** can help in this context creating a dynamic image for each webpage automatically using some page-related information (i.e. title, date, author, etch). The integration is dead-easy since it provides an **image URL**.
+
+To learn more, there's a [basic tutorial](/blog/a-basic-introduction-to-presenta) of the platform.
