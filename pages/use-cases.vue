@@ -10,7 +10,7 @@
         <UseCases />
 
 
-        <Subscribe />
+        <CTA />
 
         <FooterComp />
     </div>
@@ -19,13 +19,13 @@
 
 <script>
 import HeroHeader from '~/components/HeroHeader.vue'
-import Subscribe from '~/components/Subscribe.vue'
+import CTA from '~/components/CTA.vue'
 import FooterComp from '~/components/FooterComp.vue'
 import UseCases from '~/components/UseCases.vue'
 
 export default {
   components:{
-      HeroHeader,Subscribe,FooterComp,
+      HeroHeader,CTA,FooterComp,
       UseCases
   },
   head () {

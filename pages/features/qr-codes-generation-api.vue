@@ -10,7 +10,7 @@
 
         <UseQRCode />
         
-        <Subscribe />
+        <CTA />
 
         <FooterComp />
     </div>
@@ -19,7 +19,7 @@
 
 <script>
 import HeroHeader from '~/components/HeroHeader.vue'
-import Subscribe from '~/components/Subscribe.vue'
+import CTA from '~/components/CTA.vue'
 import FooterComp from '~/components/FooterComp.vue'
 
 import UseCertificate from '~/components/presentaUseCases/UseCertificate.vue'
@@ -29,7 +29,7 @@ import UseMeme from '~/components/presentaUseCases/UseMeme.vue'
 
 export default {
   components:{
-      HeroHeader,Subscribe,FooterComp,UseCertificate,UseQRCode,UseMeme
+      HeroHeader,CTA,FooterComp,UseCertificate,UseQRCode,UseMeme
   },
   head () {
         return {

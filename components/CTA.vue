@@ -1,14 +1,14 @@
 <template>
     <div class="footer">
         <div class="signup">
-            <h3>Curious to try?</h3>
-            <a class="btn" href="https://app.presenta.cc/signup">
+            <h3>Want to try?</h3>
+            <a class="btn" target="_blank" href="https://app.presenta.cc/signup">
                 <span>Create your account</span>
             </a>
         </div>
-        <p class="learnmore" v-if="!noHomeLink">
+        <!-- <p class="learnmore" v-if="!noHomeLink">
             <nuxt-link to="/">or learn more from the home-page</nuxt-link>
-        </p>
+        </p> -->
     </div>
 </template>
 

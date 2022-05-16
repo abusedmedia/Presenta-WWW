@@ -29,7 +29,6 @@
         </div>
 
         
-        <!-- <Subscribe /> -->
 
         <FooterComp />
     </div>
@@ -38,7 +37,6 @@
 
 <script>
 import HeroHeader from '~/components/HeroHeader.vue'
-import Subscribe from '~/components/Subscribe.vue'
 import FooterComp from '~/components/FooterComp.vue'
 
 import UseOpenGraph from '~/components/presentaUseCases/UseOpenGraph.vue'
@@ -48,7 +46,7 @@ import UseMeme from '~/components/presentaUseCases/UseMeme.vue'
 
 export default {
   components:{
-      HeroHeader,Subscribe,FooterComp,UseOpenGraph,UseQuotes,UseMeme
+      HeroHeader,FooterComp,UseOpenGraph,UseQuotes,UseMeme
   },
   head () {
         let title = 'Open Graph WordPress Plugin'

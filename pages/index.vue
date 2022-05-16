@@ -25,7 +25,7 @@
         <!-- <HomeExamples /> -->
       
         <!-- <Features /> -->
-        <Subscribe />
+        <CTA />
 
 
         <!-- <LatestPosts :list="posts" /> -->
@@ -38,7 +38,7 @@ import HeroHeader from '~/components/HeroHeader.vue'
 import Features from '~/components/Features.vue'
 import FooterComp from '~/components/FooterComp.vue'
 import LatestPosts from '~/components/LatestPosts.vue'
-import Subscribe from '~/components/Subscribe.vue'
+import CTA from '~/components/CTA.vue'
 import Opening from '~/components/Opening.vue'
 import { mapMutations, mapGetters } from 'vuex'
 import HomeExamples from '~/components/HomeExamples.vue'
@@ -46,7 +46,7 @@ import HomeExamples from '~/components/HomeExamples.vue'
 
 export default {
   components:{
-    HeroHeader,Features,FooterComp,LatestPosts,Subscribe,Opening,HomeExamples
+    HeroHeader,Features,FooterComp,LatestPosts,CTA,Opening,HomeExamples
   },  
   head () {
         return {

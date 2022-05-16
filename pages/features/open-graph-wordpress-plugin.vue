@@ -12,7 +12,7 @@
 
         <UseOpenGraph />
         
-        <!-- <Subscribe /> -->
+        <!-- <CTA /> -->
 
         <FooterComp />
     </div>
@@ -21,7 +21,7 @@
 
 <script>
 import HeroHeader from '~/components/HeroHeader.vue'
-import Subscribe from '~/components/Subscribe.vue'
+import CTA from '~/components/CTA.vue'
 import FooterComp from '~/components/FooterComp.vue'
 
 import UseOpenGraph from '~/components/presentaUseCases/UseOpenGraph.vue'
@@ -31,7 +31,7 @@ import UseMeme from '~/components/presentaUseCases/UseMeme.vue'
 
 export default {
   components:{
-      HeroHeader,Subscribe,FooterComp,UseOpenGraph,UseQuotes,UseMeme
+      HeroHeader,CTA,FooterComp,UseOpenGraph,UseQuotes,UseMeme
   },
   head () {
         return {

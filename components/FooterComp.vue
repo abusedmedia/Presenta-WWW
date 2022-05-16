@@ -47,7 +47,7 @@ export default {
                     {label:'Pricing', url:'/pricing'},
                     {label:'Templates', url:'/templates'},
                     {label:'Changelog', url:'/changelog'},
-                    {label:'Sign Up', url:'/signup'}
+                    {label:'Sign Up', url:'https://app.presenta.cc/signup', external:true}
                 ]},
 
                 {title: 'Resources', links: [

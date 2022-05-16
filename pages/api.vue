@@ -45,7 +45,7 @@
             <div class="columns">
                 <div class="left">
                     <highlight-code class="code" lang="js">
-                        https://cloud.preso.cc/v1/jit/templateID/?main=Hello
+                        coming soon...
                     </highlight-code>
                 </div>
             </div>
@@ -54,7 +54,7 @@
 
 
 
-
+<!--
         <div class="feature coming">
             <div class="incipit">
                 <h4><span class="badge free">FREE + PRO</span> Sync + CDN </h4>
@@ -146,14 +146,14 @@
                 </div>
             </div>
         </div>
-        
+-->
 
         <!-- <div class="cta">
             <nuxt-link class="btn" to="/docs">
                 <span>Learn more on Cloud API</span>
             </nuxt-link>
         </div> -->
-        <Subscribe />
+        <CTA />
 
         <FooterComp />
     </div>
@@ -164,11 +164,11 @@
 import HeroHeader from '~/components/HeroHeader.vue'
 import FooterComp from '~/components/FooterComp.vue'
 import LibExamples from '~/components/LibExamples.vue'
-import Subscribe from '~/components/Subscribe.vue'
+import CTA from '~/components/CTA.vue'
 
 export default {
   components:{
-      HeroHeader,FooterComp,LibExamples,Subscribe
+      HeroHeader,FooterComp,LibExamples,CTA
   },
   head () {
         return {
