@@ -7,25 +7,25 @@ cover: https://cloud.preso.cc/v1/url/zGywhb2oJn:ah8cqUtoW?&term=tool&title=Why%2
 
 **PRESENTA** is an online platform that automates the production of digital documents such as **PDF** and **images**.
 
-It allows to configure **graphic templates** in order to use an **API infrasctructure** to generate variants **at scale**.
+It allows to configure **graphic templates** in order to use an **API infrastructure** to generate variants **at scale**.
 
-One of the most obvious context of use is in the **image presonalization** for **marketing and communication purposes**.
+One of the most obvious context of use is in the **image personalization** for **marketing and communication purposes**.
 
 ## Transactional email
 
-Transactional email are emails sent to specific users, on specific events with the purpose to notify/inform/reply to users, such as:
+Transactional emails are those sent to specific users, on specific events with the purpose to notify/inform/reply to them, such as:
 
 - Account alerts (signup, forgot password, etc)
 - E-commerce notifications (shipping, order, etc)
 - General communication (support request, feedback, etc)
 
-Since they are sent to specific persons, there's a huge opportunity to provide more personalized content to them in order to gain engagement.
+Since they are sent to specific people, there's a huge opportunity to provide more personalized content to them in order to gain more engagement.
 
 **PRESENTA** can help in this context creating a dynamic image that is personalized using some user-related information (merge-tags). The integration is dead-easy in every email platforms since it provides an **image URL**.
 
 ## Newsletter email
 
-Newsletter email are emails sent to targeted audience, on regular schedule or on specific moment with the purpose to engage them with relevant content, such as:
+Newsletter emails are those sent to targeted audiences, on regular schedule or on specific moment with the purpose to engage them with relevant content, such as:
 
 - Tutorials, guides, articles
 - News on products/services
@@ -37,7 +37,8 @@ They are sent to an audience, for this reason having the possibility to differen
 
 ## Social Sharing Preview
 
-The social sharing preview (or open-graph image) is the image shown by social networks when someone share a specific URL. It's a great tool to increase user engagement because an image is way more powerful and attractive than plain text. But a single image for every page underpowers the tool.
+The social sharing preview (or open-graph image) is the image shown by social networks when someone share a specific URL. 
+It's a great tool to increase user engagement because an image is way more powerful and attractive than plain text. But a single image for every page underpowers the tool.
 
 **PRESENTA** can help in this context creating a dynamic image for each webpage automatically using some page-related information (i.e. title, date, author, etch). The integration is dead-easy since it provides an **image URL**.
 
