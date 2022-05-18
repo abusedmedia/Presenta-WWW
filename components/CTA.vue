@@ -49,7 +49,7 @@ export default {
     justify-content: center;
     padding-top: 4rem;
 
-    font-size:3em;
+    font-size:1.5rem;
 }
 
 
@@ -70,7 +70,7 @@ export default {
 
 @media screen and (min-width: 450px) {
     .signup{
-        font-size:2em;
+        font-size:2rem;
     }
 
     footer p{

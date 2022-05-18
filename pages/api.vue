@@ -36,8 +36,6 @@
 
                 <h2>Get it as fast as possible, always fresh!</h2>
 
-                <div class="endpoint">[GET] /v1/jit/:templateID?:params</div>
-
                 <p>No cache or CDN, you get the file buffer. It's fast and always up-to-date.<br />
                 <b>Common use-case:</b> images with real-time graphics, location, time or api based.</p>
 
