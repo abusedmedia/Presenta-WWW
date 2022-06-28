@@ -102,8 +102,8 @@ export default {
   plugins: [
     // { src: '~plugins/ga.js', ssr: false },
     { src: '~/plugins/syntax' },
-    { src: '~/plugins/presenta', mode: 'client' },
-    { src: '~/plugins/crisp', mode: 'client' }
+    { src: '~/plugins/presenta', mode: 'client' }
+    // { src: '~/plugins/crisp', mode: 'client' }
   ],
   build: {
     transpile: [
