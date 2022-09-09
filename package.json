@@ -8,7 +8,7 @@
     "build": "nuxt build",
     "spa": "nuxt build --spa",
     "start": "nuxt start",
-    "upd": "git add -u && git commit -m \"quick update\" && git push",
+    "bump": "git add -u && git commit -m \"quick update\" && git push",
     "generate": "nuxt generate",
     "export": "nuxt build --target static && nuxt export",
     "serve:lambda": "netlify-lambda serve netlify-functions",

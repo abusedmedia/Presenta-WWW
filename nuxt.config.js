@@ -39,6 +39,7 @@ blogposts.sort((a, b) => {
 
 // enable when there will be the blog again
 fs.writeFileSync('content/blog/list.json', JSON.stringify(blogposts))
+fs.writeFileSync('static/bloglist.json', JSON.stringify(blogposts))
 
 //
 
