@@ -1,35 +1,6 @@
 <template>
     <div class="body">
-        <HeroHeader />
-
-        <!-- <div class="vid">
-          <div class="video-container" @click="playVideo">
-            <video ref="vid" src="/0-main.m4v" muted poster="0-main.jpg"></video>
-          </div>
-        </div> -->
         
-        <!-- <div class="vid">
-        <iframe width="800" height="450" src="https://www.youtube.com/embed/AaKGgTXl4MA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div> -->
-
-        <div class="hsplash">
-          <picture>
-            <source srcset="/splash.jpg" media="(min-width: 600px)">
-            <img src="/splash-narrow.jpg" />
-          </picture>
-          
-        </div>
-        
-        <Opening />
-
-        <!-- <HomeExamples /> -->
-      
-        <!-- <Features /> -->
-        <CTA />
-
-
-        <!-- <LatestPosts :list="posts" /> -->
-        <FooterComp />
     </div>
 </template>
 
