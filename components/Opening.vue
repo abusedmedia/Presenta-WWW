@@ -14,10 +14,10 @@
                         <img class="mobile" src="/automation-scheme-mobile.svg" />
                     </div>
 
-                    <p class="wrap">
+                    <!-- <p class="wrap">
                         Learn more by checking some <nuxt-link to="/use-cases">use cases</nuxt-link>
                         and our open-source <nuxt-link to="/lib">javascript library</nuxt-link> capabilities.
-                    </p>
+                    </p> -->
                     
                 </div>
             </div>

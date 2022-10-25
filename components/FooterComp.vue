@@ -5,7 +5,7 @@
 
                 <div>
                     <p class="relevant">Made with ❤️ in Italy! – <b><a href="mailto:support@presenta.cc">Talk to Us</a></b>
-                    <p class="relevant"><b><nuxt-link to="/">PRESENTA</nuxt-link></b>: the automation platform for data-driven presentational documents.</p>
+                    <p class="relevant"><b><nuxt-link to="/">PRESENTA</nuxt-link></b>: the automation platform for data-driven presentational assets.</p>
                     <!-- <span class="little">In this site you're NOT tracked at all</span></p> -->
                     <p></p>
                 </div>
@@ -43,11 +43,10 @@ export default {
                 
                 {title: 'Platform', links: [
                     {label:'Use Cases', url:'/use-cases'},
-                    {label:'API', url:'/api'},
                     {label:'Pricing', url:'/pricing'},
                     {label:'Templates', url:'/templates'},
-                    {label:'Changelog', url:'/changelog'},
-                    //{label:'Sign Up', url:'https://app.presenta.cc/signup', external:true}
+                    {label:'Change Log', url:'/changelog'},
+                    {label:'Sign Up', url:'https://app.presenta.cc/signup', external:true}
                 ]},
 
                 {title: 'Resources', links: [
@@ -70,6 +69,7 @@ export default {
 
                 {title: 'About', links: [
                     {label:'About us', url:'/about'},
+                    {label:'Twitter bot', url:'https://twitter.com/PresentaSw', external:true},
                     //{label:'Status', url:''},
                     //{label:'Contact', url:''},
                     {label:'Privacy Policy', url:'/legal/privacy-policy'},

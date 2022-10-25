@@ -2,8 +2,8 @@
     <div class="footer">
         <div class="signup">
             <h3>Want to try?</h3>
-            <a class="btn" target="_blank" href="mailto:support@presenta.cc">
-                <span>Contact Us</span>
+            <a class="btn" href="https://app.presenta.cc/signup">
+                <span>Create your Account!</span>
             </a>
         </div>
         <!-- <p class="learnmore" v-if="!noHomeLink">

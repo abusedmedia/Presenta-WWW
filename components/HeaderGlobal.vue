@@ -5,11 +5,11 @@
         </div>
         
 
-        <!--<div class="menu">
+        <div class="menu">
             <nuxt-link to="/use-cases">Use Cases</nuxt-link>
-            <nuxt-link to="/api">API</nuxt-link>
             <nuxt-link to="/pricing">Pricing</nuxt-link>
-        </div>-->
+            <a href="https://app.presenta.cc/signup" target="_blank">Sign Up</a>
+        </div>
     </header>
 </template>
 

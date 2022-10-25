@@ -1,13 +1,14 @@
 <template>
     <div class="hero">
         
-        <h1>Build</h1>
-        <div class="swapper">
+        <h1>Design in <b>Figma</b>,</h1>
+        
+        <!-- <div class="swapper">
             <h1>________</h1>
             <h1 class="word" :class="{show: idx === index}" v-for="(word, idx) in words" :key="word"><b>{{word}}</b></h1>
-        </div>
+        </div> -->
         
-        <h1>the modern way.</h1>
+        <h1>then <high>Automate</high>!</h1>
         <p class="wrap"><b>Data-driven</b> documents for the <b>Automation</b> era.</p>
 
         <!-- <QuoteStrip :message="'Your personal trainer that helps you presenting great!'" /> -->
@@ -47,12 +48,12 @@ export default {
         }
     },
     mounted(){
-        this.timer = setInterval(() => {
-            this.index++
-            if(this.index >= this.words.length){
-                this.index = 0
-            }
-        }, 1000)
+        // this.timer = setInterval(() => {
+        //     this.index++
+        //     if(this.index >= this.words.length){
+        //         this.index = 0
+        //     }
+        // }, 1000)
     },
     beforeDestroy(){
         clearInterval(this.timer)
@@ -72,7 +73,11 @@ h1 b{
     display: inline-block;
     background-color: var(--accentcolor);
 }
-
+h1 high{
+    -webkit-text-stroke: 3px black;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    color: var(--accentcolor);
+}
 .swapper{
     position: relative;
 }
@@ -110,7 +115,7 @@ h1 b{
     }
     h1{
         font-size:7.2rem;
-        line-height: 5.7rem;
+        line-height: 6.2rem;
     }
     .wrap{
         font-size: 2rem;

@@ -22,16 +22,16 @@
                     
                     <ul>
                         <li><b>1 Credit</b> can generate <b>1 PNG/JPG</b> file.</li>
-                        <li><b>1 Credit</b> can generate <b>1 Page</b> of a multi-page PDF file.</li>
-                        <li><b>1 Credit</b> can generate <b>1 Frame</b> of a multi-frame GIF file.</li>
+                        <li><b>1 Credit</b> can generate <b>1 Page</b> of a multi-page PDF file. (soon)</li>
+                        <li><b>1 Credit</b> can generate <b>1 Frame</b> of a multi-frame GIF file. (soon)</li>
                     </ul>
 
                     <p>For instance:</p>
                     <ul>
                         <li>A website with 100 articles with a generated social preview (open-graph) will cost <b>1€ top</b> per month (if all the article were shared, otherwise will cost less).</li>
                         <li>If you send 1000 newsletter with a personalized banner and 400 open the email, it will cost <b>4€</b>.</li>
-                        <li>A PDF with <b>20 pages</b>, once generated, will count <b>20 Credits</b>, therefore,  will cost <b>0.2€</b>.</li>
-                        <li>An animated GIF composed by <b>8 frames</b> will count <b>8 Credits</b>, therefore,  will cost <b>0.08€</b>.</li>
+                        <li>A PDF with <b>20 pages</b>, once generated, will count <b>20 Credits</b>, therefore,  will cost <b>0.2€</b>. (soon)</li>
+                        <li>An animated GIF composed by <b>8 frames</b> will count <b>8 Credits</b>, therefore,  will cost <b>0.08€</b>. (soon)</li>
                     </ul>
                 </div>
             </details>
@@ -76,14 +76,14 @@
                 <div class="content">
                     <p>By creating an account you'll be set as <b>FREE</b> plan by default that allows you to:</p>
                     <ul>
-                        <li>Use the <b>Visual Editor</b> to create, manage and publish <b>Templates</b>.</li>
-                        <li>Use the <b>Cloud API</b> with your Templates with a <b>watermark</b> applied.</li>
+                        <li>Import <b>Figma design</b>, manage and publish <b>Templates</b>.</li>
+                        <li>Use the <b>Cloud API</b> with your Templates with a <b>watermark</b> applied and a resolution limit.</li>
                     </ul>
 
                     <p>By adding a <b>Credit-Card</b> to your account you'll be set as <b>PRO</b> that allows to:</p>
                     <ul>
-                        <li>Use the <b>Cloud API</b> with your Templates <b>without watermark</b>.</li>
-                        <li>Unlock <b>additional features</b> in the Visual Editor (such as <b>import/export</b>).</li>
+                        <li>Use the <b>Cloud API</b> with your Templates <b>without the limitations</b>.</li>
+                        <li>Unlock <b>additional features</b> in the Visual Editor (such as <b>import/export</b>). (soon)</li>
                     </ul>
 
                 </div>

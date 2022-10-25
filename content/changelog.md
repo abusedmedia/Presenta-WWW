@@ -4,6 +4,24 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 ---
 
 
+## 25th October
+
+- **Editor**: publish the signup
+- enforced the design creation in figma
+
+
+## 18th September
+
+- **API**: We've moved the API from [Render](https://render.com/) to [EvenNode](https://evennode.com/).
+- **Website**: Updated the Home page.
+
+
+## 12th July, 2022
+- **API**: database from heroku to digitalocean
+- **Website**: Small fixes in priving page
+
+## 4th June, 2022
+- **Editor**: Our Figma plugin finished.
 
 ## 2nd May, 2022
 
