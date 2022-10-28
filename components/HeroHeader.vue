@@ -8,7 +8,7 @@
             <h1 class="word" :class="{show: idx === index}" v-for="(word, idx) in words" :key="word"><b>{{word}}</b></h1>
         </div> -->
         
-        <h1>then <high>Automate</high>!</h1>
+        <h1>then <b class="high">Automate</b>!</h1>
         <p class="wrap"><b>Data-driven</b> documents for the <b>Automation</b> era.</p>
 
         <!-- <QuoteStrip :message="'Your personal trainer that helps you presenting great!'" /> -->
@@ -73,7 +73,8 @@ h1 b{
     display: inline-block;
     background-color: var(--accentcolor);
 }
-h1 high{
+h1 .high{
+    background-color: unset;
     -webkit-text-stroke: 3px black;
     /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
     color: var(--accentcolor);
