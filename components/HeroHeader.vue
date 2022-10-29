@@ -75,7 +75,7 @@ h1 b{
 }
 h1 .high{
     background-color: unset;
-    -webkit-text-stroke: 3px black;
+    -webkit-text-stroke: 2px black;
     /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
     color: var(--accentcolor);
 }
