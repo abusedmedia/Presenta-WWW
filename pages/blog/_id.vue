@@ -129,7 +129,10 @@ export default {
 
 .blog >>> .img{
 }
-.blog >>> .img img{
+.blog >>> p:has(img){
+    padding: 3rem;
+}
+.blog >>> p:has(img) img{
     box-shadow: 0 0 25px #999;
 }
 

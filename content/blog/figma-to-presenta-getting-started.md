@@ -38,4 +38,78 @@ Understanding the differences if key to get the most out of both tools.
 
 Following the above TL;DR list is pretty much what you need in order to design your own PRESENTA Template.
 
-More details coming soon.
+
+
+### Single Frame
+
+Only a **single** Frame can be imported at a time
+
+![](/blog/figma-to-presenta-getting-started/p01a.png)
+
+
+
+![](/blog/figma-to-presenta-getting-started/p01b.png)
+
+
+
+### Elements within the Frame
+
+Only elements **within** the Frame container are considered by the importer
+
+![](/blog/figma-to-presenta-getting-started/p02.png)
+
+
+
+### Dynamic Text vs Static Text
+
+Text boxes have to be in the **root level** of the Frame in order to be **dynamic**. 
+
+By mention an element *"in root level of the Frame"* means that it can't be in groups, components or nested frames
+
+Text in groups/components/nested-frames will be converted as **static** graphic elements
+
+![](/blog/figma-to-presenta-getting-started/p03.png)
+
+
+
+### Text box explicit size
+
+Text boxes requires an explicit fixed size of the textarea
+
+![](/blog/figma-to-presenta-getting-started/p04.png)
+
+
+
+### Parameters in Text
+
+Parameters in text boxes need to be definet with the  following syntax: `{{name}}`
+
+![](/blog/figma-to-presenta-getting-started/p05.png)
+
+
+
+### Text formatting
+
+Multiple text formatting in a single text box is supported
+
+![](/blog/figma-to-presenta-getting-started/p06.png)
+
+
+
+### Dynamic Image vs Embedded Image
+
+Image boxes have to be in the **root level** of the Frame in order to be **dynamic**
+
+Medium/large images are better to be in the root level to avoid importer size limit
+
+![](/blog/figma-to-presenta-getting-started/p07.png)
+
+
+
+### Mask an Image
+
+Image boxes can be masked by one single shape in order to keep its dynamic nature
+
+
+
+![](/blog/figma-to-presenta-getting-started/p08.png)
