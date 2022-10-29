@@ -129,12 +129,7 @@ export default {
 
 .blog >>> .img{
 }
-.blog >>> p:has(img){
-    padding: 3rem;
-}
-.blog >>> p:has(img) img{
-    box-shadow: 0 0 25px #999;
-}
+
 
 
 
@@ -145,8 +140,11 @@ export default {
     .blog{
         padding:0;
     }
-    .blog >>> .img{
-        padding:1rem;
+    .blog >>> p:has(img){
+        padding: 2rem;
+    }
+    .blog >>> p:has(img) img{
+        box-shadow: 0 0 15px #999;
     }
 }
 
@@ -157,8 +155,11 @@ export default {
     .blog{
         padding:0;
     }
-    .blog >>> .img{
-        padding: 2rem;
+    .blog >>> p:has(img){
+        padding: 4rem;
+    }
+    .blog >>> p:has(img) img{
+        box-shadow: 0 0 25px #999;
     }
     .side{
         display: block;
@@ -166,13 +167,15 @@ export default {
         max-width: 250px;
         border-right: 1px solid #ddd;
     }
+
+
 }
 @media screen and (min-width: 1100px){
     .wrapper{
         width: 80%;
     }
-    .blog >>> .img{
-        padding: 4rem;
+    .blog >>> p:has(img){
+        padding: 6rem;
     }
 }
 

@@ -24,7 +24,7 @@ This document outlines the best-practices as well as the limitations you have to
 
 
 
-## More details
+## Figma vs PRESENTA 
 
 **Figma** is a powerful design editor with a lot of smart features meant to serve their rendering and prototyping engine.
 
@@ -40,27 +40,29 @@ Following the above TL;DR list is pretty much what you need in order to design y
 
 
 
-### Single Frame
+## Single Frame
 
-Only a **single** Frame can be imported at a time
+Only a **single** Frame can be imported at a time. A **Frame** in **Figma** is a **Project** in **PRESENTA**:
 
 ![](/blog/figma-to-presenta-getting-started/p01a.png)
 
-
+You can grab the Frame URL using the contextual menu or by selecting the Frame and copy the URL from the browser address bar:
 
 ![](/blog/figma-to-presenta-getting-started/p01b.png)
 
 
 
-### Elements within the Frame
+## Elements within the Frame
 
-Only elements **within** the Frame container are considered by the importer
+Only elements **within** the Frame **container** are considered by the importer:
 
 ![](/blog/figma-to-presenta-getting-started/p02.png)
 
+This can be exploited to keep additional elements, annotations or other element versions around the Frame without affecting the import process.
 
 
-### Dynamic Text vs Static Text
+
+## Dynamic Text vs Static Text
 
 Text boxes have to be in the **root level** of the Frame in order to be **dynamic**. 
 
@@ -72,15 +74,15 @@ Text in groups/components/nested-frames will be converted as **static** graphic 
 
 
 
-### Text box explicit size
+## Text box explicit size
 
-Text boxes requires an explicit fixed size of the textarea
+Text boxes requires an explicit fixed size of the textarea. It's not strictly a requirement but without an explicit size, the textarea size will be set according to the text that contains. This can be problematic in dynamic Text box where you'd like to put other text, possibly longer than the default value.
 
 ![](/blog/figma-to-presenta-getting-started/p04.png)
 
 
 
-### Parameters in Text
+## Parameters in Text
 
 Parameters in text boxes need to be definet with the  following syntax: `{{name}}`
 
@@ -88,7 +90,7 @@ Parameters in text boxes need to be definet with the  following syntax: `{{name}
 
 
 
-### Text formatting
+## Text formatting
 
 Multiple text formatting in a single text box is supported
 
@@ -96,7 +98,7 @@ Multiple text formatting in a single text box is supported
 
 
 
-### Dynamic Image vs Embedded Image
+## Dynamic Image vs Embedded Image
 
 Image boxes have to be in the **root level** of the Frame in order to be **dynamic**
 
@@ -106,7 +108,7 @@ Medium/large images are better to be in the root level to avoid importer size li
 
 
 
-### Mask an Image
+## Mask an Image
 
 Image boxes can be masked by one single shape in order to keep its dynamic nature
 
