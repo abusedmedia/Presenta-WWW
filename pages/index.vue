@@ -14,8 +14,8 @@
 
         <div class="hsplash">
           <picture>
-            <source srcset="/splash.jpg" media="(min-width: 600px)">
-            <img src="/splash-narrow.jpg" />
+            <source srcset="/splash-desktop.jpg" media="(min-width: 600px)">
+            <img src="/splash-mobile.jpg" />
           </picture>
           
         </div>
