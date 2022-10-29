@@ -44,7 +44,8 @@ export default {
                 {title: 'Platform', links: [
                     {label:'Use Cases', url:'/use-cases'},
                     {label:'Pricing', url:'/pricing'},
-                    {label:'Templates', url:'/templates'},
+                    //{label:'Templates', url:'/templates'},
+                    {label:'Api', url:'/api'},
                     {label:'Change Log', url:'/changelog'},
                     {label:'Sign Up', url:'https://app.presenta.cc/signup', external:true}
                 ]},
@@ -52,8 +53,8 @@ export default {
                 {title: 'Resources', links: [
                     {label:'Javascript Lib', url:'/lib'},
                     {label:'Github', url:'https://github.com/presenta-software', external:true},
-                    {label:'Tools', url:'/tools'}
-                    //{label:'Blog', url:'/blog'}
+                    {label:'Tools', url:'/tools'},
+                    {label:'Blog', url:'/blog'}
                 ]},
                 
                 {title: 'Features', links: [

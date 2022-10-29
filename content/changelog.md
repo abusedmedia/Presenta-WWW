@@ -6,22 +6,22 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 
 ## 25th October
 
-- **Editor**: publish the signup
-- enforced the design creation in figma
+- **Editor**: The sign-up access point has beed released as public.
+- **Editor**: We enforced the Figma importer as the only way to create a Figma
 
 
 ## 18th September
 
-- **API**: We've moved the API from [Render](https://render.com/) to [EvenNode](https://evennode.com/).
-- **Website**: Updated the Home page.
+- **API**: We've moved the API Rendering server from [Render](https://render.com/) to [EvenNode](https://evennode.com/).
+- **Website**: Home page updated to reflect better the offering.
 
 
 ## 12th July, 2022
-- **API**: database from heroku to digitalocean
-- **Website**: Small fixes in priving page
+- **API**: The database has been moved from Heroku to DigitalOcean.
+- **Website**: Small changes in pricing page.
 
 ## 4th June, 2022
-- **Editor**: Our Figma plugin finished.
+- **Editor**: Our Figma plugin is ready. We're rolling out within the Platform. Stay tuned!
 
 ## 2nd May, 2022
 

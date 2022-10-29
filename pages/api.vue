@@ -23,7 +23,7 @@
             <div class="columns">
                 <div class="left">
                     <highlight-code class="code" lang="js">
-                        https://cloud.preso.cc/v1/url/templateID/?main=Hello
+                        https://cloud.presenta.cc/v1/url/templateID/?main=Hello
                     </highlight-code>
                 </div>
             </div>
