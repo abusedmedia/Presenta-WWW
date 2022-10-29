@@ -74,7 +74,7 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 
 ## 21st February, 2022
 
-- **API**: We released a faster version of the infrastructure and we moved it to a dedicated domain (cloud.preso.cc) for security reasons.
+- **API**: We released a faster version of the infrastructure and we moved it to a dedicated domain (cloud.presenta.cc) for security reasons.
 - **Website**: Updated the [API](/api) documentation to reflect the new changes.
 - **Open Source**: The library got some bug fixes and all the services got aligned accordingly.
 - **Website**: Added more [Template](/templates) as example capabilities.

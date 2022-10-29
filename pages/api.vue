@@ -68,7 +68,7 @@
             <div class="columns">
                 <div class="left">
                     <highlight-code class="code" lang="js">
-                        fetch('https://cloud.preso.cc/v1/render/templateID', {
+                        fetch('https://cloud.presenta.cc/v1/render/templateID', {
                             method: 'POST',
                             body: JSON.stringify({title: 'Hello'})
                         })
@@ -98,7 +98,7 @@
             <div class="columns">
                 <div class="left">
                     <highlight-code class="code" lang="js">
-                        fetch('https://cloud.preso.cc/v1/export/projectID', {
+                        fetch('https://cloud.presenta.cc/v1/export/projectID', {
                             method: 'POST',
                             body: JSON.stringify({
                                 title: 'Hello',
@@ -127,7 +127,7 @@
             <div class="columns">
                 <div class="left">
                     <highlight-code class="code" lang="js">
-                        fetch('https://cloud.preso.cc/v1/export/projectID', {
+                        fetch('https://cloud.presenta.cc/v1/export/projectID', {
                             method: 'POST',
                             body: JSON.stringify({
                                 footer: 'Common String present in all frames',

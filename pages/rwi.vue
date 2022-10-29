@@ -40,7 +40,7 @@
                     @click="copy(template)" :class="{clicked:template.copy}" class="copy">
                     <p class="command"><span>{{template.command}}</span></p>
                     <div class="img">
-                        <img :src="'https://cloud.preso.cc/v1/url/' + template.template + '?content=Quoted Tweet&name=John Doe&username=@johndoe&profile_image=https://cdn.presenta.cc/faces/s_6F9FA8C635E5B49A4AA9474CB76D1146BC1F6408CE5EEC320713FFF4758F98B5_1569007593653_003586.jpg'" />
+                        <img :src="'https://cloud.presenta.cc/v1/url/' + template.template + '?content=Quoted Tweet&name=John Doe&username=@johndoe&profile_image=https://cdn.presenta.cc/faces/s_6F9FA8C635E5B49A4AA9474CB76D1146BC1F6408CE5EEC320713FFF4758F98B5_1569007593653_003586.jpg'" />
                     </div>
                 </li>
             </ul>
@@ -73,7 +73,7 @@ export default {
       }
   },
   async mounted(){
-      const res = await axios('https://cloud.preso.cc/commands.json')
+      const res = await axios('https://cloud.presenta.cc/commands.json')
       const dt = res.data
       let list = dt.list || []
       list = list.filter(d => !d.private)
