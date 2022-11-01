@@ -83,7 +83,7 @@
                     <p>By adding a <b>Credit-Card</b> to your account you'll be set as <b>PRO</b> that allows to:</p>
                     <ul>
                         <li>Use the <b>Cloud API</b> with your Templates <b>without the limitations</b>.</li>
-                        <li>Unlock <b>additional features</b> in the Visual Editor (such as <b>import/export</b>). (soon)</li>
+                        <li>Unlock <b>additional features</b> such as <b>Scripting</b> and <b>Geo/Time</b> injected props.</li>
                     </ul>
 
                 </div>
