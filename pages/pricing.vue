@@ -3,7 +3,7 @@
 
         <div class="hero">
             <h2>Pay As You Go!</h2>
-            <h1><b>0.01€</b> &#215; <b>Credit</b></h1>
+            <h1><b>0.01$</b> &#215; <b>Credit</b></h1>
 
             <h3>No monthly or fixed fee.</h3>
             <p>VAT added if applicable.</p>
@@ -22,16 +22,17 @@
                     
                     <ul>
                         <li><b>1 Credit</b> can generate <b>1 PNG/JPG</b> file.</li>
-                        <li><b>1 Credit</b> can generate <b>1 Page</b> of a multi-page PDF file. (soon)</li>
-                        <li><b>1 Credit</b> can generate <b>1 Frame</b> of a multi-frame GIF file. (soon)</li>
+                        <!-- <li><b>1 Credit</b> can generate <b>1 Page</b> of a multi-page PDF file. (soon)</li> -->
+                        <!-- <li><b>1 Credit</b> can generate <b>1 Frame</b> of a multi-frame GIF file. (soon)</li> -->
                     </ul>
 
                     <p>For instance:</p>
                     <ul>
-                        <li>A website with 100 articles with a generated social preview (open-graph) will cost <b>1€ top</b> per month (if all the article were shared, otherwise will cost less).</li>
-                        <li>If you send 1000 newsletter with a personalized banner and 400 open the email, it will cost <b>4€</b>.</li>
-                        <li>A PDF with <b>20 pages</b>, once generated, will count <b>20 Credits</b>, therefore,  will cost <b>0.2€</b>. (soon)</li>
-                        <li>An animated GIF composed by <b>8 frames</b> will count <b>8 Credits</b>, therefore,  will cost <b>0.08€</b>. (soon)</li>
+                        <li>If you send 1000 newsletter with a personalized banner and 400 open the email, it will cost <b>4$</b>.</li>
+                        <li>Publishing a social-media post twice per day with a generated media-image will cost <b>0.6$</b> a month.</li>
+                        <li>A website with 100 articles with a generated social preview (open-graph) will cost <b>1$</b>.</li>
+                        <!-- <li>A PDF with <b>20 pages</b>, once generated, will count <b>20 Credits</b>, therefore,  will cost <b>0.2€</b>. (soon)</li> -->
+                        <!-- <li>An animated GIF composed by <b>8 frames</b> will count <b>8 Credits</b>, therefore,  will cost <b>0.08€</b>. (soon)</li> -->
                     </ul>
                 </div>
             </details>
@@ -83,13 +84,13 @@
                     <p>By adding a <b>Credit-Card</b> to your account you'll be set as <b>PRO</b> that allows to:</p>
                     <ul>
                         <li>Use the <b>Cloud API</b> with your Templates <b>without the limitations</b>.</li>
-                        <li>Unlock additional (upcoming) features such as <b>Scripting</b>, <b>Geo/Time props</b> and <b>Smart-Blocks</b> as well.</li>
+                        <li>Unlock additional features such as <b>Scripting</b>, <b>Location & TimeZone props</b> and <b>Smart-Blocks</b> as well.</li>
                     </ul>
 
                 </div>
             </details>
 
-
+<!-- 
             <details>
                 <summary>
                     <span class="plus">&#43;</span> 
@@ -98,10 +99,10 @@
                 <div class="content">
                     <p>Each generated file will be available for download within the current month by our fast CDN for <b>FREE</b>!</p>
                 </div>
-            </details>
+            </details> -->
 
 
-            <p>Need <b>high volume</b> pricing? <a href="mailto:support@presenta.cc">Contact us!</a></p>
+            <!-- <p>Need <b>high volume</b> pricing? <a href="mailto:support@presenta.cc">Contact us!</a></p> -->
         </div>
 
         <CTA />

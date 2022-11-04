@@ -9,7 +9,7 @@
         </div> -->
         
         <h1>then <b class="high">Automate</b>!</h1>
-        <p class="wrap"><b>Data-driven</b> documents for the <b>Automation</b> era.</p>
+        <p class="wrap"><b>Real-time</b> and <b>Data-driven</b> IMAGES for the <b>Automation</b> era.</p>
 
         <!-- <QuoteStrip :message="'Your personal trainer that helps you presenting great!'" /> -->
 

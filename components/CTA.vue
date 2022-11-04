@@ -1,7 +1,7 @@
 <template>
     <div class="footer">
         <div class="signup">
-            <h3>Want to try?</h3>
+            <h3>Try FREE!</h3>
             <a class="btn" href="https://app.presenta.cc/signup">
                 <span>Create your Account!</span>
             </a>

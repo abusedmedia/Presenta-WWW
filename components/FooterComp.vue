@@ -5,7 +5,7 @@
 
                 <div>
                     <p class="relevant">Made with ❤️ in Italy! – <b><a href="mailto:support@presenta.cc">Talk to Us</a></b>
-                    <p class="relevant"><b><nuxt-link to="/">PRESENTA</nuxt-link></b>: the automation platform for data-driven presentational assets.</p>
+                    <p class="relevant"><b><nuxt-link to="/">PRESENTA</nuxt-link></b>: the automation platform for real-time and data-driven images.</p>
                     <!-- <span class="little">In this site you're NOT tracked at all</span></p> -->
                     <p></p>
                 </div>
@@ -22,7 +22,7 @@
                         </ul>
                     </div>
 
-                                    </div>
+                </div>
             </footer>
         </div>
     </div>
@@ -45,7 +45,7 @@ export default {
                     {label:'Use Cases', url:'/use-cases'},
                     {label:'Pricing', url:'/pricing'},
                     //{label:'Templates', url:'/templates'},
-                    {label:'Api', url:'/api'},
+                    //{label:'Api', url:'/api'},
                     //{label:'Change Log', url:'/changelog'},
                     {label:'Sign Up', url:'https://app.presenta.cc/signup', external:true}
                 ]},
@@ -53,19 +53,19 @@ export default {
                 {title: 'Resources', links: [
                     {label:'Javascript Lib', url:'/lib'},
                     {label:'Github', url:'https://github.com/presenta-software', external:true},
-                    {label:'Tools', url:'/tools'},
+                    //{label:'Tools', url:'/tools'},
                     {label:'Blog', url:'/blog'}
                 ]},
                 
-                {title: 'Features', links: [
-                    {label:'Open-Graph for WordPress', url:'/features/open-graph-wordpress-plugin'},
-                    {label:'Image Generation Api', url:'/features/image-generation-api'},
-                    {label:'Document Generation Api', url:'/features/document-generation-api'},
-                    {label:'PDF Generation Api', url:'/features/pdf-generation-api'},
-                    {label:'Open-Graph Generation Api', url:'/features/open-graph-generation-api'},
-                    {label:'Automate Excel Reports', url:'/features/automate-excel-reports'},
-                    {label:'Social Preview Generation Api', url:'/features/social-preview-generation-api'}
-                ]},
+                // {title: 'Features', links: [
+                //     {label:'Open-Graph for WordPress', url:'/features/open-graph-wordpress-plugin'},
+                //     {label:'Image Generation Api', url:'/features/image-generation-api'},
+                //     {label:'Document Generation Api', url:'/features/document-generation-api'},
+                //     {label:'PDF Generation Api', url:'/features/pdf-generation-api'},
+                //     {label:'Open-Graph Generation Api', url:'/features/open-graph-generation-api'},
+                //     {label:'Automate Excel Reports', url:'/features/automate-excel-reports'},
+                //     {label:'Social Preview Generation Api', url:'/features/social-preview-generation-api'}
+                // ]},
 
 
                 {title: 'About', links: [
