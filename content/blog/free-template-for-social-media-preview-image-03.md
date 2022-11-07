@@ -2,7 +2,7 @@
 title: Free Template for Social Media Preview Image
 category: template
 date: 2022-03-03
-cover: https://cloud.presenta.cc/v1/url/zGywhb2oJn:PXhbKcWtT
+cover: https://cache.presenta.workers.dev/zGywhb2oJn:PXhbKcWtT
 ---
 
 We published this **Free Template** you can use in **PRESENTA** to generate **Social Media Preview Images** automatically for your website.
@@ -11,14 +11,14 @@ The template contains several dynamic parts, **title**, **excerpt** and **image*
 
 <div class="img">
 
-![](https://cloud.presenta.cc/v1/url/zGywhb2oJn:PXhbKcWtT)
+![](https://cache.presenta.workers.dev/zGywhb2oJn:PXhbKcWtT)
 
 </div>
 
 You can play with this template by editing the **title** URL value:
 
 ```shell
-https://cloud.presenta.cc/v1/url/zGywhb2oJn:PXhbKcWtT?title=Hello There
+https://cache.presenta.workers.dev/zGywhb2oJn:PXhbKcWtT?title=Hello There
 ```
 
 

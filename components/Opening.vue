@@ -4,7 +4,7 @@
                 <div class="text">
 
 
-                    <p class="wrap main"><b>PRESENTA</b> is the <mark>automation</mark> platform for <mark>real-time</mark> and <mark>data-driven</mark> images.</p>
+                    <p class="wrap main"><b>PRESENTA</b> is the <mark>automation</mark> platform <br />for <mark>real-time</mark> and <mark>data-driven</mark> images.</p>
                     <!-- <p>More then 30 years ago <b>PowerPoint set the bar</b> about how presentations should be crafted.</p> -->
                     <!-- <p>After that, <b>we still move objects on canvas</b> to create documents for our communication needs.</p> -->
                     <!-- <p class="wrap">Create automatically <b>cards</b>, <b>banners</b>, <b>catalogues</b>, <b>presentations</b>, <b>galleries</b>, <b>reports</b>, <b>certificates</b> and <b>showcases</b> using pre-made or custom designed <b>templates</b> and our <b>Cloud APIs</b> Infrastructure.</p> -->

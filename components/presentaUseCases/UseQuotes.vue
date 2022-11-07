@@ -40,9 +40,9 @@ export default {
         return {
             images:[
                 {
-                    a:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:TEwf6udrw?&text=Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur&subtitle=1st November, 2021&img=https://source.unsplash.com/random/709x351',
-                    b:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:TEwf6udrw?&text=Neque porro quisquam est qui dolore&subtitle=2nd November, 2021&img=https://source.unsplash.com/random/710x351',
-                    c:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:TEwf6udrw?&text=Quia dolor sit amet, consectetur&subtitle=3rd November, 2021&img=https://source.unsplash.com/random/706x351'
+                    a:'https://cache.presenta.workers.dev/zGywhb2oJn:TEwf6udrw?&text=Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur&subtitle=1st November, 2021&img=https://source.unsplash.com/random/709x351',
+                    b:'https://cache.presenta.workers.dev/zGywhb2oJn:TEwf6udrw?&text=Neque porro quisquam est qui dolore&subtitle=2nd November, 2021&img=https://source.unsplash.com/random/710x351',
+                    c:'https://cache.presenta.workers.dev/zGywhb2oJn:TEwf6udrw?&text=Quia dolor sit amet, consectetur&subtitle=3rd November, 2021&img=https://source.unsplash.com/random/706x351'
                 }
             ]
         }

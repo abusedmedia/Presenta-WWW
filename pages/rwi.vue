@@ -40,15 +40,15 @@
                     @click="copy(template)" :class="{clicked:template.copy}" class="copy">
                     <p class="command"><span>{{template.command}}</span></p>
                     <div class="img">
-                        <img :src="'https://cloud.presenta.cc/v1/url/' + template.template + '?content=Quoted Tweet&name=John Doe&username=@johndoe&profile_image=https://cdn.presenta.cc/faces/s_6F9FA8C635E5B49A4AA9474CB76D1146BC1F6408CE5EEC320713FFF4758F98B5_1569007593653_003586.jpg'" />
+                        <img :src="'https://cache.presenta.workers.dev/' + template.template + '?content=Quoted Tweet&name=John Doe&username=@johndoe&profile_image=https://cdn.presenta.cc/faces/s_6F9FA8C635E5B49A4AA9474CB76D1146BC1F6408CE5EEC320713FFF4758F98B5_1569007593653_003586.jpg'" />
                     </div>
                 </li>
             </ul>
         </div>
 
         <div class="cta">
-            <a class="btn" href="https://twitter.com/ReactWithImage">
-                <span>Follow @ReactWithImage</span>
+            <a class="btn" href="https://twitter.com/PresentaSw">
+                <span>Follow @PresentaSw</span>
             </a>
         </div>
 

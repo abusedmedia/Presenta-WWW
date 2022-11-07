@@ -2,7 +2,7 @@
 title: Free Social Preview Image for Website Posts
 category: template
 date: 2022-04-03
-cover: https://cloud.presenta.cc/v1/url/zGywhb2oJn:6JaJpv7Qo?title=Free Social Preview Image for Website Articles&subtitle=Released at 3rd April, 2022&image=https://source.unsplash.com/random/
+cover: https://cache.presenta.workers.dev/zGywhb2oJn:6JaJpv7Qo?title=Free Social Preview Image for Website Articles&subtitle=Released at 3rd April, 2022&image=https://source.unsplash.com/random/
 ---
 
 This is a free to use and modern dynamic social preview image for generic website posts.
@@ -33,14 +33,14 @@ Once you'll add the template URL into your open-graph tag, every time someone sh
 Just put this URL in your Open-Graph tags alongside the custom parameters and you'll get your personalized social preview image in seconds:
 
 ```js
-https://cloud.presenta.cc/v1/url/zGywhb2oJn:6JaJpv7Qo
+https://cache.presenta.workers.dev/zGywhb2oJn:6JaJpv7Qo
 ```
 
 
 
 <div class="img">
 
-![dynamic social preview image](https://cloud.presenta.cc/v1/url/zGywhb2oJn:6JaJpv7Qo)
+![dynamic social preview image](https://cache.presenta.workers.dev/zGywhb2oJn:6JaJpv7Qo)
 
 </div>
 
@@ -58,7 +58,7 @@ https://cloud.presenta.cc/v1/url/zGywhb2oJn:6JaJpv7Qo
 Here the template with the following custom parameters:
 
 ```js
-https://cloud.presenta.cc/v1/url/zGywhb2oJn:6JaJpv7Qo?title=Free Social Preview Image for Website Articles&subtitle=Released at 3rd April, 2022&image=https://source.unsplash.com/random/
+https://cache.presenta.workers.dev/zGywhb2oJn:6JaJpv7Qo?title=Free Social Preview Image for Website Articles&subtitle=Released at 3rd April, 2022&image=https://source.unsplash.com/random/
 ```
 
-<div class="img"><img src="https://cloud.presenta.cc/v1/url/zGywhb2oJn:6JaJpv7Qo?title=Free Social Preview Image for Website Articles&subtitle=Released at 3rd April, 2022&image=https://source.unsplash.com/random/" /></div>
+<div class="img"><img src="https://cache.presenta.workers.dev/zGywhb2oJn:6JaJpv7Qo?title=Free Social Preview Image for Website Articles&subtitle=Released at 3rd April, 2022&image=https://source.unsplash.com/random/" /></div>

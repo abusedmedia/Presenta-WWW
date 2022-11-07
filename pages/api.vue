@@ -23,7 +23,7 @@
             <div class="columns">
                 <div class="left">
                     <highlight-code class="code" lang="js">
-                        https://cloud.presenta.cc/v1/url/templateID/?main=Hello
+                        https://cache.presenta.workers.dev/templateID/?main=Hello
                     </highlight-code>
                 </div>
             </div>

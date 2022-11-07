@@ -90,16 +90,16 @@
                 </div>
             </details>
 
-<!-- 
+
             <details>
                 <summary>
                     <span class="plus">&#43;</span> 
                     <span class="minus">&#8722;</span>
-                    How much cost the <b>CDN cache</b>?</summary>
+                    How about <b>cache</b> them?</summary>
                 <div class="content">
-                    <p>Each generated file will be available for download within the current month by our fast CDN for <b>FREE</b>!</p>
+                    <p>We provide a specific end-point to serve cached versions within the current month for FREE!</p>
                 </div>
-            </details> -->
+            </details>
 
 
             <!-- <p>Need <b>high volume</b> pricing? <a href="mailto:support@presenta.cc">Contact us!</a></p> -->

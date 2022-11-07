@@ -40,14 +40,14 @@ export default {
         return {
             images:[
                 {
-                    a:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:wzODLn3PV?name=John Doe&course=Programming&time=1st November 2022',
-                    b:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:wzODLn3PV?name=Mario Rossi&course=Social Media&time=2nd November 2022',
-                    c:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:wzODLn3PV?&name=Jerry Lewis&course=UX Design&time=3rd November 2022'
+                    a:'https://cache.presenta.workers.dev/zGywhb2oJn:wzODLn3PV?name=John Doe&course=Programming&time=1st November 2022',
+                    b:'https://cache.presenta.workers.dev/zGywhb2oJn:wzODLn3PV?name=Mario Rossi&course=Social Media&time=2nd November 2022',
+                    c:'https://cache.presenta.workers.dev/zGywhb2oJn:wzODLn3PV?&name=Jerry Lewis&course=UX Design&time=3rd November 2022'
                 },
                 {
-                    a:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:GPVWRUfSB?name=John Doe&course=Programming&time=1st November 2022',
-                    b:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:GPVWRUfSB?name=Mario Rossi&course=Social Media&time=2nd November 2022',
-                    c:'https://cloud.presenta.cc/v1/url/zGywhb2oJn:GPVWRUfSB?&name=Jerry Lewis&course=UX Design&time=3rd November 2022'
+                    a:'https://cache.presenta.workers.dev/zGywhb2oJn:GPVWRUfSB?name=John Doe&course=Programming&time=1st November 2022',
+                    b:'https://cache.presenta.workers.dev/zGywhb2oJn:GPVWRUfSB?name=Mario Rossi&course=Social Media&time=2nd November 2022',
+                    c:'https://cache.presenta.workers.dev/zGywhb2oJn:GPVWRUfSB?&name=Jerry Lewis&course=UX Design&time=3rd November 2022'
                 }
             ]
         }

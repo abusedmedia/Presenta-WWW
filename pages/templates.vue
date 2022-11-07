@@ -26,7 +26,7 @@
             <ul class="grid">
                 <li v-for="template in currentCategory.templates" :key="template.id">
                     <div class="img">
-                        <img :src="'https://cloud.presenta.cc/v1/url/' + template.id" />
+                        <img :src="'https://cache.presenta.workers.dev/' + template.id" />
                     </div>
                 </li>
             </ul>

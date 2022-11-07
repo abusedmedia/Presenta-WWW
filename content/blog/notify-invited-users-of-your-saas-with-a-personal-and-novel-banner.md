@@ -2,7 +2,7 @@
 title: Notify invited users of your SaaS with a personal and novel banner
 category: tutorial
 date: 2022-05-16
-cover: https://cloud.presenta.cc/v1/url/zGywhb2oJn:ah8cqUtoW?&term=office&title=Notify invited users of your SaaS with a personal and novel banner&subtitle=Tutorial
+cover: https://cache.presenta.workers.dev/zGywhb2oJn:ah8cqUtoW?&term=office&title=Notify invited users of your SaaS with a personal and novel banner&subtitle=Tutorial
 ---
 
 A common technique in SaaS world is to **collecting emails** of potential interested users before the tool is publicly available.
