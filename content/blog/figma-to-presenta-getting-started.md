@@ -115,3 +115,15 @@ Image boxes can be masked by one single shape in order to keep its dynamic natur
 
 
 ![](/blog/figma-to-presenta-getting-started/p08.png)
+
+
+
+
+
+## Trouble-Shooting
+
+Here a list of possible solutions for specific cases we're aware of:
+
+- The Figma **Frame** container must have **Rotation** and **Corner radius** set to zero in order to be properly imported in PRESENTA.
+- The Figma **Frame** container must be without **Effects** in order to be properly imported in PRESENTA.
+- If there's a bitmap **cropped** with the Figma Image Crop tool, the image needs to be **flatten** in order to be properly positioned and resized in PRESENTA.
