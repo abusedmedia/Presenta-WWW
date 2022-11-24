@@ -42,7 +42,7 @@ export default {
             return [
                 
                 {title: 'Platform', links: [
-                    {label:'Use Cases', url:'/use-cases'},
+                    //{label:'Use Cases', url:'/use-cases'},
                     {label:'Pricing', url:'/pricing'},
                     //{label:'Templates', url:'/templates'},
                     //{label:'Api', url:'/api'},
@@ -52,7 +52,7 @@ export default {
 
                 {title: 'Resources', links: [
                     {label:'Javascript Lib', url:'/lib'},
-                    {label:'Github', url:'https://github.com/presenta-software', external:true},
+                    //{label:'Github', url:'https://github.com/presenta-software', external:true},
                     //{label:'Tools', url:'/tools'},
                     {label:'Blog', url:'/blog'}
                 ]},

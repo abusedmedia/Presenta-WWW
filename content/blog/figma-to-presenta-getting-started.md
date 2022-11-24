@@ -10,7 +10,7 @@ This document outlines the best-practices as well as the limitations you have to
 
 ## TL;DR
 
-- Only a **single** Frame can be imported at a time
+- Only a **single** Frame can be imported at a time and it must to be in the first Page
 - Only elements **within** the Frame container are considered by the importer
 - By mention an element *"in root level of the Frame"* means that it can't be in groups, components or nested frames
 - Text boxes have to be in the **root level** of the Frame in order to be **dynamic**
@@ -42,7 +42,8 @@ Following the above TL;DR list is pretty much what you need in order to design y
 
 ## Single Frame
 
-Only a **single** Frame can be imported at a time. A **Frame** in **Figma** is a **Project** in **PRESENTA**:
+Only a **single** Frame can be imported at a time. A **Frame** in **Figma** is a **Project** in **PRESENTA**.
+Also, only the **first Page** of the Figma document is imported:
 
 ![](/blog/figma-to-presenta-getting-started/p01a.png)
 
@@ -120,7 +121,7 @@ Image boxes can be masked by one single shape in order to keep its dynamic natur
 
 
 
-## Trouble-Shooting
+## TroubleShooting
 
 Here a list of possible solutions for specific cases we're aware of:
 

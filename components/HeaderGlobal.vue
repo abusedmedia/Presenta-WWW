@@ -6,7 +6,6 @@
         
 
         <div class="menu">
-            <nuxt-link to="/use-cases">Use Cases</nuxt-link>
             <nuxt-link to="/pricing">Pricing</nuxt-link>
             <a href="https://app.presenta.cc/signup" target="_blank">Sign Up</a>
         </div>
