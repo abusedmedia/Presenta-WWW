@@ -8,8 +8,9 @@
             <h1 class="word" :class="{show: idx === index}" v-for="(word, idx) in words" :key="word"><b>{{word}}</b></h1>
         </div> -->
         
-        <h1>then <b class="high">Automate</b>!</h1>
-        <p class="wrap"><b>Real-time</b> and <b>Data-driven</b> IMAGES for the <b>Automation</b> era.</p>
+        <h1>then <b class="high">Generate</b>!</h1>
+        <p class="wrap"><b>Real-time</b>, <b>Data-driven</b>, <b>Context-aware</b><br />
+            on-the-fly generated <b>IMAGES</b> for the automation era.</p>
 
         <!-- <QuoteStrip :message="'Your personal trainer that helps you presenting great!'" /> -->
 
@@ -75,9 +76,13 @@ h1 b{
 }
 h1 .high{
     background-color: unset;
-    -webkit-text-stroke: 2px black;
+    /* -webkit-text-stroke: 2px black; */
     /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
-    color: var(--accentcolor);
+    /* color: var(--accentcolor); */
+
+    text-decoration: underline;
+    text-decoration-color: var(--accentcolor);
+    text-decoration-thickness: 12px;
 }
 .swapper{
     position: relative;
@@ -105,8 +110,14 @@ h1 .high{
 .wrap{
     text-align: center;
     font-size: 1.5rem;
-    line-height: 1.75rem;
+    line-height: 2.3rem;
     letter-spacing: -.03rem;
+}
+.wrap b{
+    background-color: unset;
+    text-decoration: underline;
+    text-decoration-color: var(--accentcolor);
+    text-decoration-thickness: 6px;
 }
 
 @media(min-width: 600px){
