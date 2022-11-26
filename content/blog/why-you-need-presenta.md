@@ -2,7 +2,7 @@
 title: Why you'd need PRESENTA?
 category: general
 date: 2022-05-13
-cover: https://cache.presenta.workers.dev/zGywhb2oJn:ah8cqUtoW?&term=tool&title=Why%20you'd%20need%20PRESENTA%3F&subtitle=General
+cover: https://cache.presenta.workers.dev/zGywhb2oJn:SfjEYhkuX?&term=tool&title=Why%20you'd%20need%20PRESENTA%3F&subtitle=General
 ---
 
 **PRESENTA** is an online platform that automates the production of digital documents such as **PDF** and **images**.

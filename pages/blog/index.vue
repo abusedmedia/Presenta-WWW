@@ -35,7 +35,7 @@ export default {
   },
   methods:{
       getImage(post){
-          let img = `https://cache.presenta.workers.dev/zGywhb2oJn:ah8cqUtoW?&term=${parseInt(Math.random()*100)}&title=${post.title}&subtitle=${post.date}`
+          let img = `https://cache.presenta.workers.dev/zGywhb2oJn:SfjEYhkuX?&term=${parseInt(Math.random()*100)}&title=${post.title}&subtitle=${post.date}`
           if(post.cover) img = post.cover
           return img
       }
