@@ -59,7 +59,7 @@ export default {
     htmlAttrs: {
       lang: 'en'
     },
-    titleTemplate: '%s @ PRESENTA - The Documents Automation Platform',
+    titleTemplate: '%s @ PRESENTA - The Image Automation Platform',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

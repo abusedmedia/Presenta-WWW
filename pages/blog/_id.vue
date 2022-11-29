@@ -91,6 +91,32 @@ export default {
         category(){
             return this.meta.category
         }
+    },
+    mounted(){
+        const list = [...document.querySelectorAll('.refreshImgOnClick')]
+        list.forEach(el => {
+            const img = el.querySelector('img')
+            const txt = el.querySelector('span')
+
+            if(!txt) return 
+            
+            const otxt = txt.innerText
+            const osrc = img.src
+            const oprops = img.getAttribute('data-props') || ''
+            txt.addEventListener('click', e => {
+                img.style.opacity = 0.5
+                txt.innerText = 'Loading...'
+                img.onload = () => {
+                    img.style.opacity = 1
+                    txt.innerText = otxt
+                }
+                img.onerror = () => {
+                    img.style.opacity = 1
+                    txt.innerText = otxt
+                }
+                img.src = osrc + '?' + oprops + '&_t=' + Math.random() + new Date().getTime()
+            })
+        })
     }
 }
 </script>
@@ -130,6 +156,16 @@ export default {
 .blog >>> .img{
 }
 
+
+
+.blog >>> .refreshImgOnClick span{
+  width: 100%;
+  display: block;
+  font-size: .8rem;
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 
 

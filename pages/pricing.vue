@@ -21,16 +21,18 @@
                 <div class="content">
                     
                     <ul>
-                        <li><b>1 Credit</b> can generate <b>1 PNG/JPG</b> file.</li>
-                        <!-- <li><b>1 Credit</b> can generate <b>1 Page</b> of a multi-page PDF file. (soon)</li> -->
-                        <!-- <li><b>1 Credit</b> can generate <b>1 Frame</b> of a multi-frame GIF file. (soon)</li> -->
+                        <li>You need <b>1 Credit</b> to generate <b>1 Image</b> with the <b>No-Cache</b> end-point.</li>
+                        <li>You need <b>5 Credit</b> to generate <b>1 Image</b> with the <b>Daily-Cache</b> end-point.</li>
+                        <li>You need <b>50 Credit</b> to generate <b>1 Image</b> with the <b>Monthly-Cache</b> end-point.</li>
                     </ul>
 
-                    <p>For instance:</p>
+                    <p>Some real-world examples:</p>
                     <ul>
-                        <li>If you send 1000 newsletter with a personalized banner and 400 open the email, it will cost <b>4$</b>.</li>
-                        <li>Publishing a social-media post twice per day with a generated media-image will cost <b>0.6$</b> a month.</li>
-                        <li>A website with 100 articles with a generated social preview (open-graph) will cost <b>1$</b>.</li>
+                        <li><b>Newsletter: </b>Send a newsletter to 1000 recipients with a personalized banner (using the No-Cache end-point) and 400 of them open the email, it will cost <b>4$</b>.</li>
+                        <li><b>Social Media: </b>Publishing a social-media post twice per day with a generated media-image will cost <b>0.5-2$</b> a month (using the No-Cache end-point and exploiting the Social Media cache).</li>
+                        <li><b>Open-Graph: </b>A website with 100 articles and 50 are shared within the current month with a generated social preview (open-graph) will cost <b>0.5-2$</b> a month (using the No-Cache end-point and exploiting the Social Media cache).</li>
+                        <li><b>Landing Page 1: </b>Using a dynamic banner (that update itself every day) on a landing page (using the Daily-Cache end-point) <b>1.5$</b>.</li>
+                        <li><b>Landing Page 2: </b>Using 2 dynamic banners (that update themself every month) on a landing page (using the Monthly-Cache end-point) <b>1$</b>.</li>
                         <!-- <li>A PDF with <b>20 pages</b>, once generated, will count <b>20 Credits</b>, therefore,  will cost <b>0.2€</b>. (soon)</li> -->
                         <!-- <li>An animated GIF composed by <b>8 frames</b> will count <b>8 Credits</b>, therefore,  will cost <b>0.08€</b>. (soon)</li> -->
                     </ul>
@@ -78,12 +80,13 @@
                     <p>By creating an account you'll be set as <b>FREE</b> plan by default that allows you to:</p>
                     <ul>
                         <li>Import <b>Figma design</b>, manage and publish <b>Templates</b>.</li>
-                        <li>Use the <b>Cloud API</b> with your Templates with a <b>watermark</b> applied and a resolution limit.</li>
+                        <li>Use the <b>Monthly Cache</b> end-point only with your Templates.</li>
+                        <li>Every generated image will have a <b>watermark</b> applied and a resolution limit.</li>
                     </ul>
 
                     <p>By adding a <b>Credit-Card</b> to your account you'll be set as <b>PRO</b> that allows to:</p>
                     <ul>
-                        <li>Use the <b>Cloud API</b> with your Templates <b>without the limitations</b>.</li>
+                        <li>Use the <b>Monthly Cache</b>, <b>Daily Cache</b> and <b>No Cache</b> end-points with your Templates <b>without the Free limitations</b>.</li>
                         <li>Unlock additional features such as <b>Scripting</b>, <b>Location & TimeZone props</b> and <b>Smart-Blocks</b> as well.</li>
                     </ul>
 
@@ -91,7 +94,7 @@
             </details>
 
 
-            <details>
+            <!-- <details>
                 <summary>
                     <span class="plus">&#43;</span> 
                     <span class="minus">&#8722;</span>
@@ -99,7 +102,7 @@
                 <div class="content">
                     <p>We provide a specific end-point to serve cached versions within the current month for FREE!</p>
                 </div>
-            </details>
+            </details> -->
 
 
             <!-- <p>Need <b>high volume</b> pricing? <a href="mailto:support@presenta.cc">Contact us!</a></p> -->

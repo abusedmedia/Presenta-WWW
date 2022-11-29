@@ -50,7 +50,7 @@ export default {
   },  
   head () {
         return {
-            title: 'Generate Dynamic Data-Driven Documents, Reports, PDF, PNG, GIF with our Cloud API'
+            title: 'Generate Dynamic Images from Figma with our API'
         }
   },
   // async asyncData(){
