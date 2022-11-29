@@ -53,9 +53,10 @@ Indeed, it's possible to add chunks of code (javascript) in order to customize f
 In this example 9 circles get a random radius and one of them (randomly picked) an accent color:
 
 <p class="refreshImgOnClick">
-    <img src="https://daily.presenta.workers.dev/p6bqPuaXAj:g4teybpch" />
+    <img src="https://daily.presenta.workers.dev/zGywhb2oJn:ynpwlE0eu" />
     <span>Click to refresh and make your variation</span>
 </p>
+
 
 
 This is the code added to the template:
@@ -76,8 +77,9 @@ for(var i=1; i<=9; i++){
 In this example, the current date is used to calculate the remaining days till the end of the year, shown both as text and bar as well. Tomorrow this banner will update itself automatically:
 
 <p class="refreshImgOnClick">
-    <img src="https://daily.presenta.workers.dev/p6bqPuaXAj:NTjBSlAUf" />
+    <img src="https://daily.presenta.workers.dev/zGywhb2oJn:KYIvNqK5p" />
 </p>
+
 
 Here is the code using `dayjs` library:
 
@@ -100,9 +102,10 @@ query.w = 400 - (diff/356 * 400)
 In this final, slightly more advanced, example the current location of the requester is used to make some distance calculations between two cities (New York and Hong Kong). Those numbers are used both as text and to calculate the yellow line length as well:
 
 <p class="refreshImgOnClick">
-    <img src="https://daily.presenta.workers.dev/p6bqPuaXAj:HXBwBFt8E" data-props="geo_city=true&geo_latitude=true&geo_longitude=true" />
+    <img src="https://daily.presenta.workers.dev/zGywhb2oJn:6uuz1DSXG" data-props="geo_city=true&geo_latitude=true&geo_longitude=true" />
     <span>Click to refresh and make your variation</span>
 </p>
+
 
 
 
