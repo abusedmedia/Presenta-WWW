@@ -142,7 +142,10 @@ query.right = 100-query.left
 
 ## The URL
 
+**PRESENTA** allows configuring a graphic **Template** with dynamic behaviour. It allows to add run-time logic within the image template. An **URL** is what you'll get for the integration (and it's good enough for **newsletter**, **landing pages**, **social media bots**, etc.)
+
+## Import from Figma
+
+Last but not least, a **PRESENTA** Template can be imported from Figma. We do not want to reinvent the wheel, a very difficult wheel. We bet on Figma for that!
+
 ![](/blog/figma-link.png)
-
-**PRESENTA** allows configuring a graphic **Template** from **Figma** projects. It allows to add run-time logic within the image template. An **URL** is what you'll get for the integration (and it's good enough for **newsletter**, **landing pages**, **social media bots**, etc.)
-
