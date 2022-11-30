@@ -15,7 +15,7 @@ Eventually, the `IMG` tag got included in the HTML 2.0 specification **released 
 
 ![](/blog/the-low-code-image/mosaic.jpg)
 
-An image is a static file, and nowadays we consider it safe enough to accept it even in the most critical context in terms of security and privacy requirements: ** email**.
+An image is a static file, and nowadays we consider it safe enough to accept it even in the most critical context in terms of security and privacy requirements: **email**.
 
 Indeed, a sent/received email is a static piece of information that cannot be modified (unless the provider decided to).
 
@@ -29,7 +29,7 @@ It's not a novel idea. There are several services to generate images on-the-fly 
 
 In general, such services generate images with a very limited set of variations and possibilities, usually only text labels and image URLs.
 
-**PRESENTA** is an image generation service but with an engine that allows way more possibilities.
+**PRESENTA** is an image generator service but with an engine that allows way more possibilities.
 
 This is why this blog-post title: **The Low-Code Image**.
 
@@ -65,7 +65,7 @@ This is the code added to the template:
 var picked = Math.ceil(Math.random()*9)
 
 for(var i=1; i<=9; i++){
-  query['r' + i] = parseInt(Math.random()*50)
+  query['r' + i] = Math.ceil(Math.random()*50)
   query['c' + i] = picked === i ? '#FDD50E' : '#fff'
 }
 ```
@@ -74,7 +74,7 @@ for(var i=1; i<=9; i++){
 
 #### Example 2: Date aware
 
-In this example, the current date is used to calculate the remaining days till the end of the year, shown both as text and bar as well. Tomorrow this banner will update itself automatically:
+In this example, the current date is used to calculate the remaining days till the end of the year, shown both as text and bar size as well. **Tomorrow this banner will update itself automatically**:
 
 <p class="refreshImgOnClick">
     <img src="https://daily.presenta.workers.dev/zGywhb2oJn:KYIvNqK5p" />
@@ -142,5 +142,7 @@ query.right = 100-query.left
 
 ## The URL
 
-**PRESENTA** allows configuring a graphic **Template** from **Figma** projects. It allows to add run-time logic within the image template. An **URL** is what you'll get for the integration (and it's good enough for newsletter, landing pages, social media bots, etc.)
+![](/blog/figma-link.png)
+
+**PRESENTA** allows configuring a graphic **Template** from **Figma** projects. It allows to add run-time logic within the image template. An **URL** is what you'll get for the integration (and it's good enough for **newsletter**, **landing pages**, **social media bots**, etc.)
 
