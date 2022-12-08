@@ -52,7 +52,7 @@ export default {
   },  
   head () {
         return {
-            title: 'Generate Dynamic Images from Figma with our API'
+            title: 'Home'
         }
   },
   // async asyncData(){
