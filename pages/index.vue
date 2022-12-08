@@ -1,5 +1,7 @@
 <template>
     <div class="body">
+
+      
       <HeroHeader />
 
         <!-- <div class="vid">
