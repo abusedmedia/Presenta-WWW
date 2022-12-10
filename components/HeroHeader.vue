@@ -1,12 +1,6 @@
 <template>
     <div class="hero">
 
-        <div class="strip">
-            <nuxt-link to="/blog/it-s---days">
-                <img src="https://daily.presenta.workers.dev/GhZD3MDlBN:VMaBpMLXU" />
-            </nuxt-link>
-        </div>
-        
 
         <h1>Dynamic <b>Images</b></h1>
         
@@ -141,20 +135,5 @@ h1 .high{
     }
 }
 
-
-.strip{
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 3rem;
-}
-.strip img{
-    width: 100%;
-    display: block;
-}
-@media(min-width: 700px){
-    .strip{
-        width: 700px;
-    }
-}
 
 </style>
