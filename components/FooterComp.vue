@@ -57,15 +57,15 @@ export default {
                     {label:'Blog', url:'/blog'}
                 ]},
                 
-                // {title: 'Features', links: [
-                //     {label:'Open-Graph for WordPress', url:'/features/open-graph-wordpress-plugin'},
-                //     {label:'Image Generation Api', url:'/features/image-generation-api'},
-                //     {label:'Document Generation Api', url:'/features/document-generation-api'},
-                //     {label:'PDF Generation Api', url:'/features/pdf-generation-api'},
-                //     {label:'Open-Graph Generation Api', url:'/features/open-graph-generation-api'},
-                //     {label:'Automate Excel Reports', url:'/features/automate-excel-reports'},
-                //     {label:'Social Preview Generation Api', url:'/features/social-preview-generation-api'}
-                // ]},
+                {title: 'Features', links: [
+                    {label:'Open-Graph for WordPress', url:'/open-graph-wordpress-plugin'},
+                    // {label:'Image Generation Api', url:'/features/image-generation-api'},
+                    // {label:'Document Generation Api', url:'/features/document-generation-api'},
+                    // {label:'PDF Generation Api', url:'/features/pdf-generation-api'},
+                    // {label:'Open-Graph Generation Api', url:'/features/open-graph-generation-api'},
+                    // {label:'Automate Excel Reports', url:'/features/automate-excel-reports'},
+                    // {label:'Social Preview Generation Api', url:'/features/social-preview-generation-api'}
+                ]},
 
 
                 {title: 'About', links: [
