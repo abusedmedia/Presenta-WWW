@@ -3,8 +3,8 @@ title: Free Open Graph Template Collection as Figma file
 category: template
 date: 2022-12-13
 cover: https://cache.presenta.workers.dev/zGywhb2oJn:SfjEYhkuX?&term=tech&title=Free+Open+Graph+Template+Collection+as+Figma+file&subtitle=Template
-category: template
 ---
+
 
 We've created a Free resource for our platform to support the creation of open-graph template for automation purposes using **PRESENTA API**.
 
