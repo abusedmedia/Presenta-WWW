@@ -4,6 +4,18 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 ---
 
 
+
+## 12th December
+
+- **Wordpress:** We've updated the [Wordpress Open Graph](/open-graph-wordpress-plugin) plugin
+
+## 28th November
+
+- **Editor:** Added the Coupon functionality
+- **Editor:** Added the Script panel
+- **API:** Added dayjs and lodash libraries included in the engine for scripting purposes
+- **Website:** Updated the FAQ in [Pricing](/pricing) page
+
 ## 25th October
 
 - **Editor**: The sign-up access point has beed released as public.
@@ -17,7 +29,7 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 
 
 ## 12th July, 2022
-- **API**: The database has been moved from Heroku to DigitalOcean.
+- **API**: The database has been moved from **Heroku** to **DigitalOcean**.
 - **Website**: Small changes in pricing page.
 
 ## 4th June, 2022
