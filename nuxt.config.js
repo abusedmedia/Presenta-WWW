@@ -28,7 +28,8 @@ blogposts.forEach(d => {
   d.date = doc.data.date
   d.home = doc.data.home
   d.draft = doc.data.draft
-  d.cover = doc.data.cover
+  d.cover = doc.data.cover,
+  d.$body = doc.data.title + '\n\n' + 'https://www.presenta.cc' + d.url + '\n#automation #marketing'
 })
 
 blogposts = blogposts.filter(d => !d.draft)
