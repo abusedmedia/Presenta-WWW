@@ -21,6 +21,7 @@ This document outlines the best-practices as well as the limitations you have to
 - Image boxes have to be in the **root level** of the Frame in order to be **dynamic**
 - Medium/large images are better to be in the root level to avoid importer size limit
 - Image boxes can be masked by one single shape in order to keep its dynamic nature
+- **QRCode**, how to
 
 
 
@@ -118,6 +119,18 @@ Image boxes can be masked by one single shape in order to keep its dynamic natur
 ![](/blog/figma-to-presenta-getting-started/p08.png)
 
 
+
+
+
+## QRCode how to
+
+**Figma** doesn't know anything about QRCode. **PRESENTA** does.
+
+The way to add a **QRCode block** is by using a simple Figma Rect to position and resize its bounding box, and put in the layer name the magic word `$QRCODE`:
+
+![](/blog/figma-to-presenta-getting-started/p09.png)
+
+**PRESENTA** importer will recognise and convert it in a proper **QRCode block**, preserving position and dimension within the Frame. It is possible to use more than one QRCode by giving a variation of the name, such as `$QRCODE other`.
 
 
 

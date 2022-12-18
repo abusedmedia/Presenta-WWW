@@ -1,5 +1,5 @@
 ---
-title: How to use chatGPT to create text variations of social media posts for automation purposes
+title: How to use ChatGPT to create text variations of social media posts for automation purposes
 category: tutorial
 date: 2022-12-18
 cover: https://cache.presenta.workers.dev/zGywhb2oJn:SfjEYhkuX?term=tech&title=How+to+use+chatGPT+to+create+text+variations+of+social+media+posts+for+automation+purposes&subtitle=Tutorial
