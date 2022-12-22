@@ -5,6 +5,11 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 
 
 
+## 18th December
+
+- **API:** We've added back the QRCode block.
+- **Wordpress:** We've updated the [Wordpress Open Graph](/open-graph-wordpress-plugin) plugin adding fixes and new templates
+
 ## 12th December
 
 - **Wordpress:** We've updated the [Wordpress Open Graph](/open-graph-wordpress-plugin) plugin
@@ -13,7 +18,7 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 
 - **Editor:** Added the Coupon functionality
 - **Editor:** Added the Script panel
-- **API:** Added dayjs and lodash libraries included in the engine for scripting purposes
+- **API:** Added **dayjs** and **lodash** libraries included in the engine for scripting purposes
 - **Website:** Updated the FAQ in [Pricing](/pricing) page
 
 ## 25th October
