@@ -21,9 +21,10 @@
                 <div class="content">
                     
                     <ul>
-                        <li>You need <b>1 Credit</b> to generate <b>1 Image</b> with our API/URLend-point.</li>
-                        <li>You need <b>5 Credit</b> to generate <b>1 Image</b> with the <b>Daily-Cache</b> end-point.</li>
-                        <li>You need <b>50 Credit</b> to generate <b>1 Image</b> with the <b>Monthly-Cache</b> end-point.</li>
+                        <li>You need <b>1 Credit</b> to generate <b>1 Image</b> with the <b>No-Cache</b> end-point.</li>
+                        <li>You need <b>5 Credits</b> to generate <b>1 Image</b> with the <b>Daily-Cache</b> end-point.</li>
+                        <li>You need <b>50 Credits</b> to generate <b>1 Image</b> with the <b>Monthly-Cache</b> end-point.</li>
+                        <li>You need <b>5 Credits</b> to publish <b>1 Image</b> to a Social Network automatically (yes! soon).</li>
                     </ul>
 
                     <p>Some real-world examples:</p>
@@ -70,6 +71,25 @@
                         <li>Use the <b>Monthly Cache</b>, <b>Daily Cache</b> and <b>No Cache</b> end-points with your Templates <b>without the Free limitations</b>.</li>
                         <li>Unlock additional features such as <b>Scripting</b>, <b>Location & TimeZone props</b> and <b>Smart-Blocks</b> as well.</li>
                     </ul>
+
+                </div>
+            </details>
+
+
+            <details>
+                <summary>
+                    <span class="plus">&#43;</span> 
+                    <span class="minus">&#8722;</span>
+                    What about <b>Privacy</b> and <b>GDPR</b> ?</summary>
+                <div class="content">
+                    <p>We strongly adhere to the main GDPR principle: <b>Privacy By Design</b></p>
+                    <ul>
+                        <li>We collect information <b>as little as possible</b> to run our service.</li>
+                        <li>Did you notice? You didn't accept any coockie banner in this marketing site because there's no need to.</li>
+                        <li>The <b>No-Cache</b> end-point is 1000% GDPR, the image is sent to the user directly. We cannot even see it.</li>
+                        <li>The other end-points require to accept the Private Policy of our CDN partners, though.</li>
+                    </ul>
+
 
                 </div>
             </details>
