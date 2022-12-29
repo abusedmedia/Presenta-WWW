@@ -1,15 +1,18 @@
 <template>
-    <div class="hero">
+    <div>
 
-        <h1 v-html="block.title"></h1>
+        <div class="hero">
+
+            <h1 v-html="block.title"></h1>
+            
+            <p class="wrap" v-html="block.subtitle"></p>
         
-        <p class="wrap" v-html="block.subtitle"></p>
-
+        </div>
         <div class="hsplash">
-          <picture>
+            <picture>
             <source :srcset="block.imageDesktop" media="(min-width: 600px)">
             <img :src="block.imageMobile" />
-          </picture>
+            </picture>
         </div>
 
     </div>
