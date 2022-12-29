@@ -575,3 +575,11 @@ h1 b, h2 b{
 
 
 
+
+.hsplash{
+  display: flex;
+  justify-content: center;
+}
+.hsplash img{
+  width: 100%;
+}

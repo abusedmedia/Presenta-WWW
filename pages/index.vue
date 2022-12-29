@@ -4,6 +4,7 @@
       
       <HeroHeader />
 
+
         <!-- <div class="vid">
           <div class="video-container" @click="playVideo">
             <video ref="vid" src="/0-main.m4v" muted poster="0-main.jpg"></video>
@@ -22,15 +23,16 @@
           
         </div>
 
+        <HeroComp v-for="use in usecases" :block="use" />
+
+        <!-- <CTA />
+
+        <HeroComp v-for="feat in features" :block="feat" /> -->
+
         <Opening />
 
-        <!-- <HomeExamples /> -->
-
-        <!-- <Features /> -->
         <CTA />
 
-
-        <!-- <LatestPosts :list="posts" /> -->
         <FooterComp />
     </div>
 </template>
@@ -44,21 +46,61 @@ import CTA from '~/components/CTA.vue'
 import Opening from '~/components/Opening.vue'
 import { mapMutations, mapGetters } from 'vuex'
 import HomeExamples from '~/components/HomeExamples.vue'
+import HeroComp from '~/components/HeroComp.vue'
 
 
 export default {
   components:{
-    HeroHeader,Features,FooterComp,LatestPosts,CTA,Opening,HomeExamples
+    HeroHeader,Features,FooterComp,LatestPosts,CTA,Opening,HomeExamples,HeroComp
   },  
   head () {
         return {
             title: 'Home'
         }
   },
-  // async asyncData(){
-  //   let res = await import(`~/content/blog/list.json`)
-  //   return {posts: res.default.filter(d => d.home)}
-  // },
+  async asyncData(){
+    return {
+      usecases:[
+        {
+          title:'Newsletter <br/><b class=high>Personalization!</b>', 
+          subtitle:'Send <b>personalized images</b> to your audience <br />easily integrate with <b>MailChimp</b> or <b>MailJet</b>.', 
+          imageDesktop:'newsletter-desktop.png',
+          imageMobile:'newsletter-mobile.png'
+        },
+        {
+          title:'Sharing <b class=high>Booster</b>', 
+          subtitle:'Boost your Social Media <b>presence</b><br /> with automatic <b>Social Preview</b> (Open-Graph)',
+          imageDesktop:'social-preview-desktop.png',
+          imageMobile:'social-preview-mobile.png'
+        },
+        // {
+        //   title:'Social Media <br/>on <b class=high>Autopilot</b>', 
+        //   subtitle:'<b>Publish</b> Social Media posts <b>automatically</b><br />using our <b>built-in</b> Social Media <b>scheduler</b>',
+        //   imageDesktop:'splash-desktop.jpg'
+        // },
+        
+        // {
+        //   title:'<b class=high>Magic</b> CDN<br />', 
+        //   subtitle:'Decorate images in bulk',
+        //   imageDesktop:'splash-desktop.jpg'
+        // }
+      ],
+      features:[
+        {
+          title:'Smart Blocks', 
+          subtitle:'QRCode'
+        },
+        {
+          title:'In Context', 
+          subtitle:'Geo, Time'
+        },
+        {
+          title:'Low-Code Scripting', 
+          subtitle:'Geo, Time'
+        },
+      ]
+    }
+  },
   methods:{
     playVideo(){
       this.$refs.vid.play()
@@ -74,13 +116,7 @@ export default {
   text-align: center;
   font-size: 3.5rem;
 }
-.hsplash{
-  display: flex;
-  justify-content: center;
-}
-.hsplash img{
-  width: 100%;
-}
+
 .vid{
   margin:2rem 0;
   padding:1rem;

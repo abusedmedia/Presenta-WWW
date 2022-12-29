@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
         
-        <GithubSinceSample />
+        <Newsletter />
 
 
     </div>
@@ -9,11 +9,11 @@
 
 
 <script>
-import GithubSinceSample from './presentaSamples/GithubSinceSample.vue'
+import Newsletter from './newFeatures/Newsletter.vue'
 
 export default {
     components:{
-        GithubSinceSample
+        Newsletter
     }
 }
 
