@@ -61,7 +61,7 @@ export default {
                     // {label:'Newsletter Personalization', url:'/blog/newsletter-personalization'},
                     // {label:'Social Preview Open Graph', url:'/blog/social-preview-open-graph'},
                     // {label:'Automatic Social Media Publishing', url:'/blog/automatic-social-media-publishing'},
-                    {label:'Social Preview Open-Graph for WordPress', url:'/blog/open-graph-wordpress-plugin'},
+                    {label:'Social Preview Open-Graph for WordPress', url:'/open-graph-wordpress-plugin'},
                     // {label:'Image Generation Api', url:'/features/image-generation-api'},
                     // {label:'Document Generation Api', url:'/features/document-generation-api'},
                     // {label:'PDF Generation Api', url:'/features/pdf-generation-api'},
