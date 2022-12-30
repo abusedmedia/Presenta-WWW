@@ -79,11 +79,11 @@ export default {
           imageDesktop:'goshare-desktop.png',
           imageMobile:'goshare-mobile.png'
         },
-        {
-          title:'Social Media <b>Posts</b><br/>on <b class=high>Autopilot</b>', 
-          subtitle:'<b>Publish</b> Social Media posts <b>automatically</b><br />using our <b>built-in</b> Social Media <b>scheduler</b>',
-          imageDesktop:'splash-desktop.jpg'
-        },
+        // {
+        //   title:'Social Media <b>Posts</b><br/>on <b class=high>Autopilot</b>', 
+        //   subtitle:'<b>Publish</b> Social Media posts <b>automatically</b><br />using our <b>built-in</b> Social Media <b>scheduler</b>',
+        //   imageDesktop:'splash-desktop.jpg'
+        // },
         
         // {
         //   title:'<b class=high>Magic</b> CDN<br />', 
