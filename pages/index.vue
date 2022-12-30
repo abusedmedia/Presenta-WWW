@@ -62,7 +62,7 @@ export default {
     return {
       usecases:[
         {
-          title:'Newsletter <br/><b class=high>Personalization!</b>', 
+          title:'Newsletter <br/><b class="high break">Personalization!</b>', 
           subtitle:'Send <b>personalized images</b> to your audience <br />easily integrate with <b>MailChimp</b> or <b>MailJet</b>.', 
           imageDesktop:'newsletter-desktop.png',
           imageMobile:'newsletter-mobile.png'
@@ -73,11 +73,17 @@ export default {
           imageDesktop:'social-preview-desktop.png',
           imageMobile:'social-preview-mobile.png'
         },
-        // {
-        //   title:'Social Media <br/>on <b class=high>Autopilot</b>', 
-        //   subtitle:'<b>Publish</b> Social Media posts <b>automatically</b><br />using our <b>built-in</b> Social Media <b>scheduler</b>',
-        //   imageDesktop:'splash-desktop.jpg'
-        // },
+        {
+          title:'<b>GoShare!</b> <br /><b class=high>Share-Enabler</b> Page', 
+          subtitle:'Turn your Audience into <b>Brand ambassadors</b><br />Built-in <b>landing-page</b> to share <b>personalized images</b> with one click.',
+          imageDesktop:'goshare-desktop.png',
+          imageMobile:'goshare-mobile.png'
+        },
+        {
+          title:'Social Media <b>Posts</b><br/>on <b class=high>Autopilot</b>', 
+          subtitle:'<b>Publish</b> Social Media posts <b>automatically</b><br />using our <b>built-in</b> Social Media <b>scheduler</b>',
+          imageDesktop:'splash-desktop.jpg'
+        },
         
         // {
         //   title:'<b class=high>Magic</b> CDN<br />', 

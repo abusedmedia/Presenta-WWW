@@ -36,7 +36,7 @@ h1{
     margin:0;
     padding: 0;
 }
-h1 b{
+h1 >>> b{
     display: inline-block;
     background-color: var(--accentcolor);
 }
@@ -49,6 +49,10 @@ h1 >>> .high{
     text-decoration: underline;
     text-decoration-color: var(--accentcolor);
     text-decoration-thickness: 12px;
+}
+h1 >>> .break{
+    word-wrap: break-word;
+    width: 100%;
 }
 .swapper{
     position: relative;
