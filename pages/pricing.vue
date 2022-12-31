@@ -22,18 +22,18 @@
                     
                     <ul>
                         <li>You need <b>1 Credit</b> to generate <b>1 Image</b> with the <b>No-Cache</b> end-point.</li>
+                        <li>You need <b>5 Credits</b> to generate and publish <b>1 Image</b> to a Social Network automatically.</li>
                         <li>You need <b>5 Credits</b> to generate <b>1 Image</b> with the <b>Daily-Cache</b> end-point.</li>
                         <li>You need <b>50 Credits</b> to generate <b>1 Image</b> with the <b>Monthly-Cache</b> end-point.</li>
-                        <li>You need <b>5 Credits</b> to publish <b>1 Image</b> to a Social Network automatically (yes! soon).</li>
                     </ul>
 
                     <p>Some real-world examples:</p>
                     <ul>
-                        <li><b>Newsletter: </b>Send a newsletter to 1000 recipients with a personalized banner (using the No-Cache end-point) and 400 of them open the email, it will cost <b>4€</b>.</li>
-                        <li><b>Social Media: </b>Publishing a social-media post twice per day with a generated media-image will cost <b>0.5-1.5€</b> a month (using the No-Cache end-point and exploiting the Social Media cache).</li>
-                        <li><b>Open-Graph: </b>A website with 100 articles and 50 are shared within the current month with a generated social preview (open-graph) will cost <b>0.5-1.5€</b> a month (using the No-Cache end-point and exploiting the Social Media cache).</li>
-                        <li><b>Landing Page 1: </b>Using a dynamic banner (that update itself every day) on a landing page (using the Daily-Cache end-point) <b>1.5€</b>.</li>
-                        <li><b>Landing Page 2: </b>Using 2 dynamic banners (that update themself every month) on a landing page (using the Monthly-Cache end-point) <b>1€</b>.</li>
+                        <li><b>Newsletter: </b>Send a newsletter to 1000 recipients with a personalized banner and 400 of them open the email, it costs <b>4€</b>.</li>
+                        <li><b>Social Media: </b>Publishing a social-media post twice per day with a generated media-image costs <b>3€</b>.</li>
+                        <li><b>Open-Graph: </b>A website with 200 articles and 100 are shared within the current month with a generated social preview (open-graph) costs <b>1€</b> a month.</li>
+                        <li><b>Landing Page 1: </b>Using a dynamic banner (that update itself every day) on a landing page (using the Daily-Cache) costs <b> 1.5€</b>.</li>
+                        <li><b>Landing Page 2: </b>Using 2 dynamic banners (that update themself every month) on a landing page (using the Monthly-Cache) costs <b>1€</b>.</li>
                         <!-- <li>A PDF with <b>20 pages</b>, once generated, will count <b>20 Credits</b>, therefore,  will cost <b>0.2€</b>. (soon)</li> -->
                         <!-- <li>An animated GIF composed by <b>8 frames</b> will count <b>8 Credits</b>, therefore,  will cost <b>0.08€</b>. (soon)</li> -->
                     </ul>
@@ -62,14 +62,14 @@
                     <p>By creating an account you'll be set as <b>FREE</b> plan by default that allows you to:</p>
                     <ul>
                         <li>Import <b>Figma design</b>, manage and publish <b>Templates</b>.</li>
-                        <li>Use the <b>Monthly Cache</b> end-point only with your Templates.</li>
-                        <li>Every generated image will have a <b>watermark</b> applied and a resolution limit.</li>
+                        <li>Use the <b>Monthly Cache</b> end-point with your Templates.</li>
+                        <li>Every generated image will have a <b>watermark</b> applied and a <b>resolution limit</b>.</li>
                     </ul>
 
                     <p>By adding a <b>Credit-Card</b> to your account you'll be set as <b>PRO</b> that allows to:</p>
                     <ul>
                         <li>Use the <b>Monthly Cache</b>, <b>Daily Cache</b> and <b>No Cache</b> end-points with your Templates <b>without the Free limitations</b>.</li>
-                        <li>Unlock additional features such as <b>Scripting</b>, <b>Location & TimeZone props</b> and <b>Smart-Blocks</b> as well.</li>
+                        <li>Unlock additional features such as <b>Real-time Scripting</b>, <b>Location & TimeZone props</b>.</li>
                     </ul>
 
                 </div>
@@ -87,7 +87,6 @@
                         <li>We collect information <b>as little as possible</b> to run our service.</li>
                         <li>Did you notice? You didn't accept any coockie banner in this marketing site because there's no need to.</li>
                         <li>The <b>No-Cache</b> end-point is 1000% GDPR, the image is sent to the user directly. We cannot even see it.</li>
-                        <li>The other end-points require to accept the Private Policy of our CDN partners, though.</li>
                     </ul>
 
 
