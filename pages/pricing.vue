@@ -61,15 +61,14 @@
                 <div class="content">
                     <p>By creating an account you'll be set as <b>FREE</b> plan by default that allows you to:</p>
                     <ul>
-                        <li>Import <b>Figma design</b>, manage and publish <b>Templates</b>.</li>
-                        <li>Use the <b>Monthly Cache</b> end-point with your Templates.</li>
+                        <li>Import <b>Figma design</b>, manage and publish Templates.</li>
+                        <li>Use all the end-points and the features of the Platform.</li>
                         <li>Every generated image will have a <b>watermark</b> applied and a <b>resolution limit</b>.</li>
                     </ul>
 
                     <p>By adding a <b>Credit-Card</b> to your account you'll be set as <b>PRO</b> that allows to:</p>
                     <ul>
-                        <li>Use the <b>Monthly Cache</b>, <b>Daily Cache</b> and <b>No Cache</b> end-points with your Templates <b>without the Free limitations</b>.</li>
-                        <li>Unlock additional features such as <b>Real-time Scripting</b>, <b>Location & TimeZone props</b>.</li>
+                        <li>Remove the watermark and other Free plan limitations.</li>
                     </ul>
 
                 </div>
@@ -86,7 +85,7 @@
                     <ul>
                         <li>We collect information <b>as little as possible</b> to run our service.</li>
                         <li>Did you notice? You didn't accept any coockie banner in this marketing site because there's no need to.</li>
-                        <li>The <b>No-Cache</b> end-point is 1000% GDPR, the image is sent to the user directly. We cannot even see it.</li>
+                        <li>The <b>No-Cache</b> end-point is <b>1000% GDPR</b> compliant, the image is sent to the user directly. We cannot even see it.</li>
                     </ul>
 
 

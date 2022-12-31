@@ -80,7 +80,7 @@ h1 >>> .break{
 .wrap{
     text-align: center;
     font-size: 1.5rem;
-    line-height: 2.3rem;
+    line-height: 2rem;
     letter-spacing: -.03rem;
 }
 .wrap >>> b{
@@ -88,6 +88,15 @@ h1 >>> .break{
     text-decoration: underline;
     text-decoration-color: var(--accentcolor);
     text-decoration-thickness: 6px;
+}
+
+.wrap >>> a{
+    text-decoration: underline;
+    text-decoration-color: var(--accentcolor);
+    text-decoration-thickness: 3px;
+    text-transform: uppercase;
+    font-size: 60%;
+    padding: .2rem .5rem;
 }
 
 .wrap{
@@ -109,6 +118,7 @@ h1 >>> .break{
         line-height: 6.2rem;
     }
     .wrap{
+        line-height: 2.3rem;
         font-size: 2rem;
     }
 }

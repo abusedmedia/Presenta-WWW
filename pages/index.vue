@@ -65,7 +65,8 @@ export default {
           title:'Newsletter <br/><b class="high break">Personalization!</b>', 
           subtitle:'Send <b>personalized images</b> to your audience <br />easily integrate with <b>MailChimp</b> or <b>MailJet</b>.', 
           imageDesktop:'newsletter-desktop.png',
-          imageMobile:'newsletter-mobile.png'
+          imageMobile:'newsletter-mobile.png',
+          aaa:'<br /><a href="">Learn more</a>'
         },
         {
           title:'Sharing <b class=high>Booster</b>', 
