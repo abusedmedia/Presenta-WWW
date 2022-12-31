@@ -85,7 +85,7 @@
                     <ul>
                         <li>We collect information <b>as little as possible</b> to run our service.</li>
                         <li>Did you notice? You didn't accept any coockie banner in this marketing site because there's no need to.</li>
-                        <li>The <b>No-Cache</b> end-point is <b>1000% GDPR</b> compliant, the image is sent to the user directly. We cannot even see it.</li>
+                        <li>The default end-point is <b>1000% GDPR</b> compliant, the image is sent to the user (or service) directly. We cannot even see it.</li>
                     </ul>
 
 
