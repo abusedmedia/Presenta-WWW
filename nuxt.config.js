@@ -35,7 +35,7 @@ blogposts.forEach(d => {
   d.$body = doc.data.title + '\n\n\n' + 'https://www.presenta.cc' + d.url + '\n\n' + d.tags
 })
 
-blogposts = blogposts.filter(d => d.public)
+blogposts = blogposts.filter(d => !d.draft)
 
 blogposts.sort((a, b) => {
   return descending(a.date, b.date)
@@ -44,6 +44,9 @@ blogposts.sort((a, b) => {
 // enable when there will be the blog again
 fs.writeFileSync('content/blog/list.json', JSON.stringify(blogposts))
 fs.writeFileSync('static/bloglist.json', JSON.stringify(blogposts))
+
+const publicPosts = blogposts.filter(d => d.public)
+fs.writeFileSync('static/postapi.json', JSON.stringify(publicPosts))
 
 //
 
