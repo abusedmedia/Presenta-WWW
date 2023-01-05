@@ -52,7 +52,7 @@ export default {
         }
     },
     head () {
-        let cover = `https://jit.presenta.workers.dev/zGywhb2oJn:SfjEYhkuX?title=${this.meta.title}&subtitle=${this.meta.category}`
+        let cover = `https://monthly.presenta.workers.dev/zGywhb2oJn:SfjEYhkuX?title=${this.meta.title}&subtitle=${this.meta.category}`
 
         return {
             title: this.meta.title,
