@@ -2,14 +2,14 @@
     <div class="hero">
 
 
-        <h1>Dynamic <b>Images</b></h1>
+        <h1>Dynamic <b>Images</b>.</h1>
         
         <!-- <div class="swapper">
             <h1>________</h1>
             <h1 class="word" :class="{show: idx === index}" v-for="(word, idx) in words" :key="word"><b>{{word}}</b></h1>
         </div> -->
         
-        <h1>for <b class="high">Martech</b> Boost!</h1>
+        <h1>your <b class="high">Martech</b> Boost!</h1>
         <p class="wrap"><b>Real-time</b>, <b>Data-driven</b>, <b>Context-aware</b><br />
             on-the-fly generated <b>IMAGES</b> for marketing automation.</p>
 

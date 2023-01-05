@@ -91,12 +91,17 @@ h1 >>> .break{
 }
 
 .wrap >>> a{
-    text-decoration: underline;
-    text-decoration-color: var(--accentcolor);
-    text-decoration-thickness: 3px;
+    text-decoration: none;
+    background-color: var(--accentcolor);
     text-transform: uppercase;
     font-size: 60%;
     padding: .2rem .5rem;
+}
+.wrap >>> a:hover{
+    background-color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: var(--accentcolor);
 }
 
 .wrap{

@@ -46,8 +46,10 @@
                     <span class="minus">&#8722;</span>
                     How can I monitor my <b>costs</b>?</summary>
                 <div class="content">
-                    <p>In the Profile section you can see the <b>usage' dashboard</b> to monitor in real-time the generation amount as well as its current cost.</p>
+                    <p>In your <b>Profile</b> section you can see the <b>API Usage</b> dashboard to monitor in real-time the consumed credits as well as the current cost.</p>
+                    <p><img src="/profile-chart-credits.png" /></p>
                     <p>In any case, before any charge, <b>we'll inform you few days before</b> of the upcoming operation. <br />We call it <b>No-Surprise policy</b>.</p>
+                
                 </div>
             </details>
 
@@ -192,5 +194,12 @@ details summary::-webkit-details-marker {
         line-height: 2rem;
         color: #555;
     }
+}
+
+
+p img{
+    width: 100%;
+    box-shadow: 0 0 20px #ccc;
+    display: block;
 }
 </style>

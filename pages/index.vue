@@ -63,26 +63,26 @@ export default {
       usecases:[
         {
           title:'Newsletter <br/><b class="high break">Personalization!</b>', 
-          subtitle:'Send <b>personalized images</b> to your audience <br />easily integrate with <b>MailChimp</b> or <b>MailJet</b>.', 
+          subtitle:'Send <b>personalized images</b> to your audience <br />Use within <b>MailChimp</b>, <b>MailJet</b> or other email marketing tools.<br /><a href="/blog/newsletter-personalization">Learn more →</a>', 
           imageDesktop:'newsletter-desktop.png',
           imageMobile:'newsletter-mobile.png',
           aaa:'<br /><a href="">Learn more</a>'
         },
         {
-          title:'Sharing <b class=high>Booster</b>', 
-          subtitle:'Boost your Social Media <b>presence</b><br /> with automatic <b>Social Preview</b> (Open-Graph)',
-          imageDesktop:'social-preview-desktop.png',
-          imageMobile:'social-preview-mobile.png'
-        },
-        {
-          title:'<b>GoShare!</b> <br /><b class=high>Share-Enabler</b> Page', 
-          subtitle:'Turn your Audience into <b>Brand ambassadors</b><br />Built-in <b>landing-page</b> to share <b>personalized images</b> with one click.',
+          title:'<b>1 click</b> Share <br /><b class=high>Landing Page</b>', 
+          subtitle:'Turn your Audience into <b>Brand ambassadors</b><br />Built-in <b>landing-page</b> to share <b>personalized images</b> with one click.<!--<br /><a href="/blog/share-enabler-landing-page">Learn more →</a>-->',
           imageDesktop:'goshare-desktop.png',
           imageMobile:'goshare-mobile.png'
         },
+        {
+          title:'Sharing <b class=high>Booster</b>', 
+          subtitle:'Boost your Social Media <b>presence</b><br /> with automatic <b>Social Preview</b> (Open-Graph).<!--<br /><a href="/blog/social-preview-open-graph">Learn more →</a>-->',
+          imageDesktop:'social-preview-desktop.png',
+          imageMobile:'social-preview-mobile.png'
+        },
         // {
-        //   title:'Social Media <b>Posts</b><br/>on <b class=high>Autopilot</b>', 
-        //   subtitle:'<b>Publish</b> Social Media posts <b>automatically</b><br />using our <b>built-in</b> Social Media <b>scheduler</b>',
+        //   title:'Social Media <b>Images</b><br/>on <b class=high>Autopilot</b>', 
+        //   subtitle:'<b>Publish</b> Social Media Images <b>automatically</b><br />using our <b>built-in Automator</b>.',
         //   imageDesktop:'splash-desktop.jpg'
         // },
         
