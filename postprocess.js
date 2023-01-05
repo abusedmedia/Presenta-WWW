@@ -27,24 +27,6 @@ const addCDNBaseToImages = html => {
   const updatedHTML = html.replace(regex, `<img src="${baseUrl}$1"`)
   return updatedHTML
 
-    const reg = /<img.*?src="([^"]*)"[^>]*>(?:<\/img>)?/gmi
-    const images = html.match(reg)
-    let parsed = html
-
-    if (!images) return html
-
-    images.forEach(img => {
-        const r = /<img.*?src="([^"]*)"[^>]*>(?:<\/img>)?/gmi
-        const res = r.exec(img)
-
-        const src = res[1]
-        if (src.indexOf('data:image') === -1 && src.indexOf('https') === -1) {
-        const newTag = res[0].replace(src, 'https://ajahofrzam.cloudimg.io/v7/_pcc_' + src)
-        parsed = parsed.replace(res[0], newTag)
-        }
-    })
-
-    return parsed
 }
 
 const files = getAllFiles('./dist')
