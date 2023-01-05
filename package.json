@@ -9,7 +9,7 @@
     "spa": "nuxt build --spa",
     "start": "nuxt start",
     "bump": "git add -u && git commit -m \"quick update\" && git push",
-    "generate": "nuxt generate",
+    "generate": "nuxt generate && node postprocess.js",
     "export": "nuxt build --target static && nuxt export",
     "serve:lambda": "netlify-lambda serve netlify-functions",
     "build:lambda": "netlify-lambda build netlify-functions"
