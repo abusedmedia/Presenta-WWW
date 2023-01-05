@@ -21,6 +21,12 @@ const getAllFiles = function (dirPath, arrayOfFiles) {
 
 
 const addCDNBaseToImages = html => {
+
+  const baseUrl = 'https://ajahofrzam.cloudimg.io/v7/_pcc_'
+  const regex = /<img[^>]+src="(?!http)([^">]+)"/g
+  const updatedHTML = html.replace(regex, `<img src="${baseUrl}$1"`)
+  return updatedHTML
+
     const reg = /<img.*?src="([^"]*)"[^>]*>(?:<\/img>)?/gmi
     const images = html.match(reg)
     let parsed = html
