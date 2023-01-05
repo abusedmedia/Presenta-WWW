@@ -2,7 +2,7 @@
 title: Free Open Graph Template Collection as Figma file
 category: template
 date: 2022-12-13
-cover: https://cache.presenta.workers.dev/zGywhb2oJn:SfjEYhkuX?&term=tech&title=Free+Open+Graph+Template+Collection+as+Figma+file&subtitle=Template
+
 ---
 
 

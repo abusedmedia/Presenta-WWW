@@ -2,7 +2,8 @@
 title: A basic introduction to PRESENTA
 category: tutorial
 date: 2022-05-14
-cover: https://cache.presenta.workers.dev/zGywhb2oJn:SfjEYhkuX?&term=pen&title=A basic introduction to PRESENTA&subtitle=Tutorial
+public: true
+
 ---
 
 In this post you'll be guided to create a basic dynamic banner (just text) that you can integrate easily in [email platforms and website](/blog/why-you-need-presenta) as well.

@@ -2,7 +2,7 @@
 title: Dynamic Social Preview Image for Website Articles
 category: template
 date: 2022-04-01
-cover: https://cache.presenta.workers.dev/zGywhb2oJn:JCNwsKA6w?title=Dynamic Social Preview Image for Website Articles&subtitle=Released at 1st April, 2022&image=https://source.unsplash.com/random/
+
 ---
 
 This is a free to use and modern dynamic social preview image for generic website articles.

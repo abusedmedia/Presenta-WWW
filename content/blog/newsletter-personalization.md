@@ -2,7 +2,8 @@
 title: Newsletter Personalization
 date: 2023-01-02
 category: features
-social: true
+public: true
+tags: "#mailchimp #mailjet #newsletter #marketing #automation"
 ---
 
 To add a personal touch to commercial email, there isn't a better way than adding an engaging image that **looks designed for every specific user**.

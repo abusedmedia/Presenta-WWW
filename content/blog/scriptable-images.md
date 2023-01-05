@@ -2,7 +2,8 @@
 title: Scriptable Images
 category: exploration
 date: 2022-04-25
-cover: https://cache.presenta.workers.dev/zGywhb2oJn:SfjEYhkuX?&term=tech&title=Scriptable+Images&subtitle=Exploration
+public: true
+
 ---
 
 **PRESENTA Platform** allows to generate data-driven images and PDFs by using an API infrastructure on top of Puppeteer and Chromium. 

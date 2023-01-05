@@ -2,8 +2,8 @@
 title: Wordpress Open Graph 1.1 update - What's new
 category: wordpress
 date: 2022-12-12
-cover: https://cache.presenta.workers.dev/zGywhb2oJn:SfjEYhkuX?&term=tech&title=Wordpress Open Graph 1.1 update - What's new&subtitle=Wordpress
-
+public: true
+tags: "#wordpress #opengraph #social #preview"
 ---
 
 We've just updated our [Open-Graph Wordpress Plugin](https://wordpress.org/plugins/presenta-open-graph/) to generate beautiful social preview images automatically.

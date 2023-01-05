@@ -2,7 +2,7 @@
 title: It's ... days
 category: template
 date: 2022-12-08
-cover: https://cache.presenta.workers.dev/zGywhb2oJn:SfjEYhkuX?&term=tech&title=It's+...+days&subtitle=Template
+public: true
 ---
 
 >  We are on Ukraine's side.

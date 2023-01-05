@@ -2,7 +2,7 @@
 title: The Low-Code Image
 category: exploration
 date: 2022-11-27
-cover: https://cache.presenta.workers.dev/zGywhb2oJn:SfjEYhkuX?&term=tech&title=The+Low-Code+Image&subtitle=Exploration
+public: true
 ---
 
 ## The IMG tag

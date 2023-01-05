@@ -2,7 +2,8 @@
 title: Dynamic banner that counts the days left for urgency effect
 category: template
 date: 2022-12-09
-cover: https://cache.presenta.workers.dev/zGywhb2oJn:SfjEYhkuX?&term=tech&title=Dynamic+banner+that+counts+the+days+left+for+urgency+effect&subtitle=Template
+public: true
+tags: "#marketing #dynamic #image"
 ---
 
 This is an example of **PRESENTA** capabilities in terms of dynamic  image generation for marketing automation purposes.

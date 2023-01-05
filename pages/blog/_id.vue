@@ -52,15 +52,7 @@ export default {
         }
     },
     head () {
-        let cover = 'https://www.presenta.cc/social.png'
-
-        if(this.meta.cover){
-            cover = this.meta.cover
-            if(cover.indexOf('http') === -1){
-                //cover = `https://www.presenta.cc/blog/covers/${cover}`
-                cover = `https://cache.presenta.workers.dev/zGywhb2oJn:SfjEYhkuX?&term=${parseInt(Math.random()*100)}&title=${this.meta.title}&subtitle=${this.meta.date}`
-            }
-        }
+        let cover = `https://jit.presenta.workers.dev/zGywhb2oJn:SfjEYhkuX?title=${this.meta.title}&subtitle=${this.meta.category}`
 
         return {
             title: this.meta.title,

@@ -33,7 +33,6 @@ const files = getAllFiles('./dist')
 
 files.forEach(file => {
   let f = fs.readFileSync(file, 'utf-8')
-  console.log(file)
   f = addCDNBaseToImages(f)
   fs.writeFileSync(file, f, 'utf-8')
 })

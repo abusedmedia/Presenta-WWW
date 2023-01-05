@@ -2,7 +2,8 @@
 title: How to generate a social preview image in WordPress automatically
 category: template
 date: 2022-05-12
-cover: https://cache.presenta.workers.dev/zGywhb2oJn:SfjEYhkuX?&term=tech&title=How to generate a social preview image in WordPress automatically&subtitle=Announcement
+public: true
+tags: "#wordpress #opengraph #social #preview"
 ---
 
 We've just launched the initial version of our first **WordPress plugin** to exploit **PRESENTA** capabilities directly in WordPress sites.

@@ -2,7 +2,7 @@
 title: Free Open Graph Preview Image for Website Articles
 category: template
 date: 2022-04-05
-cover: https://cache.presenta.workers.dev/zGywhb2oJn:9CF5pEILq?title=Free Open Graph Preview Image for Website Articles&subtitle=Released at 5th April, 2022&image=https://source.unsplash.com/random/
+
 ---
 
 This is a free to use and modern dynamic social preview image for generic website posts.

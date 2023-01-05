@@ -2,6 +2,8 @@
 title: Figma to PRESENTA Getting Started
 category: learn
 date: 2022-10-28
+public: true
+
 ---
 
 

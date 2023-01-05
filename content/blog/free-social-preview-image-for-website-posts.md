@@ -2,7 +2,7 @@
 title: Free Social Preview Image for Website Posts
 category: template
 date: 2022-04-03
-cover: https://cache.presenta.workers.dev/zGywhb2oJn:6JaJpv7Qo?title=Free Social Preview Image for Website Articles&subtitle=Released at 3rd April, 2022&image=https://source.unsplash.com/random/
+
 ---
 
 This is a free to use and modern dynamic social preview image for generic website posts.

@@ -28,11 +28,14 @@ blogposts.forEach(d => {
   d.date = doc.data.date
   d.home = doc.data.home
   d.draft = doc.data.draft
+  d.public = doc.data.public
+  d.category = doc.data.category
+  d.tags = doc.data.tags || ''
   d.cover = doc.data.cover,
-  d.$body = doc.data.title + '\n\n' + 'https://www.presenta.cc' + d.url + '\n#automation #marketing'
+  d.$body = doc.data.title + '\n\n\n' + 'https://www.presenta.cc' + d.url + '\n\n' + d.tags
 })
 
-blogposts = blogposts.filter(d => !d.draft)
+blogposts = blogposts.filter(d => d.public)
 
 blogposts.sort((a, b) => {
   return descending(a.date, b.date)

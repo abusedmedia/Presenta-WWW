@@ -2,7 +2,8 @@
 title: How to use ChatGPT to create text variations of social media posts for automation purposes
 category: tutorial
 date: 2022-12-18
-cover: https://cache.presenta.workers.dev/zGywhb2oJn:SfjEYhkuX?term=tech&title=How+to+use+chatGPT+to+create+text+variations+of+social+media+posts+for+automation+purposes&subtitle=Tutorial
+public: true
+tags: "#chatgpt #socialmedia"
 ---
 
 Our [Twitter bot](https://twitter.com/PresentaSw) is configured to publishing social media post automatically in order to advertising our [Figma Open-Graph templates](https://www.figma.com/community/file/1176431749719792877) used by our [Wordpress plugin](https://wordpress.org/plugins/presenta-open-graph/).
