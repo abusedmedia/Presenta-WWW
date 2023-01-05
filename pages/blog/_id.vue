@@ -141,7 +141,8 @@ export default {
 .blog >>> pre[class*="language-"]{
     font-size:75%;
 }
-.blog >>> p code{
+.blog >>> p code,
+.blog >>> li code{
     color:blue;
 }
 
