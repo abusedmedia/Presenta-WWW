@@ -29,9 +29,20 @@ const addCDNBaseToImages = html => {
 
 const files = getAllFiles('./dist')
 
+const whitelist = ['/lib/']
+
 files.forEach(file => {
   let f = fs.readFileSync(file, 'utf-8')
-  f = addCDNBaseToImages(f)
-  fs.writeFileSync(file, f, 'utf-8')
-  console.log(f)
+
+  let pass = true
+  whitelist.forEach(g => {
+    if(f.includes(g)) pass = false
+  })
+
+  if(pass){
+    f = f.replace(/<script.*?<\/script>/mig, '')
+    f = f.replace(/<link rel="preload" href=.*?as="script">/mig, '')
+    f = addCDNBaseToImages(f)
+    fs.writeFileSync(file, f, 'utf-8')
+  }
 })
