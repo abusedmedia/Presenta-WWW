@@ -33,5 +33,5 @@ files.forEach(file => {
   let f = fs.readFileSync(file, 'utf-8')
   f = addCDNBaseToImages(f)
   fs.writeFileSync(file, f, 'utf-8')
-  console.log(file)
+  console.log(f)
 })
