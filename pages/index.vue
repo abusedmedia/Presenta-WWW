@@ -64,21 +64,21 @@ export default {
         {
           title:'Newsletter <br/><b class="high break">Personalization!</b>', 
           subtitle:'Send <b>personalized images</b> to your audience <br />Use within <b>MailChimp</b>, <b>MailJet</b> or other email marketing tools.<br /><a href="/blog/newsletter-personalization">Learn more →</a>', 
-          imageDesktop:'newsletter-desktop.png',
-          imageMobile:'newsletter-mobile.png',
+          imageDesktop:'/newsletter-desktop.png',
+          imageMobile:'/newsletter-mobile.png',
           aaa:'<br /><a href="">Learn more</a>'
         },
         {
           title:'<b>1 click</b> Share <br /><b class=high>Landing Page</b>', 
           subtitle:'Turn your Audience into <b>Brand ambassadors</b><br />Built-in <b>landing-page</b> to share <b>personalized images</b> with one click.<!--<br /><a href="/blog/share-enabler-landing-page">Learn more →</a>-->',
-          imageDesktop:'goshare-desktop.png',
-          imageMobile:'goshare-mobile.png'
+          imageDesktop:'/goshare-desktop.png',
+          imageMobile:'/goshare-mobile.png'
         },
         {
           title:'Sharing <b class=high>Booster</b>', 
           subtitle:'Boost your Social Media <b>presence</b><br /> with automatic <b>Social Preview</b> (Open-Graph).<!--<br /><a href="/blog/social-preview-open-graph">Learn more →</a>-->',
-          imageDesktop:'social-preview-desktop.png',
-          imageMobile:'social-preview-mobile.png'
+          imageDesktop:'/social-preview-desktop.png',
+          imageMobile:'/social-preview-mobile.png'
         },
         // {
         //   title:'Social Media <b>Images</b><br/>on <b class=high>Autopilot</b>', 

@@ -10,8 +10,8 @@
         </div>
         <div class="hsplash">
             <picture>
-            <source :srcset="block.imageDesktop" media="(min-width: 600px)">
-            <img :src="block.imageMobile" />
+                <source :srcset="block.imageDesktop" media="(min-width: 600px)">
+                <img :src="block.imageMobile" />
             </picture>
         </div>
 
