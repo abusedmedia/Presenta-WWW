@@ -10,8 +10,8 @@
                     <!-- <p class="wrap">Create automatically <b>cards</b>, <b>banners</b>, <b>catalogues</b>, <b>presentations</b>, <b>galleries</b>, <b>reports</b>, <b>certificates</b> and <b>showcases</b> using pre-made or custom designed <b>templates</b> and our <b>Cloud APIs</b> Infrastructure.</p> -->
                     
                     <div class="splash">
-                        <img class="desktop" src="/automation-scheme-desktop.svg" />
-                        <img class="mobile" src="/automation-scheme-mobile.svg" />
+                        <img class="desktop" src="/automation-scheme-desktop.svg" alt="image automation" />
+                        <img class="mobile" src="/automation-scheme-mobile.svg" alt="image automation" />
                     </div>
 
                     <!-- <p class="wrap">

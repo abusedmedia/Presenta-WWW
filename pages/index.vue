@@ -17,8 +17,8 @@
 
         <div class="hsplash">
           <picture>
-            <source srcset="/splash-desktop.jpg" media="(min-width: 600px)">
-            <img src="/splash-mobile.jpg" />
+            <source srcset="/splash-desktop.jpg" media="(min-width: 600px)" alt="figma to image api" >
+            <img src="/splash-mobile.jpg" alt="figma to image api" />
           </picture>
           
         </div>
