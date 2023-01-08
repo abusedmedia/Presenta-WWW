@@ -12,7 +12,8 @@
     "generate": "nuxt generate && node postprocess.js",
     "export": "nuxt build --target static && nuxt export",
     "serve:lambda": "netlify-lambda serve netlify-functions",
-    "build:lambda": "netlify-lambda build netlify-functions"
+    "build:lambda": "netlify-lambda build netlify-functions",
+    "tips": "node tips-pub.js && git add content/tips && git add static/tips && git commit -m \"push tips\" && git push"
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +25,7 @@
     "axios": "^0.26.0",
     "balance-text": "^3.3.0",
     "d3": "^5.15.1",
+    "dayjs": "^1.11.7",
     "frontmatter-markdown-loader": "^3.5.0",
     "highlight.js": "^9.18.5",
     "markdown-it-prism": "^2.2.3",
@@ -32,6 +34,7 @@
     "nuxt": "^2.14.7",
     "nuxt-canonical": "^1.0.3",
     "path": "^0.12.7",
+    "slugify": "^1.6.5",
     "vue-highlight.js": "^3.1.0",
     "vue-template-compiler": "^2.6.12"
   },

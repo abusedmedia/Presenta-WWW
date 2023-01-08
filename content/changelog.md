@@ -149,7 +149,6 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 - **Editor**: The **Frame API** panel shows the warning if the Frame contains incompatible Blocks
 - **Website**: Added the [Pricing](/pricing/) page
 - **Website**: Added an early version of the [Use Cases](/use-cases/) page
-- **Website**: Added an early version of the [API Docs](/docs/) page
 
 
 ## Since June 2020

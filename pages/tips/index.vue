@@ -2,7 +2,7 @@
     <div class="list">
 
         <div class="hero">
-            <h2>We write about document automation, integrations, data-driven generation and updates on our Platform.</h2>
+            <h2>Here what we discover in the Automation world every day!</h2>
         </div>
         
         <ul class="grid">
@@ -26,11 +26,11 @@ export default {
   layout: 'commonPage',
   head () {
         return {
-            title: 'The Image Generation Blog'
+            title: 'The Image Generation Tips'
         }
   },
   async asyncData(){
-    let res = await import(`~/content/blog/list.json`)
+    let res = await import(`~/content/tips/list.json`)
     return {posts: res.default}
   },
   methods:{

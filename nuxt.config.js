@@ -1,7 +1,6 @@
 import fs from 'fs'
 import path from 'path'
 
-import Mode from 'frontmatter-markdown-loader/mode'
 import MarkdownIt from 'markdown-it'
 import mip from 'markdown-it-prism'
 
@@ -47,6 +46,31 @@ fs.writeFileSync('static/bloglist.json', JSON.stringify(blogposts))
 
 const publicPosts = blogposts.filter(d => d.public)
 fs.writeFileSync('static/postapi.json', JSON.stringify(publicPosts))
+
+
+
+
+// TIPS
+let tips = list.filter(d => d.folder === 'tips')
+tips.forEach(d => {
+  const markdown = fs.readFileSync('content' + d.url + '.md')
+  const doc = frontmatter(markdown)
+  d.title = doc.data.title
+  d.date = doc.data.date
+  d.category = doc.data.category
+  d.tags = doc.data.tags || ''
+  d.cover = doc.data.cover,
+  d.$body = doc.data.title + '\n\n\n' + 'https://www.presenta.cc' + d.url + '\n\n' + d.tags
+})
+
+tips.sort((a, b) => {
+  return descending(a.date, b.date)
+})
+
+fs.writeFileSync('content/tips/list.json', JSON.stringify(tips))
+fs.writeFileSync('static/tipsapi.json', JSON.stringify(tips))
+
+
 
 //
 
