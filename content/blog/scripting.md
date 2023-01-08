@@ -3,6 +3,7 @@ title: Scripting
 date: 2023-01-01
 category: learning
 public: true
+tags: "#javascript #automation"
 ---
 
 > This document is in progress!

@@ -3,7 +3,7 @@ title: A basic introduction to PRESENTA
 category: tutorial
 date: 2022-05-14
 public: true
-
+tags: "#martech #marketing #automation"
 ---
 
 In this post you'll be guided to create a basic dynamic banner (just text) that you can integrate easily in [email platforms and website](/blog/why-you-need-presenta) as well.

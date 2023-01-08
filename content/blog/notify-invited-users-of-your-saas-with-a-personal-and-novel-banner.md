@@ -3,7 +3,7 @@ title: Notify invited users of your SaaS with a personal and novel banner
 category: tutorial
 date: 2022-05-16
 public: true
-
+tags: "#marketing #automation #transactional"
 ---
 
 A common technique in SaaS world is to **collecting emails** of potential interested users before the tool is publicly available.

@@ -3,6 +3,7 @@ title: It's ... days
 category: template
 date: 2022-12-08
 public: true
+tags: "#automation"
 ---
 
 >  We are on Ukraine's side.

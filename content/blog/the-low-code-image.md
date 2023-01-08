@@ -3,6 +3,7 @@ title: The Low-Code Image
 category: exploration
 date: 2022-11-27
 public: true
+tags: "#marketing #automation"
 ---
 
 ## The IMG tag

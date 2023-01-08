@@ -3,6 +3,7 @@ title: Why you'd need PRESENTA?
 category: general
 date: 2022-05-13
 public: true
+tags: "#transactional #newsletter #social #marketing"
 ---
 
 **PRESENTA** is an online platform that automates the production of digital documents such as **PDF** and **images**.
