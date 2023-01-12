@@ -5,6 +5,11 @@ description: "This is our public <b>Platform heartbeat</b> so you can see what's
 
 
 
+## 15th January
+
+- **Editor:** We've added a first version of GPT-3 prompt into the Editor
+- **Editor:** We've added the Figma Update function to update automatically the template
+
 ## 18th December
 
 - **API:** We've added back the QRCode block.
