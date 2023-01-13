@@ -1,5 +1,5 @@
 ---
-title: Speed Up Puppeteer
+title: Speed Up Puppeteer - 3 simple tips
 category: tech
 date: 2022-03-01
 public: true
@@ -8,11 +8,13 @@ tags: "#puppeteer #javascript"
 
 Here the three most important tips we've learned along the way while building our API infrastructure based on Puppeteer to speed up the execution of Chromium browser using Puppeteer library.
 
-## TL:DR
+## Content
 
-- Use Local Cache
-- Browser Single Launch
-- Inject HTML
+1. Use Local Cache
+
+2. Browser Single Launch
+
+3. Inject HTML
 
 
 
@@ -23,6 +25,8 @@ Let Chromium to reusing the already downloaded files of previous sessions by set
 ```js
 '--user-data-dir=./tmpusr'
 ```
+
+Of course, this tip works well as much as you reuse same resources across instance calls. If your use-case is about fetching always different websites, this helps very little.
 
 
 
@@ -37,7 +41,7 @@ browser = await puppeteer.launch({...})
 // so, don't close it with browser.close()
 ```
 
-
+Reusing the same browser instance is a smart tip, be aware that you have to close it and reopen a fresh browser after a while since it tends to memory leak after a number of uses (depending of your machine, this number can be 20-50 sessions).
 
 
 
@@ -49,3 +53,4 @@ Instead of loading from remote the page you want to process, inject it with `pag
 await page.setContent(html)
 ```
 
+This is trivial, fetching remote content is significantly slower than using local stuff. Of course, this can be exploited only if your use-case allows to use in-memory pre-loaded assets of assets on local disk.

@@ -60,7 +60,7 @@ tips.forEach(d => {
   d.category = doc.data.category
   d.tags = doc.data.tags || ''
   d.cover = doc.data.cover,
-  d.$body = doc.data.title + '\n\n\n' + 'https://www.presenta.cc' + d.url + '\n\n' + d.tags
+  d.$body = doc.content.trim()
 })
 
 tips.sort((a, b) => {

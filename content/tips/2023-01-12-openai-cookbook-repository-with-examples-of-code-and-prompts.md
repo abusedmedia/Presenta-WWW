@@ -7,4 +7,4 @@ tags: "#TIL #tip"
 
 
 
-This is an interesting repository with example code and example prompts for accomplishing common tasks with the OpenAI API. Link [here](https://github.com/openai/openai-cookbook).
+A repository with example code and example prompts for accomplishing common tasks with the OpenAI API: https://github.com/openai/openai-cookbook
