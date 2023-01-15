@@ -15,4 +15,3 @@ Here great free hosting solution for static websites:
 - https://surge.sh/
 - https://www.vercel.com
 
-#free #hosting

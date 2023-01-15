@@ -15,4 +15,3 @@ Headless CMS are the future of content management, here the best:
 - https://www.sanity.io/
 - https://prismic.io/
 
-#cms
