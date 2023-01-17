@@ -6,11 +6,13 @@ public: true
 tags: "#transactional #newsletter #social #marketing"
 ---
 
-**PRESENTA** is an online platform that automates the production of digital documents such as **PDF** and **images**.
+**PRESENTA** is an online platform that automates the production of digital images.
 
 It allows to configure **graphic templates** in order to use an **API infrastructure** to generate variants **at scale**.
 
 One of the most obvious context of use is in the **image personalization** for **marketing and communication purposes**.
+
+Let's see some use-cases:
 
 ## Transactional email
 
