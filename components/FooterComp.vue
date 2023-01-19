@@ -51,7 +51,7 @@ export default {
                 ]},
 
                 {title: 'Resources', links: [
-                    {label:'Javascript Lib', url:'/lib'},
+                    //{label:'Javascript Lib', url:'/lib'},
                     //{label:'Github', url:'https://github.com/presenta-software', external:true},
                     //{label:'Tools', url:'/tools'},
                     {label:'Blog', url:'/blog'}
@@ -74,8 +74,8 @@ export default {
 
 
                 {title: 'About', links: [
-                    {label:'About us', url:'/about'},
-                    {label:'Twitter bot', url:'https://twitter.com/PresentaSw', external:true},
+                    {label:'About', url:'/about'},
+                    {label:'Twitter', url:'https://twitter.com/PresentaSw', external:true},
                     //{label:'Status', url:''},
                     //{label:'Contact', url:''},
                     {label:'Privacy Policy', url:'/legal/privacy-policy'},
