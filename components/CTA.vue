@@ -1,11 +1,11 @@
 <template>
     <div class="footer">
-        <div class="signup">
+        <!-- <div class="signup">
             <p><strong>Try FREE!</strong></p>
             <a class="btn" href="https://app.presenta.cc/signup">
                 <span>Create your Account!</span>
             </a>
-        </div>
+        </div> -->
         <!-- <p class="learnmore" v-if="!noHomeLink">
             <nuxt-link to="/">or learn more from the home-page</nuxt-link>
         </p> -->
