@@ -27,6 +27,6 @@ PRESENTA Software -
 C.so Galileo Ferraris n.14 - 
 10121 Turin, Italy
 
-Get in touch at [support@presenta.cc](mailto:support@presenta.cc)
+Get in touch at [presenta@protonmail.com](mailto:presenta@protonmail.com)
 
-For sales inquiries, feel free to reach out to us at [support@presenta.cc](mailto:support@presenta.cc)
+For sales inquiries, feel free to reach out to us at [presenta@protonmail.com](mailto:presenta@protonmail.com)

@@ -4,7 +4,7 @@
             <footer>
 
                 <div>
-                    <p class="relevant">Made with ❤️ in Italy! – <b><a href="mailto:support@presenta.cc">Talk to Us</a></b>
+                    <p class="relevant">Made with ❤️ in Italy! – <b><a href="mailto:presenta@protonmail.com">Talk to Us</a></b>
                     <p class="relevant"><b><nuxt-link to="/">PRESENTA</nuxt-link></b>: the automation platform for real-time and data-driven images.</p>
                     <!-- <span class="little">In this site you're NOT tracked at all</span></p> -->
                     <p></p>

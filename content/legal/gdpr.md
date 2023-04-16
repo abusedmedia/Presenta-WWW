@@ -19,9 +19,9 @@ We are committed to the "integrity and confidentiality" principle. We do not giv
 
 You, as a PRESENTA user, have the right to as for the following actions regarding your personal account:
 
-- Following the right to be forgotten, you can [ask](mailto:support@presenta.cc) to be deleted from our systems.
-- Following the right to data portability, you can [ask](mailto:support@presenta.cc) to receive all the data that belong to your personal account.
-- Following the right to rectification, you can edit your personal information by your own in the profile page or [ask](mailto:support@presenta.cc) for further edit you can't do by your own.
+- Following the right to be forgotten, you can [ask](mailto:presenta@protonmail.com) to be deleted from our systems.
+- Following the right to data portability, you can [ask](mailto:presenta@protonmail.com) to receive all the data that belong to your personal account.
+- Following the right to rectification, you can edit your personal information by your own in the profile page or [ask](mailto:presenta@protonmail.com) for further edit you can't do by your own.
 - Following the right to be informed, you'll receive in your personal email any information regarding your privacy or possible data breach.
 
 We'll continue to keep updated this document that outlines our privacy of intent.
