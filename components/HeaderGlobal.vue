@@ -7,6 +7,7 @@
 
         <div class="menu">
             <nuxt-link to="/pricing">Pricing</nuxt-link>
+            <a href="https://app.presenta.cc/signup" target="_blank">Sign Up</a>
         </div>
     </header>
 </template>
