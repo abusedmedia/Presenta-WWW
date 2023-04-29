@@ -22,8 +22,8 @@
                     
                     <ul>
                         <li>You need <b>1 Credit</b> to generate <b>1 Image</b>.</li>
-                        <li>You need <b>5 Credits</b> to generate <b>1 Image</b> with the <b>Daily-Cache</b> CDN end-point.</li>
-                        <li>You need <b>50 Credits</b> to generate <b>1 Image</b> with the <b>Monthly-Cache</b> CDN end-point.</li>
+                        <!-- <li>You need <b>5 Credits</b> to generate <b>1 Image</b> with the <b>Daily-Cache</b> CDN end-point.</li>
+                        <li>You need <b>50 Credits</b> to generate <b>1 Image</b> with the <b>Monthly-Cache</b> CDN end-point.</li> -->
                     </ul>
 
                     <p>Some real-world examples:</p>
@@ -31,8 +31,8 @@
                         <li><b>Newsletter: </b>Send a newsletter to 1000 recipients with a personalized banner and 400 of them open the email, it costs <b>4€</b>.</li>
                         <li><b>Social Media: </b>Generating images for social-media post twice per day with a generated media-image costs <b>0.6€</b> a month.</li>
                         <li><b>Open-Graph: </b>A website with 200 articles and 100 are shared within the current month with a generated social preview (open-graph) costs <b>1€</b> a month.</li>
-                        <li><b>Landing Page 1: </b>Using a dynamic banner (that update itself every day) on a landing page (using the <b>Daily-Cache</b>) costs <b> 1.5€</b>.</li>
-                        <li><b>Landing Page 2: </b>Using 2 dynamic banners (that update themself every month) on a landing page (using the <b>Monthly-Cache</b>) costs <b>1€</b>.</li>
+                        <!-- <li><b>Landing Page 1: </b>Using a dynamic banner (that update itself every day) on a landing page (using the <b>Daily-Cache</b>) costs <b> 1.5€</b>.</li>
+                        <li><b>Landing Page 2: </b>Using 2 dynamic banners (that update themself every month) on a landing page (using the <b>Monthly-Cache</b>) costs <b>1€</b>.</li> -->
                     </ul>
                 </div>
             </details>
